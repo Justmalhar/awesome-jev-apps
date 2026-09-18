@@ -2,7 +2,7 @@
 
 Semantic checks over code, CI, and repo history. Cheap enough to run on every commit.
 
-**4 of 11 built.**
+**11 of 11 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
@@ -10,13 +10,13 @@ Semantic checks over code, CI, and repo history. Cheap enough to run on every co
 | ✅ [CI failure triage](ci-triage) | Real bug / flake / infra / dependency / config across CI history | newly affordable over 20k failures |
 | ✅ [PR risk scorer](pr-risk-scorer) | Score a diff for blast radius and review depth needed | routes review effort; score once, reweight free |
 | ✅ [Flaky test finder](flaky-test-finder) | Separate genuinely flaky tests from consistently failing ones | per-test judgment, rates computed in Python |
-| ⬜ Issue deduplicator | Find the three issues that are the same bug | pairwise Score whose levels are the actions |
-| ⬜ Breaking change detector | Flag diffs that break downstream consumers | diff in code, materiality in Jev |
-| ⬜ Changelog classifier | Sort merged PRs into user-facing / internal / breaking | selection not generation; code assembles the notes |
-| ⬜ Log pattern miner | Cluster millions of log lines into named failure modes | map-reduce at $0.042/Mtok |
-| ⬜ Dependency auditor | Judge whether a changelog entry affects your usage | avoids upgrading blind on every release |
-| ⬜ Test gap finder | Which behaviours in this module have no test | parser lists behaviours, Jev matches coverage |
-| ⬜ Incident tagger | Tag postmortems by cause class and contributing factors | independent Nouls, not one taxonomy |
+| ✅ [Issue deduplicator](issue-deduper) | Find the three issues that are the same bug | pairwise Score whose levels are the actions |
+| ✅ [Breaking change detector](api-breaking-change) | Flag diffs that break downstream consumers | diff in code, materiality in Jev |
+| ✅ [Changelog classifier](changelog-classifier) | Sort merged PRs into user-facing / internal / breaking | selection not generation; code assembles the notes |
+| ✅ [Log pattern miner](log-pattern-miner) | Cluster millions of log lines into named failure modes | map-reduce at $0.042/Mtok |
+| ✅ [Dependency auditor](dependency-audit) | Judge whether a changelog entry affects your usage | avoids upgrading blind on every release |
+| ✅ [Test gap finder](test-gap-finder) | Which behaviours in this module have no test | parser lists behaviours, Jev matches coverage |
+| ✅ [Incident tagger](incident-tagger) | Tag postmortems by cause class and contributing factors | independent Nouls, not one taxonomy |
 
 ## Running any of these
 

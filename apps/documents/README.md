@@ -2,21 +2,21 @@
 
 Ask documents questions, diff them, and check them against requirements. Nothing is ever paraphrased.
 
-**4 of 11 built.**
+**11 of 11 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Semantic Ctrl-F](semantic-ctrl-f) | Ask a lease or ToS a plain-English question, get the exact clause | whole document scored in one request; returns verbatim text |
 | ✅ [Contract diff](contract-diff) | 'Our terms have changed' — what actually got worse for you | difflib computes the diff, Jev judges materiality |
 | ✅ [RFP compliance matrix](rfp-compliance) | Check a proposal covers all 60 requirements in a tender | one Noul per requirement, conjunctive coverage |
-| ⬜ Policy gap finder | Which controls in a standard are unaddressed by your policy | requirement-by-requirement veto rules |
-| ⬜ Invoice extractor | Pull totals, dates, and line items from messy invoices | regex finds candidates, Jev selects; verbatim guarantee |
-| ⬜ Meeting action extractor | Commitments, owners, and deadlines from a transcript | selection over generation; no invented owners |
+| ✅ [Policy gap finder](policy-gap-finder) | Which controls in a standard are unaddressed by your policy | requirement-by-requirement veto rules |
+| ✅ [Invoice extractor](invoice-extractor) | Pull totals, dates, and line items from messy invoices | regex finds candidates, Jev selects; verbatim guarantee |
+| ✅ [Meeting action extractor](meeting-actions) | Commitments, owners, and deadlines from a transcript | selection over generation; no invented owners |
 | ✅ [Spec ambiguity finder](spec-ambiguity) | Sentences in a spec that two engineers would read differently | the failure mode Jev itself has, turned into a tool |
-| ⬜ Doc freshness auditor | Which docs contradict the current codebase | cross-source consistency judgment |
-| ⬜ Clause library matcher | Match incoming contract clauses to your approved library | rerank against a known-good set |
-| ⬜ Redaction checker | Find PII and confidential detail before a document goes out | one Noul per hazard class, thresholded separately |
-| ⬜ Translation QA | Flag translations that changed meaning, not just wording | two states compared, judgment on divergence |
+| ✅ [Doc freshness auditor](doc-freshness) | Which docs contradict the current codebase | cross-source consistency judgment |
+| ✅ [Clause library matcher](clause-library) | Match incoming contract clauses to your approved library | rerank against a known-good set |
+| ✅ [Redaction checker](redaction-checker) | Find PII and confidential detail before a document goes out | one Noul per hazard class, thresholded separately |
+| ✅ [Translation QA](translation-qa) | Flag translations that changed meaning, not just wording | two states compared, judgment on divergence |
 
 ## Running any of these
 

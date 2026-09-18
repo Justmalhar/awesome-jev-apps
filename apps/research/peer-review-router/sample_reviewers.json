@@ -1,0 +1,92 @@
+[
+  {
+    "id": "R1",
+    "name": "Anjali Deshpande",
+    "affiliation": "Kestrel University",
+    "expertise": "Federated and distributed optimisation, secure aggregation protocols, differential privacy accounting.",
+    "recent_work": "Recent papers on communication-efficient federated optimisation and on privacy accounting for adaptive clipping schedules.",
+    "recent_coauthors": ["Hilde Brenner"],
+    "declared_relationships": "No current collaborations outside my own institution beyond those listed."
+  },
+  {
+    "id": "R2",
+    "name": "Daniel Farrer",
+    "affiliation": "Northfield University",
+    "expertise": "Federated learning systems, privacy-preserving machine learning.",
+    "recent_work": "Work on cross-silo federated training infrastructure.",
+    "recent_coauthors": ["Rina Okonkwo"],
+    "declared_relationships": "I am submitting to this venue myself."
+  },
+  {
+    "id": "R3",
+    "name": "Lucia Marchetti",
+    "affiliation": "Kestrel University",
+    "expertise": "Human-computer interaction, qualitative study design, explanation interfaces in safety-critical settings.",
+    "recent_work": "Interview and think-aloud studies of decision support tools with clinical and emergency-services users.",
+    "recent_coauthors": [],
+    "declared_relationships": "None to declare."
+  },
+  {
+    "id": "R4",
+    "name": "Peter Vahlberg",
+    "affiliation": "Eastgate College",
+    "expertise": "Statistical learning theory, kernel methods, concentration inequalities.",
+    "recent_work": "Generalisation bounds for interpolating estimators and for random feature approximations.",
+    "recent_coauthors": [],
+    "declared_relationships": "I shared a grant with Sunil Ramanathan until last year and we continue to supervise a student jointly."
+  },
+  {
+    "id": "R5",
+    "name": "Naomi Sedgwick",
+    "affiliation": "Lakeshore Polytechnic",
+    "expertise": "Time-series anomaly detection, sensor networks, physics-informed modelling for utilities.",
+    "recent_work": "Leak and contamination detection in water distribution telemetry; semi-supervised detection with scarce labels.",
+    "recent_coauthors": [],
+    "declared_relationships": "None to declare."
+  },
+  {
+    "id": "R6",
+    "name": "Hyun-woo Park",
+    "affiliation": "Vellum Systems Research",
+    "expertise": "Compilers for machine learning, quantisation, on-device inference, systems performance.",
+    "recent_work": "Graph-level quantisation format selection and kernel scheduling for mobile accelerators.",
+    "recent_coauthors": [],
+    "declared_relationships": "None to declare."
+  },
+  {
+    "id": "R7",
+    "name": "Fatima El-Bakri",
+    "affiliation": "Harbour Medical School",
+    "expertise": "Research ethics, data governance, licensing and provenance for research datasets.",
+    "recent_work": "Empirical studies of data sharing practice and of consent frameworks for secondary use.",
+    "recent_coauthors": [],
+    "declared_relationships": "None to declare."
+  },
+  {
+    "id": "R8",
+    "name": "Stefan Oyelaran",
+    "affiliation": "Lakeshore Polytechnic",
+    "expertise": "Synthetic data generation, disclosure risk assessment, differential privacy for tabular data.",
+    "recent_work": "Membership inference attacks against tabular synthesisers and utility measurement for official statistics.",
+    "recent_coauthors": ["Marta Vilela"],
+    "declared_relationships": "I co-authored with Marta Vilela on a synthetic data benchmark two years ago."
+  },
+  {
+    "id": "R9",
+    "name": "Ingrid Haugen",
+    "affiliation": "Kestrel University",
+    "expertise": "Participatory and co-design methods, civic technology, public sector service design.",
+    "recent_work": "Co-design workshops with municipal staff around environmental data and alerting practice.",
+    "recent_coauthors": [],
+    "declared_relationships": "None to declare."
+  },
+  {
+    "id": "R10",
+    "name": "Cormac Hughes",
+    "affiliation": "Eastgate College",
+    "expertise": "Computer vision, generative image modelling, diffusion models.",
+    "recent_work": "Text-conditioned image synthesis and evaluation metrics for generative image models.",
+    "recent_coauthors": [],
+    "declared_relationships": "None to declare."
+  }
+]

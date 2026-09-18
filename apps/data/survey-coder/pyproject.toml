@@ -1,0 +1,6 @@
+[project]
+name = "survey-coder"
+version = "0.1.0"
+description = "Code free-text survey open-ends against a fixed codebook, several codes per answer."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.2"]

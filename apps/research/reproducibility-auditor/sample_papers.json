@@ -1,0 +1,27 @@
+[
+  {
+    "id": "RP-01",
+    "title": "Sparse retrieval reranking for long-document question answering",
+    "text": "We evaluate on the NaturalQuestions-Long and TriviaQA-Wiki splits, both obtained from the public HuggingFace mirrors named in the repository README. All code, configuration files and evaluation scripts are released at github.com/example/sparse-rerank under the Apache 2.0 licence, and the exact commit used for the reported tables is tagged v1.2.0. Raw documents are deduplicated by MinHash at a Jaccard threshold of 0.85, truncated to 4096 tokens from the start of the document, and tokenised with the released SentencePiece model; the full preparation pipeline is a single make target. Training uses AdamW with a learning rate of 2e-5, weight decay 0.01, a linear warmup over the first 6% of steps, and a batch size of 32 sequences. Every reported figure is the mean over five runs with seeds 0 through 4, and we report the standard deviation alongside. Experiments ran on four NVIDIA A6000 GPUs, approximately 90 GPU-hours in total. The repository ships a Dockerfile and a poetry.lock pinning every dependency including CUDA and cuDNN versions. Reported scores are exact-match and token-level F1 on the held-out test split as defined by the original benchmark, computed with the released evaluation script."
+  },
+  {
+    "id": "RP-02",
+    "title": "Transformer ensembles for clinical deterioration prediction",
+    "text": "Models were developed on routinely collected electronic health record data from two hospital trusts. The data cannot be shared: the information governance agreement under which they were obtained does not permit onward release, and no synthetic substitute is provided. Model code is available from the corresponding author on reasonable request. Records were filtered to adult inpatient admissions with at least one set of observations, and observations were resampled onto an hourly grid with forward filling. Hyperparameters were selected by random search over a space described in Appendix B; the selected configuration is given in Table 4. Results are reported as AUROC on a temporally held-out validation period, with confidence intervals from 1000 bootstrap resamples of the test set. Training was performed on a single workstation GPU. We used PyTorch; no version pinning file is provided. Random seeds were not fixed, and we report a single run for each configuration."
+  },
+  {
+    "id": "RP-03",
+    "title": "An improved heuristic for the capacitated facility location problem",
+    "text": "The proposed heuristic is described in Algorithm 2. We compare against three published heuristics on the standard OR-Library instances, which are publicly downloadable without registration. Our implementation is not released at this time. The neighbourhood size parameter and the restart budget were tuned on a subset of instances, and we found the method to be robust across reasonable values. Reported results are the best objective value found within a fixed wall-clock budget per instance, averaged across instances of the same size class. All experiments ran on a commodity desktop machine. We note that the implementation language is C++ compiled with optimisations enabled."
+  },
+  {
+    "id": "RP-04",
+    "title": "A curated corpus of municipal planning decisions, 2005 to 2023",
+    "text": "The corpus is deposited with Zenodo under DOI 10.5281/zenodo.0000000 and released under CC BY 4.0; download requires no account. Documents were scraped from 43 municipal portals, converted from PDF with a pipeline that is released alongside the corpus, deduplicated by document identifier, and manually spot-checked by two annotators. The scraping, conversion and annotation code is in the same deposit. We report inter-annotator agreement on the manually labelled subset and describe the labelling guideline in full in the appendix. Environment details: the release includes a conda environment.yml with pinned versions for every package used in the construction pipeline, and the pipeline was executed on a standard Linux server. Random sampling for the annotated subset used a fixed seed recorded in the configuration."
+  },
+  {
+    "id": "RP-05",
+    "title": "Behavioural nudges and recycling participation: a field experiment",
+    "text": "Households in twelve neighbourhoods received one of three letter variants, with allocation at neighbourhood level. Outcome data are kerbside collection weights supplied by the local authority, which has agreed to release an aggregated version on request through the university data repository once the embargo period ends. The analysis was preregistered on OSF and the preregistration includes the analysis script. Weights were adjusted for collection-day differences following the procedure described in section 3.2. Estimates come from a difference-in-differences specification with neighbourhood fixed effects, and standard errors are clustered at neighbourhood level. The analysis was run in R; package versions are not recorded and no lockfile accompanies the script."
+  }
+]

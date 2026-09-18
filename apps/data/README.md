@@ -2,22 +2,22 @@
 
 Judgment applied per-row, per-pair, and per-field, at a price that makes whole-dataset passes ordinary.
 
-**1 of 12 built.**
+**12 of 12 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Entity resolver](entity-resolver) | Dedupe two merged CRM or product catalogs | Score levels ARE the actions; blocking in code |
-| ⬜ Semantic data linter | Find rows whose fields contradict each other | cross-field consistency, not classification |
-| ⬜ Deep taxonomy classifier | File items into a 3-level taxonomy | beam search over Choice probabilities |
-| ⬜ ML feature extractor | Turn text into features, train a model, measure the lift | judgments as features; output is a trained model |
-| ⬜ Schema mapper | Map one system's columns onto another's | pairwise field matching with a curator tier |
-| ⬜ Survey response coder | Code thousands of free-text answers against a codebook | replaces weeks of qualitative coding |
-| ⬜ Address normalizer | Reconcile inconsistent address formats to one record | selection from parsed candidates |
-| ⬜ Product catalog normalizer | Unify attributes across inconsistent supplier feeds | extraction plus taxonomy in one pass |
-| ⬜ Column type inferrer | What IS this column, semantically, given its values | code samples values, Jev names the concept |
-| ⬜ Anomaly explainer | Which detected outliers are real problems vs expected | statistics in code, plausibility in Jev |
-| ⬜ PII column scanner | Which columns in a warehouse carry personal data | whole-warehouse scan is now affordable |
-| ⬜ Training label auditor | Find mislabelled rows in an existing labelled dataset | disagreement between label and content |
+| ✅ [Semantic data linter](data-linter) | Find rows whose fields contradict each other | cross-field consistency, not classification |
+| ✅ [Deep taxonomy classifier](deep-classifier) | File items into a 3-level taxonomy | beam search over Choice probabilities |
+| ✅ [ML feature extractor](ml-features) | Turn text into features, train a model, measure the lift | judgments as features; output is a trained model |
+| ✅ [Schema mapper](schema-mapper) | Map one system's columns onto another's | pairwise field matching with a curator tier |
+| ✅ [Survey response coder](survey-coder) | Code thousands of free-text answers against a codebook | replaces weeks of qualitative coding |
+| ✅ [Address normalizer](address-normalizer) | Reconcile inconsistent address formats to one record | selection from parsed candidates |
+| ✅ [Product catalog normalizer](catalog-normalizer) | Unify attributes across inconsistent supplier feeds | extraction plus taxonomy in one pass |
+| ✅ [Column type inferrer](column-inferrer) | What IS this column, semantically, given its values | code samples values, Jev names the concept |
+| ✅ [Anomaly explainer](anomaly-narrator) | Which detected outliers are real problems vs expected | statistics in code, plausibility in Jev |
+| ✅ [PII column scanner](pii-scanner) | Which columns in a warehouse carry personal data | whole-warehouse scan is now affordable |
+| ✅ [Training label auditor](label-auditor) | Find mislabelled rows in an existing labelled dataset | disagreement between label and content |
 
 ## Running any of these
 

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "S1",
+    "title": "Secure aggregation with adaptive clipping for cross-silo federated learning",
+    "authors": ["Rina Okonkwo", "Daniel Farrer"],
+    "author_affiliations": ["Northfield University", "Northfield University"],
+    "topics": ["federated learning", "privacy", "optimisation"],
+    "abstract": "We propose an adaptive clipping schedule for secure aggregation in cross-silo federated learning that tightens the privacy budget without the accuracy collapse observed at small clipping norms. The method estimates a per-round norm quantile from encrypted summaries, requiring no additional communication rounds. We prove a bound on the excess empirical risk and evaluate on three cross-silo benchmarks with between four and sixty clients."
+  },
+  {
+    "id": "S2",
+    "title": "What do clinicians want from an explanation? A think-aloud study of model output in triage",
+    "authors": ["Marta Vilela", "Ben Achterberg"],
+    "author_affiliations": ["Riverside Institute of Technology", "Harbour Medical School"],
+    "topics": ["human-computer interaction", "explainability", "health"],
+    "abstract": "We report a think-aloud study with twenty-two emergency clinicians interacting with a risk model's output in a simulated triage task. Participants consistently rejected feature-attribution displays as unusable under time pressure and instead asked for comparison against similar previous patients. We derive four design requirements for explanation interfaces in time-critical clinical settings."
+  },
+  {
+    "id": "S3",
+    "title": "Tight generalisation bounds for overparameterised kernel regression under label noise",
+    "authors": ["Sunil Ramanathan"],
+    "author_affiliations": ["Eastgate College"],
+    "topics": ["learning theory", "kernel methods"],
+    "abstract": "We derive generalisation bounds for kernel ridge regression in the overparameterised regime with independent label noise, removing the boundedness assumption present in prior analyses. The bounds are tight up to constants in the isotropic case and we show they degrade gracefully under spectral decay assumptions."
+  },
+  {
+    "id": "S4",
+    "title": "Streaming leak detection in municipal water networks with limited labels",
+    "authors": ["Elif Tanrikulu", "Grace Pemberton"],
+    "author_affiliations": ["Northfield University", "Meridian Water Authority"],
+    "topics": ["anomaly detection", "sensor networks", "semi-supervised learning"],
+    "abstract": "Municipal water networks generate continuous pressure and flow telemetry but very few labelled leak events. We present a streaming detector that combines a physics-informed residual with a semi-supervised scoring head, trained on eighteen months of telemetry from a mid-sized utility and validated against the utility's maintenance records."
+  },
+  {
+    "id": "S5",
+    "title": "Compiler-assisted quantisation for on-device speech recognition",
+    "authors": ["Tomas Reiniger", "Aiko Sanderson"],
+    "author_affiliations": ["Vellum Systems Research", "Vellum Systems Research"],
+    "topics": ["systems", "efficient inference", "speech"],
+    "abstract": "We describe a compiler pass that selects per-tensor quantisation formats for streaming speech models by propagating dynamic range estimates through the computation graph. On three mobile targets the pass recovers most of the accuracy lost to uniform eight-bit quantisation while retaining its latency benefit."
+  },
+  {
+    "id": "S6",
+    "title": "Auditing dataset licences at scale: an empirical study of machine learning corpora",
+    "authors": ["Jonah Abiodun", "Priya Ramanathan"],
+    "author_affiliations": ["Harbour Medical School", "Eastgate College"],
+    "topics": ["ethics", "governance", "datasets"],
+    "abstract": "We examine the stated licence terms of four hundred publicly hosted machine learning corpora and find that a substantial share carry terms incompatible with the redistribution practices observed in downstream repositories. We characterise the common failure patterns and discuss what a workable provenance record would need to contain."
+  },
+  {
+    "id": "S7",
+    "title": "Differentially private synthetic tabular data for public health reporting",
+    "authors": ["Marta Vilela", "Hilde Brenner"],
+    "author_affiliations": ["Riverside Institute of Technology", "Northfield University"],
+    "topics": ["privacy", "synthetic data", "health"],
+    "abstract": "We evaluate three differentially private tabular synthesisers on the reporting workload of a regional public health agency, measuring both the utility of published aggregate indicators and the disclosure risk under a membership inference attack calibrated to the agency's threat model."
+  },
+  {
+    "id": "S8",
+    "title": "Participatory design of monitoring dashboards with local authority staff",
+    "authors": ["Grace Pemberton", "Oliver Nkemdirim"],
+    "author_affiliations": ["Meridian Water Authority", "Riverside Institute of Technology"],
+    "topics": ["human-computer interaction", "participatory design", "civic technology"],
+    "abstract": "Through six co-design workshops with operational staff at two local authorities we developed and evaluated a monitoring dashboard for environmental sensor networks. We report on the tensions between operational alerting practice and the statistical framing preferred by the analytics team, and on how the final design resolved them."
+  }
+]

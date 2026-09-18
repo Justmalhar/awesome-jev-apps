@@ -1,0 +1,104 @@
+MERIDIAN CIVIC SYSTEMS LTD — RESPONSE TO TENDER REF. NCC/2026/0148
+Citizen Casework Platform — Technical and Commercial Response
+(Synthetic document, for demonstration only.)
+
+1. INTRODUCTION
+
+Meridian Civic Systems has delivered casework platforms to eleven UK local
+authorities since 2017. This response sets out how Meridian Casework Cloud
+meets the Authority's requirements.
+
+2. HOSTING AND DATA RESIDENCY
+
+Meridian Casework Cloud runs exclusively in AWS eu-west-2 (London). All
+production data, all database replicas and all backup snapshots remain within
+the United Kingdom for the full retention period. We warrant that no Authority
+data, and no derivative of it, will be stored, replicated or processed outside
+the United Kingdom during the term of the contract. Our sub-processor register
+is appended at Annex C and every entry is UK-resident.
+
+3. INFORMATION SECURITY CERTIFICATION
+
+Meridian holds ISO/IEC 27001:2022 certification (certificate no. UK-27001-4471,
+issued by BSI) covering the development, hosting and support of the Meridian
+Casework Cloud service. The certificate is valid to March 2028 and we commit to
+maintaining certification, including surveillance audits, for the full term of
+any contract awarded under this tender. A copy is attached at Annex A.
+
+4. ACCESSIBILITY
+
+All citizen-facing screens are built against WCAG 2.2 Level AA. We commit to
+commissioning an independent accessibility audit by a third-party specialist
+(our current partner is Dig Inclusion) and to supplying the Authority with the
+full audit report and remediation log before go-live. Any Level A or AA issue
+raised will be remediated before the service is released to the public.
+
+5. SERVICE LEVELS
+
+Meridian commits to a monthly service availability of 99.95%, measured at the
+public endpoint and excluding agreed maintenance windows. Where measured
+availability falls below 99.9% in any month, service credits are payable
+against that month's charges on the sliding scale set out in Annex D. The SLA
+and the credit regime are offered as contractual terms, not as targets.
+
+6. INCIDENT AND BREACH NOTIFICATION
+
+Our incident response procedure requires the Data Protection Officer to notify
+the Authority's nominated contact within 24 hours of Meridian becoming aware of
+any personal data breach affecting Authority data, followed by a written
+incident report within five working days. This notification obligation is
+offered as a binding contractual commitment.
+
+7. SERVICE MANAGEMENT
+
+A named Service Delivery Manager will be assigned to the Authority at contract
+signature and will chair the monthly service review. The escalation path runs
+SDM → Head of Service Operations → Chief Operating Officer, with contact
+details maintained in the service handbook. Our contractual response target for
+P1 incidents is 15 minutes to acknowledge and 4 hours to restore service or
+provide a workaround.
+
+8. EXIT AND DATA PORTABILITY
+
+On expiry or termination, and at no additional charge, Meridian will export the
+complete Authority dataset — cases, correspondence, attachments and audit
+history — as newline-delimited JSON with a published schema, together with
+attachments in their original formats. Exit assistance is included in the
+recurring charge and is not a chargeable professional-services item.
+
+9. INTEGRATION AND NOTIFICATIONS
+
+The platform supports outbound email and SMS through a pluggable notification
+layer, and we have integrated with a range of notification providers on
+previous engagements. Integration with the Authority's preferred channel would
+be scoped during mobilisation.
+
+Meridian publishes a documented REST API. The Authority may extract case data
+on demand through it; the OpenAPI description is published at
+developers.meridiancivic.co.uk and access is included in the licence at no
+extra cost.
+
+10. TRAINING
+
+Meridian will deliver role-based training for up to 250 Authority staff, split
+by role (caseworker, supervisor, administrator, reporting). All sessions are
+recorded and the recordings are hosted in the Authority's tenant of our
+learning portal for the duration of the contract.
+
+11. SECURITY TESTING
+
+An independent CREST-accredited penetration test is carried out annually
+against the production environment. Meridian commits to sharing the full report
+and the associated remediation plan with the Authority within 20 working days
+of test completion, and to remediating critical findings within 30 days.
+
+12. PRODUCT DEVELOPMENT
+
+Meridian invests continuously in the product and customers are kept informed of
+significant developments through our customer community.
+
+13. COMMERCIAL
+
+Pricing is set out in the separate commercial schedule. Meridian confirms
+acceptance of the Authority's standard terms and conditions subject to the
+clarifications listed at Annex E.

@@ -1,0 +1,51 @@
+Product sync — Mobile checkout — Tuesday standing meeting
+
+Priya: Right, let's start. Three things today: the checkout drop-off, the Android crash, and whether we're still doing the loyalty tie-in this quarter.
+Tomas: Can we do the crash first? It's been sitting at the top of the board for eight days.
+Priya: Go ahead.
+Tomas: It's the Play Billing upgrade. The 6.2 library throws on a null purchase token and we don't guard it. I'll have the guard patched and in a release candidate by Friday.
+Priya: Friday this week?
+Tomas: Friday this week, yes. 14 March.
+Priya: Good. Dan, does that unblock you?
+Dan: Mostly. I still can't reproduce it locally, which bothers me. I'll pull the Crashlytics breadcrumbs for the affected sessions and write up what the device profile actually looks like.
+Priya: By when?
+Dan: End of next sprint, realistically. It's not blocking the fix, it's for the postmortem.
+Priya: Fine.
+Mei: Before we move on — the error state Tomas is patching, it currently shows the raw billing error string to the user. That's not something we should ship.
+Tomas: Agreed, that's ugly.
+Mei: I'll design a proper failure state for it and drop it in the Figma file before the RC cuts.
+Priya: Thank you. Next, checkout drop-off.
+Priya: We're at thirty-one percent abandonment on the payment step. That's up from twenty-four in January.
+Dan: Do we know whether it's the new card form or the 3DS redirect?
+Priya: We don't. The funnel events don't separate them.
+Dan: Then someone should instrument the 3DS handoff properly, because we're guessing until that lands.
+Priya: Someone should, yes.
+Tomas: That's a data engineering job more than ours.
+Priya: It is. Rahul owns the event schema — I'd rather not pick it up on this team.
+Dan: Then let's put it on Rahul. He'll need the funnel definition from us though.
+Priya: Rahul will add the 3DS handoff events to the schema. I'll flag it to him after this call.
+Mei: While we're on checkout — I want to talk about the guest checkout flow. We've had the wireframes since November and nobody has looked at them.
+Priya: Let's talk about it, but as a discussion, not an action. I don't want to commit design time to something that isn't on the roadmap.
+Mei: Understood. I just don't want it to rot.
+Dan: For what it's worth I think guest checkout is the bigger lever than any of this.
+Priya: Noted. Third item — the loyalty tie-in.
+Priya: Marketing want it live for the end-of-quarter campaign. That's 30 June.
+Tomas: That's not happening. The points ledger isn't built.
+Priya: What would it take?
+Tomas: Six weeks of one engineer, and we don't have one.
+Priya: Okay. I'll write up why we're not doing it and send it to marketing by end of the week.
+Mei: Do you want me to put together the mock for what it would have looked like? Might help the conversation.
+Priya: Yes, do that.
+Mei: I'll have the loyalty mock ready for you by Thursday.
+Priya: Actually — hold on. Scrap that. If we're saying no, sending them a beautiful mock is going to read as a maybe. Don't do the mock, Mei.
+Mei: Fair. Dropping it.
+Priya: Anything else?
+Dan: Legal came back on the receipts wording.
+Priya: And?
+Dan: They want a line about VAT treatment added to the emailed receipt. Jonas is drafting it.
+Priya: Jonas will send us the approved receipt wording, and we'll slot it into the template when it arrives.
+Tomas: One more — I should probably look at the build times at some point, they've crept up to eleven minutes.
+Priya: Is that a commitment or a complaint?
+Tomas: A complaint.
+Priya: Then it doesn't go on the list. Right, we're done.
+Priya: Recap: Tomas patches billing by Friday, Dan does the breadcrumbs by end of next sprint, Mei does the failure state before the RC, and I write up the loyalty no by end of the week.

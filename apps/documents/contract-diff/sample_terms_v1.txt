@@ -1,0 +1,29 @@
+NORTHWIND CLOUD — TERMS OF SERVICE (synthetic sample, version 1)
+
+1. ACCEPTANCE. By creating an account or using the Northwind Cloud platform ("Service") you agree to these Terms. If you are entering into these Terms on behalf of a company, you represent that you have authority to bind that company.
+
+2. ACCOUNT REGISTRATION. You must provide accurate registration details and keep them current. You are responsible for all activity under your credentials. You must notify us promptly if you believe your credentials have been compromised.
+
+3. SUBSCRIPTION AND BILLING. Subscriptions renew automatically at the end of each billing period unless cancelled before the renewal date. Fees are billed in advance to the payment method on file. Cancellation takes effect at the end of the current billing period.
+
+4. REFUNDS. If you are dissatisfied with the Service you may request a full refund within thirty (30) days of the charge. Refunds are issued to the original payment method within ten business days of approval. No reason need be given.
+
+5. SERVICE LEVEL. We target 99.9% monthly availability for paid plans. If availability falls below that target you may claim a service credit equal to ten percent of that month's fees by contacting support within sixty days of the incident.
+
+6. DATA OWNERSHIP. You retain all right, title, and interest in the data you upload ("Customer Data"). We claim no ownership over Customer Data and will not sell it, license it, or use it to train machine learning models.
+
+7. DATA DELETION. On termination of your account we will delete Customer Data from live systems within ninety (90) days. Backup copies are purged on our ordinary backup rotation. We do not provide a deletion certificate.
+
+8. ACCEPTABLE USE. You may not use the Service to distribute malware, send unsolicited bulk messages, infringe intellectual property, or attempt to gain unauthorised access to other tenants. We may suspend an account that materially breaches this clause after giving you notice and an opportunity to remedy.
+
+9. THIRD PARTY SERVICES. The Service may integrate with third party products at your election. Those products are governed by their own terms, and we will tell you which subprocessors handle Customer Data before we add a new one.
+
+10. CONFIDENTIALITY. Each party will protect the other's confidential information with the same care it applies to its own, and in no event less than reasonable care. This obligation survives termination for three years.
+
+11. INTELLECTUAL PROPERTY. The Service, including its software, documentation, and branding, remains our property. Feedback you volunteer may be used by us without restriction or compensation.
+
+12. LIMITATION OF LIABILITY. Our aggregate liability arising out of these Terms is limited to the fees you paid in the twelve months preceding the claim. Neither party is liable for indirect or consequential loss.
+
+13. GOVERNING LAW. These Terms are governed by the laws of the State of Delaware. Any dispute may be brought in the state or federal courts located in Wilmington, Delaware, and both parties submit to the jurisdiction of those courts.
+
+14. CHANGES TO THESE TERMS. We may amend these Terms from time to time. We will post the amended Terms and email account administrators at least thirty days before the change takes effect. Continued use after that date constitutes acceptance.

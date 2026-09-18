@@ -1,0 +1,38 @@
+[
+  {
+    "id": "DS-01",
+    "name": "UrbanSounds-Open",
+    "licence_name": "Synthetic permissive terms",
+    "licence_text": "Permission is granted, free of charge, to any person obtaining a copy of this dataset and associated documentation, to deal in the dataset without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense and sell copies of the dataset, and to permit persons to whom the dataset is furnished to do so, subject to the following condition: the above notice and this permission notice shall be included in all copies or substantial portions of the dataset. The dataset is provided as is, without warranty of any kind."
+  },
+  {
+    "id": "DS-02",
+    "name": "ClinicalNotes-Restricted",
+    "licence_name": "Synthetic data use agreement",
+    "licence_text": "Access to this dataset is granted only to named investigators at an accredited research institution who have submitted an application and executed this Data Use Agreement with the custodian. The Recipient may use the data solely for the non-commercial research purpose described in the approved application, and solely by the personnel named in it. The Recipient shall not redistribute, publish, transfer or otherwise make the data available to any third party, in whole or in part, including to collaborators not named in the application. The Recipient shall not attempt to identify any individual whose records are contained in the data, and shall not link the data to any other dataset for that purpose. Evidence of approval from the Recipient's institutional review board must be provided before access is granted. The Recipient may publish aggregate findings derived from the data provided that no cell containing fewer than five individuals is reported and that the custodian is credited. Any model, statistic or other artefact trained or derived from the data is subject to these same restrictions and may not be distributed without the custodian's prior written consent. Commercial exploitation of the data or of anything derived from it is not permitted under this agreement."
+  },
+  {
+    "id": "DS-03",
+    "name": "PlanetImagery-NC",
+    "licence_name": "Synthetic non-commercial share-alike terms",
+    "licence_text": "You are free to share and adapt this dataset for any purpose that is not primarily intended for or directed towards commercial advantage or monetary compensation. You must give appropriate credit to the original creators, provide a link to these terms, and indicate if changes were made. If you remix, transform or build upon the dataset, you must distribute your contributions under the same terms as this licence. You may not apply legal terms or technological measures that legally restrict others from doing anything these terms permit. No additional permission is required for use falling within these terms, and no registration or notification to the creators is necessary."
+  },
+  {
+    "id": "DS-04",
+    "name": "ParliamentaryProceedings-PD",
+    "licence_name": "Synthetic public domain dedication",
+    "licence_text": "The compiler of this dataset has, to the extent possible under law, waived all copyright and related or neighbouring rights to this dataset. The work is published from a jurisdiction where such a waiver is effective. You may copy, modify, distribute and perform the work, including for commercial purposes, all without asking permission and without any obligation to credit the compiler, although credit is appreciated. The compiler makes no warranties about the work and disclaims liability for all uses of the work to the fullest extent permitted by law."
+  },
+  {
+    "id": "DS-05",
+    "name": "WebCrawl-Academic",
+    "licence_name": "Synthetic academic terms of use",
+    "licence_text": "The Corpus is made available to researchers for the purpose of academic study. Downloading the Corpus constitutes acceptance of these Terms. The Corpus contains material collected from publicly accessible web pages; the Provider makes no representation regarding the rights held by third parties in that material, and the Recipient is responsible for determining whether any particular use is lawful. The Recipient may not mirror or rehost the Corpus. The Recipient may publish quantitative results and may quote short passages for the purpose of illustration and criticism. Models trained on the Corpus may be described in publications. The Provider does not grant, and expressly takes no position on, any right to distribute models trained on the Corpus, and the Recipient proceeds at its own risk. Requests for uses not covered by these Terms should be addressed to the Provider."
+  },
+  {
+    "id": "DS-06",
+    "name": "SensorNetwork-Municipal",
+    "licence_name": "Synthetic open government licence",
+    "licence_text": "You are encouraged to use and re-use the information available under this licence freely and flexibly, with only a few conditions. You are free to copy, publish, distribute and transmit the information, adapt it, and exploit it commercially and non-commercially, for example by combining it with other information or by including it in your own product or application. You must acknowledge the source of the information by including the specified attribution statement. This licence does not cover personal data, information subject to third party intellectual property rights, or identity documents such as logos and crests. This licence does not affect your obligations under data protection law."
+  }
+]

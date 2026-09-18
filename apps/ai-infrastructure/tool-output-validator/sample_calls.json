@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tc-01",
+    "intent": "Find the customer record for the person who emailed from rina.okafor@vestra.example",
+    "call": "crm_search(query='rina.okafor@vestra.example')",
+    "output": "{\"results\": [{\"id\": \"cus_8812\", \"name\": \"Rina Okafor\", \"email\": \"rina.okafor@vestra.example\", \"plan\": \"scale\"}]}"
+  },
+  {
+    "id": "tc-02",
+    "intent": "Find the customer record for the person who emailed from rina.okafor@vestra.example",
+    "call": "crm_search(query='rina.okafor@vestra.example')",
+    "output": "{\"results\": []}"
+  },
+  {
+    "id": "tc-03",
+    "intent": "Get the current outstanding balance on invoice INV-4471",
+    "call": "billing_get_invoice(invoice_id='INV-4471')",
+    "output": "{\"status\": \"ok\", \"data\": null, \"message\": \"invoice lookup temporarily unavailable, retry later\"}"
+  },
+  {
+    "id": "tc-04",
+    "intent": "List the open incidents assigned to the payments team",
+    "call": "pagerduty_list_incidents(team='payments', status='triggered')",
+    "output": "{\"incidents\": [{\"id\": \"PD-91\", \"team\": \"search\", \"title\": \"index lag\"}, {\"id\": \"PD-92\", \"team\": \"search\", \"title\": \"query timeouts\"}]}"
+  },
+  {
+    "id": "tc-05",
+    "intent": "Read the deployment runbook for the checkout service",
+    "call": "wiki_get_page(title='Checkout deployment runbook')",
+    "output": "<!DOCTYPE html><html><head><title>Sign in - Northwind Wiki</title></head><body><form action=\"/sso\">Please sign in to continue</form></body></html>"
+  },
+  {
+    "id": "tc-06",
+    "intent": "Cancel the pending subscription change for customer cus_8812",
+    "call": "billing_cancel_pending_change(customer_id='cus_8812')",
+    "output": "{\"ok\": true, \"cancelled\": 0, \"note\": \"no pending change found for this customer\"}"
+  },
+  {
+    "id": "tc-07",
+    "intent": "Get last week's signup numbers broken down by country",
+    "call": "analytics_query(metric='signups', period='last_7d', group_by='country')",
+    "output": "{\"metric\": \"signups\", \"period\": \"last_30d\", \"group_by\": \"plan\", \"rows\": [{\"plan\": \"free\", \"value\": 4120}, {\"plan\": \"scale\", \"value\": 318}]}"
+  },
+  {
+    "id": "tc-08",
+    "intent": "Fetch the text of the signed MSA with Vestra",
+    "call": "docs_get(document_id='doc_msa_vestra')",
+    "output": "{\"document_id\": \"doc_msa_vestra\", \"title\": \"MSA - Vestra (DRAFT, unsigned)\", \"text\": \"MASTER SERVICES AGREEMENT ... [redacted for length] ... This draft has not been executed.\"}"
+  },
+  {
+    "id": "tc-09",
+    "intent": "Check whether the eu-west-1 checkout service is healthy",
+    "call": "http_get(url='https://checkout.eu-west-1.internal/healthz')",
+    "output": "Error: dial tcp 10.4.18.2:443: i/o timeout"
+  },
+  {
+    "id": "tc-10",
+    "intent": "Look up the shipping address on order ORD-33912",
+    "call": "orders_get(order_id='ORD-33912')",
+    "output": "{\"order_id\": \"ORD-33912\", \"items\": [{\"sku\": \"NW-114\", \"qty\": 2}], \"billing_address\": {\"line1\": \"4 Cornmarket St\", \"city\": \"Oxford\"}}"
+  }
+]

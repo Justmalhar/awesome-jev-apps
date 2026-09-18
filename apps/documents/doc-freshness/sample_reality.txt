@@ -1,0 +1,58 @@
+ORBIT API — CURRENT REALITY (synthetic sample: generated from the v3.0 source tree)
+
+=== ROUTE TABLE (router.py, generated) ===
+POST    /v1/jobs                  -> jobs.create        (201, body: {"job_id": str, "state": str})
+GET     /v1/jobs/{job_id}         -> jobs.get           (200)
+GET     /v1/jobs                  -> jobs.list          (200, cursor paginated)
+POST    /v1/jobs/{job_id}/cancel  -> jobs.cancel        (202)
+POST    /v1/jobs/{job_id}/retry   -> jobs.retry         (202)
+GET     /v1/usage                 -> billing.usage      (200)
+
+No DELETE route is registered on /v1/jobs/{job_id}. The DELETE verb was
+replaced by POST /v1/jobs/{job_id}/cancel in release 3.0.
+
+No /v1/batch route is registered. The module batch_api.py was deleted in
+release 3.0 and the route table has contained no batch endpoint since.
+
+=== AUTH MIDDLEWARE (auth.py) ===
+Required header on every route: Authorization: Bearer <token>
+Scopes recognised: jobs:read, jobs:write, billing:read
+  - jobs:read   permits GET /v1/jobs and GET /v1/jobs/{job_id}
+  - billing:read permits GET /v1/usage   (jobs:read is NOT accepted here)
+Tokens are issued from the dashboard, Settings -> API Keys.
+
+=== CONFIG SCHEMA (config.py) ===
+field           env var             default                      required
+base_url        ORBIT_BASE_URL      https://api.orbit.example     no
+timeout_ms      ORBIT_TIMEOUT_MS    10000                         no
+retries         ORBIT_RETRIES       3                             no
+region          ORBIT_REGION        (workspace home region)       no
+webhook_secret  ORBIT_WEBHOOK_SECRET  (none)                      YES
+
+config.py raises ConfigError at import when webhook_secret is absent.
+ORBIT_API_URL is not read anywhere in the source tree.
+ORBIT_LEGACY_MODE is not read anywhere in the source tree.
+
+=== CLIENT PACKAGE (pyproject.toml) ===
+name            = "orbit-client"
+requires-python = ">=3.11"
+The package is published to PyPI as orbit-client.
+Client exposes both Client and AsyncClient since release 2.8.
+Client() falls back to ORBIT_TOKEN from the environment when no token argument
+is supplied.
+
+=== WEBHOOKS (webhooks.py) ===
+Events emitted: job.completed, job.failed, job.cancelled
+Signature: HMAC-SHA256, sent in the X-Orbit-Signature-256 header.
+The legacy X-Orbit-Signature header was removed in release 3.0.
+Delivery retries: exponential backoff, five attempts, then dead-letter.
+
+=== CHANGELOG (excerpt) ===
+3.0  DELETE /v1/jobs/{id} replaced by POST /v1/jobs/{id}/cancel.
+3.0  /v1/batch removed.
+3.0  Webhook signing moved to HMAC-SHA256; X-Orbit-Signature header removed.
+3.0  webhook_secret is now required; startup fails without it.
+3.0  Client timeout default lowered to 10000 ms.
+2.9  Config env var renamed: ORBIT_API_URL -> ORBIT_BASE_URL.
+2.8  AsyncClient added.
+2.7  Job create response field renamed: id -> job_id.

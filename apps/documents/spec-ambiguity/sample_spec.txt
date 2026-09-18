@@ -1,0 +1,34 @@
+CHECKOUT & PAYMENTS — FUNCTIONAL SPECIFICATION v0.4 (synthetic, for demonstration only)
+
+1. The checkout page must load quickly on all supported devices.
+2. When the customer clicks Pay, the order is submitted to the payment gateway.
+3. The payment is captured once the gateway returns an authorisation code.
+4. The system retries a reasonable number of times before giving up on the gateway.
+5. Users and admins who have verified their email may issue refunds.
+6. A refund may be issued in full and/or in part.
+7. The record shall be archived after the settlement window closes.
+8. If the card is declined, the customer is shown the decline reason returned by the gateway, verbatim, in the error panel beneath the card form.
+9. The cart must be emptied after a successful order.
+10. The confirmation email is sent to the address on the order, not the address on the account.
+11. When an order fails validation, it is rejected and the customer is returned to the cart.
+12. The gateway webhook and the polling job both update the order status; whichever arrives first wins.
+13. Guest checkout is permitted for orders below the fraud review threshold.
+14. Large orders require manual approval.
+15. The order total is recalculated server-side before authorisation and the client-supplied total is discarded.
+16. Promotional codes are validated against the promotions service at the time the code is entered.
+17. A promotional code that has expired is rejected with the message "This code is no longer valid".
+18. The customer's saved card is used by default when one exists and is not expired.
+19. Tokenised card data is stored in the vault and never written to application logs.
+20. The checkout session expires after 30 minutes of inactivity, measured from the last request the browser sent.
+21. If the session expires mid-payment, it is handled appropriately.
+22. Currency is taken from the storefront locale, not from the customer's browser locale.
+23. The tax engine is called once per checkout, after the shipping address is supplied and before authorisation.
+24. Shipping options are filtered to those the carrier supports for the destination postcode.
+25. The system should be performant under peak load.
+26. An order is considered complete when the gateway settles it.
+27. The admin dashboard shows recent orders.
+28. Partial shipments generate a partial capture against the original authorisation, up to the authorised amount.
+29. When the customer updates the shipping address after the tax engine has run, it is called again.
+30. Failed webhooks are placed on the dead-letter queue and replayed by the reconciliation job every hour on the hour.
+31. Orders in the PENDING_REVIEW state are not visible to the fulfilment service.
+32. The refund endpoint returns HTTP 202 and the refund is processed asynchronously by the payouts worker.

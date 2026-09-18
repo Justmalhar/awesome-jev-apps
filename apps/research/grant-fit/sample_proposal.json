@@ -1,0 +1,7 @@
+{
+  "title": "Federated anomaly detection for water-quality sensor networks in small municipalities",
+  "summary": "Small municipal water utilities run dense networks of low-cost chemical and turbidity sensors, but cannot pool the raw readings across authorities because of procurement contracts and data protection concerns. We propose a federated learning approach in which each authority trains a local anomaly detector on its own readings and only model updates are exchanged, with a differential privacy budget applied at the aggregation step. The project will build the coordination protocol, evaluate detection of contamination events against historical incident records held by three partner authorities, and release the protocol as open source.",
+  "methods": "Federated averaging with secure aggregation; differential privacy at the update level; evaluation against labelled historical incidents; a field deployment across three partner water authorities in the final year.",
+  "outputs": "An open-source reference implementation, a deployment guide for municipal utilities, two methods papers, and an evaluation report co-authored with the partner authorities.",
+  "applicant": "A mid-career Senior Lecturer in Computer Science at a UK university, five years past doctorate, applying as sole principal investigator. No industry partner is committed. Two UK local authorities and one water utility have provided letters of support as data partners. The team has no clinical collaborators and does not work with human participants."
+}

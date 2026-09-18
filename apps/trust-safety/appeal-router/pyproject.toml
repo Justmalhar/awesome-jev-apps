@@ -1,0 +1,6 @@
+[project]
+name = "appeal-router"
+version = "0.1.0"
+description = "Order a moderation appeal queue by plausible overturn, with explicit abstention and a human at every route."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

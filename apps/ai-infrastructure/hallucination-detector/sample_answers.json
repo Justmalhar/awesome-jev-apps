@@ -1,0 +1,26 @@
+{
+  "question": "Why did the Q3 migration to the new billing provider slip, and what did it cost us?",
+  "context": [
+    {"id": "p1", "text": "Retro notes, 2 October: the billing migration missed its 30 September target. The blocker was the tax-rate mapping, which needed a manual review of 412 SKUs after the automated import produced duplicates."},
+    {"id": "p2", "text": "Finance summary: the delay pushed two weeks of invoicing onto the legacy system. Reconciliation work was carried out by the finance team over four working days."},
+    {"id": "p3", "text": "Engineering update, 18 September: the vendor's sandbox was unavailable for six days in early September, which removed most of the integration testing window."},
+    {"id": "p4", "text": "The new target date is 14 November, with a dry run on 31 October. Nobody has been reassigned off the project."}
+  ],
+  "answers": [
+    {
+      "id": "a-faithful",
+      "label": "faithful summary",
+      "text": "The migration missed its 30 September target because the tax-rate mapping needed manual review after the automated import produced duplicates. The vendor's sandbox was also unavailable for six days in early September, which removed most of the integration testing window. Two weeks of invoicing stayed on the legacy system and the finance team did the reconciliation. The new target is 14 November. I don't have a figure for the direct cost in money."
+    },
+    {
+      "id": "a-fabricated",
+      "label": "invents a specific",
+      "text": "The migration slipped because of a defect in the vendor's tax engine, which their support team acknowledged in ticket BILL-7741. The delay cost approximately 180,000 dollars in contractor time and deferred revenue. Anita Reyes was moved off the project to cover the reconciliation. The new target is 14 November."
+    },
+    {
+      "id": "a-swapped",
+      "label": "swaps an entity",
+      "text": "The migration missed its target because our own sandbox was unavailable for six days, so the vendor could not complete integration testing. The tax-rate mapping was handled automatically without manual review. Two weeks of invoicing stayed on the legacy system, and the engineering team carried out the reconciliation."
+    }
+  ]
+}

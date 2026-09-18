@@ -1,0 +1,6 @@
+[project]
+name = "meeting-copilot"
+version = "0.1.0"
+description = "Flag commitments and dodged questions while the call is still happening."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]

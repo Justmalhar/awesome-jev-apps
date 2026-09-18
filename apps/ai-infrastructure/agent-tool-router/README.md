@@ -38,7 +38,7 @@ cheap but misses on intent and negation ("*don't* email them, just draft it").
 A smaller router LLM understands intent but adds a second frontier call per
 turn, which is the cost you were trying to avoid.
 
-## Two stages, and why the second one is legitimate
+## Why this needs Jev
 
 **Stage 1 — one request, whole catalog.** Every tool becomes an option in a
 single Choice, keyed by name with its one-line summary as the description. 42
@@ -97,3 +97,13 @@ argument filling with closed-set values, see TypeSafe's
 lower it if it is answering from memory when it should be checking. `--top`
 trades stage-2 cost against the chance the right tool was ranked 4th — measure
 on your own catalog and turns rather than trusting these defaults.
+
+## Limits
+
+`jev-1.13` cannot count, do arithmetic, or compare dates — every figure shown by
+this app is computed in Python from the model's judgments. It also reads
+literally: if an answer surprises you, the missing half of the instruction is
+usually the thing you would have said out loud to explain what you meant. See
+the [jaggedness notes](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
+
+Nothing here has been verified against a live API response yet.

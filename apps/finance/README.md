@@ -2,18 +2,18 @@
 
 Every number computed in Python. The model only ever supplies judgment.
 
-**2 of 10 built.**
+**8 of 10 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Statement categorizer](statement-categorizer) | Categorize years of bank and card transactions | confidence gate: auto-file or ask me |
 | ✅ [Subscription auditor](subscription-auditor) | Find every recurring charge, including the forgotten ones | recurrence judged, totals computed in pandas |
-| ⬜ Expense policy checker | Which claims breach the written expense policy | one Noul per policy rule, veto semantics |
-| ⬜ Receipt triage | Match receipts to card transactions and flag the gaps | pairwise matching with a curator tier |
-| ⬜ Invoice matcher | Three-way match: PO, invoice, delivery note | pairwise agreement judgment, arithmetic in code |
-| ⬜ Vendor risk screener | Screen suppliers against risk criteria from their documents | independent risk Nouls, thresholded separately |
-| ⬜ Deduction classifier | Which expenses are plausibly deductible, with a review queue | confidence decides what a human sees |
-| ⬜ Fraud signal extractor | Turn transaction narratives into risk features | features for a downstream fraud model |
+| ✅ [Expense policy checker](expense-policy-checker) | Which claims breach the written expense policy | one Noul per policy rule, veto semantics |
+| ✅ [Receipt triage](receipt-triage) | Match receipts to card transactions and flag the gaps | pairwise matching with a curator tier |
+| ✅ [Invoice matcher](invoice-matcher) | Three-way match: PO, invoice, delivery note | pairwise agreement judgment, arithmetic in code |
+| ✅ [Vendor risk screener](vendor-risk) | Screen suppliers against risk criteria from their documents | independent risk Nouls, thresholded separately |
+| ✅ [Deduction classifier](tax-classifier) | Which expenses are plausibly deductible, with a review queue | confidence decides what a human sees |
+| ✅ [Fraud signal extractor](fraud-signals) | Turn transaction narratives into risk features | features for a downstream fraud model |
 | ⬜ Earnings call tagger | Tag guidance, hedging, and tone shifts across transcripts | whole-transcript scan per company |
 | ⬜ Variance explainer | Classify why each line missed budget, from the notes | numbers in code, causes in Jev |
 

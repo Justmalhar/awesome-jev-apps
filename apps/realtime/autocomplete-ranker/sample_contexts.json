@@ -1,0 +1,54 @@
+[
+  {
+    "id": "support-search",
+    "surface": "Help-centre search box",
+    "context": "Logged-in customer on the billing settings page of a B2B SaaS product.",
+    "typed": "cancel",
+    "candidates": [
+      {"id": "c1", "text": "cancel my subscription", "popularity": 0.91},
+      {"id": "c2", "text": "cancel a scheduled export", "popularity": 0.22},
+      {"id": "c3", "text": "cancelled invoice still charged", "popularity": 0.35},
+      {"id": "c4", "text": "cancellation policy for annual plans", "popularity": 0.44},
+      {"id": "c5", "text": "cancel a pending team invitation", "popularity": 0.18},
+      {"id": "c6", "text": "cancel culture", "popularity": 0.02}
+    ]
+  },
+  {
+    "id": "ide-completion",
+    "surface": "Editor completion popup",
+    "context": "Inside a function that has just opened a database transaction and written two rows.",
+    "typed": "conn.",
+    "candidates": [
+      {"id": "c1", "text": "conn.commit()", "popularity": 0.62},
+      {"id": "c2", "text": "conn.rollback()", "popularity": 0.31},
+      {"id": "c3", "text": "conn.close()", "popularity": 0.55},
+      {"id": "c4", "text": "conn.cursor()", "popularity": 0.70},
+      {"id": "c5", "text": "conn.isolation_level", "popularity": 0.08}
+    ]
+  },
+  {
+    "id": "cli-history",
+    "surface": "Shell history suggestion",
+    "context": "The previous command was `git add -p` and it exited cleanly.",
+    "typed": "git c",
+    "candidates": [
+      {"id": "c1", "text": "git commit -m \"wip\"", "popularity": 0.80},
+      {"id": "c2", "text": "git checkout main", "popularity": 0.64},
+      {"id": "c3", "text": "git clone git@github.com:acme/infra.git", "popularity": 0.12},
+      {"id": "c4", "text": "git config --global user.email", "popularity": 0.09},
+      {"id": "c5", "text": "git cherry-pick 4f2a1c9", "popularity": 0.15}
+    ]
+  },
+  {
+    "id": "nothing-fits",
+    "surface": "Help-centre search box",
+    "context": "Customer on the API keys page, has just rotated a key.",
+    "typed": "why did my webhook stop",
+    "candidates": [
+      {"id": "c1", "text": "how to create an API key", "popularity": 0.72},
+      {"id": "c2", "text": "rate limits by plan", "popularity": 0.40},
+      {"id": "c3", "text": "SSO setup guide", "popularity": 0.28},
+      {"id": "c4", "text": "how to invite a teammate", "popularity": 0.33}
+    ]
+  }
+]

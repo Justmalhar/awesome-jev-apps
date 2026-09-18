@@ -1,0 +1,60 @@
+sku,supplier_id,raw_attribute,raw_value,product_title
+SKU-1001,SUP-A,color,Blk,Classic Cotton T-Shirt
+SKU-1001,SUP-A,size,M,Classic Cotton T-Shirt
+SKU-1001,SUP-A,material,100% Cotton,Classic Cotton T-Shirt
+SKU-1001,SUP-B,color,black,Classic Cotton Tee
+SKU-1001,SUP-B,size,Medium,Classic Cotton Tee
+SKU-1001,SUP-B,material,100% Cotton,Classic Cotton Tee
+SKU-1001,SUP-C,color,Jet Black,Cotton T Shirt Classic
+SKU-1001,SUP-C,size,Med,Cotton T Shirt Classic
+SKU-1001,SUP-C,material,100% Cotton,Cotton T Shirt Classic
+SKU-1002,SUP-A,color,Blk,Stainless Steel Water Bottle
+SKU-1002,SUP-A,volume,500ml,Stainless Steel Water Bottle
+SKU-1002,SUP-A,material,Stainless steel,Stainless Steel Water Bottle
+SKU-1002,SUP-B,color,black,Insulated Steel Bottle
+SKU-1002,SUP-B,volume,0.5 L,Insulated Steel Bottle
+SKU-1002,SUP-B,material,Stainless steel,Insulated Steel Bottle
+SKU-1002,SUP-C,color,Jet Black,Steel Drinks Bottle
+SKU-1002,SUP-C,volume,50cl,Steel Drinks Bottle
+SKU-1002,SUP-C,material,Stainless steel,Steel Drinks Bottle
+SKU-1003,SUP-A,volume,12 fl oz,Cold Brew Coffee Concentrate
+SKU-1003,SUP-A,color,Blk,Cold Brew Coffee Concentrate
+SKU-1003,SUP-B,volume,350ml,Cold Brew Coffee Concentrate
+SKU-1003,SUP-C,color,Cerulean,Cold Brew Coffee Concentrate Bottle
+SKU-1003,SUP-C,volume,350ml,Cold Brew Coffee Concentrate Bottle
+SKU-1004,SUP-A,size,L,Merino Base Layer Long Sleeve
+SKU-1004,SUP-A,material,Merino Wool,Merino Base Layer Long Sleeve
+SKU-1004,SUP-A,color,NVY,Merino Base Layer Long Sleeve
+SKU-1004,SUP-B,size,Large,Merino Baselayer
+SKU-1004,SUP-B,color,Navy Blue,Merino Baselayer
+SKU-1004,SUP-B,material,Merino Wool,Merino Baselayer
+SKU-1004,SUP-C,size,XXS,Merino Baselayer Kids
+SKU-1004,SUP-C,color,NVY,Merino Baselayer Kids
+SKU-1004,SUP-C,material,Merino Wool,Merino Baselayer Kids
+SKU-1005,SUP-A,material,Ceramic,Ceramic Mug Speckled
+SKU-1005,SUP-A,volume,350ml,Ceramic Mug Speckled
+SKU-1005,SUP-B,material,Ceramic,Speckled Ceramic Mug
+SKU-1005,SUP-B,volume,350ml,Speckled Ceramic Mug
+SKU-1005,SUP-C,material,Ceramic,Speckled Mug
+SKU-1006,SUP-A,weight,16 oz,Whole Bean Coffee Dark Roast
+SKU-1006,SUP-A,color,Blk,Whole Bean Coffee Dark Roast
+SKU-1006,SUP-B,weight,1.5kg,Whole Bean Coffee Dark Roast Catering
+SKU-1006,SUP-C,weight,250 g,Whole Bean Coffee Dark Roast
+SKU-1006,SUP-C,color,Cotton,Whole Bean Coffee Dark Roast
+SKU-1007,SUP-A,material,Genuine Leather,Bifold Leather Wallet
+SKU-1007,SUP-A,color,Blk,Bifold Leather Wallet
+SKU-1007,SUP-A,size,One Size,Bifold Leather Wallet
+SKU-1007,SUP-B,material,Genuine Leather,Leather Bifold Wallet
+SKU-1007,SUP-B,size,One Size,Leather Bifold Wallet
+SKU-1007,SUP-C,material,Genuine Leather,Leather Wallet Bifold
+SKU-1008,SUP-A,size,Navy,Yoga Mat Non Slip
+SKU-1008,SUP-A,weight,2 lb,Yoga Mat Non Slip
+SKU-1008,SUP-C,color,Navy Blue,Yoga Mat Non Slip
+SKU-1008,SUP-C,weight,2 lb,Yoga Mat Non Slip
+SKU-1009,SUP-B,volume,16 oz,Hydrating Shampoo Salon Size
+SKU-1009,SUP-B,size,One Size,Hydrating Shampoo Salon Size
+SKU-1009,SUP-C,volume,500ml,Hydrating Shampoo
+SKU-1010,SUP-A,weight,1.5kg,Whey Protein Powder Vanilla
+SKU-1010,SUP-A,size,Extra Large,Whey Protein Powder Vanilla Tub
+SKU-1010,SUP-B,weight,250 g,Whey Protein Powder Sample
+SKU-1010,SUP-C,weight,1.5kg,Whey Protein Powder Vanilla

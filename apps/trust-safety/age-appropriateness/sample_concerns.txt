@@ -1,0 +1,7 @@
+# Your specific concerns, one per line. Each becomes its own flag with its own gate.
+C1: Shows a physical stunt or challenge that a child could copy at home and be hurt by.
+C2: Contains frightening, threatening, or distressing imagery.
+C3: Pushes purchases, loot boxes, streak mechanics, or other spending pressure.
+C4: Allows unmoderated contact between children and adults they do not know.
+C5: References substances, gambling, or self-harm.
+C6: Asks viewers to share personal details such as a school, a location, or a phone number.

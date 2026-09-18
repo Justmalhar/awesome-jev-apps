@@ -1,0 +1,92 @@
+[
+  {
+    "id": "A.5.1",
+    "domain": "Governance",
+    "title": "Policies for information security",
+    "requirement": "Information security policy is defined, approved by management, published, and reviewed at planned intervals or when significant changes occur."
+  },
+  {
+    "id": "A.5.2",
+    "domain": "Governance",
+    "title": "Information security roles and responsibilities",
+    "requirement": "Information security roles and responsibilities are defined and allocated to named roles according to organisational needs."
+  },
+  {
+    "id": "A.5.7",
+    "domain": "Governance",
+    "title": "Threat intelligence",
+    "requirement": "Information relating to information security threats is collected and analysed to produce actionable threat intelligence."
+  },
+  {
+    "id": "A.5.19",
+    "domain": "Supplier",
+    "title": "Information security in supplier relationships",
+    "requirement": "Processes are defined to manage the information security risks associated with the use of supplier products and services."
+  },
+  {
+    "id": "A.5.23",
+    "domain": "Supplier",
+    "title": "Information security for use of cloud services",
+    "requirement": "Processes for acquisition, use, management and exit from cloud services are established in accordance with the organisation's security requirements."
+  },
+  {
+    "id": "A.5.24",
+    "domain": "Operations",
+    "title": "Information security incident management planning",
+    "requirement": "Incident management responsibilities and procedures are planned and prepared, including reporting channels and defined response timescales."
+  },
+  {
+    "id": "A.5.30",
+    "domain": "Resilience",
+    "title": "ICT readiness for business continuity",
+    "requirement": "ICT readiness is planned, implemented, maintained and tested against business continuity objectives and recovery time requirements."
+  },
+  {
+    "id": "A.6.1",
+    "domain": "People",
+    "title": "Screening",
+    "requirement": "Background verification checks on candidates for employment are carried out prior to joining, proportionate to the sensitivity of the information they will access."
+  },
+  {
+    "id": "A.6.3",
+    "domain": "People",
+    "title": "Security awareness, education and training",
+    "requirement": "Personnel receive appropriate information security awareness education and training, and regular updates to organisational policy, relevant to their job function."
+  },
+  {
+    "id": "A.6.5",
+    "domain": "People",
+    "title": "Responsibilities after termination",
+    "requirement": "Information security responsibilities that remain valid after termination or change of employment are defined, enforced and communicated."
+  },
+  {
+    "id": "A.7.4",
+    "domain": "Physical",
+    "title": "Physical security monitoring",
+    "requirement": "Premises are continuously monitored for unauthorised physical access."
+  },
+  {
+    "id": "A.8.2",
+    "domain": "Access Control",
+    "title": "Privileged access rights",
+    "requirement": "The allocation and use of privileged access rights is restricted and managed, with periodic review of who holds them."
+  },
+  {
+    "id": "A.8.5",
+    "domain": "Access Control",
+    "title": "Secure authentication",
+    "requirement": "Secure authentication technologies and procedures are implemented based on information access restrictions and the access control policy."
+  },
+  {
+    "id": "A.8.13",
+    "domain": "Operations",
+    "title": "Information backup",
+    "requirement": "Backup copies of information, software and systems are maintained and regularly tested in accordance with an agreed backup policy."
+  },
+  {
+    "id": "A.8.16",
+    "domain": "Operations",
+    "title": "Monitoring activities",
+    "requirement": "Networks, systems and applications are monitored for anomalous behaviour and appropriate actions taken to evaluate potential security incidents."
+  }
+]

@@ -1,0 +1,6 @@
+# Your review policy, one rule per line. "ID: text" keeps your numbering.
+A1: A review written in exchange for a free product, discount, refund, or prize must say so in the text.
+A2: Reviews must describe the reviewer's own use of the product, not someone else's account of it.
+A3: Reviews must not promote another product, seller, discount code, or channel.
+A4: Reviews about delivery, packaging, or courier behaviour belong on the seller, not the product.
+A5: Reviews must not be written before the product has arrived or been used.

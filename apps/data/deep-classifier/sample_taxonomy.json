@@ -1,0 +1,246 @@
+{
+  "name": "catalog",
+  "description": "The whole product catalog.",
+  "children": [
+    {
+      "name": "electronics",
+      "description": "Powered consumer electronics and computing hardware. Not powered kitchen or garden machines.",
+      "children": [
+        {
+          "name": "audio",
+          "description": "Equipment whose purpose is playing or capturing sound.",
+          "children": [
+            {
+              "name": "headphones",
+              "description": "Worn on or in the ears by one listener: over-ear, on-ear, earbuds."
+            },
+            {
+              "name": "speakers",
+              "description": "Loudspeakers that fill a room or a space, including portable and smart speakers."
+            },
+            {
+              "name": "turntables_and_hifi",
+              "description": "Record players, amplifiers, receivers and separate hi-fi components."
+            }
+          ]
+        },
+        {
+          "name": "computing",
+          "description": "General-purpose computers and the hardware attached directly to them.",
+          "children": [
+            {
+              "name": "laptops",
+              "description": "Portable computers with an integrated keyboard and screen."
+            },
+            {
+              "name": "monitors",
+              "description": "External display panels for a computer. Not televisions."
+            },
+            {
+              "name": "storage_and_drives",
+              "description": "Hard drives, solid-state drives, memory cards and enclosures."
+            }
+          ]
+        },
+        {
+          "name": "mobile",
+          "description": "Handheld connected devices and what attaches to them.",
+          "children": [
+            {
+              "name": "smartphones",
+              "description": "Cellular handsets."
+            },
+            {
+              "name": "tablets",
+              "description": "Slate-format touchscreen devices without an integrated keyboard."
+            },
+            {
+              "name": "phone_accessories",
+              "description": "Cases, screen protectors, chargers, cables and mounts for handsets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home_and_garden",
+      "description": "Goods for the house, its contents and the land around it.",
+      "children": [
+        {
+          "name": "kitchen",
+          "description": "Preparing, cooking and serving food indoors.",
+          "children": [
+            {
+              "name": "cookware",
+              "description": "Unpowered pans, pots, bakeware, knives and utensils."
+            },
+            {
+              "name": "small_appliances",
+              "description": "Powered counter-top machines: kettles, blenders, coffee machines, air fryers."
+            },
+            {
+              "name": "tableware",
+              "description": "Plates, bowls, glassware and cutlery for serving and eating."
+            }
+          ]
+        },
+        {
+          "name": "furniture",
+          "description": "Free-standing furnishings for indoor rooms.",
+          "children": [
+            {
+              "name": "seating",
+              "description": "Chairs, sofas, stools and benches for indoor use."
+            },
+            {
+              "name": "tables_and_desks",
+              "description": "Dining tables, coffee tables, desks and workbenches."
+            },
+            {
+              "name": "storage_furniture",
+              "description": "Wardrobes, shelving, cabinets, sideboards and chests."
+            }
+          ]
+        },
+        {
+          "name": "garden",
+          "description": "Outdoor domestic space: growing, maintaining and furnishing it.",
+          "children": [
+            {
+              "name": "garden_power_tools",
+              "description": "Powered tools for garden maintenance: mowers, trimmers, blowers, pressure washers."
+            },
+            {
+              "name": "plants_and_seeds",
+              "description": "Living plants, bulbs, seeds, compost and growing media."
+            },
+            {
+              "name": "outdoor_furniture",
+              "description": "Furniture built to be left outdoors: patio sets, loungers, parasols."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "apparel",
+      "description": "Clothing and footwear worn day to day, not bought for a specific sport.",
+      "children": [
+        {
+          "name": "mens",
+          "description": "Menswear garments.",
+          "children": [
+            {
+              "name": "mens_tops",
+              "description": "Shirts, t-shirts, polos, jumpers and sweatshirts for men."
+            },
+            {
+              "name": "mens_outerwear",
+              "description": "Coats, jackets, gilets and parkas for men."
+            },
+            {
+              "name": "mens_trousers",
+              "description": "Trousers, jeans, chinos and shorts for men."
+            }
+          ]
+        },
+        {
+          "name": "womens",
+          "description": "Womenswear garments.",
+          "children": [
+            {
+              "name": "womens_tops",
+              "description": "Blouses, t-shirts, knitwear and sweatshirts for women."
+            },
+            {
+              "name": "womens_dresses",
+              "description": "Dresses, jumpsuits and skirts."
+            },
+            {
+              "name": "womens_outerwear",
+              "description": "Coats, jackets and gilets for women."
+            }
+          ]
+        },
+        {
+          "name": "footwear",
+          "description": "Shoes worn day to day.",
+          "children": [
+            {
+              "name": "trainers",
+              "description": "Casual lace-up sports-styled shoes worn as everyday footwear."
+            },
+            {
+              "name": "boots",
+              "description": "Ankle-height and higher footwear: chelsea, hiking-styled, work boots."
+            },
+            {
+              "name": "formal_shoes",
+              "description": "Leather dress shoes: oxfords, derbies, loafers, court shoes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sports_and_outdoors",
+      "description": "Equipment and specialist clothing bought to do a particular activity.",
+      "children": [
+        {
+          "name": "fitness",
+          "description": "Training the body, at home or in a gym.",
+          "children": [
+            {
+              "name": "strength_equipment",
+              "description": "Free weights, barbells, racks, benches and resistance equipment."
+            },
+            {
+              "name": "cardio_machines",
+              "description": "Treadmills, exercise bikes, rowers and cross trainers."
+            },
+            {
+              "name": "yoga_and_recovery",
+              "description": "Mats, blocks, foam rollers, massage guns and stretching aids."
+            }
+          ]
+        },
+        {
+          "name": "cycling",
+          "description": "Bicycles and everything bought specifically for riding one.",
+          "children": [
+            {
+              "name": "bikes",
+              "description": "Complete bicycles of any kind."
+            },
+            {
+              "name": "cycle_components",
+              "description": "Parts and accessories fitted to a bicycle: wheels, drivetrain, lights, locks."
+            },
+            {
+              "name": "cycle_clothing",
+              "description": "Garments cut and specified for riding: jerseys, bib shorts, cycling gloves and shoes."
+            }
+          ]
+        },
+        {
+          "name": "camping",
+          "description": "Staying out overnight away from a building.",
+          "children": [
+            {
+              "name": "tents_and_shelters",
+              "description": "Tents, tarps, bivvy bags and awnings."
+            },
+            {
+              "name": "sleeping_gear",
+              "description": "Sleeping bags, mats, pillows and camp beds."
+            },
+            {
+              "name": "camp_cooking",
+              "description": "Portable stoves, fuel, cookpots and utensils made to be carried outdoors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

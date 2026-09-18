@@ -1,0 +1,6 @@
+[project]
+name = "data-linter"
+version = "0.1.0"
+description = "Find rows whose fields contradict each other. Cross-field consistency, one Noul per rule."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.2"]

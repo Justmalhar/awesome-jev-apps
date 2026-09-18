@@ -1,0 +1,6 @@
+[project]
+name = "anomaly-narrator"
+version = "0.1.0"
+description = "Statistics flag daily-metric outliers; Jev judges which ones need action."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.2"]

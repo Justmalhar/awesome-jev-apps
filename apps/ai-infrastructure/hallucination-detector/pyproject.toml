@@ -1,0 +1,6 @@
+[project]
+name = "hallucination-detector"
+version = "0.1.0"
+description = "Per-sentence grounding check of a generated answer against its retrieved context."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]

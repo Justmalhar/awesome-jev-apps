@@ -1,0 +1,27 @@
+[
+  {
+    "id": "MS-101",
+    "title": "Peer-led smoking cessation coaching in community pharmacies",
+    "methods": "This pragmatic two-arm randomised trial was prospectively registered with ISRCTN (ISRCTN18422907) before the first participant was enrolled, and the statistical analysis plan was lodged at the same time. Ethical approval was granted by the East Midlands Research Ethics Committee (ref 21/EM/0114) and all participants gave written informed consent. Adults aged 18 and over who smoked daily and expressed an intention to quit within the next month were eligible; people already enrolled in another cessation programme, and those with a diagnosed psychotic disorder, were excluded. We targeted a sample of 340 on the basis of a power analysis assuming a 10 percentage point difference in abstinence at six months, 90% power and a two-sided alpha of 0.05, inflated for 20% attrition. Participants were allocated by a remote web-based service to peer-led coaching or to the pharmacy's standard brief advice, which formed the comparison arm. Coaches and participants were necessarily aware of allocation; the outcome assessor who verified abstinence biochemically was blinded. De-identified participant-level data are available from the corresponding author under a data sharing agreement."
+  },
+  {
+    "id": "MS-102",
+    "title": "A novel attention module for low-light object detection",
+    "methods": "We evaluate the proposed module on three public benchmarks. All models are trained for 120 epochs with AdamW, a cosine schedule and a base learning rate of 3e-4, on eight A100 GPUs with a batch size of 256. Images are resized to 640 by 640 and augmented with random horizontal flips and colour jitter. We report mean average precision at an IoU threshold of 0.5. The proposed module is compared against the unmodified backbone and against two published attention mechanisms re-implemented under identical training settings. Hyperparameters were selected on the validation split of the first benchmark and held fixed thereafter. Code and pretrained weights will be released on acceptance."
+  },
+  {
+    "id": "MS-103",
+    "title": "Workplace wellbeing app and self-reported stress in office employees",
+    "methods": "Employees at a large insurance firm were invited by internal newsletter to install a wellbeing application offering guided breathing, mood logging and weekly reflective prompts. Two hundred and eleven employees installed the app and completed a baseline questionnaire. Perceived stress was measured with the Perceived Stress Scale at baseline and again after eight weeks of availability. We analysed change from baseline among those who completed both questionnaires. The firm's occupational health team supported the rollout and the vendor provided the application at no cost to participants."
+  },
+  {
+    "id": "MS-104",
+    "title": "Gut microbiome composition and post-operative recovery in a murine model",
+    "methods": "All procedures were approved by the institutional animal care and use committee under protocol 2022-1187 and conducted in accordance with the ARRIVE guidelines. Male C57BL/6 mice aged 10 to 12 weeks were housed five per cage under a 12-hour light cycle with ad libitum access to chow and water. Animals were allocated by a random sequence to the antibiotic-depletion condition or to a vehicle-treated control group, with cage as the unit of allocation. Group sizes were chosen to detect a one standard deviation difference in the primary recovery measure at 80% power, following the effect size observed in our previous work. The surgeon was blinded to allocation, and faecal sampling and histological scoring were performed by an assessor who did not know group assignment. Sequencing data have been deposited in the European Nucleotide Archive under accession PRJEB61140. No preregistration of the analysis plan was undertaken."
+  },
+  {
+    "id": "MS-105",
+    "title": "Semi-structured interviews on clinician attitudes to algorithmic triage",
+    "methods": "We conducted semi-structured interviews with emergency department clinicians at four hospital trusts. Participants were recruited by purposive sampling to span grades from foundation doctor to consultant, and recruitment continued until the research team judged that no substantially new themes were emerging. The study protocol was reviewed and approved by the university research ethics committee (ref HSS/2023/44) and all participants gave recorded verbal consent before the interview began. Interviews followed a topic guide developed with two clinician advisers and were audio-recorded and transcribed verbatim. Transcripts were coded inductively by two researchers working independently, and the coding frame was revised through discussion. As this was an exploratory qualitative study, no comparison group was used and no analysis plan was registered in advance. Anonymised transcript excerpts are available on request; full transcripts cannot be shared because they contain identifiable workplace detail."
+  }
+]

@@ -1,0 +1,7 @@
+# Your age bands, youngest first, one per line. These BECOME the rubric levels.
+# Each line must describe a situation, not a label — "PG" tells the model nothing.
+Suitable for any age including a four-year-old alone: nothing frightening, nothing to copy, no spending
+Suitable from about seven: mild peril or slapstick that resolves on screen, no purchasing and no strangers
+Suitable from about thirteen: real-world risk discussed rather than shown, mild bad language, moderated social features
+Suitable from about sixteen: sustained conflict, substances or gambling referenced, open contact with strangers
+Adults only: content the platform would not show to a minor under any circumstances

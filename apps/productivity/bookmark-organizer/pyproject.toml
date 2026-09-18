@@ -1,0 +1,6 @@
+[project]
+name = "bookmark-organizer"
+version = "0.1.0"
+description = "File years of bookmarks into a hierarchical taxonomy you describe yourself."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

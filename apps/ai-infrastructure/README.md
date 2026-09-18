@@ -2,23 +2,23 @@
 
 Jev sitting in front of, behind, and around a generative model. Guarding every call costs a rounding error.
 
-**2 of 13 built.**
+**13 of 13 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Agent tool router](agent-tool-router) | Pick from a 42-tool MCP catalog without stuffing schemas into context | two-stage cascade: summaries wide, schemas narrow |
 | ✅ [LLM guardrails](llm-guardrails) | Screen every input, output, and tool call for hazards | cheap enough to guard EVERY call, which nobody does today |
-| ⬜ Injection detector | Catch instructions hidden in retrieved or user content | runs inline at 150ms |
-| ⬜ RAG reranker | Drop-in for a cross-encoder or Cohere Rerank | cross-encoding quality at embedding-tier cost |
-| ⬜ RAG passage filter | Drop passages that contradict, mislead, or carry injections | one judgment per retrieved passage |
-| ⬜ Model router | Send easy turns to a cheap model, hard ones to a frontier one | calibrated difficulty plus an abstain path |
-| ⬜ Citation verifier | Check each claim against the source it cites | affordable per-claim verification |
-| ⬜ Grounding checker | Is this generated answer supported by the retrieved context | per-sentence grounding at scale |
-| ⬜ Agent trace classifier | Classify why agent runs failed, across thousands of traces | map-reduce over run history |
-| ⬜ Eval judge | Score model outputs against a rubric, reproducibly | calibrated and deterministic where an LLM judge drifts |
-| ⬜ Agent memory filter | Which stored memories are relevant to this turn | rank the whole memory store in one request |
-| ⬜ Context compressor | Select which context to keep when the window is tight | selection, so nothing is paraphrased away |
-| ⬜ Tool output validator | Did this tool actually return what was asked for | catches silent tool failures agents ignore |
+| ✅ [Injection detector](prompt-injection-detector) | Catch instructions hidden in retrieved or user content | runs inline at 150ms |
+| ✅ [RAG reranker](rag-reranker) | Drop-in for a cross-encoder or Cohere Rerank | cross-encoding quality at embedding-tier cost |
+| ✅ [RAG passage filter](rag-passage-filter) | Drop passages that contradict, mislead, or carry injections | one judgment per retrieved passage |
+| ✅ [Model router](model-router) | Send easy turns to a cheap model, hard ones to a frontier one | calibrated difficulty plus an abstain path |
+| ✅ [Citation verifier](citation-verifier) | Check each claim against the source it cites | affordable per-claim verification |
+| ✅ [Grounding checker](hallucination-detector) | Is this generated answer supported by the retrieved context | per-sentence grounding at scale |
+| ✅ [Agent trace classifier](agent-trace-classifier) | Classify why agent runs failed, across thousands of traces | map-reduce over run history |
+| ✅ [Eval judge](eval-judge) | Score model outputs against a rubric, reproducibly | calibrated and deterministic where an LLM judge drifts |
+| ✅ [Agent memory filter](memory-filter) | Which stored memories are relevant to this turn | rank the whole memory store in one request |
+| ✅ [Context compressor](context-compressor) | Select which context to keep when the window is tight | selection, so nothing is paraphrased away |
+| ✅ [Tool output validator](tool-output-validator) | Did this tool actually return what was asked for | catches silent tool failures agents ignore |
 
 ## Running any of these
 

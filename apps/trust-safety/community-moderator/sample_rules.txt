@@ -1,0 +1,8 @@
+# One rule per line. "ID: text" keeps your own numbering.
+# Edit freely — the questions are rebuilt from this box on every run.
+R1: No unsolicited advertising, affiliate links, or promoting a product you profit from.
+R2: Keep posts on the topic of the thread you are replying in.
+R3: Criticise the argument, not the member. No insults, name-calling, or contempt aimed at a person.
+R4: Do not post anyone's personal details — real name, employer, address, or phone number — including your own.
+R5: Claims about pricing or performance need a source link, or they get removed.
+R6: No repeating the same post across multiple threads.

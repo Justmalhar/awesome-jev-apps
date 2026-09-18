@@ -1,0 +1,6 @@
+[project]
+name = "review-authenticity"
+version = "0.1.0"
+description = "Flag incentivised, templated, or second-hand product reviews against an operator's own review rules."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

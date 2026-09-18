@@ -2,18 +2,18 @@
 
 Routing, qualification, and risk detection over the text a business already generates.
 
-**1 of 11 built.**
+**8 of 11 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Lead qualifier](lead-qualifier) | Score inbound leads against your ICP, written as a paragraph | score once, reweight as the ICP changes |
-| ⬜ Support ticket triage | Route by issue, product area, urgency, and churn risk | independent judgments, one request |
-| ⬜ Churn signal extractor | Early warning from support and sales conversations | features feeding a churn model |
-| ⬜ Escalation detector | Which threads need a manager before they blow up | calibrated urgency plus abstention |
-| ⬜ NPS comment coder | Theme thousands of open-ended survey comments | replaces manual coding |
-| ⬜ Sales call tagger | Objections, competitors, and next steps from call notes | independent Nouls per signal |
-| ⬜ Renewal risk scorer | Which accounts are quietly drifting toward non-renewal | composite scoring from raw judgments |
-| ⬜ Application screener | Screen applications against explicit, job-related criteria | criterion-by-criterion, auditable, with a human tier |
+| ✅ [Support ticket triage](ticket-triage) | Route by issue, product area, urgency, and churn risk | independent judgments, one request |
+| ✅ [Churn signal extractor](churn-signals) | Early warning from support and sales conversations | features feeding a churn model |
+| ✅ [Escalation detector](escalation-detector) | Which threads need a manager before they blow up | calibrated urgency plus abstention |
+| ✅ [NPS comment coder](nps-coder) | Theme thousands of open-ended survey comments | replaces manual coding |
+| ✅ [Sales call tagger](sales-call-tagger) | Objections, competitors, and next steps from call notes | independent Nouls per signal |
+| ✅ [Renewal risk scorer](renewal-risk) | Which accounts are quietly drifting toward non-renewal | composite scoring from raw judgments |
+| ✅ [Application screener](candidate-screener) | Screen applications against explicit, job-related criteria | criterion-by-criterion, auditable, with a human tier |
 | ⬜ RFP response scorer | Score supplier responses against weighted criteria | weights tuned without re-running inference |
 | ⬜ Onboarding gap finder | Which steps a new hire's docs never actually explain | coverage checking against a checklist |
 | ⬜ Competitor monitor | Which competitor updates actually matter to your roadmap | relevance filtering over a firehose |

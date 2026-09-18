@@ -1,0 +1,21 @@
+{
+  "channel": "#launch-day-live",
+  "topic": "Live Q&A during the 4.0 product launch stream. Questions about the release, pricing and migration.",
+  "messages": [
+    {"id": "m01", "author": "priya", "text": "Does 4.0 still support the old CSV importer or is that gone?"},
+    {"id": "m02", "author": "dan_k", "text": "the migration guide link on the blog is 404ing for me"},
+    {"id": "m03", "author": "growthguy88", "text": "Hey everyone — I run a free newsletter on SaaS growth, drop your email and I'll add you: bit.ly/not-a-real-link"},
+    {"id": "m04", "author": "priya", "text": "@dan_k works for me, try the one in the release notes instead"},
+    {"id": "m05", "author": "marco", "text": "honestly whoever designed this pricing page has never spoken to a customer in their life"},
+    {"id": "m06", "author": "sam_tan", "text": "Will the self-hosted edition get the new audit log, or is that cloud only?"},
+    {"id": "m07", "author": "marco", "text": "@sam_tan asking that is pointless, they never answer the self-host people, you're wasting your time"},
+    {"id": "m08", "author": "qa_lena", "text": "my whole team is locked out since the upgrade, nobody can log in, this is taking down our support desk"},
+    {"id": "m09", "author": "growthguy88", "text": "Same link again in case you missed it, seriously it's free: bit.ly/not-a-real-link"},
+    {"id": "m10", "author": "dan_k", "text": "anyone else here watching the football at the same time? what a goal"},
+    {"id": "m11", "author": "hostbot", "text": "Reminder: we'll do a live migration walkthrough right after the keynote."},
+    {"id": "m12", "author": "marco", "text": "sam_tan you clearly have no idea what you're talking about, stop typing"},
+    {"id": "m13", "author": "priya", "text": "is the 4.0 upgrade included in the current plan or does it need the new tier?"},
+    {"id": "m14", "author": "anon_user", "text": "asdkjhaskdjh asdkjh asd"},
+    {"id": "m15", "author": "qa_lena", "text": "update: support got back to us, it was an SSO config thing on our side. sorry for the noise"}
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "CALL-01",
+    "funder": "UK Research Council (synthetic)",
+    "name": "Trustworthy Machine Learning for Critical Infrastructure",
+    "deadline": "2027-03-11",
+    "remit": "Projects developing machine learning methods whose reliability, privacy or robustness properties can be demonstrated in the context of physical infrastructure such as water, energy, or transport networks. The call emphasises methods work with a credible route to operational deployment, and expects an evaluation on real operational data rather than simulation alone. Open release of methods and software is strongly encouraged.",
+    "eligibility": "Open to researchers holding a permanent or fixed-term academic post at a UK higher education institution or approved research organisation. Applicants may apply as sole principal investigator. There is no career-stage restriction. No industrial partner is required, though a named non-academic data partner strengthens the case for support."
+  },
+  {
+    "id": "CALL-02",
+    "funder": "European Programme (synthetic)",
+    "name": "Digital Water Systems Innovation Action",
+    "deadline": "2027-01-20",
+    "remit": "Innovation actions advancing the digitalisation of the water sector, including sensing, leak detection, quality monitoring and demand forecasting. Funded projects are expected to reach a demonstrable technology readiness level in an operational environment by the end of the grant, and to deliver exploitation plans alongside technical results.",
+    "eligibility": "Proposals must be submitted by a consortium of at least four independent legal entities established in at least three different eligible countries, and must include at least one small or medium-sized enterprise and at least one water utility as a full beneficiary. Single-institution proposals are not admissible under this action."
+  },
+  {
+    "id": "CALL-03",
+    "funder": "Wellbeing Health Charity (synthetic)",
+    "name": "Data Science for Population Health",
+    "deadline": "2027-05-06",
+    "remit": "Research applying advanced data science methods to questions of population health, including environmental determinants of health, health service delivery and epidemiological surveillance. Proposals must articulate a clear pathway to health benefit and must involve analysis of health outcomes.",
+    "eligibility": "Open to researchers at universities and non-profit research institutes in any country. Proposals must name a collaborator with clinical or public health expertise who will hold a formal role in the project. Applicants must hold a doctorate."
+  },
+  {
+    "id": "CALL-04",
+    "funder": "National Science Foundation equivalent (synthetic)",
+    "name": "Privacy-Preserving Distributed Learning",
+    "deadline": "2027-02-14",
+    "remit": "Fundamental research on learning from decentralised data without centralising it, including federated optimisation, secure aggregation, and formal privacy guarantees. The call is explicitly methods-focused; applied deployments are welcome only as validation of a methodological contribution. Theoretical rigour is weighted heavily in assessment.",
+    "eligibility": "Applicants must hold a faculty appointment at an eligible institution in the funder's country of operation. Investigators based outside the country may participate only as unfunded collaborators."
+  },
+  {
+    "id": "CALL-05",
+    "funder": "Municipal Innovation Fund (synthetic)",
+    "name": "Smart Local Authority Pilot Grants",
+    "deadline": "2027-04-30",
+    "remit": "Small grants supporting pilots of digital technologies in local authority service delivery, including environmental monitoring, waste, transport and utilities. The fund prioritises projects that leave a working deployment behind with the authority and that produce a transferable implementation guide for other authorities. Novel research contributions are welcome but are not the primary assessment criterion.",
+    "eligibility": "Applications may be led by a local authority or by a university working with at least one named local authority partner. The lead applicant must be based in the UK. There is no career-stage restriction and no requirement for a commercial partner."
+  },
+  {
+    "id": "CALL-06",
+    "funder": "Early Career Foundation (synthetic)",
+    "name": "Emerging Investigator Awards in Computing",
+    "deadline": "2027-06-18",
+    "remit": "Flexible awards supporting an independent research programme in any area of computer science, with an emphasis on establishing the investigator's own line of work. Proposals are assessed primarily on the candidate and the ambition of the programme rather than on topical fit.",
+    "eligibility": "Applicants must be within three years of the award of their doctorate at the closing date and must not previously have held an award as principal investigator. Applicants must hold or have been offered an independent research position."
+  },
+  {
+    "id": "CALL-07",
+    "funder": "Industrial Partnership Scheme (synthetic)",
+    "name": "Collaborative R&D in Environmental Sensing",
+    "deadline": "2027-09-02",
+    "remit": "Collaborative projects between academia and industry developing sensing hardware, data platforms or analytics for environmental monitoring. Projects are expected to advance a commercial product or service towards market.",
+    "eligibility": "Every proposal must be led by a registered company, with academic partners as subcontractors or co-investigators. The company must commit matched funding of at least thirty per cent of project costs. University-led proposals are not eligible."
+  },
+  {
+    "id": "CALL-08",
+    "funder": "Open Source Sustainability Trust (synthetic)",
+    "name": "Public Interest Infrastructure Software",
+    "deadline": "2028-01-15",
+    "remit": "Grants supporting the development, maintenance and adoption of open-source software that serves the public interest, particularly software adopted by public bodies. The trust funds engineering effort, documentation and community building rather than novel research, and requires all funded output to be released under an OSI-approved licence.",
+    "eligibility": "Open to individuals, universities, non-profits and companies anywhere in the world. There are no career-stage or nationality restrictions. Proposals must name a maintainer who will be responsible for the software after the grant ends."
+  },
+  {
+    "id": "CALL-09",
+    "funder": "Humanities Research Council (synthetic)",
+    "name": "Cultural Histories of the Built Environment",
+    "deadline": "2027-07-24",
+    "remit": "Research into the social, cultural and architectural history of the built environment, including archival, ethnographic and curatorial projects. Interdisciplinary proposals are welcome where the primary contribution is to humanities scholarship.",
+    "eligibility": "Open to researchers holding an academic post at a recognised institution. Proposals must be led by a researcher whose primary discipline is within the arts and humanities."
+  },
+  {
+    "id": "CALL-10",
+    "funder": "UK Research Council (synthetic)",
+    "name": "Responsible AI Fellowships",
+    "deadline": "2025-11-28",
+    "remit": "Fellowships supporting individuals developing an independent research agenda on the responsible development and deployment of artificial intelligence, including privacy, accountability and societal impact.",
+    "eligibility": "Open to researchers at UK institutions at any career stage who will devote at least fifty per cent of their time to the fellowship for its duration."
+  }
+]

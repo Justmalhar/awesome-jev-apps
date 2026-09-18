@@ -1,0 +1,6 @@
+[project]
+name = "slack-digest"
+version = "0.1.0"
+description = "Filter many Slack channels down to what actually concerns you. Never summarised."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

@@ -2,17 +2,17 @@
 
 Company-specific, nuanced policy — not a generic toxicity score.
 
-**1 of 7 built.**
+**7 of 7 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Community moderator](community-moderator) | Apply YOUR written community rules, not a generic policy | severity and confidence combine to allow/warn/review/block |
-| ⬜ Marketplace listing checker | Prohibited items, counterfeit signals, policy breaches | one Noul per policy, thresholded separately |
-| ⬜ Review authenticity | Flag incentivised, templated, or fake-looking reviews | pattern judgment across a corpus |
-| ⬜ Brand safety checker | Is this placement context safe for this creative | two states judged for compatibility |
-| ⬜ Scam pattern detector | Advance-fee, impersonation, and phishing patterns in messages | independent hazard Nouls |
-| ⬜ Age suitability rater | Rate content against an age-band rubric you define | ordered rubric with concrete levels |
-| ⬜ Moderation appeal router | Which appeals plausibly overturn the original decision | second-opinion judgment with abstention |
+| ✅ [Marketplace listing checker](listing-policy) | Prohibited items, counterfeit signals, policy breaches | one Noul per policy, thresholded separately |
+| ✅ [Review authenticity](review-authenticity) | Flag incentivised, templated, or fake-looking reviews | pattern judgment across a corpus |
+| ✅ [Brand safety checker](ad-brand-safety) | Is this placement context safe for this creative | two states judged for compatibility |
+| ✅ [Scam pattern detector](scam-detector) | Advance-fee, impersonation, and phishing patterns in messages | independent hazard Nouls |
+| ✅ [Age suitability rater](age-appropriateness) | Rate content against an age-band rubric you define | ordered rubric with concrete levels |
+| ✅ [Moderation appeal router](appeal-router) | Which appeals plausibly overturn the original decision | second-opinion judgment with abstention |
 
 ## Running any of these
 

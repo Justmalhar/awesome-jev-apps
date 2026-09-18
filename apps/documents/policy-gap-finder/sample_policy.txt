@@ -1,0 +1,116 @@
+NORTHWIND ANALYTICS LTD — INFORMATION SECURITY POLICY
+Version 4.2 · Owner: Chief Information Security Officer · Classification: Internal
+(Synthetic document, for demonstration only.)
+
+1. PURPOSE AND SCOPE
+
+This policy sets out how Northwind protects the confidentiality, integrity and
+availability of the information it holds, including customer data processed in
+the Northwind platform. It applies to all employees, contractors and interns,
+and to all systems operated by or on behalf of Northwind.
+
+2. GOVERNANCE AND REVIEW
+
+This policy is approved by the Executive Committee. The CISO is accountable for
+maintaining it and presents it to the Executive Committee for re-approval every
+twelve months, and additionally within one month of any material change to the
+platform architecture, the regulatory environment or the corporate structure.
+The approved version is published on the intranet policy register and all staff
+are notified by email when a new version is issued.
+
+3. SECURITY ROLES
+
+Security responsibilities are allocated as follows and recorded in the security
+RACI held by the CISO:
+
+  - Chief Information Security Officer — owns this policy, the risk register
+    and the annual security programme.
+  - Head of Platform Engineering — owns technical controls in production,
+    including access control, encryption and patching.
+  - Data Protection Officer — owns the record of processing, data subject
+    rights and breach notification to regulators.
+  - People Operations Manager — owns joiner, mover and leaver processes.
+  - Every line manager — owns access approvals for their direct reports.
+
+4. ACCESS CONTROL
+
+4.1 All access to Northwind systems is granted on the principle of least
+privilege and requires documented approval from the requester's line manager
+before it is provisioned.
+
+4.2 Privileged access to production — root, database superuser, cloud
+administrator and CI deployment roles — is restricted to named members of the
+Platform Engineering on-call rota. Standing privileged access is not permitted;
+privileges are obtained through the just-in-time elevation workflow, expire
+after four hours and are logged. The Head of Platform Engineering reviews the
+full list of privileged role holders on the first working day of each quarter
+and revokes anything no longer justified. The review record is retained for
+three years.
+
+4.3 Authentication to all corporate and production systems is through the
+company identity provider using single sign-on. Phishing-resistant multi-factor
+authentication (FIDO2 hardware keys or platform passkeys) is mandatory for all
+staff and is enforced technically by conditional access policy; SMS and
+time-based one-time codes are not accepted for production access. Service
+accounts use short-lived workload identity credentials rather than static
+secrets, and the Head of Platform Engineering is responsible for enforcement.
+
+5. PEOPLE SECURITY
+
+5.1 Pre-employment screening. People Operations obtains and verifies identity,
+right to work, two employment references and a basic criminal record check for
+every candidate before their start date. Candidates who will hold privileged
+production access or handle customer data additionally undergo a financial
+probity check. No candidate is granted system access until screening has
+completed, and People Operations records the outcome in the HR system.
+
+5.2 Security awareness. All staff complete security awareness training within
+their first week and a refresher module annually thereafter. Engineers complete
+an additional secure development module annually. Simulated phishing exercises
+are run quarterly by the security team, and staff who fail two consecutive
+exercises are enrolled in targeted coaching by their line manager. People
+Operations tracks completion and reports it to the Executive Committee each
+quarter.
+
+5.3 Leavers. Confidentiality obligations and the return of company information
+continue to apply after employment ends. Departing staff are reminded of these
+obligations. Access is withdrawn when someone leaves.
+
+6. OPERATIONS
+
+6.1 Incident management. Suspected security incidents are reported to
+security@northwind.example or through the #security-incident channel, which is
+monitored 24/7 by the on-call rota. The CISO is the incident manager for any
+incident rated P1 or P2. Triage begins within 30 minutes of a P1 report; the
+Data Protection Officer is engaged within one hour where personal data may be
+affected, and regulator notification is assessed against the 72-hour statutory
+deadline. Every P1 incident receives a written post-incident review within ten
+working days, owned by the CISO.
+
+6.2 Backups. Production databases and object storage are backed up nightly,
+encrypted at rest with customer-managed keys, and retained for 35 days with a
+monthly snapshot retained for one year. Backups are replicated to a second
+region. Platform Engineering performs a full restore rehearsal into an isolated
+environment every quarter and records the measured restore time; a failed
+rehearsal is raised as a P2 incident.
+
+6.3 Logging and monitoring. Application, infrastructure and identity provider
+logs are shipped to the central log platform and retained for 400 days. Log
+coverage is kept broad so that investigations have the data they need.
+
+7. SUPPLIERS
+
+Northwind recognises that suppliers and sub-processors can introduce risk to
+customer data, and is committed to working only with suppliers that take
+security seriously. Security considerations form part of procurement decisions.
+
+8. BUSINESS CONTINUITY
+
+Northwind maintains a business continuity plan covering the loss of the primary
+cloud region and the loss of the main office. The plan is held by the Chief
+Operating Officer. The company intends to exercise the plan periodically.
+
+9. COMPLIANCE
+
+Breaches of this policy may result in disciplinary action up to and including
+dismissal, and for contractors, termination of engagement.

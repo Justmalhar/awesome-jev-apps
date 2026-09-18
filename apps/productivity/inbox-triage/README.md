@@ -5,7 +5,9 @@ What in your mail actually needs you today.
 Point it at a folder of `.eml` files (every mail client can export them) or run
 it against the bundled sample inbox.
 
-## It sorts, it never rewrites
+## Why this needs Jev
+
+### It sorts, it never rewrites
 
 Jev cannot generate. That is a feature here: every subject line and body you see
 is **your own text**, in your own words. There is no summary to mistrust, no
@@ -14,7 +16,7 @@ paraphrase that quietly drops the deadline, no hallucinated sender.
 This is the difference between "AI reads my email" and "AI decides what I read."
 Only the second one is safe to leave running.
 
-## The judgment that matters
+### The judgment that matters
 
 Not *"is this important?"* — unanswerable in the abstract, and the reason
 generic priority-inbox features feel random. The useful question is **"does this

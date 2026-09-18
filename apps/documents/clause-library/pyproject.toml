@@ -1,0 +1,6 @@
+[project]
+name = "clause-library"
+version = "0.1.0"
+description = "Rerank a counterparty's clauses against your approved clause library; surface the ones that match nothing."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.0"]

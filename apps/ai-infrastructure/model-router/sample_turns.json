@@ -1,0 +1,14 @@
+[
+  {"id": "u-01", "text": "Turn this list into a comma-separated line: apples, pears, figs, quince."},
+  {"id": "u-02", "text": "What's the capital of Portugal?"},
+  {"id": "u-03", "text": "Rewrite this in a friendlier tone: 'Your request has been denied.'"},
+  {"id": "u-04", "text": "My 7-year-old weighs 22kg and has a fever of 39.1C. How much paracetamol should I give her and how often?"},
+  {"id": "u-05", "text": "We have three warehouses and a same-day promise in two cities. Given that the Leeds site closes at 14:00 and the courier cutoff in Manchester is 16:30, work out which site should serve Sheffield orders placed at lunchtime, and what breaks if we add Newcastle."},
+  {"id": "u-06", "text": "Summarise the attached changelog for a non-technical audience."},
+  {"id": "u-07", "text": "Is our termination clause enforceable if the customer is in Germany and the contract says English law?"},
+  {"id": "u-08", "text": "make it better"},
+  {"id": "u-09", "text": "What's the current price of NVDA and has it moved much this week?"},
+  {"id": "u-10", "text": "Explain the difference between a mutex and a semaphore."},
+  {"id": "u-11", "text": "Our Postgres primary is at 94% CPU, replication lag is climbing, and the connection pool keeps saturating right after the nightly batch. Walk me through what to change, in what order, and what to roll back first if it gets worse."},
+  {"id": "u-12", "text": "thanks, that's all"}
+]

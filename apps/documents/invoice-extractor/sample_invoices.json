@@ -1,0 +1,27 @@
+[
+  {
+    "id": "NW-2291",
+    "name": "Northwind Logistics (UK, dd/mm, PO trap)",
+    "text": "NORTHWIND LOGISTICS LTD\nUnit 7, Calder Industrial Est., Leeds LS12 6QF\nVAT Reg 811 4432 09\n\nTAX INVOICE\n\nInv No.  NW-2291/A\nCust PO  4410982\nDate issued   14/03/2025\nPayment due   13/04/2025\n\nDescr iption                Qty    Unit      Amount\nPallet freight, Leeds-Dover   6   145.00     870.00\nFuel surcharge                       -        52.20\nWaiting time 2hrs @ 38.00            -        76.00\n\n                          Net       998.20\n                          VAT 20%   199.64\n                          TOTAL   1,197.84\n\nRemit to Barclays 20-45-77 / 40028811\nQueries: accounts@northwind-log.example\n"
+  },
+  {
+    "id": "2025-0417",
+    "name": "Papierwerk Stollberg (German, 1.234,56 format)",
+    "text": "Rechnung / INVOICE\nPapierwerk Stollberg GmbH\nHauptstr. 118, 09366 Stollberg\n\nRechnungsnr.: 2025-0417\nKundennr.: 88231\nRechnungsdatum: 03.02.2025\nLieferdatum: 28.01.2025\nZahlbar bis: 05.03.2025\n\nPos  Artikel                    Menge   Preis     Betrag\n1    Karton A4 80g/m2            40    24,90      996,00\n2    Etiketten Rolle 1000St      12    18,50      222,00\n3    Versand                      1    45,00       45,00\n\n                    Zwischensumme          1.263,00\n                    MwSt 19%                 239,97\n                    Gesamtbetrag EUR       1.502,97\n\nBankverbindung IBAN DE44 5001 0517 5407 3249 31\n"
+  },
+  {
+    "id": "RB88417",
+    "name": "Riverbend Supply (adjacent currency lines, prior balance trap)",
+    "text": "=== RIVERBEND SUPPLY CO ===\nINVOICE                     #  RB88417\n\nBill To: Meridian Dental Group\nInvoice Date:  2025-06-02\nTerms: Net 30    Due: 2025-07-02\n\n  ITEM                          EXT\n  Nitrile gloves, 10 bx        189.50\n  Autoclave pouches             74.25\n  Barrier film refill           31.00\n\n  Merchandise                  294.75\n  Less loyalty credit          -14.74\n  Subtotal                     280.01\n  Sales tax (7.25%)             20.30\n  Amount Due                   300.31\n\n  Previous balance             142.00\n  Do not remit previous balance on this invoice.\n"
+  },
+  {
+    "id": "BH-0092",
+    "name": "Blue Harbour Studio (OCR spacing, three date shapes, no tax)",
+    "text": "                    B L U E   H A R B O U R   S T U D I O\n                         creative retainer\n\nInvoice ref: BH/INV/0092\nlssued: 11 Nov 2024\nDue on receipt\n\nClient: Katella Foods Inc.\nProject ref: KF-2024-11\n\n  Retainer, November 2024 ................ 4,500.00\n  Additional motion graphics (3.5 hrs) ..... 612.50\n\n  Total due USD ......................... 5,112.50\n\n  Late payments accrue 1.5% per month after 30 days.\n  Contract signed 02 Aug 2024.\n"
+  },
+  {
+    "id": "CG-3318",
+    "name": "Castlegate Cleaning (no due date, no tax, no subtotal)",
+    "text": "CASTLEGATE CLEANING\n07700 900413\n\nRECEIPT / INVOICE   no. 3318\n17.09.2025\n\n  Deep clean, 2 bed flat        180.00\n  Oven clean                     45.00\n  TOTAL                         225.00\n\nPaid in full by card. No VAT charged (not VAT registered).\n"
+  }
+]

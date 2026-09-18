@@ -2,18 +2,18 @@
 
 Screening, extraction, and verification over literature and field data.
 
-**2 of 8 built.**
+**8 of 8 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Paper screener](paper-screener) | Screen abstracts against a systematic review protocol | conjunctive veto rules, not a weighted score |
 | ✅ [Study data extractor](data-extractor) | Pull population, intervention, and outcomes from methods sections | selection from parsed candidates |
-| ⬜ Interview coder | Apply a thematic codebook to transcripts | one Noul per theme; several can apply |
-| ⬜ Methods gap finder | Missing controls, sample sizes, or ethics statements | checklist as independent conditions |
-| ⬜ Reproducibility auditor | Does this paper give enough detail to reproduce it | criterion-by-criterion with a human tier |
-| ⬜ Dataset license checker | Can we legally use this dataset the way we intend | intent judged against licence text |
-| ⬜ Grant fit scorer | Which calls actually fit this proposal | relevance ranking over a call catalog |
-| ⬜ Reviewer matcher | Match submissions to reviewers by expertise | pairwise relevance at conference scale |
+| ✅ [Interview coder](interview-coder) | Apply a thematic codebook to transcripts | one Noul per theme; several can apply |
+| ✅ [Methods gap finder](method-gap-finder) | Missing controls, sample sizes, or ethics statements | checklist as independent conditions |
+| ✅ [Reproducibility auditor](reproducibility-auditor) | Does this paper give enough detail to reproduce it | criterion-by-criterion with a human tier |
+| ✅ [Dataset license checker](dataset-license) | Can we legally use this dataset the way we intend | intent judged against licence text |
+| ✅ [Grant fit scorer](grant-fit) | Which calls actually fit this proposal | relevance ranking over a call catalog |
+| ✅ [Reviewer matcher](peer-review-router) | Match submissions to reviewers by expertise | pairwise relevance at conference scale |
 
 ## Running any of these
 

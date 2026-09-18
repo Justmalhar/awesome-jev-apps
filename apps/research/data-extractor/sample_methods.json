@@ -1,0 +1,27 @@
+[
+  {
+    "id": "TRIAL-001",
+    "title": "Supervised resistance training and glycaemic control in older adults with type 2 diabetes",
+    "methods": "This was a parallel-group randomised controlled trial conducted at three community health centres in Leeds, Manchester and Bristol between March 2022 and November 2023. We enrolled 184 adults aged 60 to 79 years with a clinical diagnosis of type 2 diabetes of at least two years' standing and a baseline HbA1c between 7.0% and 10.0%. Participants were randomly allocated in a 1:1 ratio to the intervention or the control arm using a computer-generated sequence stratified by site and baseline HbA1c. The intervention arm attended supervised progressive resistance training three times per week for 24 weeks, delivered in groups of eight by an accredited exercise physiologist. The control arm received usual diabetes care plus a single written leaflet on physical activity, with no supervised sessions. The primary outcome was change in HbA1c from baseline to 24 weeks, measured by high-performance liquid chromatography at a central laboratory blinded to allocation. Secondary outcomes included fasting plasma glucose, body composition by DXA, and the SF-36 physical function subscale. Outcome assessors were blinded to allocation; participants and trainers could not be blinded given the nature of the intervention."
+  },
+  {
+    "id": "TRIAL-002",
+    "title": "Digital cognitive behavioural therapy for insomnia in shift workers: a single-arm feasibility study",
+    "methods": "We conducted a single-arm feasibility study to assess recruitment, retention and acceptability ahead of a definitive trial. Forty-two rotating-shift nurses employed at a single tertiary hospital were recruited by internal email between January and April 2023. Eligible participants scored 15 or above on the Insomnia Severity Index and had worked night shifts for at least six months. All participants received a six-week self-guided digital cognitive behavioural therapy programme delivered through a smartphone application, comprising weekly modules on sleep restriction, stimulus control and cognitive restructuring. No comparison condition was used, as the purpose was to estimate feasibility parameters rather than effectiveness. Feasibility was assessed through recruitment rate, module completion and withdrawal. Insomnia severity was recorded with the Insomnia Severity Index at baseline, six weeks and twelve weeks, and sleep continuity was captured by wrist actigraphy over seven consecutive days at each timepoint."
+  },
+  {
+    "id": "TRIAL-003",
+    "title": "Vitamin D supplementation and respiratory infection in primary school children",
+    "methods": "A double-blind, placebo-controlled randomised trial was carried out across eleven state primary schools in Greater Glasgow. Children aged 5 to 11 years with no known disorder of calcium metabolism were eligible, and 612 were enrolled with written parental consent. Allocation was concealed by an independent pharmacy that dispensed identically packaged bottles. Children in the active arm received 400 IU of oral cholecalciferol daily for the whole of the school year. Children in the placebo arm received an identical capsule containing no active ingredient, on the same schedule. The primary endpoint was the proportion of children with at least one parent-reported upper respiratory tract infection during follow-up, verified against school absence registers. Serum 25-hydroxyvitamin D concentration was assayed at baseline and at the end of follow-up as a secondary endpoint."
+  },
+  {
+    "id": "TRIAL-004",
+    "title": "Retrospective cohort analysis of anticoagulation strategies after orthopaedic surgery",
+    "methods": "We interrogated a de-identified national hospital episode dataset covering admissions between 2016 and 2021. Adults undergoing elective primary hip or knee arthroplasty were identified by procedure code. Patients were grouped by the anticoagulant prescribed at discharge: low-molecular-weight heparin, a direct oral anticoagulant, or aspirin alone. The three groups were compared against one another on the incidence of symptomatic venous thromboembolism recorded within ninety days of the index procedure, and on readmission for bleeding. Propensity score weighting was applied to balance age, sex, body mass index, renal function and prior thromboembolic history across the groups. No individual patient consent was sought, as the analysis used routinely collected de-identified records under an existing data access agreement."
+  },
+  {
+    "id": "TRIAL-005",
+    "title": "Mindfulness-based stress reduction for caregivers: protocol notes",
+    "methods": "Recruitment will proceed through carer support organisations in two regions. The programme follows the standard eight-week mindfulness-based stress reduction curriculum with weekly two-and-a-half-hour group sessions and a day-long retreat. Sessions will be led by instructors certified by a recognised training body. Data collection instruments and the analysis plan are described in the statistical analysis plan lodged with the trial registry."
+  }
+]

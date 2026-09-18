@@ -1,0 +1,21 @@
+{
+  "current_turn": "The deploy to eu-west-1 is failing again. Can you get it green before the demo?",
+  "items": [
+    {"id": "sys-01", "kind": "system", "text": "You are the on-call engineering assistant for Northwind. Never restart a production service without an explicit confirmation from the user in the same turn."},
+    {"id": "usr-01", "kind": "user_turn", "text": "We have a customer demo on Thursday at 15:00 London time. Nothing can be down between 14:00 and 16:00."},
+    {"id": "usr-02", "kind": "user_turn", "text": "By the way, I prefer terraform plan output over raw AWS console screenshots."},
+    {"id": "asst-01", "kind": "assistant_turn", "text": "Understood. I'll hold any restarts inside the demo window and show terraform plans instead of console output."},
+    {"id": "usr-03", "kind": "user_turn", "text": "Also, the eu-west-1 account is the one with the older IAM boundary policy - the deploy role there can't touch RDS."},
+    {"id": "tool-01", "kind": "tool_output", "text": "kubectl get pods -n prod (eu-west-1): checkout-7d9f 0/1 CrashLoopBackOff (14 restarts); payments-2ab1 1/1 Running; search-9cc0 1/1 Running"},
+    {"id": "tool-02", "kind": "tool_output", "text": "kubectl logs checkout-7d9f: FATAL: could not connect to database 'orders': permission denied for schema public"},
+    {"id": "tool-03", "kind": "tool_output", "text": "aws s3 ls s3://northwind-artifacts/ | head: 2026-09-01 build-8871.tar.gz, 2026-09-02 build-8872.tar.gz, 2026-09-03 build-8873.tar.gz"},
+    {"id": "tool-04", "kind": "tool_output", "text": "GET /healthz eu-west-1 -> 503 (upstream connect error). us-east-1 -> 200 OK. ap-south-1 -> 200 OK."},
+    {"id": "doc-01", "kind": "document", "text": "Runbook 4.2 - Database permission errors after a deploy: the migration job grants schema privileges to the app role. If the migration job is skipped, the app starts but cannot read its own tables. Re-run the migration job, do not restart the pod."},
+    {"id": "doc-02", "kind": "document", "text": "Northwind expense policy: receipts over 40 GBP require a manager's approval in Concur within 30 days of the transaction date."},
+    {"id": "doc-03", "kind": "document", "text": "Onboarding checklist for new engineers: request VPN access, join #eng-general, complete the security training module, book a 1:1 with your manager in week one."},
+    {"id": "tool-05", "kind": "tool_output", "text": "argocd app get checkout-eu: sync status OutOfSync; last sync operation FAILED at phase PostSync; message: 'job/migrate-orders exceeded its backoff limit'"},
+    {"id": "asst-02", "kind": "assistant_turn", "text": "The us-east-1 rollout from last week went fine and needed no manual steps."},
+    {"id": "tool-06", "kind": "tool_output", "text": "git log --oneline -3: a91c2f0 bump checkout image to 8873; 4de81bb add orders schema migration; 77f0a12 update README badge"},
+    {"id": "usr-04", "kind": "user_turn", "text": "Unrelated, but remind me to book the offsite venue at some point this month."}
+  ]
+}

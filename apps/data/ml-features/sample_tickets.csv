@@ -1,0 +1,171 @@
+ticket_id,plan_tier,tenure_months,seats,monthly_spend,prior_tickets_90d,first_response_hours,ticket_text,churned_within_90d
+T-2000,pro,52,13,182.19,5,22.6,Quick one - the SSO login flow keeps failing for us. This is the fourth time we've raised it.,0
+T-2001,enterprise,40,74,1638.7,8,1.7,Raising this again: the weekly digest email. My team is completely blocked and cannot ship today. A colleague has been pushing us towards Brightloom for this reason. What notice period do we need to give to terminate? Cheers.,1
+T-2002,pro,41,41,522.52,3,0.7,"Hello support, the dashboard filters is not working as expected. We've been round this loop before with your team. Happy to jump on a call whenever suits. Appreciate it.",0
+T-2003,enterprise,4,369,8125.23,2,25.9,Logging a ticket about the dashboard filters. My team is completely blocked and cannot ship today. Cheers.,0
+T-2004,free,10,3,32.88,7,2.0,"Hello support, the billing portal is not working as expected. Happy to jump on a call whenever suits. Many thanks.",0
+T-2005,free,45,5,17.8,0,0.5,Quick one - the API rate limits keeps failing for us. At this point I'm not sure we'll stay past the contract. Can you tell me the process for closing the account and exporting our data? Many thanks.,1
+T-2006,pro,16,47,589.72,0,8.2,Quick one - the CSV export keeps failing for us. We reported the same thing last month and it came back. My team is completely blocked and cannot ship today. There's a line on the bill nobody here recognises.,0
+T-2007,free,7,1,1.8,0,1.2,Logging a ticket about the audit log. We reported the same thing last month and it came back. My team is completely blocked and cannot ship today. What notice period do we need to give to terminate? Cheers.,1
+T-2008,free,38,4,19.42,9,1.7,Raising this again: the billing portal. Nobody in the office can work until this clears. There's a line on the bill nobody here recognises. At this point I'm not sure we'll stay past the contract.,0
+T-2009,pro,33,45,543.66,6,1.2,"Hi, we've been having trouble with the webhook retries again. Our other vendor handles this without any fuss. Happy to jump on a call whenever suits. Cheers.",0
+T-2010,free,53,4,21.38,2,35.8,We need help with the API rate limits. Our other vendor handles this without any fuss.,0
+T-2011,free,15,1,30.07,8,2.8,"Hello support, the weekly digest email is not working as expected. A colleague has been pushing us towards Brightloom for this reason. We are seriously reconsidering the renewal.",1
+T-2012,pro,9,18,219.37,6,3.2,Logging a ticket about the mobile app sync. There's a line on the bill nobody here recognises. No rush on this one. Appreciate it.,0
+T-2013,pro,30,21,278.07,9,2.9,Logging a ticket about the SSO login flow. This is stopping our month-end close right now. Appreciate it.,0
+T-2014,pro,30,9,142.99,4,2.7,"Hi, we've been having trouble with the seat provisioning screen again. No rush on this one.",0
+T-2015,pro,13,60,749.25,1,4.3,Quick one - the CSV export keeps failing for us. We reported the same thing last month and it came back. Our customers are seeing errors because of it. Frankly the equivalent feature in Zendrift just works. Thanks for your help.,0
+T-2016,pro,31,19,245.27,2,5.0,Raising this again: the CSV export. Same symptoms as the ticket we opened in the spring. We are seriously reconsidering the renewal.,0
+T-2017,free,24,5,7.69,2,1.1,Quick one - the Slack integration keeps failing for us. Many thanks.,0
+T-2018,pro,20,23,303.68,9,3.2,"Hello support, the weekly digest email is not working as expected. Same symptoms as the ticket we opened in the spring.",1
+T-2019,enterprise,44,427,9408.89,1,14.3,"Hello support, the webhook retries is not working as expected. We reported the same thing last month and it came back. Thanks for your help.",1
+T-2020,enterprise,51,327,7227.14,1,0.8,"Hello support, the invoice download is not working as expected.",0
+T-2021,pro,36,6,107.2,4,9.9,"Hello support, the dashboard filters is not working as expected. Same symptoms as the ticket we opened in the spring. Whenever someone gets a chance is fine.",0
+T-2022,pro,20,49,600.52,3,2.3,"Hello support, the audit log is not working as expected. Not urgent, just logging it.",0
+T-2023,pro,23,42,509.25,0,17.9,"Hi, we've been having trouble with the invoice download again. We are trialling Coalesce alongside you at the moment. Thanks for your help.",1
+T-2024,pro,13,23,283.87,5,10.1,the invoice download has been unreliable this week. Same symptoms as the ticket we opened in the spring. Nobody in the office can work until this clears. At this point I'm not sure we'll stay past the contract. Many thanks.,0
+T-2025,pro,60,22,280.89,7,5.1,Raising this again: the Slack integration. Same symptoms as the ticket we opened in the spring. Our customers are seeing errors because of it. Frankly the equivalent feature in Zendrift just works. Appreciate it.,0
+T-2026,enterprise,28,497,10966.99,1,3.0,"Raising this again: the dashboard filters. Not urgent, just logging it.",0
+T-2027,pro,46,24,298.04,6,3.6,Quick one - the Slack integration keeps failing for us. Happy to jump on a call whenever suits. Many thanks.,1
+T-2028,free,25,2,2.19,2,0.3,Logging a ticket about the invoice download. My team is completely blocked and cannot ship today. We are trialling Coalesce alongside you at the moment.,1
+T-2029,enterprise,38,377,8306.26,1,1.1,Quick one - the weekly digest email keeps failing for us. At this point I'm not sure we'll stay past the contract. Many thanks.,0
+T-2030,pro,8,22,272.45,5,25.7,"Hi, we've been having trouble with the billing portal again. Whenever someone gets a chance is fine.",0
+T-2031,pro,57,26,313.95,2,0.7,Raising this again: the dashboard filters. We've been round this loop before with your team. No rush on this one. Appreciate it.,0
+T-2032,free,28,3,1.17,9,5.0,Logging a ticket about the webhook retries. We reported the same thing last month and it came back. The invoice does not match the seats we agreed. I've been asked to justify keeping this contract. How do I get a full export of everything before we wind down? Many thanks.,1
+T-2033,free,31,1,34.8,8,0.4,Logging a ticket about the audit log. We've been round this loop before with your team. A colleague has been pushing us towards Brightloom for this reason. No rush on this one. Appreciate it.,1
+T-2034,pro,7,59,718.14,7,0.9,the Slack integration has been unreliable this week. What notice period do we need to give to terminate? Thanks for your help.,1
+T-2035,free,48,2,0.99,8,2.5,"Hello support, the audit log is not working as expected. Nobody in the office can work until this clears. The invoice does not match the seats we agreed.",0
+T-2036,pro,51,37,449.15,5,37.7,"Hi, we've been having trouble with the API rate limits again. We've been round this loop before with your team. The invoice does not match the seats we agreed. A colleague has been pushing us towards Brightloom for this reason.",1
+T-2037,pro,41,47,591.02,6,17.2,"Hello support, the seat provisioning screen is not working as expected.",0
+T-2038,pro,12,37,476.34,8,8.7,"Logging a ticket about the dashboard filters. Not urgent, just logging it. Thanks for your help.",0
+T-2039,pro,6,47,590.06,1,1.6,Raising this again: the API rate limits. Happy to jump on a call whenever suits. Thanks for your help.,0
+T-2040,free,48,2,11.0,3,17.5,We need help with the Slack integration. Appreciate it.,1
+T-2041,pro,31,7,97.23,2,6.3,Quick one - the mobile app sync keeps failing for us. We reported the same thing last month and it came back. What notice period do we need to give to terminate?,0
+T-2042,free,1,1,7.33,6,1.7,"Hi, we've been having trouble with the seat provisioning screen again. We are trialling Coalesce alongside you at the moment. Appreciate it.",1
+T-2043,free,9,4,21.4,6,7.5,Raising this again: the Slack integration. We reported the same thing last month and it came back. Frankly the equivalent feature in Zendrift just works.,0
+T-2044,pro,53,26,321.88,0,30.4,"the dashboard filters has been unreliable this week. Not urgent, just logging it. Appreciate it.",0
+T-2045,enterprise,10,594,13094.03,8,0.4,"We need help with the weekly digest email. We reported the same thing last month and it came back. The invoice does not match the seats we agreed. Not urgent, just logging it.",0
+T-2046,pro,23,25,333.19,0,17.8,"Hello support, the weekly digest email is not working as expected. Same symptoms as the ticket we opened in the spring. Whenever someone gets a chance is fine. Appreciate it.",0
+T-2047,pro,14,11,141.28,1,23.5,"Hello support, the mobile app sync is not working as expected. No rush on this one.",0
+T-2048,enterprise,17,745,16416.62,0,4.5,"Hi, we've been having trouble with the SSO login flow again. Same symptoms as the ticket we opened in the spring. We are trialling Coalesce alongside you at the moment. At this point I'm not sure we'll stay past the contract. Cheers.",0
+T-2049,enterprise,35,446,9841.75,2,0.3,Raising this again: the CSV export. This is the fourth time we've raised it. Appreciate it.,0
+T-2050,pro,41,11,167.41,4,2.3,We need help with the Slack integration. This is the fourth time we've raised it. Whenever someone gets a chance is fine. Many thanks.,0
+T-2051,pro,54,7,96.71,5,5.0,Quick one - the invoice download keeps failing for us. We reported the same thing last month and it came back.,0
+T-2052,free,16,1,7.72,3,39.4,We need help with the billing portal. This is the fourth time we've raised it. Happy to jump on a call whenever suits.,1
+T-2053,pro,18,7,104.52,0,0.5,Raising this again: the webhook retries. We reported the same thing last month and it came back. Cheers.,0
+T-2054,pro,13,11,145.87,0,18.5,"the SSO login flow has been unreliable this week. Not urgent, just logging it. Thanks for your help.",0
+T-2055,pro,1,18,241.81,8,0.3,Logging a ticket about the API rate limits. Frankly the equivalent feature in Zendrift just works. Whenever someone gets a chance is fine.,0
+T-2056,free,28,2,17.09,9,19.5,"Hi, we've been having trouble with the seat provisioning screen again. Same symptoms as the ticket we opened in the spring. Frankly the equivalent feature in Zendrift just works. Happy to jump on a call whenever suits. Cheers.",0
+T-2057,pro,34,40,517.93,1,38.1,"Hello support, the Slack integration is not working as expected. This is the fourth time we've raised it. The invoice does not match the seats we agreed. Happy to jump on a call whenever suits.",1
+T-2058,enterprise,28,789,17381.53,2,3.6,"We need help with the webhook retries. We reported the same thing last month and it came back. Not urgent, just logging it. Cheers.",0
+T-2059,pro,56,55,666.73,1,0.9,Logging a ticket about the Slack integration. We were also charged twice on the last invoice. If this isn't fixed we will be looking elsewhere. Cheers.,0
+T-2060,free,57,4,0.88,2,0.8,Logging a ticket about the API rate limits. We were also charged twice on the last invoice. Cheers.,0
+T-2061,pro,36,48,610.72,0,0.4,"Hello support, the webhook retries is not working as expected. We are trialling Coalesce alongside you at the moment. Happy to jump on a call whenever suits.",0
+T-2062,pro,56,48,600.8,0,27.1,Raising this again: the audit log. Our customers are seeing errors because of it. Appreciate it.,1
+T-2063,pro,38,7,94.35,0,20.7,the mobile app sync has been unreliable this week. Many thanks.,0
+T-2064,enterprise,46,539,11875.13,4,1.0,We need help with the SSO login flow. Same symptoms as the ticket we opened in the spring. Appreciate it.,0
+T-2065,free,7,3,17.62,8,21.1,Logging a ticket about the weekly digest email. No rush on this one. Many thanks.,1
+T-2066,pro,58,19,230.79,7,0.5,"Hello support, the dashboard filters is not working as expected. Appreciate it.",0
+T-2067,free,36,5,34.49,4,3.9,Quick one - the SSO login flow keeps failing for us. My team is completely blocked and cannot ship today. Cheers.,0
+T-2068,pro,31,60,758.91,1,7.9,"Hello support, the API rate limits is not working as expected. We've been round this loop before with your team. We were also charged twice on the last invoice. Whenever someone gets a chance is fine. Cheers.",0
+T-2069,pro,38,55,687.27,8,3.2,"Hi, we've been having trouble with the weekly digest email again. We are trialling Coalesce alongside you at the moment. No rush on this one. Cheers.",0
+T-2070,pro,37,17,241.45,9,3.2,"Hello support, the API rate limits is not working as expected. Same symptoms as the ticket we opened in the spring. Many thanks.",0
+T-2071,enterprise,12,663,14625.86,2,41.7,"Hi, we've been having trouble with the billing portal again. No rush on this one. Thanks for your help.",0
+T-2072,free,28,4,18.83,4,0.9,Logging a ticket about the seat provisioning screen. Nobody in the office can work until this clears.,0
+T-2073,enterprise,5,595,13126.45,9,9.2,"Hello support, the weekly digest email is not working as expected. No rush on this one.",0
+T-2074,enterprise,28,609,13435.95,9,3.7,the API rate limits has been unreliable this week. This is the fourth time we've raised it.,0
+T-2075,pro,16,10,140.42,9,2.8,the seat provisioning screen has been unreliable this week. My team is completely blocked and cannot ship today. Thanks for your help.,0
+T-2076,pro,17,26,334.33,3,2.7,Logging a ticket about the weekly digest email. Our other vendor handles this without any fuss. Many thanks.,1
+T-2077,enterprise,17,475,10468.98,0,3.1,the webhook retries has been unreliable this week. My team is completely blocked and cannot ship today. A colleague has been pushing us towards Brightloom for this reason. Appreciate it.,0
+T-2078,enterprise,51,678,14929.94,6,1.0,Raising this again: the seat provisioning screen. Our other vendor handles this without any fuss.,0
+T-2079,pro,5,34,440.93,7,33.7,Quick one - the SSO login flow keeps failing for us. There's a line on the bill nobody here recognises. Happy to jump on a call whenever suits.,0
+T-2080,free,11,3,16.02,9,0.7,"Hello support, the Slack integration is not working as expected. The invoice does not match the seats we agreed. Frankly the equivalent feature in Zendrift just works. Not urgent, just logging it. Many thanks.",1
+T-2081,enterprise,17,519,11457.79,6,14.6,"Hi, we've been having trouble with the CSV export again. There's a line on the bill nobody here recognises. Many thanks.",0
+T-2082,enterprise,33,182,4038.81,1,1.1,"Hello support, the CSV export is not working as expected. Our customers are seeing errors because of it. The invoice does not match the seats we agreed. Cheers.",1
+T-2083,pro,11,33,430.3,7,2.2,We need help with the SSO login flow. We reported the same thing last month and it came back. Appreciate it.,0
+T-2084,enterprise,59,338,7474.64,7,3.0,Raising this again: the SSO login flow. Our customers are seeing errors because of it. We were also charged twice on the last invoice.,0
+T-2085,pro,22,28,350.2,4,30.9,We need help with the audit log. Nobody in the office can work until this clears. There's a line on the bill nobody here recognises. Many thanks.,1
+T-2086,pro,18,25,313.7,0,2.6,"Hi, we've been having trouble with the mobile app sync again. This is the fourth time we've raised it. This is stopping our month-end close right now. The invoice does not match the seats we agreed. Appreciate it.",0
+T-2087,free,60,1,5.78,0,1.8,the billing portal has been unreliable this week. Our customers are seeing errors because of it. The invoice does not match the seats we agreed. I've been asked to justify keeping this contract. Many thanks.,1
+T-2088,pro,33,31,402.57,9,43.0,Raising this again: the invoice download. Cheers.,1
+T-2089,pro,53,28,357.27,2,0.3,Quick one - the webhook retries keeps failing for us. At this point I'm not sure we'll stay past the contract.,0
+T-2090,enterprise,52,862,18990.26,0,28.5,"Hello support, the seat provisioning screen is not working as expected. This is the fourth time we've raised it. Happy to jump on a call whenever suits. Appreciate it.",0
+T-2091,pro,22,7,92.11,5,5.6,Raising this again: the webhook retries. We were also charged twice on the last invoice. Frankly the equivalent feature in Zendrift just works. I've been asked to justify keeping this contract. Thanks for your help.,0
+T-2092,pro,48,48,615.02,3,3.2,Raising this again: the billing portal. Frankly the equivalent feature in Zendrift just works. Can you tell me the process for closing the account and exporting our data? Many thanks.,0
+T-2093,pro,3,32,410.1,5,4.6,the audit log has been unreliable this week. Same symptoms as the ticket we opened in the spring. Cheers.,0
+T-2094,pro,43,43,540.26,4,5.7,"Hi, we've been having trouble with the weekly digest email again. Same symptoms as the ticket we opened in the spring. Whenever someone gets a chance is fine. Thanks for your help.",0
+T-2095,pro,20,20,241.08,3,2.6,We need help with the API rate limits. Appreciate it.,0
+T-2096,pro,34,48,612.33,3,38.2,the weekly digest email has been unreliable this week.,0
+T-2097,enterprise,34,284,6284.66,2,0.9,Quick one - the SSO login flow keeps failing for us. Nobody in the office can work until this clears. Cheers.,0
+T-2098,free,12,1,33.08,4,1.2,"Hi, we've been having trouble with the Slack integration again. We've been round this loop before with your team. My team is completely blocked and cannot ship today. There's a line on the bill nobody here recognises. Frankly the equivalent feature in Zendrift just works. Thanks for your help.",1
+T-2099,free,44,4,14.38,0,0.4,the CSV export has been unreliable this week. We reported the same thing last month and it came back. Our other vendor handles this without any fuss. We are seriously reconsidering the renewal. Can you tell me the process for closing the account and exporting our data? Cheers.,1
+T-2100,pro,35,36,453.32,2,1.6,"Hi, we've been having trouble with the dashboard filters again. There's a line on the bill nobody here recognises. Whenever someone gets a chance is fine.",0
+T-2101,pro,40,13,186.84,2,33.9,Raising this again: the seat provisioning screen. Same symptoms as the ticket we opened in the spring. Thanks for your help.,0
+T-2102,pro,44,45,548.33,5,0.5,Logging a ticket about the seat provisioning screen. There's a line on the bill nobody here recognises. Many thanks.,0
+T-2103,pro,2,58,707.22,4,0.9,the seat provisioning screen has been unreliable this week. This is the fourth time we've raised it. Our customers are seeing errors because of it. Many thanks.,1
+T-2104,enterprise,40,664,14609.26,6,2.6,"Hello support, the seat provisioning screen is not working as expected. Frankly the equivalent feature in Zendrift just works.",0
+T-2105,pro,31,41,518.96,1,7.9,We need help with the Slack integration. Many thanks.,0
+T-2106,pro,55,43,530.85,9,4.0,the invoice download has been unreliable this week.,0
+T-2107,enterprise,35,780,17172.41,1,44.9,We need help with the CSV export. A colleague has been pushing us towards Brightloom for this reason. No rush on this one.,0
+T-2108,pro,32,25,301.12,5,0.8,Raising this again: the SSO login flow. Same symptoms as the ticket we opened in the spring. No rush on this one. Cheers.,0
+T-2109,enterprise,14,513,11300.14,8,46.7,"Hello support, the dashboard filters is not working as expected. Same symptoms as the ticket we opened in the spring. We are seriously reconsidering the renewal. Many thanks.",1
+T-2110,pro,40,25,339.24,2,18.7,We need help with the dashboard filters. Same symptoms as the ticket we opened in the spring. If this isn't fixed we will be looking elsewhere. Cheers.,0
+T-2111,pro,12,11,159.84,5,1.1,We need help with the weekly digest email. No rush on this one.,0
+T-2112,free,42,5,15.28,1,3.8,"Hello support, the CSV export is not working as expected. Cheers.",0
+T-2113,pro,44,36,468.8,6,1.4,"Hello support, the mobile app sync is not working as expected. Whenever someone gets a chance is fine. Cheers.",0
+T-2114,pro,15,40,490.04,2,7.2,We need help with the Slack integration. This is the fourth time we've raised it. My team is completely blocked and cannot ship today. How do I get a full export of everything before we wind down?,1
+T-2115,free,36,2,15.51,8,2.9,We need help with the weekly digest email.,0
+T-2116,pro,21,26,312.87,9,0.3,Raising this again: the billing portal. A colleague has been pushing us towards Brightloom for this reason. If this isn't fixed we will be looking elsewhere. Many thanks.,1
+T-2117,free,46,5,28.6,9,2.0,"Hi, we've been having trouble with the dashboard filters again. We've been round this loop before with your team. We are trialling Coalesce alongside you at the moment.",1
+T-2118,enterprise,24,842,18544.35,2,35.0,"Hi, we've been having trouble with the dashboard filters again. Nobody in the office can work until this clears. Cheers.",1
+T-2119,free,20,5,8.52,3,5.0,the dashboard filters has been unreliable this week. This is stopping our month-end close right now. Appreciate it.,0
+T-2120,enterprise,20,251,5554.3,8,9.3,"Hi, we've been having trouble with the Slack integration again. Whenever someone gets a chance is fine. Thanks for your help.",0
+T-2121,enterprise,34,733,16133.53,8,30.3,the SSO login flow has been unreliable this week. This is stopping our month-end close right now. Many thanks.,0
+T-2122,enterprise,26,719,15830.95,6,1.8,Quick one - the seat provisioning screen keeps failing for us. There's a line on the bill nobody here recognises. Cheers.,1
+T-2123,enterprise,39,154,3408.5,4,0.8,Logging a ticket about the dashboard filters. Happy to jump on a call whenever suits. Cheers.,0
+T-2124,pro,44,24,313.06,7,1.6,"Hello support, the mobile app sync is not working as expected. This is the fourth time we've raised it. Not urgent, just logging it. Appreciate it.",0
+T-2125,pro,32,36,440.6,2,0.5,Raising this again: the audit log. Nobody in the office can work until this clears. If this isn't fixed we will be looking elsewhere. Many thanks.,1
+T-2126,free,56,1,16.16,7,14.3,We need help with the weekly digest email. We were also charged twice on the last invoice. Many thanks.,1
+T-2127,pro,33,26,327.19,9,25.8,"We need help with the CSV export. Not urgent, just logging it. Many thanks.",1
+T-2128,enterprise,44,788,17359.7,2,26.0,the invoice download has been unreliable this week. There's a line on the bill nobody here recognises. I've been asked to justify keeping this contract. Appreciate it.,0
+T-2129,enterprise,17,781,17187.51,2,35.3,"Hi, we've been having trouble with the webhook retries again. We've been round this loop before with your team. This is stopping our month-end close right now. Many thanks.",0
+T-2130,pro,5,5,77.23,7,0.3,Raising this again: the dashboard filters. Whenever someone gets a chance is fine. Thanks for your help.,0
+T-2131,free,6,2,23.41,5,0.5,Raising this again: the CSV export. We reported the same thing last month and it came back.,1
+T-2132,free,56,1,16.66,9,1.4,"Hello support, the invoice download is not working as expected. We are seriously reconsidering the renewal.",1
+T-2133,free,52,4,6.67,1,2.0,Raising this again: the seat provisioning screen. Same symptoms as the ticket we opened in the spring. Frankly the equivalent feature in Zendrift just works. Cheers.,0
+T-2134,enterprise,17,739,16288.36,1,3.1,Logging a ticket about the SSO login flow. Frankly the equivalent feature in Zendrift just works. Cheers.,0
+T-2135,free,16,3,3.73,8,3.2,"Hi, we've been having trouble with the weekly digest email again. We are seriously reconsidering the renewal.",1
+T-2136,free,36,3,8.75,6,1.6,Raising this again: the seat provisioning screen. This is the fourth time we've raised it.,0
+T-2137,pro,44,18,244.16,5,1.2,Logging a ticket about the billing portal. A colleague has been pushing us towards Brightloom for this reason. At this point I'm not sure we'll stay past the contract. Many thanks.,1
+T-2138,free,7,2,29.26,6,3.8,Raising this again: the API rate limits. If this isn't fixed we will be looking elsewhere. Thanks for your help.,1
+T-2139,enterprise,18,552,12177.06,7,17.1,"Hi, we've been having trouble with the Slack integration again. Cheers.",0
+T-2140,free,57,3,12.9,0,0.4,Raising this again: the invoice download. Our customers are seeing errors because of it.,0
+T-2141,pro,16,55,666.96,2,0.3,Quick one - the weekly digest email keeps failing for us. If this isn't fixed we will be looking elsewhere.,1
+T-2142,enterprise,26,363,7986.5,3,1.9,"Hi, we've been having trouble with the webhook retries again. Nobody in the office can work until this clears. We were also charged twice on the last invoice.",0
+T-2143,pro,22,10,159.06,5,1.1,Raising this again: the invoice download. We've been round this loop before with your team. No rush on this one. Many thanks.,0
+T-2144,pro,25,46,572.19,7,18.4,We need help with the SSO login flow. No rush on this one.,0
+T-2145,enterprise,55,228,5033.09,9,19.0,Logging a ticket about the CSV export. Many thanks.,0
+T-2146,pro,4,46,584.57,7,1.1,Quick one - the dashboard filters keeps failing for us. This is the fourth time we've raised it. At this point I'm not sure we'll stay past the contract.,1
+T-2147,pro,60,23,281.67,6,0.7,Logging a ticket about the seat provisioning screen. This is stopping our month-end close right now. Many thanks.,0
+T-2148,pro,52,21,253.9,1,0.5,Raising this again: the Slack integration. We reported the same thing last month and it came back. No rush on this one.,0
+T-2149,pro,13,38,495.06,1,1.0,"Hello support, the dashboard filters is not working as expected. Same symptoms as the ticket we opened in the spring. My team is completely blocked and cannot ship today. Thanks for your help.",0
+T-2150,pro,42,15,191.62,4,1.4,"Hi, we've been having trouble with the SSO login flow again. There's a line on the bill nobody here recognises. Not urgent, just logging it.",0
+T-2151,pro,41,33,408.22,9,27.9,Raising this again: the weekly digest email. My team is completely blocked and cannot ship today. Cheers.,0
+T-2152,free,46,5,17.58,8,7.1,We need help with the API rate limits. No rush on this one.,0
+T-2153,pro,49,14,173.04,2,5.7,Raising this again: the seat provisioning screen. We reported the same thing last month and it came back. Frankly the equivalent feature in Zendrift just works. Cheers.,0
+T-2154,free,2,1,10.66,1,0.3,Quick one - the audit log keeps failing for us. Happy to jump on a call whenever suits.,0
+T-2155,free,45,1,22.82,6,0.3,Quick one - the dashboard filters keeps failing for us. This is the fourth time we've raised it. My team is completely blocked and cannot ship today. We were also charged twice on the last invoice. Many thanks.,1
+T-2156,free,33,5,36.19,7,3.2,"Hello support, the Slack integration is not working as expected. Not urgent, just logging it. Thanks for your help.",1
+T-2157,pro,48,7,119.46,9,0.5,We need help with the invoice download. Same symptoms as the ticket we opened in the spring. My team is completely blocked and cannot ship today. Appreciate it.,0
+T-2158,pro,33,32,413.28,6,2.2,Raising this again: the invoice download. Same symptoms as the ticket we opened in the spring. No rush on this one. Thanks for your help.,0
+T-2159,pro,47,50,629.12,7,33.7,We need help with the invoice download. We reported the same thing last month and it came back. We were also charged twice on the last invoice. Many thanks.,0
+T-2160,free,50,3,4.27,4,35.7,"Hello support, the API rate limits is not working as expected. Our customers are seeing errors because of it. There's a line on the bill nobody here recognises. If this isn't fixed we will be looking elsewhere. How do I get a full export of everything before we wind down?",1
+T-2161,pro,31,49,593.01,6,45.4,"Hi, we've been having trouble with the audit log again. Frankly the equivalent feature in Zendrift just works. I've been asked to justify keeping this contract. Can you tell me the process for closing the account and exporting our data? Many thanks.",1
+T-2162,enterprise,35,113,2515.04,1,0.7,the audit log has been unreliable this week. We are seriously reconsidering the renewal.,0
+T-2163,enterprise,19,77,1710.78,9,7.4,Quick one - the mobile app sync keeps failing for us. Our customers are seeing errors because of it. We were also charged twice on the last invoice. Cheers.,0
+T-2164,free,19,3,1.29,9,9.9,We need help with the Slack integration. We reported the same thing last month and it came back. We were also charged twice on the last invoice. At this point I'm not sure we'll stay past the contract.,1
+T-2165,pro,16,13,180.05,0,0.4,Raising this again: the weekly digest email. We reported the same thing last month and it came back. Nobody in the office can work until this clears.,0
+T-2166,pro,42,36,461.72,8,15.1,Raising this again: the dashboard filters. Frankly the equivalent feature in Zendrift just works. No rush on this one. Cheers.,0
+T-2167,pro,59,22,291.39,1,21.8,Raising this again: the billing portal. A colleague has been pushing us towards Brightloom for this reason. No rush on this one.,1
+T-2168,pro,53,28,345.58,1,0.5,Quick one - the audit log keeps failing for us. This is the fourth time we've raised it. We are seriously reconsidering the renewal. Appreciate it.,0
+T-2169,pro,53,20,242.0,3,3.0,Quick one - the dashboard filters keeps failing for us.,0

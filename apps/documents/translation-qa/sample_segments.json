@@ -1,0 +1,62 @@
+[
+  {
+    "id": "s01",
+    "source": "Your subscription renews automatically at the end of each billing period.",
+    "target": "Tu suscripción se renueva automáticamente al final de cada periodo de facturación."
+  },
+  {
+    "id": "s02",
+    "source": "We do not share your personal data with advertisers.",
+    "target": "Compartimos tus datos personales con anunciantes."
+  },
+  {
+    "id": "s03",
+    "source": "Refund requests must be submitted within thirty days of purchase.",
+    "target": "Las solicitudes de reembolso deben enviarse dentro de los sesenta días posteriores a la compra."
+  },
+  {
+    "id": "s04",
+    "source": "Administrators must enable two-factor authentication for every account.",
+    "target": "Los administradores pueden activar la autenticación de dos factores en cada cuenta."
+  },
+  {
+    "id": "s05",
+    "source": "The service is available in all regions except mainland China, where a separate agreement applies.",
+    "target": "El servicio está disponible en todas las regiones."
+  },
+  {
+    "id": "s06",
+    "source": "Support responds to tickets during business hours.",
+    "target": "El soporte responde a los tickets durante el horario laboral y garantiza una respuesta en menos de una hora."
+  },
+  {
+    "id": "s07",
+    "source": "The migration is actually complete; no further action is needed.",
+    "target": "La migración está actualmente completa; no se necesita ninguna acción adicional."
+  },
+  {
+    "id": "s08",
+    "source": "Rolling out this change will be a piece of cake for your team.",
+    "target": "Implementar este cambio será pan comido para tu equipo."
+  },
+  {
+    "id": "s09",
+    "source": "Please bear in mind that legacy API keys stop working on the migration date.",
+    "target": "Ten en cuenta que las claves de API antiguas dejarán de funcionar en la fecha de migración."
+  },
+  {
+    "id": "s10",
+    "source": "We're sorry for the inconvenience.",
+    "target": "Lamentamos las molestias ocasionadas."
+  },
+  {
+    "id": "s11",
+    "source": "Export your audit log as a CSV file from the Security tab.",
+    "target": "Exporta tu registro de auditoría como archivo CSV desde la pestaña Seguridad."
+  },
+  {
+    "id": "s12",
+    "source": "The customer indemnifies the vendor against third-party claims.",
+    "target": "El proveedor indemniza al cliente frente a reclamaciones de terceros."
+  }
+]

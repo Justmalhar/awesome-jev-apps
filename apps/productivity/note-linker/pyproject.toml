@@ -1,0 +1,6 @@
+[project]
+name = "note-linker"
+version = "0.1.0"
+description = "Given a new note, find which existing notes in a vault it should link to."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

@@ -1,0 +1,39 @@
+{
+  "start": "cellar",
+  "rooms": {
+    "cellar": {
+      "name": "The flooded cellar",
+      "description": "Ankle-deep water, a smell of wet stone. A rusted grate is set into the far wall, its bars bent apart just short of a gap you could fit through. A packing crate floats against one corner. A brass lantern hangs from a nail, unlit.",
+      "objects": {
+        "grate": "A rusted iron grate over a low opening. The bars are bent but not bent enough.",
+        "crate": "A wooden packing crate, waterlogged but solid enough to stand on.",
+        "lantern": "A brass lantern hanging from a nail. There is oil in it. It is not lit.",
+        "water": "Cold standing water, about ankle deep."
+      },
+      "takeable": ["lantern", "crate"],
+      "exits": {"grate": {"to": "tunnel", "requires": "crowbar"}}
+    },
+    "tunnel": {
+      "name": "The service tunnel",
+      "description": "A brick tunnel running east, low enough that you stoop. A crowbar lies in the muck where someone dropped it. At the far end, a steel door with a keypad beside it, its cover hanging off.",
+      "objects": {
+        "crowbar": "A heavy steel crowbar, pitted with rust but intact.",
+        "door": "A steel door with no handle on this side. A keypad beside it, cover hanging off.",
+        "keypad": "A keypad with its cover hanging off, wires exposed.",
+        "muck": "Silt and brick dust, deep enough to hide things in."
+      },
+      "takeable": ["crowbar"],
+      "exits": {"door": {"to": "yard", "requires": "crowbar"}}
+    },
+    "yard": {
+      "name": "The loading yard",
+      "description": "Open air at last. Floodlights, a chain-link fence, and a gate standing open onto the road.",
+      "objects": {
+        "gate": "A chain-link gate, standing open.",
+        "fence": "Chain-link fence, taller than you, topped with nothing in particular."
+      },
+      "takeable": [],
+      "exits": {}
+    }
+  }
+}

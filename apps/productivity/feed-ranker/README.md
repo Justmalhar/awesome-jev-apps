@@ -7,7 +7,9 @@ in *your* order.
 > compilers, and databases. I do not care about crypto, startup drama, hiring
 > posts, or US political news."*
 
-## The two things this app is actually demonstrating
+## Why this needs Jev
+
+Two properties, and the second is the one people miss.
 
 ### 1. Batch everything into one request
 
@@ -71,3 +73,13 @@ puts everything on 0–1 so the weights mean what they look like they mean.
 `fetch_front_page()` is 15 lines and returns `[{title, url, points, comments}]`.
 Point it at your RSS reader, arXiv, a subreddit, or your company's PR queue and
 nothing else changes.
+
+## Limits
+
+`jev-1.13` cannot count, do arithmetic, or compare dates — every figure shown by
+this app is computed in Python from the model's judgments. It also reads
+literally: if an answer surprises you, the missing half of the instruction is
+usually the thing you would have said out loud to explain what you meant. See
+the [jaggedness notes](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
+
+Nothing here has been verified against a live API response yet.

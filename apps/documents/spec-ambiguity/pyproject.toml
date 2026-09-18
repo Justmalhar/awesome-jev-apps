@@ -1,0 +1,6 @@
+[project]
+name = "spec-ambiguity"
+version = "0.1.0"
+description = "Find the sentences in a specification that two engineers would implement differently."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

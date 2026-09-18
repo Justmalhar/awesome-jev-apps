@@ -1,0 +1,6 @@
+[project]
+name = "memory-filter"
+version = "0.1.0"
+description = "Rank an entire agent memory store for one turn in a single request."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]

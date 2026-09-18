@@ -1,0 +1,6 @@
+[project]
+name = "citation-verifier"
+version = "0.1.0"
+description = "Check every claim against the source it cites, with review flags."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]

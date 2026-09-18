@@ -1,0 +1,29 @@
+{
+  "memories": [
+    {"id": "m-01", "stored": "2025-11-03", "text": "User prefers answers in British English spelling."},
+    {"id": "m-02", "stored": "2025-11-03", "text": "User works at a logistics company, mainly on the routing service."},
+    {"id": "m-03", "stored": "2025-12-14", "text": "User's team standardised on Postgres 15 for all new services."},
+    {"id": "m-04", "stored": "2026-03-02", "text": "User's team migrated off Postgres 15 to Postgres 17 after the routing incident."},
+    {"id": "m-05", "stored": "2025-09-21", "text": "User does not want code comments unless the logic is genuinely non-obvious."},
+    {"id": "m-06", "stored": "2026-01-08", "text": "User asked once about the best sandwich shop near Liverpool Street."},
+    {"id": "m-07", "stored": "2026-02-11", "text": "User decided against introducing Kafka; the team uses Postgres LISTEN/NOTIFY for the event fan-out."},
+    {"id": "m-08", "stored": "2025-10-30", "text": "User is allergic to shellfish."},
+    {"id": "m-09", "stored": "2026-04-19", "text": "The routing service has a hard requirement that p99 latency stays under 120ms."},
+    {"id": "m-10", "stored": "2026-02-02", "text": "User dislikes being given three options and asked to choose; they want one recommendation with the reasoning."},
+    {"id": "m-11", "stored": "2025-08-14", "text": "User previously used MongoDB at a former employer and found the migration painful."},
+    {"id": "m-12", "stored": "2026-05-06", "text": "The routing service's read replicas are in eu-west-2 and the primary is in eu-west-1."},
+    {"id": "m-13", "stored": "2026-01-22", "text": "User's manager is Priya; weekly one-to-one on Thursdays."},
+    {"id": "m-14", "stored": "2026-03-30", "text": "User prefers uv over pip and will not merge a PR that adds a requirements.txt."},
+    {"id": "m-15", "stored": "2025-12-01", "text": "User's laptop is a 16GB M2 MacBook Air; local Docker builds are slow."},
+    {"id": "m-16", "stored": "2026-06-11", "text": "The team's connection pooling is PgBouncer in transaction mode, which rules out session-level advisory locks."},
+    {"id": "m-17", "stored": "2026-04-02", "text": "User is learning Portuguese ahead of a move to Lisbon next year."},
+    {"id": "m-18", "stored": "2026-05-28", "text": "The routing service's nightly batch job runs at 02:00 UTC and saturates the primary's connection pool."},
+    {"id": "m-19", "stored": "2025-07-19", "text": "User's first language is English and they are comfortable with dense technical writing."},
+    {"id": "m-20", "stored": "2026-06-30", "text": "User asked to stop being reminded about the Kafka decision; it is settled."}
+  ],
+  "turns": [
+    {"id": "t-1", "text": "Our Postgres primary keeps saturating the connection pool right after the nightly batch. What should I change first?"},
+    {"id": "t-2", "text": "Draft a short note to my manager about the latency work this week."},
+    {"id": "t-3", "text": "Where should we go for lunch on Thursday?"}
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "R-01",
+    "mandatory": true,
+    "text": "The supplier shall host all citizen data within UK data centres and shall not replicate or back up that data outside the United Kingdom."
+  },
+  {
+    "id": "R-02",
+    "mandatory": true,
+    "text": "The supplier shall hold a current ISO/IEC 27001 certificate covering the services in scope, and shall maintain it for the term of the contract."
+  },
+  {
+    "id": "R-03",
+    "mandatory": true,
+    "text": "The solution shall meet WCAG 2.2 Level AA for all citizen-facing screens, evidenced by an independent accessibility audit before go-live."
+  },
+  {
+    "id": "R-04",
+    "mandatory": true,
+    "text": "The supplier shall provide a service availability of at least 99.9% measured monthly, with service credits payable where availability falls below that level."
+  },
+  {
+    "id": "R-05",
+    "mandatory": true,
+    "text": "The supplier shall notify the Authority of any personal data breach within 24 hours of becoming aware of it."
+  },
+  {
+    "id": "R-06",
+    "mandatory": true,
+    "text": "On expiry or termination the supplier shall export all Authority data in an open, documented, machine-readable format at no additional charge."
+  },
+  {
+    "id": "R-07",
+    "mandatory": true,
+    "text": "The supplier shall provide a named service delivery manager and a documented escalation path with response targets for P1 incidents."
+  },
+  {
+    "id": "R-08",
+    "mandatory": false,
+    "text": "The solution shall integrate with the Authority's existing GOV.UK Notify account for outbound email and SMS notifications."
+  },
+  {
+    "id": "R-09",
+    "mandatory": false,
+    "text": "The supplier shall provide an open, documented REST API permitting the Authority to extract case data on demand."
+  },
+  {
+    "id": "R-10",
+    "mandatory": false,
+    "text": "The supplier shall deliver role-based training for up to 200 Authority staff, including recorded sessions retained for the contract term."
+  },
+  {
+    "id": "R-11",
+    "mandatory": true,
+    "text": "All supplier personnel with access to citizen data shall hold a current Baseline Personnel Security Standard (BPSS) clearance."
+  },
+  {
+    "id": "R-12",
+    "mandatory": false,
+    "text": "The supplier shall publish a roadmap of planned product changes at least one quarter in advance and shall consult the Authority on breaking changes."
+  },
+  {
+    "id": "R-13",
+    "mandatory": true,
+    "text": "The supplier shall carry out an independent penetration test annually and share the full report and remediation plan with the Authority."
+  },
+  {
+    "id": "R-14",
+    "mandatory": false,
+    "text": "The solution shall support Welsh-language content for all citizen-facing screens and correspondence."
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "question": "What is the main reason you cancelled your subscription?",
+  "study": "StreamCo Q3 cancellation survey, n=3,140 open-ends (40 sampled here)",
+  "codes": [
+    {
+      "id": "price",
+      "label": "Price or value for money",
+      "description": "The cost was too high, a price rise pushed them out, they were cutting spending, or they judged it not worth what it cost."
+    },
+    {
+      "id": "low_usage",
+      "label": "Not using it enough",
+      "description": "They rarely opened it, forgot it existed, or their life changed so they no longer had time for it. About frequency of use, not quality."
+    },
+    {
+      "id": "missing_feature",
+      "label": "A capability they needed was absent or removed",
+      "description": "They name something the product does not do, stopped doing, or does worse than they need: offline mode, a device, an export, a plan tier."
+    },
+    {
+      "id": "bugs",
+      "label": "Technical faults",
+      "description": "Crashes, freezes, playback or loading failures, errors, things not working on their device. About the software breaking, not about it being confusing."
+    },
+    {
+      "id": "usability",
+      "label": "Hard to use or navigate",
+      "description": "Confusing interface, could not find things, too complicated, bad search or recommendations. The product worked but fighting it was the problem."
+    },
+    {
+      "id": "support",
+      "label": "Customer support experience",
+      "description": "Slow, unhelpful, rude or absent responses from support, chatbots that went nowhere, or an unresolved complaint."
+    },
+    {
+      "id": "competitor",
+      "label": "Moved to a competitor",
+      "description": "They switched to, or already had, a rival service. Naming a competitor or saying they went elsewhere both apply."
+    },
+    {
+      "id": "content",
+      "label": "Content or catalogue quality",
+      "description": "The library shrank, went stale, lost a title or show they wanted, or the quality of what is offered declined."
+    },
+    {
+      "id": "billing",
+      "label": "Billing and renewal handling",
+      "description": "An unexpected or duplicate charge, a renewal they did not intend, a failed refund, or a cancellation process that obstructed them."
+    },
+    {
+      "id": "temporary",
+      "label": "Pausing, intending to return",
+      "description": "They frame the cancellation as temporary: taking a break, pausing over summer, coming back when a show returns."
+    }
+  ]
+}

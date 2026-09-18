@@ -1,0 +1,62 @@
+[
+  {
+    "id": "c-01",
+    "claim": "The Series B round raised 48 million dollars.",
+    "source_id": "press-release-p2",
+    "source": "Helix Robotics today announced the close of a 48 million dollar Series B led by Marchmont Ventures, with participation from existing investors."
+  },
+  {
+    "id": "c-02",
+    "claim": "Helix Robotics is profitable.",
+    "source_id": "press-release-p2",
+    "source": "Helix Robotics today announced the close of a 48 million dollar Series B led by Marchmont Ventures, with participation from existing investors."
+  },
+  {
+    "id": "c-03",
+    "claim": "The Series B round raised 84 million dollars.",
+    "source_id": "press-release-p2",
+    "source": "Helix Robotics today announced the close of a 48 million dollar Series B led by Marchmont Ventures, with participation from existing investors."
+  },
+  {
+    "id": "c-04",
+    "claim": "Marchmont Ventures led the round and took a board seat.",
+    "source_id": "press-release-p2",
+    "source": "Helix Robotics today announced the close of a 48 million dollar Series B led by Marchmont Ventures, with participation from existing investors."
+  },
+  {
+    "id": "c-05",
+    "claim": "Retention improved after the pricing change.",
+    "source_id": "board-deck-slide9",
+    "source": "Net revenue retention fell from 118% to 104% in the two quarters following the March pricing change, driven by downgrades in the SMB segment."
+  },
+  {
+    "id": "c-06",
+    "claim": "SMB customers downgraded after the March pricing change.",
+    "source_id": "board-deck-slide9",
+    "source": "Net revenue retention fell from 118% to 104% in the two quarters following the March pricing change, driven by downgrades in the SMB segment."
+  },
+  {
+    "id": "c-07",
+    "claim": "The outage was caused by a failed database migration.",
+    "source_id": "incident-review-summary",
+    "source": "The incident review concluded that the root cause was a misconfigured load balancer health check which removed healthy nodes from rotation during the deploy."
+  },
+  {
+    "id": "c-08",
+    "claim": "The company's European headcount grew last year.",
+    "source_id": "annual-report-hr",
+    "source": "Our Amsterdam office moved to a larger space on the Keizersgracht in order to accommodate the design and support teams."
+  },
+  {
+    "id": "c-09",
+    "claim": "Nimbus Analytics uses a usage-based pricing model.",
+    "source_id": "competitor-page",
+    "source": "Nimbus Logistics charges per shipment scanned, with volume tiers that reduce the per-scan rate above 50,000 scans a month."
+  },
+  {
+    "id": "c-10",
+    "claim": "The trial met its primary endpoint.",
+    "source_id": "trial-abstract",
+    "source": "The study did not meet its primary endpoint of progression-free survival, although a prespecified subgroup showed a numerical improvement that did not reach statistical significance."
+  }
+]

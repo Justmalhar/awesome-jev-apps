@@ -1,0 +1,6 @@
+[project]
+name = "column-inferrer"
+version = "0.1.0"
+description = "Infer semantic types for undocumented warehouse columns from pandas profiles."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.2"]

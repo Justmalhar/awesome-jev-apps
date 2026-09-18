@@ -1,0 +1,23 @@
+{
+  "meeting": "Weekly sync — Payments migration",
+  "utterances": [
+    {"speaker": "Ravi", "text": "Alright, quick one today. Where are we on the settlement reconciliation job?"},
+    {"speaker": "Nina", "text": "It's mostly there. I'll have the reconciliation job running against the staging ledger by Thursday."},
+    {"speaker": "Ravi", "text": "Good. And did the finance team ever sign off on the new fee schedule?"},
+    {"speaker": "Tom", "text": "So finance have been really busy with quarter end, and there's a lot going on their side at the moment, you know how it is."},
+    {"speaker": "Ravi", "text": "Right, but is it signed off?"},
+    {"speaker": "Tom", "text": "I'll chase Priya today and get you a yes or no by end of day."},
+    {"speaker": "Nina", "text": "One thing worth flagging — the sandbox keeps dropping connections under load, and we can't reproduce it locally."},
+    {"speaker": "Ravi", "text": "That sounds like it could block the pilot. Is it the connection pool?"},
+    {"speaker": "Nina", "text": "Possibly. We haven't had time to dig in properly."},
+    {"speaker": "Tom", "text": "We had something similar last year and it turned out to be the load balancer idle timeout."},
+    {"speaker": "Ravi", "text": "Okay — let's go with the phased rollout rather than the big-bang cutover. That's decided, I'll write it up."},
+    {"speaker": "Nina", "text": "Works for me. Do we need a rollback plan documented before the pilot?"},
+    {"speaker": "Tom", "text": "I think we're all broadly aligned on risk appetite here, and the team has good instincts about this stuff."},
+    {"speaker": "Ravi", "text": "That's not really an answer, Tom. Do we need the document or not?"},
+    {"speaker": "Tom", "text": "Yes. I'll draft the rollback plan and share it before the pilot starts."},
+    {"speaker": "Nina", "text": "Last thing, the vendor contract renewal is coming up and nobody owns it yet."},
+    {"speaker": "Ravi", "text": "Noted. I'll take the vendor renewal and put it on next week's agenda."},
+    {"speaker": "Ravi", "text": "Thanks everyone, that's it."}
+  ]
+}

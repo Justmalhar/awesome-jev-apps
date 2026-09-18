@@ -1,0 +1,7 @@
+# Patterns your fraud team has actually seen, one per line.
+S1: Asks the recipient to pay a fee, tax, or deposit before they can receive money, a prize, or goods.
+S2: Claims to be our platform's support team and asks the user to confirm a security code.
+S3: Offers a rental or a booking and asks for a deposit before any viewing or confirmation.
+S4: Offers work that requires the applicant to buy equipment, training, or a starter kit.
+S5: Asks the recipient to move to WhatsApp, Telegram, or personal email to finish the deal.
+S6: Requests payment by gift card, cryptocurrency, or transfer to a newly given account number.

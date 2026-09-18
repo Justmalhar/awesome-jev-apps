@@ -19,9 +19,9 @@ app. There is no repo-wide virtualenv to create and nothing to `pip install`.
 ## The catalog
 
 <!-- CATALOG:START -->
-**21 of 100 built.**
+**95 of 100 built.**
 
-### 🛠️ [Developer Tools](developer-tools) — 4/11
+### 🛠️ [Developer Tools](developer-tools) — 11/11
 
 Semantic checks over code, CI, and repo history. Cheap enough to run on every commit.
 
@@ -29,147 +29,147 @@ Semantic checks over code, CI, and repo history. Cheap enough to run on every co
 - **[CI failure triage](developer-tools/ci-triage)** — Real bug / flake / infra / dependency / config across CI history
 - **[PR risk scorer](developer-tools/pr-risk-scorer)** — Score a diff for blast radius and review depth needed
 - **[Flaky test finder](developer-tools/flaky-test-finder)** — Separate genuinely flaky tests from consistently failing ones
-- Issue deduplicator *(planned)* — Find the three issues that are the same bug
-- Breaking change detector *(planned)* — Flag diffs that break downstream consumers
-- Changelog classifier *(planned)* — Sort merged PRs into user-facing / internal / breaking
-- Log pattern miner *(planned)* — Cluster millions of log lines into named failure modes
-- Dependency auditor *(planned)* — Judge whether a changelog entry affects your usage
-- Test gap finder *(planned)* — Which behaviours in this module have no test
-- Incident tagger *(planned)* — Tag postmortems by cause class and contributing factors
+- **[Issue deduplicator](developer-tools/issue-deduper)** — Find the three issues that are the same bug
+- **[Breaking change detector](developer-tools/api-breaking-change)** — Flag diffs that break downstream consumers
+- **[Changelog classifier](developer-tools/changelog-classifier)** — Sort merged PRs into user-facing / internal / breaking
+- **[Log pattern miner](developer-tools/log-pattern-miner)** — Cluster millions of log lines into named failure modes
+- **[Dependency auditor](developer-tools/dependency-audit)** — Judge whether a changelog entry affects your usage
+- **[Test gap finder](developer-tools/test-gap-finder)** — Which behaviours in this module have no test
+- **[Incident tagger](developer-tools/incident-tagger)** — Tag postmortems by cause class and contributing factors
 
-### 📄 [Documents & Contracts](documents) — 4/11
+### 📄 [Documents & Contracts](documents) — 11/11
 
 Ask documents questions, diff them, and check them against requirements. Nothing is ever paraphrased.
 
 - **[Semantic Ctrl-F](documents/semantic-ctrl-f)** — Ask a lease or ToS a plain-English question, get the exact clause
 - **[Contract diff](documents/contract-diff)** — 'Our terms have changed' — what actually got worse for you
 - **[RFP compliance matrix](documents/rfp-compliance)** — Check a proposal covers all 60 requirements in a tender
-- Policy gap finder *(planned)* — Which controls in a standard are unaddressed by your policy
-- Invoice extractor *(planned)* — Pull totals, dates, and line items from messy invoices
-- Meeting action extractor *(planned)* — Commitments, owners, and deadlines from a transcript
+- **[Policy gap finder](documents/policy-gap-finder)** — Which controls in a standard are unaddressed by your policy
+- **[Invoice extractor](documents/invoice-extractor)** — Pull totals, dates, and line items from messy invoices
+- **[Meeting action extractor](documents/meeting-actions)** — Commitments, owners, and deadlines from a transcript
 - **[Spec ambiguity finder](documents/spec-ambiguity)** — Sentences in a spec that two engineers would read differently
-- Doc freshness auditor *(planned)* — Which docs contradict the current codebase
-- Clause library matcher *(planned)* — Match incoming contract clauses to your approved library
-- Redaction checker *(planned)* — Find PII and confidential detail before a document goes out
-- Translation QA *(planned)* — Flag translations that changed meaning, not just wording
+- **[Doc freshness auditor](documents/doc-freshness)** — Which docs contradict the current codebase
+- **[Clause library matcher](documents/clause-library)** — Match incoming contract clauses to your approved library
+- **[Redaction checker](documents/redaction-checker)** — Find PII and confidential detail before a document goes out
+- **[Translation QA](documents/translation-qa)** — Flag translations that changed meaning, not just wording
 
-### 🗄️ [Data Engineering](data) — 1/12
+### 🗄️ [Data Engineering](data) — 12/12
 
 Judgment applied per-row, per-pair, and per-field, at a price that makes whole-dataset passes ordinary.
 
 - **[Entity resolver](data/entity-resolver)** — Dedupe two merged CRM or product catalogs
-- Semantic data linter *(planned)* — Find rows whose fields contradict each other
-- Deep taxonomy classifier *(planned)* — File items into a 3-level taxonomy
-- ML feature extractor *(planned)* — Turn text into features, train a model, measure the lift
-- Schema mapper *(planned)* — Map one system's columns onto another's
-- Survey response coder *(planned)* — Code thousands of free-text answers against a codebook
-- Address normalizer *(planned)* — Reconcile inconsistent address formats to one record
-- Product catalog normalizer *(planned)* — Unify attributes across inconsistent supplier feeds
-- Column type inferrer *(planned)* — What IS this column, semantically, given its values
-- Anomaly explainer *(planned)* — Which detected outliers are real problems vs expected
-- PII column scanner *(planned)* — Which columns in a warehouse carry personal data
-- Training label auditor *(planned)* — Find mislabelled rows in an existing labelled dataset
+- **[Semantic data linter](data/data-linter)** — Find rows whose fields contradict each other
+- **[Deep taxonomy classifier](data/deep-classifier)** — File items into a 3-level taxonomy
+- **[ML feature extractor](data/ml-features)** — Turn text into features, train a model, measure the lift
+- **[Schema mapper](data/schema-mapper)** — Map one system's columns onto another's
+- **[Survey response coder](data/survey-coder)** — Code thousands of free-text answers against a codebook
+- **[Address normalizer](data/address-normalizer)** — Reconcile inconsistent address formats to one record
+- **[Product catalog normalizer](data/catalog-normalizer)** — Unify attributes across inconsistent supplier feeds
+- **[Column type inferrer](data/column-inferrer)** — What IS this column, semantically, given its values
+- **[Anomaly explainer](data/anomaly-narrator)** — Which detected outliers are real problems vs expected
+- **[PII column scanner](data/pii-scanner)** — Which columns in a warehouse carry personal data
+- **[Training label auditor](data/label-auditor)** — Find mislabelled rows in an existing labelled dataset
 
-### 🧠 [AI Infrastructure · Jev + LLM](ai-infrastructure) — 2/13
+### 🧠 [AI Infrastructure · Jev + LLM](ai-infrastructure) — 13/13
 
 Jev sitting in front of, behind, and around a generative model. Guarding every call costs a rounding error.
 
 - **[Agent tool router](ai-infrastructure/agent-tool-router)** — Pick from a 42-tool MCP catalog without stuffing schemas into context
 - **[LLM guardrails](ai-infrastructure/llm-guardrails)** — Screen every input, output, and tool call for hazards
-- Injection detector *(planned)* — Catch instructions hidden in retrieved or user content
-- RAG reranker *(planned)* — Drop-in for a cross-encoder or Cohere Rerank
-- RAG passage filter *(planned)* — Drop passages that contradict, mislead, or carry injections
-- Model router *(planned)* — Send easy turns to a cheap model, hard ones to a frontier one
-- Citation verifier *(planned)* — Check each claim against the source it cites
-- Grounding checker *(planned)* — Is this generated answer supported by the retrieved context
-- Agent trace classifier *(planned)* — Classify why agent runs failed, across thousands of traces
-- Eval judge *(planned)* — Score model outputs against a rubric, reproducibly
-- Agent memory filter *(planned)* — Which stored memories are relevant to this turn
-- Context compressor *(planned)* — Select which context to keep when the window is tight
-- Tool output validator *(planned)* — Did this tool actually return what was asked for
+- **[Injection detector](ai-infrastructure/prompt-injection-detector)** — Catch instructions hidden in retrieved or user content
+- **[RAG reranker](ai-infrastructure/rag-reranker)** — Drop-in for a cross-encoder or Cohere Rerank
+- **[RAG passage filter](ai-infrastructure/rag-passage-filter)** — Drop passages that contradict, mislead, or carry injections
+- **[Model router](ai-infrastructure/model-router)** — Send easy turns to a cheap model, hard ones to a frontier one
+- **[Citation verifier](ai-infrastructure/citation-verifier)** — Check each claim against the source it cites
+- **[Grounding checker](ai-infrastructure/hallucination-detector)** — Is this generated answer supported by the retrieved context
+- **[Agent trace classifier](ai-infrastructure/agent-trace-classifier)** — Classify why agent runs failed, across thousands of traces
+- **[Eval judge](ai-infrastructure/eval-judge)** — Score model outputs against a rubric, reproducibly
+- **[Agent memory filter](ai-infrastructure/memory-filter)** — Which stored memories are relevant to this turn
+- **[Context compressor](ai-infrastructure/context-compressor)** — Select which context to keep when the window is tight
+- **[Tool output validator](ai-infrastructure/tool-output-validator)** — Did this tool actually return what was asked for
 
-### 🏦 [Finance](finance) — 2/10
+### 🏦 [Finance](finance) — 8/10
 
 Every number computed in Python. The model only ever supplies judgment.
 
 - **[Statement categorizer](finance/statement-categorizer)** — Categorize years of bank and card transactions
 - **[Subscription auditor](finance/subscription-auditor)** — Find every recurring charge, including the forgotten ones
-- Expense policy checker *(planned)* — Which claims breach the written expense policy
-- Receipt triage *(planned)* — Match receipts to card transactions and flag the gaps
-- Invoice matcher *(planned)* — Three-way match: PO, invoice, delivery note
-- Vendor risk screener *(planned)* — Screen suppliers against risk criteria from their documents
-- Deduction classifier *(planned)* — Which expenses are plausibly deductible, with a review queue
-- Fraud signal extractor *(planned)* — Turn transaction narratives into risk features
+- **[Expense policy checker](finance/expense-policy-checker)** — Which claims breach the written expense policy
+- **[Receipt triage](finance/receipt-triage)** — Match receipts to card transactions and flag the gaps
+- **[Invoice matcher](finance/invoice-matcher)** — Three-way match: PO, invoice, delivery note
+- **[Vendor risk screener](finance/vendor-risk)** — Screen suppliers against risk criteria from their documents
+- **[Deduction classifier](finance/tax-classifier)** — Which expenses are plausibly deductible, with a review queue
+- **[Fraud signal extractor](finance/fraud-signals)** — Turn transaction narratives into risk features
 - Earnings call tagger *(planned)* — Tag guidance, hedging, and tone shifts across transcripts
 - Variance explainer *(planned)* — Classify why each line missed budget, from the notes
 
-### 📊 [Business & Operations](business-ops) — 1/11
+### 📊 [Business & Operations](business-ops) — 8/11
 
 Routing, qualification, and risk detection over the text a business already generates.
 
 - **[Lead qualifier](business-ops/lead-qualifier)** — Score inbound leads against your ICP, written as a paragraph
-- Support ticket triage *(planned)* — Route by issue, product area, urgency, and churn risk
-- Churn signal extractor *(planned)* — Early warning from support and sales conversations
-- Escalation detector *(planned)* — Which threads need a manager before they blow up
-- NPS comment coder *(planned)* — Theme thousands of open-ended survey comments
-- Sales call tagger *(planned)* — Objections, competitors, and next steps from call notes
-- Renewal risk scorer *(planned)* — Which accounts are quietly drifting toward non-renewal
-- Application screener *(planned)* — Screen applications against explicit, job-related criteria
+- **[Support ticket triage](business-ops/ticket-triage)** — Route by issue, product area, urgency, and churn risk
+- **[Churn signal extractor](business-ops/churn-signals)** — Early warning from support and sales conversations
+- **[Escalation detector](business-ops/escalation-detector)** — Which threads need a manager before they blow up
+- **[NPS comment coder](business-ops/nps-coder)** — Theme thousands of open-ended survey comments
+- **[Sales call tagger](business-ops/sales-call-tagger)** — Objections, competitors, and next steps from call notes
+- **[Renewal risk scorer](business-ops/renewal-risk)** — Which accounts are quietly drifting toward non-renewal
+- **[Application screener](business-ops/candidate-screener)** — Screen applications against explicit, job-related criteria
 - RFP response scorer *(planned)* — Score supplier responses against weighted criteria
 - Onboarding gap finder *(planned)* — Which steps a new hire's docs never actually explain
 - Competitor monitor *(planned)* — Which competitor updates actually matter to your roadmap
 
-### ⚡ [Personal Productivity](productivity) — 2/10
+### ⚡ [Personal Productivity](productivity) — 10/10
 
 Your own inbox, feeds, notes, and calendar — sorted by what you actually care about.
 
-- Inbox triage *(planned)* — What in my mail actually needs me today
+- **[Inbox triage](productivity/inbox-triage)** — What in my mail actually needs me today
 - **[Feed ranker](productivity/feed-ranker)** — Rank Hacker News against your interests, in one sentence
 - **[Calendar triage](productivity/calendar-triage)** — Which meetings you could skip or shorten
-- Reading queue ranker *(planned)* — Order a 400-item read-later pile by what you need now
-- Note linker *(planned)* — Find which existing notes a new note should link to
-- Channel digest *(planned)* — What happened in 12 channels that concerns you
-- Task prioritizer *(planned)* — Re-rank a task list against this week's actual goal
-- Newsletter filter *(planned)* — Keep the three items in a digest you'd have read
-- Bookmark organizer *(planned)* — File years of bookmarks into a taxonomy you describe
-- Standup assembler *(planned)* — Pull your actual week from commits, PRs and tickets
+- **[Reading queue ranker](productivity/reading-queue)** — Order a 400-item read-later pile by what you need now
+- **[Note linker](productivity/note-linker)** — Find which existing notes a new note should link to
+- **[Channel digest](productivity/slack-digest)** — What happened in 12 channels that concerns you
+- **[Task prioritizer](productivity/task-prioritizer)** — Re-rank a task list against this week's actual goal
+- **[Newsletter filter](productivity/newsletter-filter)** — Keep the three items in a digest you'd have read
+- **[Bookmark organizer](productivity/bookmark-organizer)** — File years of bookmarks into a taxonomy you describe
+- **[Standup assembler](productivity/standup-synth)** — Pull your actual week from commits, PRs and tickets
 
-### 🛡️ [Trust & Safety](trust-safety) — 1/7
+### 🛡️ [Trust & Safety](trust-safety) — 7/7
 
 Company-specific, nuanced policy — not a generic toxicity score.
 
 - **[Community moderator](trust-safety/community-moderator)** — Apply YOUR written community rules, not a generic policy
-- Marketplace listing checker *(planned)* — Prohibited items, counterfeit signals, policy breaches
-- Review authenticity *(planned)* — Flag incentivised, templated, or fake-looking reviews
-- Brand safety checker *(planned)* — Is this placement context safe for this creative
-- Scam pattern detector *(planned)* — Advance-fee, impersonation, and phishing patterns in messages
-- Age suitability rater *(planned)* — Rate content against an age-band rubric you define
-- Moderation appeal router *(planned)* — Which appeals plausibly overturn the original decision
+- **[Marketplace listing checker](trust-safety/listing-policy)** — Prohibited items, counterfeit signals, policy breaches
+- **[Review authenticity](trust-safety/review-authenticity)** — Flag incentivised, templated, or fake-looking reviews
+- **[Brand safety checker](trust-safety/ad-brand-safety)** — Is this placement context safe for this creative
+- **[Scam pattern detector](trust-safety/scam-detector)** — Advance-fee, impersonation, and phishing patterns in messages
+- **[Age suitability rater](trust-safety/age-appropriateness)** — Rate content against an age-band rubric you define
+- **[Moderation appeal router](trust-safety/appeal-router)** — Which appeals plausibly overturn the original decision
 
-### 🔬 [Research & Science](research) — 2/8
+### 🔬 [Research & Science](research) — 8/8
 
 Screening, extraction, and verification over literature and field data.
 
 - **[Paper screener](research/paper-screener)** — Screen abstracts against a systematic review protocol
 - **[Study data extractor](research/data-extractor)** — Pull population, intervention, and outcomes from methods sections
-- Interview coder *(planned)* — Apply a thematic codebook to transcripts
-- Methods gap finder *(planned)* — Missing controls, sample sizes, or ethics statements
-- Reproducibility auditor *(planned)* — Does this paper give enough detail to reproduce it
-- Dataset license checker *(planned)* — Can we legally use this dataset the way we intend
-- Grant fit scorer *(planned)* — Which calls actually fit this proposal
-- Reviewer matcher *(planned)* — Match submissions to reviewers by expertise
+- **[Interview coder](research/interview-coder)** — Apply a thematic codebook to transcripts
+- **[Methods gap finder](research/method-gap-finder)** — Missing controls, sample sizes, or ethics statements
+- **[Reproducibility auditor](research/reproducibility-auditor)** — Does this paper give enough detail to reproduce it
+- **[Dataset license checker](research/dataset-license)** — Can we legally use this dataset the way we intend
+- **[Grant fit scorer](research/grant-fit)** — Which calls actually fit this proposal
+- **[Reviewer matcher](research/peer-review-router)** — Match submissions to reviewers by expertise
 
-### ⏱️ [Realtime & Interactive](realtime) — 2/7
+### ⏱️ [Realtime & Interactive](realtime) — 7/7
 
 ~150ms is under human perception, so judgment can sit inside a render loop or a keystroke.
 
 - **[Semantic command palette](realtime/intent-palette)** — Type what you want in English, get the right action
 - **[Live chat moderation](realtime/live-moderation)** — Moderate a live stream chat as it arrives
-- Semantic form validator *(planned)* — 'That doesn't look like a job title' — as they type
-- Text adventure referee *(planned)* — An NPC that judges whether your improvised action works
-- Live meeting copilot *(planned)* — Flag commitments and dodged questions during the call
-- Suggestion ranker *(planned)* — Rank completions by what the user actually means
-- Live alert router *(planned)* — Page, ticket, or ignore — decided at alert time
+- **[Semantic form validator](realtime/form-validator)** — 'That doesn't look like a job title' — as they type
+- **[Text adventure referee](realtime/text-adventure)** — An NPC that judges whether your improvised action works
+- **[Live meeting copilot](realtime/meeting-copilot)** — Flag commitments and dodged questions during the call
+- **[Suggestion ranker](realtime/autocomplete-ranker)** — Rank completions by what the user actually means
+- **[Live alert router](realtime/alert-router)** — Page, ticket, or ignore — decided at alert time
 <!-- CATALOG:END -->
 
 Two apps are CLIs rather than Streamlit apps, and more will be. That is

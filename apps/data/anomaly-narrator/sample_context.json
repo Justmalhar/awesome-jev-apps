@@ -1,0 +1,85 @@
+{
+  "series": {
+    "signups": {
+      "measures": "Completed self-serve account registrations, counted once per new account.",
+      "unit": "accounts per day",
+      "owner": "Growth",
+      "normal_shape": "Weekday-heavy. Saturdays and Sundays normally run well below weekdays."
+    },
+    "checkout_errors": {
+      "measures": "HTTP 5xx responses returned by the checkout service during a payment attempt.",
+      "unit": "errors per day",
+      "owner": "Payments",
+      "normal_shape": "Low and flat. A sustained rise means customers cannot pay."
+    },
+    "api_latency_p95": {
+      "measures": "95th percentile public API response time, as reported by the edge collector.",
+      "unit": "milliseconds",
+      "owner": "Platform",
+      "normal_shape": "Steady with slow upward drift as traffic grows. Physically cannot be zero while the API serves traffic."
+    },
+    "revenue": {
+      "measures": "Gross booked revenue from completed orders, before refunds.",
+      "unit": "USD per day",
+      "owner": "Finance",
+      "normal_shape": "Weekday-heavy and closely tracks signups, with a lag."
+    }
+  },
+  "events": [
+    {
+      "date": "2023-09-12",
+      "kind": "deploy",
+      "note": "Search service v1.9 rolled out to 100% of traffic."
+    },
+    {
+      "date": "2023-09-28",
+      "kind": "deploy",
+      "note": "Signup form redesign shipped behind a flag at 50%."
+    },
+    {
+      "date": "2023-10-05",
+      "kind": "campaign",
+      "note": "Paid search budget raised 20% for the autumn quarter."
+    },
+    {
+      "date": "2023-10-07",
+      "kind": "calendar",
+      "note": "Long public-holiday weekend across the two largest markets; offices and most retail closed Saturday and Sunday."
+    },
+    {
+      "date": "2023-10-20",
+      "kind": "infrastructure",
+      "note": "Edge metrics collector migrated to the new OpenTelemetry agent. Dashboards were expected to be briefly unreliable."
+    },
+    {
+      "date": "2023-10-23",
+      "kind": "infrastructure",
+      "note": "OpenTelemetry agent rollback completed; collector back on the previous pipeline."
+    },
+    {
+      "date": "2023-11-07",
+      "kind": "deploy",
+      "note": "checkout-service v3.1.0 rollout began, including a new payment-provider SDK."
+    },
+    {
+      "date": "2023-11-20",
+      "kind": "campaign",
+      "note": "Black Friday email sequence started; three sends over the week."
+    },
+    {
+      "date": "2023-11-23",
+      "kind": "calendar",
+      "note": "US Thanksgiving public holiday. Most US business activity stops for the day."
+    },
+    {
+      "date": "2023-11-24",
+      "kind": "campaign",
+      "note": "Black Friday promotion live: 30% off all annual plans, homepage takeover, affiliate push."
+    },
+    {
+      "date": "2023-11-27",
+      "kind": "campaign",
+      "note": "Cyber Monday promotion, same discount as Black Friday."
+    }
+  ]
+}

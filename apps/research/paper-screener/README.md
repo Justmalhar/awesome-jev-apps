@@ -10,7 +10,9 @@ that still had to be read twice.
 This app sorts them into three piles — **include**, **exclude**, **needs a
 human** — and reports how much reading it just removed.
 
-## The design point: veto rules are not weighted scores
+## Why this needs Jev
+
+### Veto rules are not weighted scores
 
 This does **not** ask *"should we include this paper?"* One broad question would
 be a black box you cannot audit or tune, and reviewers cannot defend it.

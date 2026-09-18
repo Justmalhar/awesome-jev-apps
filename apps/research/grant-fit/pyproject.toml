@@ -1,0 +1,6 @@
+[project]
+name = "grant-fit"
+version = "0.1.0"
+description = "Rank a catalog of funding calls against one proposal, with eligibility as a veto."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.0"]

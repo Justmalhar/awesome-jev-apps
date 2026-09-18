@@ -1,0 +1,52 @@
+[
+  {
+    "id": "liability",
+    "title": "Limitation of Liability",
+    "text": "Neither party's aggregate liability arising out of or related to this Agreement shall exceed the total fees paid or payable by Customer in the twelve months preceding the event giving rise to the claim. Neither party shall be liable for indirect, incidental, consequential, special, or punitive damages, or for lost profits or lost data. This limitation does not apply to either party's indemnification obligations, breach of confidentiality, or liability that cannot be limited by applicable law."
+  },
+  {
+    "id": "governing_law",
+    "title": "Governing Law and Venue",
+    "text": "This Agreement is governed by the laws of the State of Delaware, without regard to its conflict of laws principles. The parties submit to the exclusive jurisdiction of the state and federal courts located in Wilmington, Delaware for any dispute arising under this Agreement, and each party waives any objection to venue in those courts."
+  },
+  {
+    "id": "confidentiality",
+    "title": "Confidentiality",
+    "text": "Each party shall protect the other party's Confidential Information using at least the degree of care it uses for its own confidential information of like importance, and no less than reasonable care. Confidential Information may be disclosed only to employees and contractors with a need to know who are bound by written obligations no less protective than these. Obligations survive for three years after termination, and indefinitely for trade secrets. Confidential Information excludes information that is or becomes public through no fault of the receiving party, is independently developed, or is rightfully received from a third party."
+  },
+  {
+    "id": "ip_assignment",
+    "title": "Intellectual Property and Ownership",
+    "text": "Each party retains all right, title, and interest in its pre-existing intellectual property. Deliverables created specifically for Customer under a Statement of Work are assigned to Customer upon full payment, excluding Supplier's pre-existing materials, tools, and know-how, for which Supplier grants Customer a perpetual, non-exclusive, worldwide licence to use as embedded in the Deliverables. Supplier retains ownership of all generally applicable improvements to its products."
+  },
+  {
+    "id": "termination_convenience",
+    "title": "Termination for Convenience",
+    "text": "Either party may terminate this Agreement or any Statement of Work for convenience upon thirty days' prior written notice to the other party. Upon such termination, Customer shall pay for services performed and expenses irrevocably committed through the effective date of termination. Termination for convenience does not relieve either party of obligations that by their nature survive, including confidentiality and payment for work delivered."
+  },
+  {
+    "id": "payment_terms",
+    "title": "Fees and Payment Terms",
+    "text": "Supplier shall invoice Customer monthly in arrears. Undisputed invoices are payable within forty-five days of receipt. Customer shall notify Supplier of any disputed amount within twenty days of the invoice date and shall pay all undisputed amounts when due. Late undisputed amounts accrue interest at one percent per month or the maximum rate permitted by law, whichever is lower. Fees are exclusive of applicable sales and use taxes."
+  },
+  {
+    "id": "data_protection",
+    "title": "Data Protection and Processing",
+    "text": "Where Supplier processes Personal Data on behalf of Customer, Supplier acts as processor and Customer as controller. Supplier shall process Personal Data only on Customer's documented instructions, shall impose confidentiality obligations on personnel with access, shall implement appropriate technical and organisational measures, and shall engage sub-processors only with Customer's prior general authorisation and notice of changes. Supplier shall notify Customer without undue delay after becoming aware of a Personal Data breach and shall delete or return Personal Data at the end of the Agreement."
+  },
+  {
+    "id": "warranty",
+    "title": "Warranties and Disclaimer",
+    "text": "Supplier warrants that the Services will be performed in a professional and workmanlike manner in accordance with generally accepted industry standards, and that the Deliverables will materially conform to the applicable Statement of Work for ninety days after acceptance. Customer's exclusive remedy for breach of this warranty is re-performance or correction of the non-conforming Services or Deliverables. Except as expressly stated, the Services are provided without other warranties, express or implied, including implied warranties of merchantability and fitness for a particular purpose."
+  },
+  {
+    "id": "force_majeure",
+    "title": "Force Majeure",
+    "text": "Neither party is liable for any delay or failure to perform, other than a payment obligation, caused by an event beyond its reasonable control, including acts of God, war, terrorism, civil unrest, epidemic, government action, labour dispute, or failure of the public internet or utility supply. The affected party shall give prompt notice and use commercially reasonable efforts to resume performance. If the event continues for more than sixty consecutive days, either party may terminate the affected Statement of Work on written notice."
+  },
+  {
+    "id": "assignment",
+    "title": "Assignment",
+    "text": "Neither party may assign this Agreement, in whole or in part, without the prior written consent of the other party, such consent not to be unreasonably withheld or delayed. Either party may assign this Agreement without consent to a successor in connection with a merger, acquisition, reorganisation, or sale of all or substantially all of its assets, provided the assignee is not a direct competitor of the other party and assumes all obligations in writing. Any attempted assignment in violation of this clause is void."
+  }
+]

@@ -1,0 +1,7 @@
+# The brand's exclusion rules, one per line. "ID: text" keeps your numbering.
+B1: Never place beside reporting on an accident, disaster, or someone's death.
+B2: Never place beside content about a contested election or an active political dispute.
+B3: Do not place beside criticism of our own brand, our category, or a recall affecting it.
+B4: Do not place in unmoderated comment threads or user feeds.
+B5: Our cheerful, jokey copy must not appear beside sombre or distressing content.
+B6: Do not place beside content aimed primarily at children.

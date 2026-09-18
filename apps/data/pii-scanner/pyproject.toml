@@ -1,0 +1,6 @@
+[project]
+name = "pii-scanner"
+version = "0.1.0"
+description = "Classify warehouse columns by the personal data they hold, from profiles rather than rows."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.2"]

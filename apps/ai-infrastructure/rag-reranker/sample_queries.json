@@ -1,0 +1,47 @@
+[
+  {
+    "query": "How long do I have to return a laptop bought on the business plan?",
+    "passages": [
+      {"id": "q1-p1", "text": "Laptop accessory returns: any laptop accessory bought alongside a laptop may be returned within 90 days of the laptop order date, provided the accessory is unopened."},
+      {"id": "q1-p2", "text": "Business plan hardware may be sent back for a full credit up to 45 days after it arrives at the delivery address on the order."},
+      {"id": "q1-p3", "text": "Consumer plan customers have 30 days from delivery to request a return for any device, including laptops and tablets."},
+      {"id": "q1-p4", "text": "Under the 2023 terms of service, the hardware return window for all plans was 14 days. Those terms were replaced and apply only to orders placed before the migration."},
+      {"id": "q1-p5", "text": "To start a return you need an RMA number. Open the order in the admin console, choose Request return, and a prepaid label is emailed to the billing contact."},
+      {"id": "q1-p6", "text": "Laptops are returned to our Utrecht depot. Returned laptops are wiped, graded, and either refurbished or recycled depending on the grade."},
+      {"id": "q1-p7", "text": "Business plan seats are billed annually in advance. Seat reductions take effect at the next renewal and are not refunded mid-term."},
+      {"id": "q1-p8", "text": "Our Lisbon office is on the fourth floor of Rua do Alecrim 26 and reception opens at nine on weekdays."},
+      {"id": "q1-p9", "text": "Damaged-on-arrival laptops are handled by the warranty process, not the returns process, and have no fixed window as long as the damage is reported on receipt."},
+      {"id": "q1-p10", "text": "Return shipping is free on the business plan. Consumer plan returns deduct a flat handling fee from the refund unless the item was faulty."}
+    ]
+  },
+  {
+    "query": "Why does the invoice export job time out on large accounts?",
+    "passages": [
+      {"id": "q2-p1", "text": "The invoice import job times out when a CSV exceeds 50 MB. Split the file and re-run the import; the importer streams but the validation pass does not."},
+      {"id": "q2-p2", "text": "The XLSX serialiser builds the whole workbook in memory. Above roughly 500 line items the worker exceeds its 30 second budget and the supervisor kills it mid-write, which surfaces to the user as a spinner that never resolves."},
+      {"id": "q2-p3", "text": "Export jobs run on the batch queue with two retries and exponential backoff. A killed worker is retried, and a job that fails three times is moved to the dead letter queue."},
+      {"id": "q2-p4", "text": "In the analytics product, the export job writes directly to object storage and has no worker time limit, so large exports there complete normally."},
+      {"id": "q2-p5", "text": "Invoices are generated nightly for accounts on metered billing. Generation is unrelated to export and runs on a separate schedule."},
+      {"id": "q2-p6", "text": "Workaround for affected customers: export as CSV rather than XLSX. The CSV writer streams row by row and has no memory ceiling."},
+      {"id": "q2-p7", "text": "Large accounts are defined in the pricing docs as those above 10,000 monthly active seats. This is a billing classification and has no effect on job scheduling."},
+      {"id": "q2-p8", "text": "The export button was moved into the actions menu in the December release following usability feedback."},
+      {"id": "q2-p9", "text": "Worker time limits are configured per queue in deploy/queues.yaml. The batch queue is currently 30 seconds; raising it requires a platform review because the same pool serves webhooks."},
+      {"id": "q2-p10", "text": "A spinner that never resolves usually means the request completed with a non-JSON body. The front end waits on a parse that never succeeds and shows no error."}
+    ]
+  },
+  {
+    "query": "What happens if nobody acknowledges a page after ten minutes?",
+    "passages": [
+      {"id": "q3-p1", "text": "Acknowledgement is recorded when the responder taps Ack in the mobile app or replies ACK to the SMS. The timer stops at that point."},
+      {"id": "q3-p2", "text": "If the primary responder has not acknowledged, the page escalates to the secondary on the rotation, and then to the engineering manager on the third notification."},
+      {"id": "q3-p3", "text": "Escalation policies are configured per service. Ours uses a ten minute step, so each unacknowledged notification moves one level up the chain."},
+      {"id": "q3-p4", "text": "Ten minutes is also the window in which a deploy can be rolled back automatically before the canary is promoted. This is a deploy setting and has nothing to do with paging."},
+      {"id": "q3-p5", "text": "Pages are delivered by push, SMS and phone call in that order, with each channel tried before the next."},
+      {"id": "q3-p6", "text": "The on-call rotation runs weekly, handing over at ten on Monday morning. Handover notes go in the runbook channel."},
+      {"id": "q3-p7", "text": "Acknowledging a page does not resolve the incident. A page that is acknowledged but not resolved within an hour re-notifies the same responder."},
+      {"id": "q3-p8", "text": "If the entire rotation fails to acknowledge, the policy terminates at the engineering manager and the incident is posted to the leadership channel with no further escalation."},
+      {"id": "q3-p9", "text": "Our paging vendor bills per notification delivered. SMS and phone notifications cost more than push, which is why push is tried first."},
+      {"id": "q3-p10", "text": "Alert rules live in the monitoring repo. Changing a threshold there changes when a page fires, not what happens after one fires."}
+    ]
+  }
+]

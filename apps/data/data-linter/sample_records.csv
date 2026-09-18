@@ -1,0 +1,33 @@
+record_id,full_name,job_title,seniority,department,city,country,currency,account_status,description
+R-001,Amara Okafor,Senior Backend Engineer,Senior,Engineering,Berlin,Germany,EUR,active,Maintains the billing service and the on-call rota for payments.
+R-002,Tom Whitfield,Head of Marketing,Director,Marketing,Manchester,United Kingdom,GBP,active,Owns brand and demand generation across EMEA.
+R-003,Priya Raman,Junior Data Analyst,Executive,Analytics,Bangalore,India,INR,active,Builds dashboards under supervision; first role out of university.
+R-004,Diego Salas,Staff Site Reliability Engineer,Staff,Engineering,Lisbon,Spain,EUR,active,Runs the Kubernetes platform and the incident process.
+R-005,Hana Koval,Accounts Payable Clerk,Junior,Finance,Prague,Czechia,CZK,active,Processes supplier invoices and expense claims.
+R-006,Nils Berg,VP Sales,VP,Engineering,Stockholm,Sweden,SEK,active,Carries the enterprise new-business quota for the Nordics.
+R-007,Grace Lin,Chief Financial Officer,C-level,Finance,Singapore,Singapore,SGD,active,Responsible for group reporting and treasury.
+R-008,Marco Ferretti,Customer Support Agent,Junior,Support,Milan,Italy,USD,active,Handles tier-one tickets in Italian and English.
+R-009,Zainab Ali,Principal Product Designer,Principal,Design,Dubai,United Arab Emirates,AED,active,Leads the design system and component library.
+R-010,Ben Carter,Software Engineer II,Mid,Engineering,Austin,United States,USD,churned,Long-standing advocate; renewed early and expanded seats this year.
+R-011,Sofia Mendes,Warehouse Operative,Junior,Operations,Porto,Portugal,EUR,active,Picks and packs outbound orders on the night shift.
+R-012,Kenji Aoki,Engineering Manager,Manager,Engineering,Osaka,Japan,JPY,active,Manages two squads working on the mobile client.
+R-013,Ruth Adeyemi,Legal Counsel,Senior,Legal,Lagos,Nigeria,NGN,active,Reviews commercial contracts and data processing agreements.
+R-014,Oliver Stein,Intern,C-level,Engineering,Vienna,Austria,EUR,active,Twelve-week summer placement shadowing the platform team.
+R-015,Chloe Dubois,Recruitment Partner,Mid,People,Paris,France,EUR,active,Hires for engineering and design.
+R-016,Ahmed Hassan,Data Engineer,Senior,Engineering,Cairo,Egypt,EGP,active,Owns the ingestion pipelines and the warehouse loader.
+R-017,Lucy Brennan,Head of Customer Success,Director,Support,Dublin,Ireland,EUR,suspended,Account in good standing with no outstanding balance and full product access.
+R-018,Pavel Novak,Security Analyst,Mid,Security,Toronto,Czechia,CAD,active,Monitors alerts coming out of the SIEM.
+R-019,Mei Chen,Procurement Specialist,Mid,Operations,Shanghai,China,CNY,active,Negotiates supplier contracts for hardware.
+R-020,Jonas Weber,Chief Technology Officer,Junior,Engineering,Munich,Germany,EUR,active,Sets technical strategy for the company and chairs the architecture board.
+R-021,Aisha Bello,Marketing Executive,Mid,Marketing,Nairobi,Kenya,KES,active,Runs paid social campaigns and reports on spend.
+R-022,Robert Hale,Field Sales Representative,Mid,Sales,Denver,United States,USD,active,Covers the Mountain West territory.
+R-023,Yuki Tanaka,UX Researcher,Senior,Design,Tokyo,Japan,JPY,active,Runs generative and evaluative studies with customers.
+R-024,Ivan Petrov,Payroll Administrator,Mid,Finance,Warsaw,Poland,PLN,active,Processes monthly payroll for the EMEA entities.
+R-025,Elena Rossi,Junior Sous Chef,Junior,Engineering,Rome,Italy,EUR,active,Prepares lunch service in the staff canteen kitchen.
+R-026,Samuel Oyelaran,Solutions Architect,Senior,Engineering,Sydney,Australia,AUD,active,Supports pre-sales technical evaluations.
+R-027,Nadia Farouk,Office Manager,Mid,Operations,Amsterdam,Netherlands,EUR,active,Runs the Amsterdam office and its facilities.
+R-028,Greg Mallory,Senior Account Executive,Senior,Sales,Madrid,Spain,GBP,active,Closes mid-market deals across Iberia.
+R-029,Fatima Noor,Director of Engineering,Director,Engineering,Karachi,Pakistan,PKR,active,Leads the platform group.
+R-030,Lars Johansson,Head of Data,Director,Analytics,Copenhagen,Norway,DKK,active,Owns the analytics warehouse and the metrics layer.
+R-031,Marta Silva,Legal Counsel,Senior,Legal,Sao Paulo,Brazil,BRL,active,Picks and packs outbound parcels in the distribution centre.
+R-032,Dan Murphy,Support Team Lead,Manager,Support,Cork,Ireland,EUR,active,Runs the weekend escalation rota.

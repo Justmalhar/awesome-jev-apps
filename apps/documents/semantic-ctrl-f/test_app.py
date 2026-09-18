@@ -9,6 +9,10 @@ sys.path.insert(0, str(HERE))
 
 
 def check() -> None:
+    # Each app ships its own module named `app`; the shared runner imports them
+    # into one process, so drop any predecessor before resolving ours.
+    sys.modules.pop("app", None)
+    sys.modules.pop("jev_provider", None)
     import app
 
     blocks = app.split_blocks((HERE / "sample_lease.txt").read_text(encoding="utf-8"))

@@ -1,0 +1,6 @@
+[project]
+name = "contract-diff"
+version = "0.1.0"
+description = "Diff two versions of a contract; Jev judges which changes are adverse to the customer."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

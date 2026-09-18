@@ -1,0 +1,6 @@
+[project]
+name = "catalog-normalizer"
+version = "0.1.0"
+description = "Unify product attributes across inconsistent supplier feeds. Jev maps the words, Python does the units."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.2"]

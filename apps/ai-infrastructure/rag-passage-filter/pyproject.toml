@@ -1,0 +1,6 @@
+[project]
+name = "rag-passage-filter"
+version = "0.1.0"
+description = "Drop retrieved passages that contradict, mislead, or carry hidden instructions."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]

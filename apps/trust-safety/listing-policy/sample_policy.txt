@@ -1,0 +1,8 @@
+# One clause per line. "ID: text" keeps your own numbering.
+P1: No items subject to an open safety recall.
+P2: No prescription medicines, supplements making medical claims, or anything requiring a licence to sell.
+P3: Branded goods must be genuine. Replicas, "inspired by" versions, and unbranded copies of a branded design are not allowed.
+P4: All payment and messaging must stay on the marketplace. No bank transfers, gift cards, or off-site contact.
+P5: Condition must be stated accurately. Refurbished, damaged, or for-parts items must say so in the title.
+P6: No digital accounts, licence keys, or in-game items.
+P7: Sellers must have clear title. Nothing sold on behalf of an unnamed third party or "found" goods.

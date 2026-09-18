@@ -1,0 +1,41 @@
+id,text,label
+T-1001,"I was charged twice for the March invoice, can you refund the duplicate?",billing
+T-1002,"The export button throws a 500 error every time I click it.",technical
+T-1003,"I can't log in and the password reset email never arrives.",account_access
+T-1004,"Would love a dark mode for the dashboard, the white burns at night.",feature_request
+T-1005,"Please cancel my subscription at the end of this billing period.",cancellation
+T-1006,"Can you send me a VAT invoice for last month? Finance needs it for the books.",billing
+T-1007,"Charts fail to render on Safari 17 — the panel is just blank.",technical
+T-1008,"My 2FA device was wiped in a factory reset, I need to re-enrol.",account_access
+T-1009,"Please add CSV import for contacts, we have 4k of them in a spreadsheet.",feature_request
+T-1010,"We are not renewing after this term, how do we wind the account down?",cancellation
+T-1011,"Why did my price go from 20 to 35 this month? Nothing changed on our side.",billing
+T-1012,"API returns 429 even though we are well under the documented rate limit.",technical
+T-1013,"Locked out after too many attempts, please unlock the account.",account_access
+T-1014,"Any chance of a Slack integration for alerts?",feature_request
+T-1015,"Webhook deliveries stopped at 03:00 UTC and never resumed.",technical
+T-1016,"Our card expired — where do I update the payment details?",billing
+T-1017,"A new starter needs adding to the workspace with editor permissions.",account_access
+T-1018,"Could reports be scheduled and emailed weekly?",feature_request
+T-1019,"Mobile app crashes on launch since the 4.2 update, iOS 18.",technical
+T-1020,"We're winding down — please close the workspace after the term ends.",cancellation
+T-1021,"Invoice 8841 shows EUR but our contract is in GBP.",billing
+T-1022,"Search returns nothing for terms that definitely exist in our documents.",technical
+T-1023,"Bulk delete for archived records would save us hours every month.",feature_request
+T-1024,"Do you offer a discount for paying annually up front?",billing
+T-1025,"The admin console shows a spinner forever on the members tab.",technical
+T-1026,"The dashboard has been down two hours, 502 from your load balancer.",billing
+T-1027,"Please close my account, we have moved to another vendor.",technical
+T-1028,"I need a copy of the receipt for January for our expense system.",technical
+T-1029,"Can you add custom fields so we can tag customers ourselves?",account_access
+T-1030,"The reset link expired again and I still cannot get into my account.",billing
+T-1031,"You charged the annual fee after we downgraded — refund please.",feature_request
+T-1032,"Timeouts on every request from our EU region since 09:00 this morning.",account_access
+T-1033,"Stop the renewal, we do not want another year of this.",technical
+T-1034,"I'm cancelling because you charged me twice and nobody replied for a week.",cancellation
+T-1035,"SSO redirect loops back to the login page for every user in our org.",account_access
+T-1036,"I can't open the invoices page, it just spins forever.",billing
+T-1037,"Please remove the seat for our leaver and refund the pro-rata amount.",account_access
+T-1038,"If you added usage alerts I would stop getting surprise bills.",feature_request
+T-1039,"Do you sponsor the Berlin developer meetup? We are looking for speakers.",feature_request
+T-1040,"Hi, I'm a journalist writing about your Series B — who handles press?",billing

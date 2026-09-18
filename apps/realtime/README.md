@@ -2,17 +2,17 @@
 
 ~150ms is under human perception, so judgment can sit inside a render loop or a keystroke.
 
-**2 of 7 built.**
+**7 of 7 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Semantic command palette](intent-palette) | Type what you want in English, get the right action | runs per keystroke at typing speed |
 | ✅ [Live chat moderation](live-moderation) | Moderate a live stream chat as it arrives | inline latency, per-message cost |
-| ⬜ Semantic form validator | 'That doesn't look like a job title' — as they type | validation regex cannot express |
-| ⬜ Text adventure referee | An NPC that judges whether your improvised action works | programmable common sense in a game loop |
-| ⬜ Live meeting copilot | Flag commitments and dodged questions during the call | streaming transcript, judged per utterance |
-| ⬜ Suggestion ranker | Rank completions by what the user actually means | whole candidate set ranked in one call |
-| ⬜ Live alert router | Page, ticket, or ignore — decided at alert time | decision inside the alerting path |
+| ✅ [Semantic form validator](form-validator) | 'That doesn't look like a job title' — as they type | validation regex cannot express |
+| ✅ [Text adventure referee](text-adventure) | An NPC that judges whether your improvised action works | programmable common sense in a game loop |
+| ✅ [Live meeting copilot](meeting-copilot) | Flag commitments and dodged questions during the call | streaming transcript, judged per utterance |
+| ✅ [Suggestion ranker](autocomplete-ranker) | Rank completions by what the user actually means | whole candidate set ranked in one call |
+| ✅ [Live alert router](alert-router) | Page, ticket, or ignore — decided at alert time | decision inside the alerting path |
 
 ## Running any of these
 

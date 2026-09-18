@@ -1,0 +1,6 @@
+[project]
+name = "model-router"
+version = "0.1.0"
+description = "Route each turn to a cheap or frontier model, with an abstain path."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]

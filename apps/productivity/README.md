@@ -2,20 +2,20 @@
 
 Your own inbox, feeds, notes, and calendar — sorted by what you actually care about.
 
-**2 of 10 built.**
+**10 of 10 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
-| ⬜ Inbox triage | What in my mail actually needs me today | 5 independent judgments per message; sorts, never rewrites |
+| ✅ [Inbox triage](inbox-triage) | What in my mail actually needs me today | 5 independent judgments per message; sorts, never rewrites |
 | ✅ [Feed ranker](feed-ranker) | Rank Hacker News against your interests, in one sentence | score once, reweight for $0.00 |
 | ✅ [Calendar triage](calendar-triage) | Which meetings you could skip or shorten | judged against your stated priorities |
-| ⬜ Reading queue ranker | Order a 400-item read-later pile by what you need now | whole queue ranked in one request |
-| ⬜ Note linker | Find which existing notes a new note should link to | pairwise relevance over a vault |
-| ⬜ Channel digest | What happened in 12 channels that concerns you | relevance filter, not a summary |
-| ⬜ Task prioritizer | Re-rank a task list against this week's actual goal | goal changes, judgments are reused |
-| ⬜ Newsletter filter | Keep the three items in a digest you'd have read | per-item judgment at negligible cost |
-| ⬜ Bookmark organizer | File years of bookmarks into a taxonomy you describe | hierarchical classification |
-| ⬜ Standup assembler | Pull your actual week from commits, PRs and tickets | selection; code assembles the summary |
+| ✅ [Reading queue ranker](reading-queue) | Order a 400-item read-later pile by what you need now | whole queue ranked in one request |
+| ✅ [Note linker](note-linker) | Find which existing notes a new note should link to | pairwise relevance over a vault |
+| ✅ [Channel digest](slack-digest) | What happened in 12 channels that concerns you | relevance filter, not a summary |
+| ✅ [Task prioritizer](task-prioritizer) | Re-rank a task list against this week's actual goal | goal changes, judgments are reused |
+| ✅ [Newsletter filter](newsletter-filter) | Keep the three items in a digest you'd have read | per-item judgment at negligible cost |
+| ✅ [Bookmark organizer](bookmark-organizer) | File years of bookmarks into a taxonomy you describe | hierarchical classification |
+| ✅ [Standup assembler](standup-synth) | Pull your actual week from commits, PRs and tickets | selection; code assembles the summary |
 
 ## Running any of these
 

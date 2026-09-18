@@ -1,0 +1,74 @@
+{
+  "color": {
+    "kind": "term",
+    "description": "The colour of the product itself, however the supplier spelled or abbreviated it.",
+    "terms": {
+      "Black": "Colour black, including jet black, ink, coal and other near-black shades.",
+      "White": "Colour white, including off-white, ivory and cream.",
+      "Navy": "Dark blue verging on black. Distinct from the brighter Blue.",
+      "Blue": "Mid or bright blue. Not navy, which has its own term.",
+      "Grey": "Any grey from light to charcoal, including silver-grey fabric.",
+      "Red": "Red through burgundy and wine.",
+      "Green": "Any green from olive through emerald.",
+      "Beige": "Sand, tan, taupe, stone and similar neutral light browns."
+    }
+  },
+  "size": {
+    "kind": "term",
+    "description": "A garment or product size expressed on a small-to-large scale, not as a measurement.",
+    "terms": {
+      "Small": "The small size in an S/M/L scale, however abbreviated.",
+      "Medium": "The medium size in an S/M/L scale, however abbreviated.",
+      "Large": "The large size in an S/M/L scale, however abbreviated.",
+      "Extra Large": "One step above Large, however abbreviated.",
+      "One Size": "A single size intended to fit everyone; no size choice exists."
+    }
+  },
+  "material": {
+    "kind": "term",
+    "description": "What the product is physically made of.",
+    "terms": {
+      "Cotton": "Cotton fibre, including organic and blends described as cotton.",
+      "Polyester": "Polyester and other synthetic plastic fibres.",
+      "Leather": "Animal leather, including full-grain and genuine leather.",
+      "Stainless Steel": "Stainless steel, including food-grade and brushed finishes.",
+      "Glass": "Glass, including borosilicate and tempered glass.",
+      "Ceramic": "Ceramic, porcelain, stoneware and earthenware."
+    }
+  },
+  "volume": {
+    "kind": "measure",
+    "description": "The capacity of the product: how much liquid or contents it holds, written as a number and a unit.",
+    "base_unit": "ml",
+    "units": {
+      "ml": 1,
+      "millilitre": 1,
+      "millilitres": 1,
+      "cc": 1,
+      "cl": 10,
+      "l": 1000,
+      "ltr": 1000,
+      "litre": 1000,
+      "litres": 1000,
+      "fl oz": 29.5735,
+      "floz": 29.5735,
+      "oz": 29.5735
+    }
+  },
+  "weight": {
+    "kind": "measure",
+    "description": "How heavy the product or its contents are. A mass, written as a number and a unit.",
+    "base_unit": "g",
+    "units": {
+      "g": 1,
+      "gram": 1,
+      "grams": 1,
+      "kg": 1000,
+      "kgs": 1000,
+      "kilogram": 1000,
+      "oz": 28.3495,
+      "lb": 453.592,
+      "lbs": 453.592
+    }
+  }
+}

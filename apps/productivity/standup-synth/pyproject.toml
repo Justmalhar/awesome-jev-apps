@@ -1,0 +1,6 @@
+[project]
+name = "standup-synth"
+version = "0.1.0"
+description = "Assemble a weekly update from commits, PRs and tickets: Jev selects, Python writes."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

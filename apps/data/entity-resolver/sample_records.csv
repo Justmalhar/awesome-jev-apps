@@ -1,0 +1,25 @@
+record_id,source_system,company_name,address,city,country,website,contact_email,phone
+SF-001,salesforce,Acme Corp,120 Kingsway,London,United Kingdom,acme.co.uk,ops@acme.co.uk,+44 20 7946 0101
+NS-104,netsuite,ACME Corporation,120 Kings Way,London,UK,www.acme.co.uk,accounts@acme.co.uk,+44 20 7946 0101
+NS-118,netsuite,Acme Corp.,120 Kingsway Fl 3,London,GB,acme.co.uk,ops@acme.co.uk,02079460101
+SF-002,salesforce,Northwind Trading Ltd,44 Harbour Road,Bristol,United Kingdom,northwind-trading.com,hello@northwind-trading.com,+44 117 496 0022
+NS-131,netsuite,Northwind Trading Limited,44 Harbour Rd,Bristol,UK,northwind-trading.com,ap@northwind-trading.com,+44 117 496 0022
+SF-003,salesforce,Globex GmbH,Hauptstrasse 18,Munich,Germany,globex.de,kontakt@globex.de,+49 89 1234 5600
+NS-142,netsuite,GLOBEX GMBH,Hauptstr. 18,Munchen,DE,www.globex.de,kontakt@globex.de,+49 89 1234 5600
+SF-004,salesforce,Initech Software,500 Congress Ave,Austin,United States,initech.io,sales@initech.io,+1 512 555 0134
+NS-155,netsuite,Initech Software Inc,500 Congress Avenue Ste 200,Austin,USA,initech.io,ar@initech.io,+1 512 555 0134
+SF-009,salesforce,Umbrella Health Services,3 Raccoon Plaza,Chicago,United States,umbrella-health.com,info@umbrella-health.com,+1 312 555 0177
+NS-172,netsuite,Umbrella Health Svcs.,3 Raccoon Plz,Chicago,US,umbrella-health.com,billing@umbrella-health.com,+1 312 555 0177
+SF-005,salesforce,Stark Industries UK Ltd,9 Clerkenwell Green,London,United Kingdom,stark.com/uk,uk@stark.com,+44 20 3000 1100
+SF-006,salesforce,Stark Industries Deutschland GmbH,Leopoldstrasse 9,Munich,Germany,stark.com/de,de@stark.com,+49 89 3000 1100
+NS-160,netsuite,Wayne Enterprises Ltd,1007 Mountain Drive,Gotham,United States,wayne-ent.com,ap@wayne-ent.com,+1 201 555 0188
+NS-161,netsuite,Wayne Enterprises Foundation,1007 Mountain Drive,Gotham,United States,waynefoundation.org,grants@waynefoundation.org,+1 201 555 0190
+SF-007,salesforce,Soylent Foods Ltd,12 Mill Lane,Leeds,United Kingdom,soylent-group.com,foods@soylent-group.com,+44 113 496 0311
+SF-008,salesforce,Soylent Chemicals Ltd,12 Mill Lane,Leeds,United Kingdom,soylent-group.com,chem@soylent-group.com,+44 113 496 0312
+SF-010,salesforce,Hooli Cloud,1 Infinite Way,Palo Alto,United States,hooli.com,cloud@hooli.com,+1 650 555 0122
+NS-180,netsuite,Hooli Inc,1 Infinite Way Bldg C,Palo Alto,USA,www.hooli.com,vendor@hooli.com,+1 650 555 0122
+SF-011,salesforce,Piedmont Logistics,77 Dock Street,Rotterdam,Netherlands,piedmont-log.nl,info@piedmont-log.nl,+31 10 555 0140
+NS-191,netsuite,Kestrel Analytics AB,Sveavagen 22,Stockholm,Sweden,kestrel.se,hej@kestrel.se,+46 8 555 0166
+SF-012,salesforce,Blue Fin Seafood Co,8 Quay Road,Galway,Ireland,bluefin.ie,orders@bluefin.ie,+353 91 555 0102
+NS-197,netsuite,Tanaka Precision KK,3-4-1 Shibaura,Tokyo,Japan,tanaka-precision.jp,export@tanaka-precision.jp,+81 3 5555 0190
+SF-013,salesforce,Cormorant Media Group,220 Rue Lafayette,Paris,France,cormorant.fr,contact@cormorant.fr,+33 1 55 55 01 44

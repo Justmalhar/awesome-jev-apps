@@ -1,0 +1,51 @@
+[
+  {
+    "code": "onboarding_burden",
+    "name": "Burden of setting up or learning the technology",
+    "definition": "Effort, confusion or difficulty encountered while getting the technology working, including reliance on family or support staff to do it.",
+    "applies_when": "The speaker describes setup, installation, instructions or learning the device as effortful, confusing, or as something someone else had to do for them",
+    "does_not_apply_when": "The speaker describes only routine day-to-day use of a device that is already working"
+  },
+  {
+    "code": "data_transparency",
+    "name": "Uncertainty about who sees the data and what happens to it",
+    "definition": "Concern, confusion or a stated wish to know who reviews the data, when it is reviewed, where it is stored, or who else can access it.",
+    "applies_when": "The speaker raises not knowing who looks at their readings, when they are looked at, or where the data goes or is stored",
+    "does_not_apply_when": "The speaker discusses the readings themselves without reference to who sees them or where they go"
+  },
+  {
+    "code": "cost_concern",
+    "name": "Financial cost falling on the participant",
+    "definition": "Any out-of-pocket expense the participant bears because of the service, including consumables, transport or connectivity.",
+    "applies_when": "The speaker mentions something they have to pay for themselves, or the affordability of it",
+    "does_not_apply_when": "The speaker mentions costs borne entirely by the health service or employer"
+  },
+  {
+    "code": "trust_in_clinician",
+    "name": "Trust placed in a human clinician rather than the technology",
+    "definition": "Expressions of confidence in a named or generic clinician, or of a preference for human judgement over device output.",
+    "applies_when": "The speaker compares a clinician favourably with the technology, or describes valuing contact with a clinician",
+    "does_not_apply_when": "A clinician is mentioned only as the person who referred them, with no judgement expressed"
+  },
+  {
+    "code": "support_quality",
+    "name": "Quality of helpdesk or technical support",
+    "definition": "Experience of contacting support: waiting, competence of the person, whether the problem was resolved.",
+    "applies_when": "The speaker describes contacting a helpline, helpdesk or support service and how that went",
+    "does_not_apply_when": "The speaker describes contact with clinical staff about their health rather than about the technology"
+  },
+  {
+    "code": "self_management",
+    "name": "Increased sense of agency over one's own condition",
+    "definition": "The technology giving the participant feedback that changes how they understand or act on their own condition.",
+    "applies_when": "The speaker describes seeing their own data and it changing their behaviour, understanding or sense of ownership",
+    "does_not_apply_when": "The speaker describes behaviour change driven entirely by instruction from a clinician"
+  },
+  {
+    "code": "reduced_contact",
+    "name": "Loss of in-person contact with the care team",
+    "definition": "Fewer face-to-face appointments as a consequence of remote monitoring, and how the participant feels about that.",
+    "applies_when": "The speaker notes seeing clinical staff less often, or something being missed because contact is remote",
+    "does_not_apply_when": "The speaker describes contact being unchanged, or discusses appointment availability generally"
+  }
+]

@@ -1,0 +1,6 @@
+[project]
+name = "reading-queue"
+version = "0.1.0"
+description = "Rank a large read-later pile by what you need right now, in one request."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

@@ -1,0 +1,8 @@
+# The rulebook the original decisions cite. One rule per line.
+R1: No unsolicited advertising, affiliate links, or promoting a product you profit from.
+R2: Keep posts on the topic of the thread you are replying in.
+R3: Criticise the argument, not the member. No insults or contempt aimed at a person.
+R4: Do not post anyone's personal details, including your own.
+R5: Claims about pricing or performance need a source link.
+R6: No repeating the same post across multiple threads.
+R7: No selling or trading between members outside the marketplace section.
