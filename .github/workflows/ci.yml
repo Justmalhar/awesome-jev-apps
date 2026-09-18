@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+
+      # The client is duplicated into each app on purpose; make sure nobody
+      # edited a copy instead of the source.
+      - name: provider copies are in sync
+        run: uv run --no-project python scripts/sync_provider.py --check
+
+      # Offline self-check: config resolution, question builders, answer parsing,
+      # cost maths. Needs no API key, so it runs on forks.
+      - name: provider self-check
+        run: uv run --no-project --with httpx python _shared/jev_provider.py
+
+      - name: everything compiles
+        run: uv run --no-project python -m compileall -q 00-primitives apps scripts _shared
