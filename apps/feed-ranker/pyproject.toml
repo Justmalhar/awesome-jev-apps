@@ -1,0 +1,6 @@
+[project]
+name = "feed-ranker"
+version = "0.1.0"
+description = "Rank Hacker News against your interests. Score once in one request, reweight for free."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

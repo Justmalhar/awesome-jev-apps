@@ -1,0 +1,6 @@
+[project]
+name = "semantic-ctrl-f"
+version = "0.1.0"
+description = "Ask a contract a plain-English question; the whole document is scored in one Jev request."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]
