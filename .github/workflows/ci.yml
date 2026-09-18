@@ -19,6 +19,11 @@ jobs:
       - name: provider copies are in sync
         run: uv run --no-project python scripts/sync_provider.py --check
 
+      # Indexes are generated from catalog.json + what is on disk, so a
+      # stale table can never claim an app exists when it does not.
+      - name: catalog indexes are current
+        run: uv run --no-project python scripts/build_catalog.py --check
+
       # Offline self-check: config resolution, question builders, answer parsing,
       # cost maths. Needs no API key, so it runs on forks.
       - name: provider self-check

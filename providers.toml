@@ -34,3 +34,26 @@ context_tokens = 32000
 # USD per million input tokens. Output tokens are free on Jev.
 input_per_mtok  = 0.042
 output_per_mtok = 0.0
+
+# ─────────────────────────────────────────────────────────────────────────────
+# A third route exists but is NOT wired up, because we could not verify it.
+#
+# Jev is listed in the Vercel AI Gateway catalog (verified 2026-09-19):
+#     id            typesafe-ai/jev      <- note: NOT OpenRouter's typesafe/jev-1.13
+#     type          "evaluation"
+#     pricing       $0.042 / Mtok input, $0 output   (matches TypeSafe)
+#     zdr           all
+#     no_training   all
+#     context_window reported as 0 (i.e. not published in the catalog)
+#
+# However https://ai-gateway.vercel.sh exposes only /v1/chat/completions and
+# /v1/responses. Twelve candidate decisions/evaluation paths all return 404, and
+# chat/completions demands OpenAI-shaped `messages`, which a decisions model has
+# no way to answer. The catalog entry advertises "supported_specifications: v4",
+# so evaluation models there are most likely reached through the AI SDK's typed
+# interface rather than a drop-in REST URL.
+#
+# If you have an AI_GATEWAY_API_KEY and can confirm the request shape, add a
+# [vercel] section here matching the two above and open a PR. Nothing else in
+# the repo needs to change -- that is the point of this file.
+# ─────────────────────────────────────────────────────────────────────────────

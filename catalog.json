@@ -1,0 +1,785 @@
+{
+  "_comment": "Single source of truth for the app catalog. scripts/build_catalog.py regenerates README tables and per-category indexes from this file. status: built | wip | planned. Never hand-edit the generated tables.",
+  "categories": [
+    {
+      "slug": "developer-tools",
+      "title": "Developer Tools",
+      "icon": "🛠️",
+      "blurb": "Semantic checks over code, CI, and repo history. Cheap enough to run on every commit.",
+      "apps": [
+        {
+          "slug": "repo-grep",
+          "title": "Semantic grep",
+          "status": "built",
+          "does": "Find code by describing it: 'network call with no timeout'",
+          "why": "ast finds candidates, Jev judges; cheap enough for CI"
+        },
+        {
+          "slug": "ci-triage",
+          "title": "CI failure triage",
+          "status": "built",
+          "does": "Real bug / flake / infra / dependency / config across CI history",
+          "why": "newly affordable over 20k failures"
+        },
+        {
+          "slug": "pr-risk-scorer",
+          "status": "planned",
+          "title": "PR risk scorer",
+          "does": "Score a diff for blast radius and review depth needed",
+          "why": "routes review effort; score once, reweight free"
+        },
+        {
+          "slug": "flaky-test-finder",
+          "status": "planned",
+          "title": "Flaky test finder",
+          "does": "Separate genuinely flaky tests from consistently failing ones",
+          "why": "per-test judgment, rates computed in Python"
+        },
+        {
+          "slug": "issue-deduper",
+          "status": "planned",
+          "title": "Issue deduplicator",
+          "does": "Find the three issues that are the same bug",
+          "why": "pairwise Score whose levels are the actions"
+        },
+        {
+          "slug": "api-breaking-change",
+          "status": "planned",
+          "title": "Breaking change detector",
+          "does": "Flag diffs that break downstream consumers",
+          "why": "diff in code, materiality in Jev"
+        },
+        {
+          "slug": "changelog-classifier",
+          "status": "planned",
+          "title": "Changelog classifier",
+          "does": "Sort merged PRs into user-facing / internal / breaking",
+          "why": "selection not generation; code assembles the notes"
+        },
+        {
+          "slug": "log-pattern-miner",
+          "status": "planned",
+          "title": "Log pattern miner",
+          "does": "Cluster millions of log lines into named failure modes",
+          "why": "map-reduce at $0.042/Mtok"
+        },
+        {
+          "slug": "dependency-audit",
+          "status": "planned",
+          "title": "Dependency auditor",
+          "does": "Judge whether a changelog entry affects your usage",
+          "why": "avoids upgrading blind on every release"
+        },
+        {
+          "slug": "test-gap-finder",
+          "status": "planned",
+          "title": "Test gap finder",
+          "does": "Which behaviours in this module have no test",
+          "why": "parser lists behaviours, Jev matches coverage"
+        },
+        {
+          "slug": "incident-tagger",
+          "status": "planned",
+          "title": "Incident tagger",
+          "does": "Tag postmortems by cause class and contributing factors",
+          "why": "independent Nouls, not one taxonomy"
+        }
+      ]
+    },
+    {
+      "slug": "documents",
+      "title": "Documents & Contracts",
+      "icon": "📄",
+      "blurb": "Ask documents questions, diff them, and check them against requirements. Nothing is ever paraphrased.",
+      "apps": [
+        {
+          "slug": "semantic-ctrl-f",
+          "title": "Semantic Ctrl-F",
+          "status": "built",
+          "does": "Ask a lease or ToS a plain-English question, get the exact clause",
+          "why": "whole document scored in one request; returns verbatim text"
+        },
+        {
+          "slug": "contract-diff",
+          "title": "Contract diff",
+          "status": "wip",
+          "does": "'Our terms have changed' — what actually got worse for you",
+          "why": "difflib computes the diff, Jev judges materiality"
+        },
+        {
+          "slug": "rfp-compliance",
+          "status": "planned",
+          "title": "RFP compliance matrix",
+          "does": "Check a proposal covers all 60 requirements in a tender",
+          "why": "one Noul per requirement, conjunctive coverage"
+        },
+        {
+          "slug": "policy-gap-finder",
+          "status": "planned",
+          "title": "Policy gap finder",
+          "does": "Which controls in a standard are unaddressed by your policy",
+          "why": "requirement-by-requirement veto rules"
+        },
+        {
+          "slug": "invoice-extractor",
+          "status": "planned",
+          "title": "Invoice extractor",
+          "does": "Pull totals, dates, and line items from messy invoices",
+          "why": "regex finds candidates, Jev selects; verbatim guarantee"
+        },
+        {
+          "slug": "meeting-actions",
+          "status": "planned",
+          "title": "Meeting action extractor",
+          "does": "Commitments, owners, and deadlines from a transcript",
+          "why": "selection over generation; no invented owners"
+        },
+        {
+          "slug": "spec-ambiguity",
+          "status": "planned",
+          "title": "Spec ambiguity finder",
+          "does": "Sentences in a spec that two engineers would read differently",
+          "why": "the failure mode Jev itself has, turned into a tool"
+        },
+        {
+          "slug": "doc-freshness",
+          "status": "planned",
+          "title": "Doc freshness auditor",
+          "does": "Which docs contradict the current codebase",
+          "why": "cross-source consistency judgment"
+        },
+        {
+          "slug": "clause-library",
+          "status": "planned",
+          "title": "Clause library matcher",
+          "does": "Match incoming contract clauses to your approved library",
+          "why": "rerank against a known-good set"
+        },
+        {
+          "slug": "redaction-checker",
+          "status": "planned",
+          "title": "Redaction checker",
+          "does": "Find PII and confidential detail before a document goes out",
+          "why": "one Noul per hazard class, thresholded separately"
+        },
+        {
+          "slug": "translation-qa",
+          "status": "planned",
+          "title": "Translation QA",
+          "does": "Flag translations that changed meaning, not just wording",
+          "why": "two states compared, judgment on divergence"
+        }
+      ]
+    },
+    {
+      "slug": "data",
+      "title": "Data Engineering",
+      "icon": "🗄️",
+      "blurb": "Judgment applied per-row, per-pair, and per-field, at a price that makes whole-dataset passes ordinary.",
+      "apps": [
+        {
+          "slug": "entity-resolver",
+          "title": "Entity resolver",
+          "status": "wip",
+          "does": "Dedupe two merged CRM or product catalogs",
+          "why": "Score levels ARE the actions; blocking in code"
+        },
+        {
+          "slug": "data-linter",
+          "title": "Semantic data linter",
+          "status": "wip",
+          "does": "Find rows whose fields contradict each other",
+          "why": "cross-field consistency, not classification"
+        },
+        {
+          "slug": "deep-classifier",
+          "title": "Deep taxonomy classifier",
+          "status": "wip",
+          "does": "File items into a 3-level taxonomy",
+          "why": "beam search over Choice probabilities"
+        },
+        {
+          "slug": "ml-features",
+          "title": "ML feature extractor",
+          "status": "wip",
+          "does": "Turn text into features, train a model, measure the lift",
+          "why": "judgments as features; output is a trained model"
+        },
+        {
+          "slug": "schema-mapper",
+          "status": "planned",
+          "title": "Schema mapper",
+          "does": "Map one system's columns onto another's",
+          "why": "pairwise field matching with a curator tier"
+        },
+        {
+          "slug": "survey-coder",
+          "status": "planned",
+          "title": "Survey response coder",
+          "does": "Code thousands of free-text answers against a codebook",
+          "why": "replaces weeks of qualitative coding"
+        },
+        {
+          "slug": "address-normalizer",
+          "status": "planned",
+          "title": "Address normalizer",
+          "does": "Reconcile inconsistent address formats to one record",
+          "why": "selection from parsed candidates"
+        },
+        {
+          "slug": "catalog-normalizer",
+          "status": "planned",
+          "title": "Product catalog normalizer",
+          "does": "Unify attributes across inconsistent supplier feeds",
+          "why": "extraction plus taxonomy in one pass"
+        },
+        {
+          "slug": "column-inferrer",
+          "status": "planned",
+          "title": "Column type inferrer",
+          "does": "What IS this column, semantically, given its values",
+          "why": "code samples values, Jev names the concept"
+        },
+        {
+          "slug": "anomaly-narrator",
+          "status": "planned",
+          "title": "Anomaly explainer",
+          "does": "Which detected outliers are real problems vs expected",
+          "why": "statistics in code, plausibility in Jev"
+        },
+        {
+          "slug": "pii-scanner",
+          "status": "planned",
+          "title": "PII column scanner",
+          "does": "Which columns in a warehouse carry personal data",
+          "why": "whole-warehouse scan is now affordable"
+        },
+        {
+          "slug": "label-auditor",
+          "status": "planned",
+          "title": "Training label auditor",
+          "does": "Find mislabelled rows in an existing labelled dataset",
+          "why": "disagreement between label and content"
+        }
+      ]
+    },
+    {
+      "slug": "ai-infrastructure",
+      "title": "AI Infrastructure · Jev + LLM",
+      "icon": "🧠",
+      "blurb": "Jev sitting in front of, behind, and around a generative model. Guarding every call costs a rounding error.",
+      "apps": [
+        {
+          "slug": "agent-tool-router",
+          "title": "Agent tool router",
+          "status": "built",
+          "does": "Pick from a 42-tool MCP catalog without stuffing schemas into context",
+          "why": "two-stage cascade: summaries wide, schemas narrow"
+        },
+        {
+          "slug": "llm-guardrails",
+          "status": "planned",
+          "title": "LLM guardrails",
+          "does": "Screen every input, output, and tool call for hazards",
+          "why": "cheap enough to guard EVERY call, which nobody does today"
+        },
+        {
+          "slug": "prompt-injection-detector",
+          "status": "planned",
+          "title": "Injection detector",
+          "does": "Catch instructions hidden in retrieved or user content",
+          "why": "runs inline at 150ms"
+        },
+        {
+          "slug": "rag-reranker",
+          "status": "planned",
+          "title": "RAG reranker",
+          "does": "Drop-in for a cross-encoder or Cohere Rerank",
+          "why": "cross-encoding quality at embedding-tier cost"
+        },
+        {
+          "slug": "rag-passage-filter",
+          "status": "planned",
+          "title": "RAG passage filter",
+          "does": "Drop passages that contradict, mislead, or carry injections",
+          "why": "one judgment per retrieved passage"
+        },
+        {
+          "slug": "model-router",
+          "status": "planned",
+          "title": "Model router",
+          "does": "Send easy turns to a cheap model, hard ones to a frontier one",
+          "why": "calibrated difficulty plus an abstain path"
+        },
+        {
+          "slug": "citation-verifier",
+          "status": "planned",
+          "title": "Citation verifier",
+          "does": "Check each claim against the source it cites",
+          "why": "affordable per-claim verification"
+        },
+        {
+          "slug": "hallucination-detector",
+          "status": "planned",
+          "title": "Grounding checker",
+          "does": "Is this generated answer supported by the retrieved context",
+          "why": "per-sentence grounding at scale"
+        },
+        {
+          "slug": "agent-trace-classifier",
+          "status": "planned",
+          "title": "Agent trace classifier",
+          "does": "Classify why agent runs failed, across thousands of traces",
+          "why": "map-reduce over run history"
+        },
+        {
+          "slug": "eval-judge",
+          "status": "planned",
+          "title": "Eval judge",
+          "does": "Score model outputs against a rubric, reproducibly",
+          "why": "calibrated and deterministic where an LLM judge drifts"
+        },
+        {
+          "slug": "memory-filter",
+          "status": "planned",
+          "title": "Agent memory filter",
+          "does": "Which stored memories are relevant to this turn",
+          "why": "rank the whole memory store in one request"
+        },
+        {
+          "slug": "context-compressor",
+          "status": "planned",
+          "title": "Context compressor",
+          "does": "Select which context to keep when the window is tight",
+          "why": "selection, so nothing is paraphrased away"
+        },
+        {
+          "slug": "tool-output-validator",
+          "status": "planned",
+          "title": "Tool output validator",
+          "does": "Did this tool actually return what was asked for",
+          "why": "catches silent tool failures agents ignore"
+        }
+      ]
+    },
+    {
+      "slug": "finance",
+      "title": "Finance",
+      "icon": "🏦",
+      "blurb": "Every number computed in Python. The model only ever supplies judgment.",
+      "apps": [
+        {
+          "slug": "statement-categorizer",
+          "title": "Statement categorizer",
+          "status": "built",
+          "does": "Categorize years of bank and card transactions",
+          "why": "confidence gate: auto-file or ask me"
+        },
+        {
+          "slug": "subscription-auditor",
+          "status": "planned",
+          "title": "Subscription auditor",
+          "does": "Find every recurring charge, including the forgotten ones",
+          "why": "recurrence judged, totals computed in pandas"
+        },
+        {
+          "slug": "expense-policy-checker",
+          "status": "planned",
+          "title": "Expense policy checker",
+          "does": "Which claims breach the written expense policy",
+          "why": "one Noul per policy rule, veto semantics"
+        },
+        {
+          "slug": "receipt-triage",
+          "status": "planned",
+          "title": "Receipt triage",
+          "does": "Match receipts to card transactions and flag the gaps",
+          "why": "pairwise matching with a curator tier"
+        },
+        {
+          "slug": "invoice-matcher",
+          "status": "planned",
+          "title": "Invoice matcher",
+          "does": "Three-way match: PO, invoice, delivery note",
+          "why": "pairwise agreement judgment, arithmetic in code"
+        },
+        {
+          "slug": "vendor-risk",
+          "status": "planned",
+          "title": "Vendor risk screener",
+          "does": "Screen suppliers against risk criteria from their documents",
+          "why": "independent risk Nouls, thresholded separately"
+        },
+        {
+          "slug": "tax-classifier",
+          "status": "planned",
+          "title": "Deduction classifier",
+          "does": "Which expenses are plausibly deductible, with a review queue",
+          "why": "confidence decides what a human sees"
+        },
+        {
+          "slug": "fraud-signals",
+          "status": "planned",
+          "title": "Fraud signal extractor",
+          "does": "Turn transaction narratives into risk features",
+          "why": "features for a downstream fraud model"
+        },
+        {
+          "slug": "earnings-tagger",
+          "status": "planned",
+          "title": "Earnings call tagger",
+          "does": "Tag guidance, hedging, and tone shifts across transcripts",
+          "why": "whole-transcript scan per company"
+        },
+        {
+          "slug": "budget-variance",
+          "status": "planned",
+          "title": "Variance explainer",
+          "does": "Classify why each line missed budget, from the notes",
+          "why": "numbers in code, causes in Jev"
+        }
+      ]
+    },
+    {
+      "slug": "business-ops",
+      "title": "Business & Operations",
+      "icon": "📊",
+      "blurb": "Routing, qualification, and risk detection over the text a business already generates.",
+      "apps": [
+        {
+          "slug": "lead-qualifier",
+          "status": "planned",
+          "title": "Lead qualifier",
+          "does": "Score inbound leads against your ICP, written as a paragraph",
+          "why": "score once, reweight as the ICP changes"
+        },
+        {
+          "slug": "ticket-triage",
+          "status": "planned",
+          "title": "Support ticket triage",
+          "does": "Route by issue, product area, urgency, and churn risk",
+          "why": "independent judgments, one request"
+        },
+        {
+          "slug": "churn-signals",
+          "status": "planned",
+          "title": "Churn signal extractor",
+          "does": "Early warning from support and sales conversations",
+          "why": "features feeding a churn model"
+        },
+        {
+          "slug": "escalation-detector",
+          "status": "planned",
+          "title": "Escalation detector",
+          "does": "Which threads need a manager before they blow up",
+          "why": "calibrated urgency plus abstention"
+        },
+        {
+          "slug": "nps-coder",
+          "status": "planned",
+          "title": "NPS comment coder",
+          "does": "Theme thousands of open-ended survey comments",
+          "why": "replaces manual coding"
+        },
+        {
+          "slug": "sales-call-tagger",
+          "status": "planned",
+          "title": "Sales call tagger",
+          "does": "Objections, competitors, and next steps from call notes",
+          "why": "independent Nouls per signal"
+        },
+        {
+          "slug": "renewal-risk",
+          "status": "planned",
+          "title": "Renewal risk scorer",
+          "does": "Which accounts are quietly drifting toward non-renewal",
+          "why": "composite scoring from raw judgments"
+        },
+        {
+          "slug": "candidate-screener",
+          "status": "planned",
+          "title": "Application screener",
+          "does": "Screen applications against explicit, job-related criteria",
+          "why": "criterion-by-criterion, auditable, with a human tier"
+        },
+        {
+          "slug": "vendor-rfp-scorer",
+          "status": "planned",
+          "title": "RFP response scorer",
+          "does": "Score supplier responses against weighted criteria",
+          "why": "weights tuned without re-running inference"
+        },
+        {
+          "slug": "onboarding-gaps",
+          "status": "planned",
+          "title": "Onboarding gap finder",
+          "does": "Which steps a new hire's docs never actually explain",
+          "why": "coverage checking against a checklist"
+        },
+        {
+          "slug": "competitor-monitor",
+          "status": "planned",
+          "title": "Competitor monitor",
+          "does": "Which competitor updates actually matter to your roadmap",
+          "why": "relevance filtering over a firehose"
+        }
+      ]
+    },
+    {
+      "slug": "productivity",
+      "title": "Personal Productivity",
+      "icon": "⚡",
+      "blurb": "Your own inbox, feeds, notes, and calendar — sorted by what you actually care about.",
+      "apps": [
+        {
+          "slug": "inbox-triage",
+          "title": "Inbox triage",
+          "status": "built",
+          "does": "What in my mail actually needs me today",
+          "why": "5 independent judgments per message; sorts, never rewrites"
+        },
+        {
+          "slug": "feed-ranker",
+          "title": "Feed ranker",
+          "status": "built",
+          "does": "Rank Hacker News against your interests, in one sentence",
+          "why": "score once, reweight for $0.00"
+        },
+        {
+          "slug": "calendar-triage",
+          "status": "planned",
+          "title": "Calendar triage",
+          "does": "Which meetings you could skip or shorten",
+          "why": "judged against your stated priorities"
+        },
+        {
+          "slug": "reading-queue",
+          "status": "planned",
+          "title": "Reading queue ranker",
+          "does": "Order a 400-item read-later pile by what you need now",
+          "why": "whole queue ranked in one request"
+        },
+        {
+          "slug": "note-linker",
+          "status": "planned",
+          "title": "Note linker",
+          "does": "Find which existing notes a new note should link to",
+          "why": "pairwise relevance over a vault"
+        },
+        {
+          "slug": "slack-digest",
+          "status": "planned",
+          "title": "Channel digest",
+          "does": "What happened in 12 channels that concerns you",
+          "why": "relevance filter, not a summary"
+        },
+        {
+          "slug": "task-prioritizer",
+          "status": "planned",
+          "title": "Task prioritizer",
+          "does": "Re-rank a task list against this week's actual goal",
+          "why": "goal changes, judgments are reused"
+        },
+        {
+          "slug": "newsletter-filter",
+          "status": "planned",
+          "title": "Newsletter filter",
+          "does": "Keep the three items in a digest you'd have read",
+          "why": "per-item judgment at negligible cost"
+        },
+        {
+          "slug": "bookmark-organizer",
+          "status": "planned",
+          "title": "Bookmark organizer",
+          "does": "File years of bookmarks into a taxonomy you describe",
+          "why": "hierarchical classification"
+        },
+        {
+          "slug": "standup-synth",
+          "status": "planned",
+          "title": "Standup assembler",
+          "does": "Pull your actual week from commits, PRs and tickets",
+          "why": "selection; code assembles the summary"
+        }
+      ]
+    },
+    {
+      "slug": "trust-safety",
+      "title": "Trust & Safety",
+      "icon": "🛡️",
+      "blurb": "Company-specific, nuanced policy — not a generic toxicity score.",
+      "apps": [
+        {
+          "slug": "community-moderator",
+          "status": "planned",
+          "title": "Community moderator",
+          "does": "Apply YOUR written community rules, not a generic policy",
+          "why": "severity and confidence combine to allow/warn/review/block"
+        },
+        {
+          "slug": "listing-policy",
+          "status": "planned",
+          "title": "Marketplace listing checker",
+          "does": "Prohibited items, counterfeit signals, policy breaches",
+          "why": "one Noul per policy, thresholded separately"
+        },
+        {
+          "slug": "review-authenticity",
+          "status": "planned",
+          "title": "Review authenticity",
+          "does": "Flag incentivised, templated, or fake-looking reviews",
+          "why": "pattern judgment across a corpus"
+        },
+        {
+          "slug": "ad-brand-safety",
+          "status": "planned",
+          "title": "Brand safety checker",
+          "does": "Is this placement context safe for this creative",
+          "why": "two states judged for compatibility"
+        },
+        {
+          "slug": "scam-detector",
+          "status": "planned",
+          "title": "Scam pattern detector",
+          "does": "Advance-fee, impersonation, and phishing patterns in messages",
+          "why": "independent hazard Nouls"
+        },
+        {
+          "slug": "age-appropriateness",
+          "status": "planned",
+          "title": "Age suitability rater",
+          "does": "Rate content against an age-band rubric you define",
+          "why": "ordered rubric with concrete levels"
+        },
+        {
+          "slug": "appeal-router",
+          "status": "planned",
+          "title": "Moderation appeal router",
+          "does": "Which appeals plausibly overturn the original decision",
+          "why": "second-opinion judgment with abstention"
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "title": "Research & Science",
+      "icon": "🔬",
+      "blurb": "Screening, extraction, and verification over literature and field data.",
+      "apps": [
+        {
+          "slug": "paper-screener",
+          "title": "Paper screener",
+          "status": "built",
+          "does": "Screen abstracts against a systematic review protocol",
+          "why": "conjunctive veto rules, not a weighted score"
+        },
+        {
+          "slug": "data-extractor",
+          "status": "planned",
+          "title": "Study data extractor",
+          "does": "Pull population, intervention, and outcomes from methods sections",
+          "why": "selection from parsed candidates"
+        },
+        {
+          "slug": "interview-coder",
+          "status": "planned",
+          "title": "Interview coder",
+          "does": "Apply a thematic codebook to transcripts",
+          "why": "one Noul per theme; several can apply"
+        },
+        {
+          "slug": "method-gap-finder",
+          "status": "planned",
+          "title": "Methods gap finder",
+          "does": "Missing controls, sample sizes, or ethics statements",
+          "why": "checklist as independent conditions"
+        },
+        {
+          "slug": "reproducibility-auditor",
+          "status": "planned",
+          "title": "Reproducibility auditor",
+          "does": "Does this paper give enough detail to reproduce it",
+          "why": "criterion-by-criterion with a human tier"
+        },
+        {
+          "slug": "dataset-license",
+          "status": "planned",
+          "title": "Dataset license checker",
+          "does": "Can we legally use this dataset the way we intend",
+          "why": "intent judged against licence text"
+        },
+        {
+          "slug": "grant-fit",
+          "status": "planned",
+          "title": "Grant fit scorer",
+          "does": "Which calls actually fit this proposal",
+          "why": "relevance ranking over a call catalog"
+        },
+        {
+          "slug": "peer-review-router",
+          "status": "planned",
+          "title": "Reviewer matcher",
+          "does": "Match submissions to reviewers by expertise",
+          "why": "pairwise relevance at conference scale"
+        }
+      ]
+    },
+    {
+      "slug": "realtime",
+      "title": "Realtime & Interactive",
+      "icon": "⏱️",
+      "blurb": "~150ms is under human perception, so judgment can sit inside a render loop or a keystroke.",
+      "apps": [
+        {
+          "slug": "intent-palette",
+          "status": "planned",
+          "title": "Semantic command palette",
+          "does": "Type what you want in English, get the right action",
+          "why": "runs per keystroke at typing speed"
+        },
+        {
+          "slug": "live-moderation",
+          "status": "planned",
+          "title": "Live chat moderation",
+          "does": "Moderate a live stream chat as it arrives",
+          "why": "inline latency, per-message cost"
+        },
+        {
+          "slug": "form-validator",
+          "status": "planned",
+          "title": "Semantic form validator",
+          "does": "'That doesn't look like a job title' — as they type",
+          "why": "validation regex cannot express"
+        },
+        {
+          "slug": "text-adventure",
+          "status": "planned",
+          "title": "Text adventure referee",
+          "does": "An NPC that judges whether your improvised action works",
+          "why": "programmable common sense in a game loop"
+        },
+        {
+          "slug": "meeting-copilot",
+          "status": "planned",
+          "title": "Live meeting copilot",
+          "does": "Flag commitments and dodged questions during the call",
+          "why": "streaming transcript, judged per utterance"
+        },
+        {
+          "slug": "autocomplete-ranker",
+          "status": "planned",
+          "title": "Suggestion ranker",
+          "does": "Rank completions by what the user actually means",
+          "why": "whole candidate set ranked in one call"
+        },
+        {
+          "slug": "alert-router",
+          "status": "planned",
+          "title": "Live alert router",
+          "does": "Page, ticket, or ignore — decided at alert time",
+          "why": "decision inside the alerting path"
+        }
+      ]
+    }
+  ]
+}

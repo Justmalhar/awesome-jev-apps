@@ -1,198 +1,148 @@
 #!/usr/bin/env python3
-"""Offline checks for every app's pure logic. No API key, no network.
+"""Discover and run every app's offline checks. No API key, no network.
 
     uv run --with httpx --with streamlit --with pandas python scripts/test_apps.py
+    python scripts/test_apps.py --only data/entity-resolver
 
-Covers question construction, decision rules, chunking, and batching -- the
-parts that can be wrong without the API ever being reached. It does NOT verify
-live responses; scripts/smoke_test.py does that and needs a key.
+Each app owns its checks in `apps/<category>/<slug>/test_app.py`, exporting a
+`check()` that raises on failure. No app is referenced by name in this file --
+which is what lets many apps be built in parallel without collisions.
+
+Two repo-wide guards live here, because they are about the whole corpus:
+  - no app asks the model to count or do arithmetic
+  - every app ships the files the spec requires
 """
 
 from __future__ import annotations
 
+import argparse
 import ast
 import importlib.util
-import json
 import sys
+import traceback
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 APPS = ROOT / "apps"
 
-
-def load(app: str, module: str):
-    """Import an app's module with its own folder on sys.path, as it runs."""
-    path = APPS / app / f"{module}.py"
-    sys.path.insert(0, str(path.parent))
-    spec = importlib.util.spec_from_file_location(f"{app}_{module}", path)
-    loaded = importlib.util.module_from_spec(spec)
-    # @dataclass resolves annotations via sys.modules, so register before exec.
-    sys.modules[spec.name] = loaded
-    spec.loader.exec_module(loaded)
-    return loaded
+REQUIRED_FILES = ("README.md", "pyproject.toml", "test_app.py", "jev_provider.py", "providers.toml")
+BANNED_IN_QUESTIONS = (
+    "how many", "count the", "number of times", "total of", "sum of",
+    "add up", "calculate", "how much is", "days between", "earlier than",
+)
+QUESTION_BUILDERS = {"noul", "choice", "score"}
 
 
-def check_semantic_ctrl_f() -> None:
-    app = load("semantic-ctrl-f", "app")
-    text = (APPS / "semantic-ctrl-f" / "sample_lease.txt").read_text()
-    blocks = app.split_blocks(text)
-    assert len(blocks) > 10, blocks
-
-    questions = app.build_questions(blocks, "Can I keep a cat?")
-    options = questions["best_block"]["criteria"]
-    # Every block must be addressable, or the model cannot select it.
-    assert len(options) == len(blocks) + 1, "one option per block plus 'none'"
-    assert "none" in options, "a Choice must have a no-match escape hatch"
-    assert all(str(i) in options for i in range(len(blocks)))
-    assert questions["has_answer"]["type"] == "noul"
-
-    # Line-splitting fallback for documents with huge paragraphs.
-    assert len(app.split_blocks("x" * 700 + "\n" + "y" * 700)) == 2
-    print("  semantic-ctrl-f ok")
+def app_dirs() -> list[Path]:
+    return sorted(p for p in APPS.glob("*/*") if p.is_dir() and not p.name.startswith("_"))
 
 
-def check_feed_ranker() -> None:
-    app = load("feed-ranker", "app")
-    stories = [{"title": "A compiler in Rust", "url": "u", "points": 1, "comments": 2}] * 3
-    questions = app.build_questions(stories, "compilers")
-    # 3 stories x (3 dimensions + 1 junk) = 12 questions, one request.
-    assert len(questions) == 3 * (len(app.DIMENSIONS) + 1) == 12, len(questions)
-    for spec in app.DIMENSIONS.values():
-        assert len(spec["levels"]) >= 2
-        # Levels must be descriptions, not bare labels.
-        assert all(len(level) > 15 for level in spec["levels"]), spec["levels"]
-    print("  feed-ranker ok")
+def run_check(app_dir: Path) -> tuple[bool, str]:
+    """Import and run one app's test_app.check()."""
+    test_file = app_dir / "test_app.py"
+    if not test_file.is_file():
+        return False, "no test_app.py"
+
+    name = f"check_{app_dir.parent.name}_{app_dir.name}".replace("-", "_")
+    sys.path.insert(0, str(app_dir))
+    try:
+        spec = importlib.util.spec_from_file_location(name, test_file)
+        module = importlib.util.module_from_spec(spec)
+        sys.modules[name] = module  # dataclasses resolve annotations via sys.modules
+        spec.loader.exec_module(module)
+        if not hasattr(module, "check"):
+            return False, "test_app.py defines no check()"
+        module.check()
+        return True, ""
+    except Exception:
+        return False, traceback.format_exc(limit=6)
+    finally:
+        if str(app_dir) in sys.path:
+            sys.path.remove(str(app_dir))
 
 
-def check_paper_screener() -> None:
-    app = load("paper-screener", "app")
-    papers = json.loads((APPS / "paper-screener" / "sample_abstracts.json").read_text())
-    assert len(papers) >= 8
-    protocol = app.DEFAULT_PROTOCOL
-    questions = app.build_questions(papers, protocol)
-    per_paper = len(protocol["include"]) + len(protocol["exclude"])
-    assert len(questions) == len(papers) * per_paper
-
-    # The veto rule is the whole point: one fatal exclusion beats every inclusion.
-    accept, reject = 0.75, 0.25
-    verdict, reason = app.decide([0.99] * 4, [0.95, 0.0, 0.0], accept, reject)
-    assert verdict == "exclude", f"a fired exclusion must veto strong inclusions: {reason}"
-
-    verdict, _ = app.decide([0.9, 0.9, 0.9, 0.9], [0.0, 0.0, 0.0], accept, reject)
-    assert verdict == "include"
-
-    verdict, _ = app.decide([0.9, 0.5, 0.9, 0.9], [0.0, 0.0, 0.0], accept, reject)
-    assert verdict == "review", "borderline must reach a human, not be forced either way"
-
-    verdict, _ = app.decide([0.9, 0.05, 0.9, 0.9], [0.0, 0.0, 0.0], accept, reject)
-    assert verdict == "exclude", "a clearly unmet inclusion excludes"
-    print("  paper-screener ok")
+def check_required_files() -> list[str]:
+    problems = []
+    for app_dir in app_dirs():
+        missing = [f for f in REQUIRED_FILES if not (app_dir / f).is_file()]
+        if missing:
+            problems.append(f"{app_dir.relative_to(ROOT)}: missing {', '.join(missing)}")
+        if not any(app_dir.glob("sample_*")) and not any(app_dir.glob("*catalog.json")):
+            problems.append(f"{app_dir.relative_to(ROOT)}: no bundled sample data")
+    return problems
 
 
-def check_repo_grep() -> None:
-    grep = load("repo-grep", "repo_grep")
-    chunks = grep.extract_chunks(ROOT / "_shared", max_chars=4000)
-    names = {c.name for c in chunks}
-    assert "load_provider" in names and "noul" in names, sorted(names)
-    # Line numbers must be real: the parser's, not guessed.
-    for chunk in chunks:
-        assert chunk.line > 0 and chunk.source.strip()
-
-    batches = grep.batch(chunks, budget_chars=2000)
-    assert sum(len(b) for b in batches) == len(chunks), "batching must not drop chunks"
-    assert len(batches) > 1, "a small budget must split"
-    print(f"  repo-grep ok ({len(chunks)} functions, {len(batches)} batches)")
-
-
-def check_statement_categorizer() -> None:
-    app = load("statement-categorizer", "app")
-    rows = [{"description": "TESCO 4471", "amount": -12.0}] * 4
-    questions = app.build_questions(rows)
-    assert len(questions) == 12, "category + subscription + business per row"
-    assert "other" in app.CATEGORIES, "needs a no-match category"
-    # Descriptions carry the boundary cases; bare labels are a documented trap.
-    assert all(len(v) > 20 for v in app.CATEGORIES.values())
-    csv_path = APPS / "statement-categorizer" / "sample_transactions.csv"
-    header = csv_path.read_text().splitlines()[0]
-    assert "description" in header and "amount" in header, header
-    print("  statement-categorizer ok")
-
-
-def check_ci_triage() -> None:
-    app = load("ci-triage", "app")
-    failures = json.loads((APPS / "ci-triage" / "sample_failures.json").read_text())
-    assert len(failures) >= 10
-    assert all({"test", "message", "log"} <= set(f) for f in failures)
-    questions = app.build_questions(failures[:5])
-    assert len(questions) == 15, "class + retry + blast per failure"
-    assert "unclear" in app.CLASSES
-    print("  ci-triage ok")
-
-
-def check_agent_tool_router() -> None:
-    router = load("agent-tool-router", "router")
-    catalog = router.CATALOG
-    assert len(catalog) >= 30, len(catalog)
-    names = [t["name"] for t in catalog]
-    assert len(names) == len(set(names)), "duplicate tool names would collide as Choice keys"
-    assert all({"name", "summary", "parameters"} <= set(t) for t in catalog)
-    print(f"  agent-tool-router ok ({len(catalog)} tools)")
-
-
-def check_no_arithmetic_asked() -> None:
-    """jev-1.13 cannot count, add, or compare dates -- documented failure modes.
-
-    Scoped to strings that actually reach the model: the arguments of noul(),
-    choice() and score(). Prose in docstrings and CLI help is not a question.
-    """
-    banned = (
-        "how many", "count the", "number of times", "total of", "sum of",
-        "add up", "calculate", "how much is", "days between", "earlier than",
-    )
-    builders = {"noul", "choice", "score"}
+def check_no_arithmetic() -> list[str]:
+    """jev-1.13 cannot count, add, or compare dates. Scoped to strings that
+    actually reach the model: the arguments of noul()/choice()/score()."""
     offenders = []
-
     for path in APPS.rglob("*.py"):
-        if path.name == "jev_provider.py":
+        if path.name in {"jev_provider.py", "test_app.py"}:
             continue
-        tree = ast.parse(path.read_text(encoding="utf-8"))
+        try:
+            tree = ast.parse(path.read_text(encoding="utf-8"))
+        except SyntaxError as exc:
+            offenders.append(f"{path.relative_to(ROOT)}: does not parse: {exc}")
+            continue
         for node in ast.walk(tree):
             if not isinstance(node, ast.Call):
                 continue
-            name = node.func.id if isinstance(node.func, ast.Name) else None
-            if name not in builders:
+            fname = node.func.id if isinstance(node.func, ast.Name) else None
+            if fname not in QUESTION_BUILDERS:
                 continue
             for inner in ast.walk(node):
                 if isinstance(inner, ast.Constant) and isinstance(inner.value, str):
                     lowered = inner.value.lower()
-                    hit = next((p for p in banned if p in lowered), None)
+                    hit = next((p for p in BANNED_IN_QUESTIONS if p in lowered), None)
                     if hit:
                         offenders.append(
-                            f"{path.relative_to(ROOT)}: {name}(...) contains {hit!r} "
-                            f"-- {inner.value[:60]}"
+                            f"{path.relative_to(ROOT)}: {fname}(...) contains {hit!r} "
+                            f"-- do it in Python: {inner.value[:60]}"
                         )
-
-    assert not offenders, (
-        "arithmetic/counting asked of the model (do it in Python):\n  "
-        + "\n  ".join(offenders)
-    )
-    print("  no arithmetic asked of the model ok")
+    return offenders
 
 
 def main() -> int:
-    print("offline app checks:")
-    for check in (
-        check_semantic_ctrl_f,
-        check_feed_ranker,
-        check_paper_screener,
-        check_repo_grep,
-        check_statement_categorizer,
-        check_ci_triage,
-        check_agent_tool_router,
-        check_no_arithmetic_asked,
-    ):
-        check()
-    print("\nall offline app checks passed")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--only", help="run one app, e.g. data/entity-resolver")
+    args = parser.parse_args()
+
+    targets = app_dirs()
+    if args.only:
+        targets = [d for d in targets if f"{d.parent.name}/{d.name}" == args.only]
+        if not targets:
+            print(f"no app matching {args.only!r}", file=sys.stderr)
+            return 2
+
+    print(f"offline checks for {len(targets)} app(s):\n")
+    failures: list[tuple[str, str]] = []
+
+    for app_dir in targets:
+        label = f"{app_dir.parent.name}/{app_dir.name}"
+        ok, detail = run_check(app_dir)
+        print(f"  {'ok  ' if ok else 'FAIL'}  {label}")
+        if not ok:
+            failures.append((label, detail))
+
+    print()
+    if not args.only:
+        for label, problems in (
+            ("file layout", check_required_files()),
+            ("arithmetic asked of the model", check_no_arithmetic()),
+        ):
+            if problems:
+                failures.append((label, "\n    ".join(problems)))
+                print(f"  FAIL  {label} ({len(problems)} problem(s))")
+            else:
+                print(f"  ok    {label}")
+
+    if failures:
+        print(f"\n{len(failures)} failure(s):\n")
+        for label, detail in failures:
+            print(f"-- {label} --\n    {detail}\n")
+        return 1
+
+    print(f"\nall offline checks passed ({len(targets)} apps)")
     return 0
 
 
