@@ -37,13 +37,28 @@ def app_dirs() -> list[Path]:
     return sorted(p for p in APPS.glob("*/*") if p.is_dir() and not p.name.startswith("_"))
 
 
+def _purge_app_modules() -> None:
+    """Drop every module that was imported from inside apps/.
+
+    Apps all use the same module names -- `app`, `jev_provider` -- so without
+    this the FIRST app's `app` module stays in sys.modules and every later
+    test_app.py silently asserts against it. That fails loudly if you are lucky
+    and passes wrongly if you are not, so it is purged between every app.
+    """
+    for name, module in list(sys.modules.items()):
+        origin = getattr(module, "__file__", None)
+        if origin and Path(origin).is_relative_to(APPS):
+            del sys.modules[name]
+
+
 def run_check(app_dir: Path) -> tuple[bool, str]:
-    """Import and run one app's test_app.check()."""
+    """Import and run one app's test_app.check(), fully isolated."""
     test_file = app_dir / "test_app.py"
     if not test_file.is_file():
         return False, "no test_app.py"
 
     name = f"check_{app_dir.parent.name}_{app_dir.name}".replace("-", "_")
+    _purge_app_modules()
     sys.path.insert(0, str(app_dir))
     try:
         spec = importlib.util.spec_from_file_location(name, test_file)
@@ -59,6 +74,7 @@ def run_check(app_dir: Path) -> tuple[bool, str]:
     finally:
         if str(app_dir) in sys.path:
             sys.path.remove(str(app_dir))
+        _purge_app_modules()
 
 
 def check_required_files() -> list[str]:
@@ -68,7 +84,14 @@ def check_required_files() -> list[str]:
         if missing:
             problems.append(f"{app_dir.relative_to(ROOT)}: missing {', '.join(missing)}")
         if not any(app_dir.glob("sample_*")) and not any(app_dir.glob("*catalog.json")):
-            problems.append(f"{app_dir.relative_to(ROOT)}: no bundled sample data")
+            # An app may opt out, but only by stating why in its pyproject.
+            manifest = (app_dir / "pyproject.toml")
+            excused = manifest.is_file() and "no_sample_data" in manifest.read_text(encoding="utf-8")
+            if not excused:
+                problems.append(
+                    f"{app_dir.relative_to(ROOT)}: no bundled sample data "
+                    f"(declare [tool.awesome-jev] no_sample_data = \"<reason>\" if it genuinely needs none)"
+                )
     return problems
 
 

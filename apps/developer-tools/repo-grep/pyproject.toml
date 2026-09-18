@@ -4,3 +4,7 @@ version = "0.1.0"
 description = "Semantic grep over a Python codebase. ast finds candidates, Jev judges them."
 requires-python = ">=3.11"
 dependencies = ["httpx>=0.27"]
+
+[tool.awesome-jev]
+# Exempt from the bundled-sample rule, with a reason.
+no_sample_data = "scans any Python directory given as an argument, including this repo"
