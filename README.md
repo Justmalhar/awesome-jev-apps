@@ -6,8 +6,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org)
-[![Provider: TypeSafe or OpenRouter](https://img.shields.io/badge/provider-TypeSafe%20%7C%20OpenRouter-green.svg)](docs/openrouter-decisions-api.md)
-[![Runnable apps](https://img.shields.io/badge/apps-100%20planned-orange.svg)](#the-catalog)
+[![Providers](https://img.shields.io/badge/providers-TypeSafe%20%7C%20OpenRouter%20%7C%20Vercel-green.svg)](docs/openrouter-decisions-api.md)
+[![Runnable apps](https://img.shields.io/badge/apps-100%20runnable-brightgreen.svg)](#the-catalog)
 
 </div>
 
@@ -379,7 +379,7 @@ No API key needed, so it works on forks:
 python scripts/sync_provider.py --check                  # app client copies current
 python scripts/build_catalog.py --check                  # indexes match reality
 uv run --with httpx python _shared/jev_provider.py       # client self-check
-uv run --with httpx --with streamlit --with pandas \
+uv run --with httpx --with streamlit --with pandas --with scikit-learn \
   python scripts/test_apps.py                            # every app's logic
 ```
 

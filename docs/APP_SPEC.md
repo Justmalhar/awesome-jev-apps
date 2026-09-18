@@ -164,7 +164,7 @@ automatically — you never edit that file.
 
 ```bash
 python scripts/sync_provider.py                       # generate the two files
-uv run --no-project --with httpx --with streamlit --with pandas \
+uv run --no-project --with httpx --with streamlit --with pandas --with scikit-learn \
   python scripts/test_apps.py                         # must pass
 uv run --no-project python -m compileall -q apps
 ```

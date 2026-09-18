@@ -25,7 +25,7 @@ claims:
 # Tier 1 — offline. No key, no network, no cost. Always run these.
 uv run --no-project python scripts/sync_provider.py --check
 uv run --no-project --with httpx python _shared/jev_provider.py
-uv run --no-project --with httpx --with streamlit --with pandas python scripts/test_apps.py
+uv run --no-project --with httpx --with streamlit --with pandas --with scikit-learn python scripts/test_apps.py
 
 # Tier 2 — live. Needs a key, costs a fraction of a cent.
 uv run --with httpx python scripts/smoke_test.py

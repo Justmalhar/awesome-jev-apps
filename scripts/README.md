@@ -58,7 +58,7 @@ No API key, no network. Covers the parts that can be wrong without the API ever
 being reached.
 
 ```bash
-uv run --with httpx --with streamlit --with pandas python scripts/test_apps.py
+uv run --with httpx --with streamlit --with pandas --with scikit-learn python scripts/test_apps.py
 ```
 
 ```
