@@ -64,21 +64,82 @@ imports, no framework to learn.
 
 ## Quickstart
 
+You need [`uv`](https://docs.astral.sh/uv/) and Python 3.11+. Nothing else —
+there is no repo-wide virtualenv to create and nothing to `pip install`.
+
 ```bash
 git clone https://github.com/Justmalhar/awesome-jev-apps
 cd awesome-jev-apps
 cp .env.example .env            # add ONE key
-
-uv run --with httpx python scripts/smoke_test.py   # verify in ~1 second
-uv run --with httpx python 00-primitives/tour.py   # learn all 3 primitives
 ```
 
-Then run any app:
+**1. Check your key works** (costs a fraction of a cent):
+
+```bash
+uv run --with httpx python scripts/smoke_test.py
+```
+
+**2. Learn the three primitives** — five minutes, one file:
+
+```bash
+uv run --with httpx python 00-primitives/tour.py
+```
+
+**3. Run any app:**
 
 ```bash
 cd apps/semantic-ctrl-f
 uv run streamlit run app.py
 ```
+
+Every app ships sample data, so all eight run before you upload anything of
+your own.
+
+---
+
+## Repository layout
+
+```
+awesome-jev-apps/
+├── providers.toml      ← which provider + which key every app uses
+├── .env.example        ← copy to .env, add ONE key
+│
+├── 00-primitives/      ← START HERE. Noul, Choice, Score in one request.
+├── apps/               ← the eight applications, each standalone
+├── _shared/            ← source of truth for the client (apps get copies)
+├── scripts/            ← smoke test, sync, offline checks
+├── evals/              ← reproducible benchmarks (empty; see its README)
+└── docs/               ← the OpenRouter finding + pointers upstream
+```
+
+Every directory has its own README explaining what's in it and how to use it:
+
+| Directory | Read it for |
+|---|---|
+| [`00-primitives/`](00-primitives) | What Noul / Choice / Score are and when to use each |
+| [`apps/`](apps) | How to run any app, and the patterns they all share |
+| [`_shared/`](_shared) | Provider resolution, and why the client is duplicated |
+| [`scripts/`](scripts) | What each script does and what CI runs |
+| [`evals/`](evals) | The bar for a benchmark that belongs here |
+| [`docs/`](docs) | Calling Jev via OpenRouter, and upstream docs worth reading |
+
+Also: [`CONTRIBUTING.md`](CONTRIBUTING.md) for the editorial bar on new apps,
+and [`AGENTS.md`](AGENTS.md) if you're an AI agent working in this repo.
+
+## Verifying a change
+
+No API key needed for any of this, so it works on forks:
+
+```bash
+python scripts/sync_provider.py --check                  # app copies are current
+uv run --with httpx python _shared/jev_provider.py       # client self-check
+uv run --with httpx --with streamlit --with pandas \
+  python scripts/test_apps.py                            # every app's logic
+```
+
+That's exactly what [CI](.github/workflows/ci.yml) runs. Note it verifies
+**logic**, not live responses — `scripts/smoke_test.py` is the only thing that
+touches the API.
 
 ---
 
