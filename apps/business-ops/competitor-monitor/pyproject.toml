@@ -1,0 +1,6 @@
+[project]
+name = "competitor-monitor"
+version = "0.1.0"
+description = "Filter a competitor-news firehose down to the updates that touch your roadmap."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.0"]

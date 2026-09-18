@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Halcyon Media",
+    "segment": "Mid-market",
+    "arr": 84000,
+    "renewal_quarter": "FY26 Q3",
+    "notes": "Ravi (original sponsor) is still here but the video team has stopped using the product entirely after we confirmed the Adobe metadata gap will not be closed. Only Ravi logs in. He told us their CFO has asked for a list of tools not being used ahead of renewal and we are on it. He asked what our cancellation notice is and whether a month-to-month wind-down is possible. He was polite; he has not been rude once. He also mentioned a call with Frame.io. No expansion discussion. Support tickets are low because nobody is using it."
+  },
+  {
+    "name": "Kestrel Bank",
+    "segment": "Enterprise",
+    "arr": 310000,
+    "renewal_quarter": "FY27 Q1",
+    "notes": "Ramesh remains our sponsor and is genuinely an advocate - he offered to introduce us to the head of risk himself. They want to add the risk team, another 40 seats, and asked for a quote. Adoption is deep in the two teams already live: daily use, integrated into their close process. They quantified the compliance review saving as three weeks down to two days. One open risk: they need field-level audit logging for their regulator and we do not have it. InfoSec will re-review the new data domain. Support interactions are routine and closed quickly."
+  },
+  {
+    "name": "Northwind Retail",
+    "segment": "Mid-market",
+    "arr": 62000,
+    "renewal_quarter": "FY26 Q4",
+    "notes": "Marta, who bought the product, has moved to the loyalty programme team; her replacement on our account is still TBD. The nightly export has failed four times and been raised in three separate tickets; she said her director asked in a planning meeting why they are still paying for something that needs babysitting. Procurement has flagged our line item in a cost review and she asked about the notice period 'so I can tell them accurately'. She also asked whether the data export includes full event history. Usage itself is still steady across the merchandising team."
+  },
+  {
+    "name": "Orchid Health",
+    "segment": "Mid-market",
+    "arr": 45000,
+    "renewal_quarter": "FY27 Q2",
+    "notes": "Steady. Usage flat but consistent across the intended team. Contact is responsive but only when we initiate; no strong champion has emerged since the original buyer moved to a different hospital. They asked about an annual commitment discount, which their finance team prefers. A colleague at another hospital uses a competitor and 'likes the reporting better' - mentioned in passing, no evaluation underway. When asked what value they have got, the contact said 'it's definitely helping' but could not point to anything specific."
+  },
+  {
+    "name": "Vertex Freight",
+    "segment": "Enterprise",
+    "arr": 240000,
+    "renewal_quarter": "FY26 Q3",
+    "notes": "Serious incident: European rate calculation was wrong for three days and they quoted twelve customers off bad numbers. Their COO joined the post-incident review and was explicit that one more incident of this class before renewal triggers a formal RFP - he named two competitors he would invite. He asked about contractual service credits, which is new. Day-to-day sponsor Anja is still in place and still engaged, and usage is deep across three teams. They are not asking about cancellation. They asked for a written remediation plan."
+  },
+  {
+    "name": "Sable Manufacturing",
+    "segment": "Mid-market",
+    "arr": 38000,
+    "renewal_quarter": "FY26 Q4",
+    "notes": "Never properly went live. The maintenance-team pilot was meant to end in November and the rollout to the other two plants never happened because the shift-pattern import did not match their format. Ingrid, who ran the project, left the company in December. Tomas has taken over, did not know what had been agreed, and asked us to re-present the business case to his ops director. He is keen and responsive. No competitor in the picture, no cost challenge yet, but nobody can say what value they have had because they have not used it."
+  },
+  {
+    "name": "Brightgate Insurance",
+    "segment": "Enterprise",
+    "arr": 195000,
+    "renewal_quarter": "FY27 Q1",
+    "notes": "Rocky quarter but recovering. The claims intake outage led to a formal complaint and their general counsel was copied on the thread. Since then we have had a weekly call, the root cause was published, and their head of operations said the response 'restored some confidence'. Adoption is deep - it is in their regulated process and cannot easily be removed. Sponsor unchanged. They are now discussing adding the underwriting team next year. Support volume has dropped back to normal and their team say issues get closed properly now."
+  },
+  {
+    "name": "Lantern Education",
+    "segment": "Mid-market",
+    "arr": 52000,
+    "renewal_quarter": "FY26 Q4",
+    "notes": "Frustrated but engaged. The gradebook sync they were promised for Q1 slipped to Q4 and they built their rollout plan around it; the contact needs something in writing to take to his provost. He is not angry with the team and says the core product works well for the two departments that are live. The provost's office has questioned whether the spend should continue given the delay. No alternative is being evaluated that we know of. Contact responds quickly and has offered to co-present a case internally if we can give him a date."
+  },
+  {
+    "name": "Coastway Logistics",
+    "segment": "SMB",
+    "arr": 14000,
+    "renewal_quarter": "FY27 Q1",
+    "notes": "Quiet, healthy little account. Two users, both daily, both happy. Bulk import broke after a schema change and they raised it politely; it cost them about two hours a day for a week and was fixed. They described the value as 'we stopped missing delivery windows', which is specific. No executive involvement of any kind because there is no executive layer. No competitor mentioned. They asked about adding a third seat next quarter."
+  },
+  {
+    "name": "Verity Consulting",
+    "segment": "SMB",
+    "arr": 21000,
+    "renewal_quarter": "FY26 Q3",
+    "notes": "Badly damaged. The managing partner has written publicly that this was the worst procurement decision he has made in fifteen years and is writing it up for an industry newsletter. He says he is not asking for anything. Usage has collapsed - two logins last month across the whole firm. Their office manager, who was our day-to-day contact, has stopped replying to emails. No formal cancellation request yet and no competitor named. The original sponsor is still at the firm."
+  },
+  {
+    "name": "Talmoor Energy",
+    "segment": "Enterprise",
+    "arr": 170000,
+    "renewal_quarter": "FY27 Q2",
+    "notes": "Strong and growing. Fiona in compliance owns the problem, describes the value in her own terms (manual sampling gone, evidence in one place, clean audit last cycle), and has remediation-programme budget. She has asked to extend to two more reporting streams and started the security review for the new data domain herself. Occasional questions about our change log and access controls; all answered. No competitor. No cost pressure. Her analyst is now our power user."
+  },
+  {
+    "name": "Petrel Dynamics",
+    "segment": "Mid-market",
+    "arr": 71000,
+    "renewal_quarter": "FY26 Q4",
+    "notes": "Drifting quietly. Greg, the finance systems manager who signed, is still there but disengaged - our last three check-in requests went unanswered and the one call we got was fifteen minutes. Adoption is one team out of the three that were in the original plan. He said last year they are 'reasonably happy' with Riverbank for the adjacent workflow, and at the time mentioned our list price is roughly double. Nobody has raised cancellation. No incidents, no support burden at all, which is mostly because nobody uses it enough to hit problems."
+  }
+]

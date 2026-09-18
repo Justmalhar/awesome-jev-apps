@@ -1,0 +1,74 @@
+[
+  {
+    "account": "Northwind Retail",
+    "channel": "support",
+    "date": "2026-02-03",
+    "text": "Customer: This is the fourth time the nightly export has failed silently. I raised it in December (ticket 21877) and again in January. Each time I'm told it's fixed. My director asked me in our planning meeting why we're still paying for something that needs babysitting, and I didn't really have an answer for her. What is the actual root cause?"
+  },
+  {
+    "account": "Northwind Retail",
+    "channel": "sales",
+    "date": "2026-02-18",
+    "text": "CSM notes: QBR with Marta. She's been moved to the loyalty programme team; her replacement on our account is TBD. She mentioned procurement has flagged our line item in their cost review and asked what the notice period is on the contract, 'just so I can tell them accurately'. Also asked whether the data export includes the full event history if they ever needed to move it."
+  },
+  {
+    "account": "Kestrel Bank",
+    "channel": "support",
+    "date": "2026-02-09",
+    "text": "Customer: Quick one - we're rolling out to the risk team next month, another 40 seats. Can you send me a quote and confirm the SSO group mapping supports nested AD groups? Also want to say the migration support from Dev was genuinely excellent, he stayed on a call with us until 9pm."
+  },
+  {
+    "account": "Kestrel Bank",
+    "channel": "sales",
+    "date": "2026-02-22",
+    "text": "CSM notes: Expansion call. They're happy. One open item: they need field-level audit logging for their regulator and we don't have it. Not blocking the expansion but they were clear it becomes a compliance issue at their next audit cycle. Asked us to put it in writing that it's on the roadmap."
+  },
+  {
+    "account": "Halcyon Media",
+    "channel": "support",
+    "date": "2026-01-28",
+    "text": "Customer: Honestly at this point I've stopped trying. We were told in the sales process that the Adobe connector handled asset metadata. It doesn't, and after three months of back and forth your team has confirmed it won't. The video team has gone back to their old process entirely. I'm the only one still logging in. I've got a call with Frame.io next week."
+  },
+  {
+    "account": "Halcyon Media",
+    "channel": "sales",
+    "date": "2026-02-11",
+    "text": "CSM notes: Tried to re-engage. Ravi was polite but flat. Said their CFO has asked for a list of tools not being used at renewal and we are on it. He asked what our cancellation notice is and whether there's a month-to-month option to 'wind down gracefully'. No interest in a workshop. I would not call this recoverable without a product commitment."
+  },
+  {
+    "account": "Sable Manufacturing",
+    "channel": "support",
+    "date": "2026-02-14",
+    "text": "Customer: We're still not properly live. The pilot with the maintenance team was supposed to end in November and we never rolled out to the other two plants because the shift-pattern import didn't work with our format. Nobody chased us. We'd like to restart but we need help mapping the import - can someone actually walk us through it this time?"
+  },
+  {
+    "account": "Sable Manufacturing",
+    "channel": "sales",
+    "date": "2026-02-25",
+    "text": "CSM notes: Good call with Tomas. He's new - took over from Ingrid who left the company in December. He didn't know what we'd agreed with her and asked us to re-present the business case to his ops director. Keen, but effectively starting from zero. No competitor in the picture that I can see."
+  },
+  {
+    "account": "Orchid Health",
+    "channel": "support",
+    "date": "2026-02-05",
+    "text": "Customer: Thanks for the quick turnaround on the API key rotation. Everything is working. One small thing - the docs for the batch endpoint say 'coming soon' and have for a while. Any timeline? Not urgent, we have a workaround with the single endpoint."
+  },
+  {
+    "account": "Orchid Health",
+    "channel": "sales",
+    "date": "2026-02-20",
+    "text": "CSM notes: Routine check-in. Usage is steady, no complaints. They asked whether there's a discount for moving to an annual commitment - their finance team prefers it. Mentioned in passing that a colleague at another hospital uses a competitor and 'likes the reporting better', but was not pushing on it."
+  },
+  {
+    "account": "Vertex Freight",
+    "channel": "support",
+    "date": "2026-02-16",
+    "text": "Customer: URGENT. The rate calculation has been wrong on European lanes since your release on Tuesday and we have quoted twelve customers off bad numbers. Our COO is on this thread. I need someone senior on a call within the hour, not a ticket update. We have been told twice this week that it was resolved and it was not."
+  },
+  {
+    "account": "Vertex Freight",
+    "channel": "sales",
+    "date": "2026-02-24",
+    "text": "CSM notes: Post-incident review with their COO. Tense but constructive. He was explicit: one more incident of this class before renewal and they will run a formal RFP - he named two competitors he would invite. Asked for a written remediation plan. Also asked about contractual service credits, which is new for them."
+  }
+]

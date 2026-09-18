@@ -1,0 +1,11 @@
+line_id,owner,note
+BL-02,R. Kaur,"Two permanent platform roles stayed open all quarter after the offers fell through, so we bridged with agency contractors at roughly 1.9x the internal cost. Both roles are now signed and start in July, so the contractor line unwinds from August."
+BL-03,R. Kaur,"The Horizon load test environments were left running after the May GA and nobody owned the teardown. We have added a scheduled shutdown and a budget alert. Underlying run-rate is in line with plan once those environments come off."
+BL-05,R. Kaur,"Recruitment agency fees are under because we filled four of six roles through referrals. Expect this to normalise next quarter as the remaining open roles go to agencies."
+BL-07,M. Delgado,"The Lisbon user conference moved from Q3 to Q2 at the request of the events partner. The full year events budget is unchanged; this is the Q3 spend landing a quarter early."
+BL-09,M. Delgado,"Content production is behind because the video agency onboarding took longer than planned. The work is commissioned and will be invoiced in Q3."
+BL-11,S. Whitlock,"Our fixed-price energy contract expired in March and the renewal came in 47 percent higher per unit. Consumption is flat. This is the new baseline and it will repeat every quarter until the next tender in 2028."
+BL-12,S. Whitlock,"Travel is over because we sent nine people to the Lisbon conference that moved into Q2, plus two unplanned customer recovery trips after the April incident."
+BL-14,A. Bergstrom,"We hired three customer success managers ahead of plan to cover the enterprise accounts that closed in Q1. This is a permanent increase to the run rate and was approved at the March review."
+BL-16,A. Bergstrom,"Training budget is unspent. The enablement platform procurement is still in legal review."
+BL-17,J. Osei,"Higher than budgeted. External advisory."

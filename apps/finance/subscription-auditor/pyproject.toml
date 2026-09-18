@@ -1,0 +1,6 @@
+[project]
+name = "subscription-auditor"
+version = "0.1.0"
+description = "Find every recurring charge in a statement, including the forgotten ones."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.2"]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "R-1000",
+    "rating": 3,
+    "text": "We were sold on the Salesforce sync and it has never worked reliably. Six months of workarounds. The support team try hard but they cannot fix what engineering will not prioritise."
+  },
+  {
+    "id": "R-1001",
+    "rating": 9,
+    "text": "Setup took an afternoon and the CSV importer just worked. The reporting is where it really earns its keep - I build the exec pack in ten minutes now instead of a day."
+  },
+  {
+    "id": "R-1002",
+    "rating": 6,
+    "text": "It's fine. Does the job. The mobile app is basically unusable though, everything is tiny and half the filters are missing."
+  },
+  {
+    "id": "R-1003",
+    "rating": 10,
+    "text": "Genuinely the best tool we bought last year. Anna in support answered a Sunday night question in eleven minutes."
+  },
+  {
+    "id": "R-1004",
+    "rating": 2,
+    "text": "Too expensive for what it is. We are paying enterprise money for something that times out whenever we pull more than a quarter of data."
+  },
+  {
+    "id": "R-1005",
+    "rating": 8,
+    "text": "Solid. Would be a 10 if the API had proper pagination and webhook retries. Right now I maintain a cron job to paper over it."
+  },
+  {
+    "id": "R-1006",
+    "rating": 4,
+    "text": "Onboarding was a mess. We were handed to three different people, none of whom knew what the last one had agreed, and the migration scripts we were promised never appeared."
+  },
+  {
+    "id": "R-1007",
+    "rating": 7,
+    "text": "No complaints really. The UI got busier in the redesign and I liked the old nav better, but I got used to it."
+  },
+  {
+    "id": "R-1008",
+    "rating": 1,
+    "text": "Down twice in a month during our busiest week. I do not care how good the features are if I cannot log in."
+  },
+  {
+    "id": "R-1009",
+    "rating": 9,
+    "text": "The audit log alone justifies the cost for us - our compliance review went from three weeks to two days."
+  },
+  {
+    "id": "R-1010",
+    "rating": 5,
+    "text": "The product is good but the price increase at renewal was 40% with two weeks notice. That is not how you treat a customer who has been here four years."
+  },
+  {
+    "id": "R-1011",
+    "rating": 10,
+    "text": "Fast, clean, does exactly what it says. Onboarding call was genuinely useful rather than a sales pitch."
+  },
+  {
+    "id": "R-1012",
+    "rating": 3,
+    "text": "Cannot export to anything our finance team uses. No Xero, no Sage, and the CSV column names change between releases so my macros break."
+  },
+  {
+    "id": "R-1013",
+    "rating": 8,
+    "text": "Love it overall. The one thing I would change is bulk editing - selecting 200 records one at a time is soul destroying."
+  },
+  {
+    "id": "R-1014",
+    "rating": 6,
+    "text": "Works well on desktop. On an iPad it is a broken website in an app wrapper. We do field work so that matters more than you would think."
+  },
+  {
+    "id": "R-1015",
+    "rating": 0,
+    "text": "Awful. Lost two days of entries after your migration and nobody could tell me where they went. Still waiting on an explanation."
+  },
+  {
+    "id": "R-1016",
+    "rating": 9,
+    "text": "Support is the differentiator. The product is comparable to the alternatives but I get a human who understands my setup within the hour."
+  },
+  {
+    "id": "R-1017",
+    "rating": 7,
+    "text": "Does what we need. A bit slow loading the main dashboard first thing in the morning, presumably everyone logs in at once."
+  },
+  {
+    "id": "R-1018",
+    "rating": 4,
+    "text": "We use maybe 20% of it and pay for all of it. Would like a lighter plan. Also the permissions model is confusing - I still cannot work out why some people see the archive."
+  },
+  {
+    "id": "R-1019",
+    "rating": 10,
+    "text": "Switched from a competitor and the migration support was excellent. Everything landed intact and the team were on a call for the cutover."
+  },
+  {
+    "id": "R-1020",
+    "rating": 5,
+    "text": "n/a"
+  },
+  {
+    "id": "R-1021",
+    "rating": 8,
+    "text": "Reporting is strong, integrations are weak. If you connect to Slack and Jira you are fine; anything else and you are writing code."
+  },
+  {
+    "id": "R-1022",
+    "rating": 2,
+    "text": "Unreliable. Third outage this quarter. My team has lost confidence and two of them have gone back to spreadsheets."
+  },
+  {
+    "id": "R-1023",
+    "rating": 9,
+    "text": "The new keyboard shortcuts are a lovely touch. Whoever spent time on that, thank you."
+  },
+  {
+    "id": "R-1024",
+    "rating": 6,
+    "text": "Fine tool, painful setup. Took us nine weeks to go live because the SSO configuration is not documented anywhere I could find."
+  }
+]

@@ -1,0 +1,6 @@
+[project]
+name = "lead-qualifier"
+version = "0.1.0"
+description = "Score inbound leads against an ICP written as a paragraph. Score once, re-weight for free."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.0"]

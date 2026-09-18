@@ -1,0 +1,74 @@
+[
+  {
+    "id": "CALL-201",
+    "account": "Hollisway Group",
+    "rep": "D. Mensah",
+    "notes": "45 min discovery with Ana (Head of Ops) and Piotr (IT). Ana described the weekly reconciliation as 'two people, three days, every week' and said she owns that number in her QBR. Strong pain, clearly hers. Piotr raised our SOC 2 status straight away - they have a mandatory security review for anything touching customer records, takes 6-8 weeks. Ana asked for a pilot with her reconciliation team and we agreed to scope a 30-day pilot starting after the security pack goes in. She said budget for this is already approved under their automation line. They currently do it with Excel and a set of macros Piotr maintains."
+  },
+  {
+    "id": "CALL-202",
+    "account": "Petrel Dynamics",
+    "rep": "S. Iqbal",
+    "notes": "Call with Greg, Finance Systems Manager. Polite but not moving. Said they are 'reasonably happy' with Riverbank and switching would mean retraining 60 people plus moving four years of history. Price came up - said our list price is roughly double what they pay now and he could not justify it internally even if he wanted to. No urgency. Said to check back after their financial year end. Nothing agreed."
+  },
+  {
+    "id": "CALL-203",
+    "account": "Wrenfield Labs",
+    "rep": "D. Mensah",
+    "notes": "Technical deep dive with Kai (Platform Lead). Really engaged - he had read the docs and came with specific questions about our webhook retry semantics. Blocker: they need a connector to Benchling and we do not have one. He asked whether we would build it and I said I could not commit. He said without it this is a non-starter for the lab team but might still work for the ops team. Asked to bring his director in next week to talk about scoping a narrower rollout. Mentioned they had a quote from Northstar Suite last year but did not proceed."
+  },
+  {
+    "id": "CALL-204",
+    "account": "Cobalt Municipal",
+    "rep": "R. Almeida",
+    "notes": "Intro call with procurement, not the end user. Jan explained their process: anything over 50k goes to tender, minimum three bidders, and the decision sits with a committee that meets quarterly. He was clear he cannot decide anything and would not tell me who can. Also asked about data residency - everything must stay in-country, which we can do but only on the enterprise tier. He asked us to send a capability statement. No demo, no timeline."
+  },
+  {
+    "id": "CALL-205",
+    "account": "Juniper Health",
+    "rep": "S. Iqbal",
+    "notes": "Second call with Dr Osei and her practice manager Bea. Dr Osei is very much the champion - she said 'I will fight for this' unprompted and offered to present it to the partners herself. Bea flagged that the partners are conservative and will ask about our company size; we are a lot smaller than their last vendor and one partner has been burned by a startup folding. Price was not raised at all. Agreed: I send a one-pager Bea can circulate, and Dr Osei books us into the partners meeting. That is booked for the 14th."
+  },
+  {
+    "id": "CALL-206",
+    "account": "Astley Freight",
+    "rep": "R. Almeida",
+    "notes": "Short call. Mark said upfront they are mid-way through an ERP migration and nobody has bandwidth for another project until it lands. Acknowledged the problem is real - he described losing a customer over a missed delivery window last quarter, and it clearly stung. But he was firm: not now. Said to call him in six months. Did mention that if they do anything it will probably be built in-house because they have a data team sitting idle after the migration."
+  },
+  {
+    "id": "CALL-207",
+    "account": "Verdon Retail",
+    "rep": "D. Mensah",
+    "notes": "Call with Nils (Director of Merchandising). Enthusiastic. Described exactly the problem we solve, in his own words, and said his team currently does it in spreadsheets that break every season. Budget: he said he has discretionary spend up to a level that covers us. Objection: he is worried about the migration - four seasons of historical assortment data lives in a system nobody at the company fully understands any more. Asked for a proposal including migration scoping. Also said he is 'talking to Datadome as well, to be fair to the process'."
+  },
+  {
+    "id": "CALL-208",
+    "account": "Lockhart & Pryce",
+    "rep": "S. Iqbal",
+    "notes": "Call with the managing partner's EA, who had booked it. She was not able to speak to requirements at all and the partner did not join. She asked us to resend materials and said she would find a time. I would not call this a qualified conversation. Nothing agreed, no clear owner of the problem, no budget discussion."
+  },
+  {
+    "id": "CALL-209",
+    "account": "Talmoor Energy",
+    "rep": "R. Almeida",
+    "notes": "Good call with Fiona (Head of Compliance) and her analyst. The regulatory reporting pain is entirely hers and she described it vividly - manual sampling, evidence in three systems, and an auditor finding last cycle. She has budget from the remediation programme. Concerns: everything must be auditable and she asked hard questions about our change log and access controls, and she needs a DPIA before anything moves. She agreed to start the security and legal review this week and gave me her legal contact. No pricing discussion yet."
+  },
+  {
+    "id": "CALL-210",
+    "account": "Braeburn Media",
+    "rep": "D. Mensah",
+    "notes": "Chat with Theo, Ops Manager. He likes it but is not the buyer - decision sits with their COO who he says is 'allergic to new subscriptions'. He also pushed back on price, saying they are a 30-person company and our entry tier is aimed at bigger teams. He did say their current process is genuinely broken and he personally wastes a day a week on it. Agreed he would try to get the COO on a call with me; nothing in the diary yet."
+  },
+  {
+    "id": "CALL-211",
+    "account": "Kestrel Bank",
+    "rep": "S. Iqbal",
+    "notes": "Expansion conversation with existing sponsor Ramesh. Wants to add the risk team - another 40 seats. No objections raised at all beyond a note that his InfoSec team will want to re-review because it is a new data domain. Asked for a quote. Said the budget is sitting in his team's plan already. Very much our advocate internally - he offered to introduce us to the head of risk himself."
+  },
+  {
+    "id": "CALL-212",
+    "account": "Orrin Textiles",
+    "rep": "R. Almeida",
+    "notes": "Call with Yusuf, IT Manager. Cordial. He was honest that the business has not asked for this and he was mostly curious after seeing us at a trade show. No owned pain, no budget line, and he said any spend this year needs a business case he has no time to write. Asked for pricing anyway 'for the file'. I sent it. Realistically this is not live."
+  }
+]

@@ -1,0 +1,21 @@
+claim_id,employee,date,vendor,category,amount,receipt,approval_ref,description
+EXP-1001,R. Ellery,2026-02-03,Pret A Manger,meals,11.40,yes,,Lunch between client meetings in Leeds
+EXP-1002,R. Ellery,2026-02-03,The Alverton,meals,88.20,yes,,Dinner with two colleagues after the Leeds workshop; two bottles of red with the table
+EXP-1003,M. Okonjo,2026-02-05,British Airways,travel,612.00,yes,PA-2026-0088,Business class LHR to EDI return for the regulator briefing
+EXP-1004,M. Okonjo,2026-02-05,Booking.com,accommodation,214.00,yes,,Two nights Edinburgh - portal had no availability so booked direct
+EXP-1005,S. Varga,2026-02-07,Nando's Shoreditch,meals,52.10,yes,,Team lunch to celebrate the release
+EXP-1006,S. Varga,2026-02-09,Amazon UK,equipment,289.99,yes,,Standing desk converter for home office
+EXP-1007,J. Pike,2026-02-10,Boots,other,18.60,no,,Toothpaste razors and shower gel - forgot washbag for the Bristol trip
+EXP-1008,J. Pike,2026-02-11,NCP Car Parks,travel,14.00,yes,,Parking at Bristol Temple Meads for the site visit
+EXP-1009,J. Pike,2026-02-12,Bristol City Council,other,70.00,yes,,Penalty charge notice - overstayed the bay while the meeting ran long
+EXP-1010,A. Fenwick,2026-02-12,Hawksmoor Guildhall,entertainment,340.00,yes,PA-2026-0104,Dinner for four
+EXP-1011,A. Fenwick,2026-02-13,Selfridges,other,180.00,yes,,Hamper sent to the Ofwat case officer as a thank you for the extension
+EXP-1012,A. Fenwick,2026-02-14,Corporate Travel Portal,accommodation,178.00,yes,,One night Manchester booked via the portal for the Tuesday board meeting
+EXP-1013,D. Ruiz,2026-02-17,Eurostar,travel,96.00,yes,,Standard class London to Brussels for the partner review
+EXP-1014,D. Ruiz,2026-02-17,Le Pain Quotidien,meals,9.80,no,,Breakfast at Brussels Midi before the partner review
+EXP-1015,D. Ruiz,2026-02-18,Hotel Amigo,accommodation,268.00,yes,PA-2026-0111,One night Brussels booked direct - portal outage confirmed by travel desk in writing
+EXP-1016,T. Nakamura,2026-02-19,Uber,travel,31.50,yes,,Airport transfer after the delayed Frankfurt flight
+EXP-1017,T. Nakamura,2026-02-20,Steam Games,other,49.99,no,,Charged to the card by mistake - flagging for repayment
+EXP-1018,T. Nakamura,2026-02-21,Dishoom Covent Garden,entertainment,127.40,yes,,Dinner hosting the Meridian Bank integration team to close out the pilot scope
+EXP-1019,K. Adeyemi,2026-02-24,Singapore Airlines,travel,2140.00,yes,PA-2026-0129,Premium economy LHR to SIN for the APAC onboarding
+EXP-1020,K. Adeyemi,2026-02-25,Marks and Spencer,meals,62.40,yes,,Dinner alone at the airport after the flight was rescheduled

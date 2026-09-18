@@ -2,7 +2,7 @@
 
 Routing, qualification, and risk detection over the text a business already generates.
 
-**8 of 11 built.**
+**11 of 11 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
@@ -14,9 +14,9 @@ Routing, qualification, and risk detection over the text a business already gene
 | ✅ [Sales call tagger](sales-call-tagger) | Objections, competitors, and next steps from call notes | independent Nouls per signal |
 | ✅ [Renewal risk scorer](renewal-risk) | Which accounts are quietly drifting toward non-renewal | composite scoring from raw judgments |
 | ✅ [Application screener](candidate-screener) | Screen applications against explicit, job-related criteria | criterion-by-criterion, auditable, with a human tier |
-| ⬜ RFP response scorer | Score supplier responses against weighted criteria | weights tuned without re-running inference |
-| ⬜ Onboarding gap finder | Which steps a new hire's docs never actually explain | coverage checking against a checklist |
-| ⬜ Competitor monitor | Which competitor updates actually matter to your roadmap | relevance filtering over a firehose |
+| ✅ [RFP response scorer](vendor-rfp-scorer) | Score supplier responses against weighted criteria | weights tuned without re-running inference |
+| ✅ [Onboarding gap finder](onboarding-gaps) | Which steps a new hire's docs never actually explain | coverage checking against a checklist |
+| ✅ [Competitor monitor](competitor-monitor) | Which competitor updates actually matter to your roadmap | relevance filtering over a firehose |
 
 ## Running any of these
 

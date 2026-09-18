@@ -1,0 +1,92 @@
+[
+  {
+    "competitor": "Lumea Data",
+    "headline": "Lumea ships column-level lineage for dbt and Airflow, generally available",
+    "detail": "Lumea announced today that column-level lineage is now generally available for all customers on the Team and Enterprise plans. The feature parses dbt manifests and Airflow DAG definitions to build a column-to-column graph, and surfaces upstream impact for any failing test. Available in all regions from today; no waitlist. Pricing unchanged.",
+    "source": "lumea.io/changelog"
+  },
+  {
+    "competitor": "Lumea Data",
+    "headline": "Lumea raises $60m Series C led by Thornhill Ventures",
+    "detail": "Lumea has closed a $60m Series C led by Thornhill Ventures with participation from existing investors. The company says the funding will go toward international expansion and hiring in EMEA. Headcount is expected to roughly double over eighteen months.",
+    "source": "techpress.example/lumea-series-c"
+  },
+  {
+    "competitor": "Quillstream",
+    "headline": "Introducing warehouse-native checks: run validations inside Snowflake",
+    "detail": "Quillstream's new push-down execution mode compiles validation rules to SQL that runs directly in Snowflake, so data never leaves the warehouse. Currently in private preview with a waitlist; general availability is targeted for the second half of the year. BigQuery support is described as planned but not scheduled.",
+    "source": "quillstream.com/blog/warehouse-native"
+  },
+  {
+    "competitor": "Quillstream",
+    "headline": "Quillstream named a Leader in the Hexagon Wave for Data Observability",
+    "detail": "Quillstream has been recognised as a Leader in the latest Hexagon Wave report for Data Observability, scoring highest in the current-offering category. The company credits its customer-first approach and relentless focus on innovation. A complimentary copy of the report is available for download.",
+    "source": "quillstream.com/press"
+  },
+  {
+    "competitor": "Verdant Analytics",
+    "headline": "Verdant launches a free tier for individual practitioners",
+    "detail": "Verdant is introducing Verdant Free: unlimited personal projects, up to three connected sources, and community support, with no credit card required and no expiry. The company says the goal is bottom-up adoption among analytics engineers. Paid plans move from per-seat to a hybrid of seats plus consumption at the same time.",
+    "source": "verdant.dev/free"
+  },
+  {
+    "competitor": "Verdant Analytics",
+    "headline": "Verdant partners with a regional consultancy in ANZ",
+    "detail": "Verdant has signed a reseller agreement with Kauri Data Partners covering Australia and New Zealand. Kauri will provide local implementation services and first-line support for Verdant customers in the region.",
+    "source": "verdant.dev/news"
+  },
+  {
+    "competitor": "Cindermill",
+    "headline": "Cindermill announces automatic anomaly detection with no configuration",
+    "detail": "Cindermill previewed an anomaly-detection engine that learns per-column baselines automatically, with no thresholds to set. The company demonstrated it on a live dataset at its user conference. It is described as entering private beta next quarter for a small number of design partners.",
+    "source": "cindermill.com/conf-keynote"
+  },
+  {
+    "competitor": "Cindermill",
+    "headline": "Why data quality is everyone's job \u2014 a manifesto",
+    "detail": "In a long-form post, Cindermill's head of product argues that data quality cannot be owned by a single team and proposes a shared-responsibility model. The post includes a maturity framework and an invitation to an upcoming webinar.",
+    "source": "cindermill.com/blog/manifesto"
+  },
+  {
+    "competitor": "Northbeam Labs",
+    "headline": "Northbeam adds on-premises deployment for regulated customers",
+    "detail": "Northbeam now offers a fully on-premises deployment option, including an air-gapped mode, aimed at customers in defence and healthcare. Available now under an enterprise licence with a separate price list.",
+    "source": "northbeam.io/releases"
+  },
+  {
+    "competitor": "Northbeam Labs",
+    "headline": "Northbeam hires a new VP of Engineering",
+    "detail": "Northbeam has appointed a new VP of Engineering, joining from a large cloud infrastructure provider. The company also announced the departure of its founding CTO, who moves to an advisory role.",
+    "source": "linkedin.example/northbeam"
+  },
+  {
+    "competitor": "Lumea Data",
+    "headline": "Lumea moves to consumption pricing, retires per-seat plans",
+    "detail": "Lumea is retiring per-seat pricing for new customers in favour of a consumption model billed on rows scanned. Existing customers keep their current plan until renewal. The company says the change makes costs predictable for teams with many occasional users; several customers on social media have said their bills will rise.",
+    "source": "lumea.io/pricing-update"
+  },
+  {
+    "competitor": "Quillstream",
+    "headline": "Quillstream integrates with the Hexagon catalog",
+    "detail": "Quillstream now pushes test results and freshness metadata into the Hexagon data catalog, so catalog users see quality signals alongside asset documentation. Generally available today for customers of both products.",
+    "source": "quillstream.com/changelog"
+  },
+  {
+    "competitor": "Verdant Analytics",
+    "headline": "Verdant open-sources its rule engine",
+    "detail": "Verdant has released the core of its validation rule engine under Apache 2.0. The repository includes the rule DSL parser and execution planner but not the orchestration or UI layers. The company frames it as a contribution to the ecosystem and a standard it hopes others adopt.",
+    "source": "github.example/verdant/rules"
+  },
+  {
+    "competitor": "Cindermill",
+    "headline": "Cindermill acquires Fernbrook, a small lineage startup",
+    "detail": "Cindermill has acquired Fernbrook, a four-person startup building column-level lineage for Spark and Airflow. Terms were not disclosed. Fernbrook's product will be folded into Cindermill's platform over the next two quarters and the standalone product is being discontinued.",
+    "source": "techpress.example/cindermill-fernbrook"
+  },
+  {
+    "competitor": "Northbeam Labs",
+    "headline": "Northbeam publishes a benchmark comparing data quality tools",
+    "detail": "Northbeam has published a benchmark it commissioned comparing execution times and rule coverage across five data quality platforms. Northbeam scores highest on every measure reported. Methodology is described in an appendix; competitors were configured by Northbeam's own engineers.",
+    "source": "northbeam.io/benchmark"
+  }
+]

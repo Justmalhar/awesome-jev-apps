@@ -1,0 +1,62 @@
+[
+  {
+    "id": "APP-001",
+    "resume": "Backend engineer, 9 years. Current role: payments platform team at a marketplace processing ~£400m/yr. Owned the double-entry ledger service (Go, Postgres) end to end including a re-platform from a single-table design to an append-only ledger with daily reconciliation against the PSP. On the primary on-call rotation for four years; led the incident review process after a duplicate-capture incident. Previously: order management services in Java at a grocery retailer. Kafka for event sourcing on both teams. PCI DSS scope on the payments team, including annual QSA evidence collection.",
+    "cover_note": "I've spent most of my career on the money-moving side of systems and I like the constraint that everything has to reconcile. Interested in this role because the ledger rewrite you described in your engineering blog is the problem I most enjoy."
+  },
+  {
+    "id": "APP-002",
+    "resume": "Software Engineer, 4 years. Node.js and Python backends for a logistics SaaS. Built REST APIs consumed by the mobile app, moved a monolith onto ECS, and wrote the integration with a third-party carrier API. Some exposure to Stripe for the subscription billing side - implemented plan upgrades and webhook handling for invoice events. No formal on-call rotation; the team responded to alerts in business hours via a shared Slack channel.",
+    "cover_note": "Looking to move into a more focused backend role. I've done a bit of billing work and would like to go deeper."
+  },
+  {
+    "id": "APP-003",
+    "resume": "Principal Engineer, 14 years. Most recently technical lead for the settlement and reconciliation domain at a card acquirer: Kotlin services, Kafka, Postgres, and a batch settlement pipeline handling several million transactions daily. Designed the chargeback state machine. Carried the pager for the domain and ran the post-incident process. SOX controls owner for the release process. Mentored six engineers, two to senior. Before that, distributed systems work in Java at a telco.",
+    "cover_note": "I am looking for a senior individual-contributor role with real ownership. Happy to discuss the trade-offs in our settlement design."
+  },
+  {
+    "id": "APP-004",
+    "resume": "Full-stack developer. React, TypeScript, Next.js, Tailwind, some Node. Built and shipped six client projects over three years at a digital agency, including an e-commerce storefront integrating Shopify checkout. Comfortable with Vercel deployments and serverless functions. Interested in expanding backend depth.",
+    "cover_note": "I know this role leans backend but I learn fast and I've been working through a Go course in my own time."
+  },
+  {
+    "id": "APP-005",
+    "resume": "Senior Software Engineer, 7 years. C# / .NET services at an insurance group. Built the premium calculation and direct-debit collection service, including retry and dunning logic against BACS. Rotational on-call, one week in five, including a major incident where collections double-submitted and had to be reversed. RabbitMQ for inter-service messaging. Worked under FCA reporting requirements and internal audit.",
+    "cover_note": "Payments in insurance is less glamorous than card payments but the reconciliation problems are identical. I'd like to work somewhere the payment flow is the product."
+  },
+  {
+    "id": "APP-006",
+    "resume": "Engineer. Various technologies. Worked on several projects. Team player with strong communication skills and a passion for technology. Experienced in agile methodologies and committed to delivering high-quality software solutions that meet business needs. Proficient in multiple programming languages and frameworks.",
+    "cover_note": "Please find my CV attached. I believe I would be a great addition to your team."
+  },
+  {
+    "id": "APP-007",
+    "resume": "Staff Engineer, 11 years. Data infrastructure: Spark, Airflow, Snowflake, Python. Built the company's event pipeline handling 2bn events/day and the dbt models on top. Owned the pipeline's on-call rotation and its SLOs. No direct payments experience, though the pipeline carried transaction events and had strict correctness requirements for the finance team's revenue reporting. Some Scala. Mentored four engineers.",
+    "cover_note": "I know I'm not a payments person on paper. The correctness and reconciliation constraints I've worked under feel closely related and I'd like to make the move."
+  },
+  {
+    "id": "APP-008",
+    "resume": "Backend Engineer, 6 years. Go and Rust services at a crypto exchange: matching engine adjacent work, wallet service, and the internal ledger that tracks user balances. Everything reconciles nightly against on-chain state. 24/7 on-call rotation with a 15-minute response SLA; handled three P1 incidents as incident commander. NATS and Kafka. No traditional card payments or PCI experience.",
+    "cover_note": "Ledgers are ledgers. Happy to talk about the differences between crypto and card settlement - there are more than people think."
+  },
+  {
+    "id": "APP-009",
+    "resume": "Engineering Manager, 12 years, previously Senior Engineer for 6. Managed a team of eight building the billing platform for a B2B SaaS (Java, Postgres, Stripe Billing). Hands-on until about three years ago. Set up the team's on-call rotation and incident process but no longer carries the pager. Led the SOC 2 Type II evidence work for the billing domain.",
+    "cover_note": "I'm looking to return to an individual contributor role. I've kept my hands in code through side projects but I'd be honest that I'm rusty on day-to-day service ownership."
+  },
+  {
+    "id": "APP-010",
+    "resume": "Junior Backend Developer, 18 months. Python/Django at a small charity CRM provider. Built REST endpoints, wrote tests, fixed bugs. Contributed to a Gift Aid claim submission feature which involved generating and reconciling HMRC submission files. Shadowed on-call but never primary. Bootcamp graduate with a prior career in accountancy, including three years in accounts receivable.",
+    "cover_note": "My accounting background means I actually understand what a ledger is supposed to do, which I think is unusual for someone at my level of coding experience."
+  },
+  {
+    "id": "APP-011",
+    "resume": "Senior Backend Engineer, 8 years. Java and Kotlin at a travel booking platform. Owned the payment orchestration layer: routing authorisations across three PSPs, 3DS handling, refunds, and a reconciliation job against each provider's settlement files. Primary on-call for the payments domain, roughly one week a month, including a Black Friday incident where a PSP degraded and traffic had to be re-routed live. Kafka. PCI DSS SAQ-D scope.",
+    "cover_note": "I've done the multi-PSP routing thing at scale and would like to do it again somewhere the payment experience is a differentiator rather than a cost centre."
+  },
+  {
+    "id": "APP-012",
+    "resume": "Site Reliability Engineer, 10 years. Kubernetes, Terraform, Prometheus, Go tooling. Ran the platform that hosts the payments services at a fintech, including the on-call rotation and the incident command function, but did not write the payment services themselves. Built the deployment pipeline that carries PCI-scoped workloads and maintained segmentation controls for the annual audit.",
+    "cover_note": "Most of my code is infrastructure tooling rather than product services. I'm interested in moving closer to the domain."
+  }
+]

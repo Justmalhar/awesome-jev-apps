@@ -1,0 +1,62 @@
+[
+  {
+    "id": "TH-901",
+    "account": "Brightgate Insurance",
+    "messages": "Customer (Mon): Our claims intake integration has been down since Friday evening. I logged a ticket and have had nothing back.\nCustomer (Tue): Following up. Still nothing. We are processing claims on paper.\nCustomer (Wed): This is my third message. We have 900 claims backed up and our regulator requires a 5-day acknowledgement. I have copied our general counsel. If I do not have a call with someone senior today I will be raising a formal complaint under our SLA and instructing our legal team to review the contract."
+  },
+  {
+    "id": "TH-902",
+    "account": "Pinegrove Studios",
+    "messages": "Customer: Hi! Loving the new editor. One small thing - is there a keyboard shortcut for duplicating a block? Couldn't find it in the docs.\nAgent: There is - Cmd+D. I'll get it added to the shortcuts page.\nCustomer: Perfect, thank you!"
+  },
+  {
+    "id": "TH-903",
+    "account": "Coastway Logistics",
+    "messages": "Customer: The bulk import has been rejecting our CSV since the schema change. We can still enter records manually so it is not a disaster, but it is about two hours a day of someone's time.\nAgent: Thanks - the delimiter handling changed. Can you send a sample file?\nCustomer: Sent. Appreciate the quick reply."
+  },
+  {
+    "id": "TH-904",
+    "account": "Alder & Finch",
+    "messages": "Customer: I have now explained this four times to four different people. Every time I am asked to re-describe the problem from scratch and every time I am told someone will get back to me. I do not want another ticket update. I want a manager. Who is your supervisor?\nAgent: I'm sorry about that, let me pull the history.\nCustomer: You said that yesterday."
+  },
+  {
+    "id": "TH-905",
+    "account": "Novena Foods",
+    "messages": "Customer: Our contract renews next quarter and my CFO wants a 15% reduction to sign off. Our usage hasn't changed. I know that's not something support handles, but I wasn't sure who to ask. Can you point me at the right person? No rush, just want to get it started early."
+  },
+  {
+    "id": "TH-906",
+    "account": "Kirribilli Health",
+    "messages": "Customer: We discovered this morning that patient identifiers were included in the export file that goes to our analytics vendor. That is a notifiable incident for us. I need to know exactly what fields your export includes and when the behaviour changed. Our DPO is asking and I have to respond to her today. I am not accusing anyone of anything yet but I need facts fast."
+  },
+  {
+    "id": "TH-907",
+    "account": "Halden Tools",
+    "messages": "Customer: Quick question - if we add users mid-month do they get billed immediately or at the next cycle?\nAgent: Next cycle, prorated.\nCustomer: Great, that's what I hoped. Thanks."
+  },
+  {
+    "id": "TH-908",
+    "account": "Trident Mobility",
+    "messages": "Customer: Honestly I have run out of patience with this. Three weeks, four incidents, and the last root cause we got was a paragraph that said nothing. We have a board meeting on Thursday where I have to explain why our platform was down twice. I am seriously considering just moving us to a competitor and eating the migration cost. I'd rather not. Give me a reason not to."
+  },
+  {
+    "id": "TH-909",
+    "account": "Selby Retail Group",
+    "messages": "Customer: The report export is producing an empty file for date ranges over 90 days. Smaller ranges work fine.\nAgent: Reproduced - it's a timeout on our side. Engineering has it, ETA Thursday.\nCustomer: Thursday works. Thanks for the clear answer."
+  },
+  {
+    "id": "TH-910",
+    "account": "Verity Consulting",
+    "messages": "Customer: This is genuinely the worst software procurement decision I have made in fifteen years. I have tweeted about it. I am writing it up for our industry newsletter as a case study in what to avoid. I am not asking for anything at this point, I just want you to know what you have done to my team's quarter."
+  },
+  {
+    "id": "TH-911",
+    "account": "Orrell Manufacturing",
+    "messages": "Customer: We need the invoice reissued with our new legal entity name on it. Old entity was dissolved.\nAgent: I can do that but I'll need a letter confirming the change - can you send one?\nCustomer: Will do, thanks.\nCustomer (two days later): Letter attached. Any movement? Our finance close is coming up and I'd like it settled."
+  },
+  {
+    "id": "TH-912",
+    "account": "Lantern Education",
+    "messages": "Customer: Hi - we were told during the sales process that the gradebook sync would be available in Q1. We have built our whole rollout plan around it and we are now told it slipped to Q4. I am not angry with you personally, but I need someone who can either change that date or commit to something in writing that I can take to my provost. A support agent cannot give me that."
+  }
+]

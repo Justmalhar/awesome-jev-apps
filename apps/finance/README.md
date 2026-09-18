@@ -2,7 +2,7 @@
 
 Every number computed in Python. The model only ever supplies judgment.
 
-**8 of 10 built.**
+**10 of 10 built.**
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
@@ -14,8 +14,8 @@ Every number computed in Python. The model only ever supplies judgment.
 | ✅ [Vendor risk screener](vendor-risk) | Screen suppliers against risk criteria from their documents | independent risk Nouls, thresholded separately |
 | ✅ [Deduction classifier](tax-classifier) | Which expenses are plausibly deductible, with a review queue | confidence decides what a human sees |
 | ✅ [Fraud signal extractor](fraud-signals) | Turn transaction narratives into risk features | features for a downstream fraud model |
-| ⬜ Earnings call tagger | Tag guidance, hedging, and tone shifts across transcripts | whole-transcript scan per company |
-| ⬜ Variance explainer | Classify why each line missed budget, from the notes | numbers in code, causes in Jev |
+| ✅ [Earnings call tagger](earnings-tagger) | Tag guidance, hedging, and tone shifts across transcripts | whole-transcript scan per company |
+| ✅ [Variance explainer](budget-variance) | Classify why each line missed budget, from the notes | numbers in code, causes in Jev |
 
 ## Running any of these
 

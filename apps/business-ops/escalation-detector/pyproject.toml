@@ -1,0 +1,6 @@
+[project]
+name = "escalation-detector"
+version = "0.1.0"
+description = "Find the support threads that need a manager, with an explicit abstention band."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.0"]

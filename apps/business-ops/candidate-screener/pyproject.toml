@@ -1,0 +1,6 @@
+[project]
+name = "candidate-screener"
+version = "0.1.0"
+description = "Criterion-by-criterion screening assistance for human recruiters. Never auto-rejects."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.0"]

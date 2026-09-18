@@ -19,7 +19,7 @@ app. There is no repo-wide virtualenv to create and nothing to `pip install`.
 ## The catalog
 
 <!-- CATALOG:START -->
-**95 of 100 built.**
+**100 of 100 built.**
 
 ### 🛠️ [Developer Tools](developer-tools) — 11/11
 
@@ -88,7 +88,7 @@ Jev sitting in front of, behind, and around a generative model. Guarding every c
 - **[Context compressor](ai-infrastructure/context-compressor)** — Select which context to keep when the window is tight
 - **[Tool output validator](ai-infrastructure/tool-output-validator)** — Did this tool actually return what was asked for
 
-### 🏦 [Finance](finance) — 8/10
+### 🏦 [Finance](finance) — 10/10
 
 Every number computed in Python. The model only ever supplies judgment.
 
@@ -100,10 +100,10 @@ Every number computed in Python. The model only ever supplies judgment.
 - **[Vendor risk screener](finance/vendor-risk)** — Screen suppliers against risk criteria from their documents
 - **[Deduction classifier](finance/tax-classifier)** — Which expenses are plausibly deductible, with a review queue
 - **[Fraud signal extractor](finance/fraud-signals)** — Turn transaction narratives into risk features
-- Earnings call tagger *(planned)* — Tag guidance, hedging, and tone shifts across transcripts
-- Variance explainer *(planned)* — Classify why each line missed budget, from the notes
+- **[Earnings call tagger](finance/earnings-tagger)** — Tag guidance, hedging, and tone shifts across transcripts
+- **[Variance explainer](finance/budget-variance)** — Classify why each line missed budget, from the notes
 
-### 📊 [Business & Operations](business-ops) — 8/11
+### 📊 [Business & Operations](business-ops) — 11/11
 
 Routing, qualification, and risk detection over the text a business already generates.
 
@@ -115,9 +115,9 @@ Routing, qualification, and risk detection over the text a business already gene
 - **[Sales call tagger](business-ops/sales-call-tagger)** — Objections, competitors, and next steps from call notes
 - **[Renewal risk scorer](business-ops/renewal-risk)** — Which accounts are quietly drifting toward non-renewal
 - **[Application screener](business-ops/candidate-screener)** — Screen applications against explicit, job-related criteria
-- RFP response scorer *(planned)* — Score supplier responses against weighted criteria
-- Onboarding gap finder *(planned)* — Which steps a new hire's docs never actually explain
-- Competitor monitor *(planned)* — Which competitor updates actually matter to your roadmap
+- **[RFP response scorer](business-ops/vendor-rfp-scorer)** — Score supplier responses against weighted criteria
+- **[Onboarding gap finder](business-ops/onboarding-gaps)** — Which steps a new hire's docs never actually explain
+- **[Competitor monitor](business-ops/competitor-monitor)** — Which competitor updates actually matter to your roadmap
 
 ### ⚡ [Personal Productivity](productivity) — 10/10
 

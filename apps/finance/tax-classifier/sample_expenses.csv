@@ -1,0 +1,26 @@
+expense_id,date,vendor,amount,method,description
+EXP-01,2026-01-04,Adobe Systems,59.94,card,Creative Cloud subscription used for all client design work
+EXP-02,2026-01-06,Apple Store,2199.00,card,MacBook Pro 16in replacing the 2019 machine used for client work
+EXP-03,2026-01-07,Trainline,86.40,card,Return to Manchester to present the rebrand to Hartley Foods
+EXP-04,2026-01-09,Sainsburys,112.30,card,Weekly food shop
+EXP-05,2026-01-11,The Ivy Soho,184.00,card,Lunch with a prospective client to discuss a retainer
+EXP-06,2026-01-13,British Gas,96.00,dd,Household energy bill - I work from the back bedroom four days a week
+EXP-07,2026-01-14,Companies House,13.00,card,Annual confirmation statement filing fee
+EXP-08,2026-01-15,Bhandari & Co,720.00,transfer,Accountancy fees for preparing the 2025 accounts and tax return
+EXP-09,2026-01-17,Vodafone,42.00,dd,Mobile phone contract - single line used for both business and personal calls
+EXP-10,2026-01-18,Hiscox,310.00,card,Professional indemnity insurance annual premium
+EXP-11,2026-01-20,John Lewis,89.00,card,Office chair for the home working room
+EXP-12,2026-01-21,Uber,18.60,card,Taxi home from the office after a late client deadline
+EXP-13,2026-01-22,Selfridges,240.00,card,Suit for the Hartley Foods pitch meeting
+EXP-14,2026-01-24,Amazon UK,34.99,card,Two books on brand strategy
+EXP-15,2026-01-26,Google Workspace,14.40,card,Business email and storage
+EXP-16,2026-01-27,HMRC,1840.00,transfer,Payment on account for the 2025 to 2026 tax year
+EXP-17,2026-01-28,Skillshare,168.00,card,Annual membership - courses on motion design to add a new service line
+EXP-18,2026-01-29,Screwfix,420.00,card,Materials to convert the garage into a studio
+EXP-19,2026-01-30,Eurostar,212.00,card,"Paris return for a two day client workshop, stayed an extra night privately"
+EXP-20,2026-02-02,Freelancer Mutual,45.00,dd,Income protection policy in my own name
+EXP-21,2026-02-03,Dropbox,119.88,card,Annual plan for delivering large files to clients
+EXP-22,2026-02-04,Costa Coffee,4.20,card,Coffee while working from a cafe between meetings
+EXP-23,2026-02-05,Nike,84.00,card,Running shoes
+EXP-24,2026-02-06,Design Week,190.00,card,Conference ticket and one night in Birmingham
+EXP-25,2026-02-08,Parking Eye,60.00,card,Parking charge notice at the Birmingham venue car park

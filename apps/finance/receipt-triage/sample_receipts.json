@@ -1,0 +1,16 @@
+[
+  {"receipt_id": "RCP-A", "date": "2026-03-02", "vendor": "Bluebird Coffee Roasters", "total": 4.85, "currency": "GBP", "items": "1 flat white, 1 almond croissant", "source": "photo"},
+  {"receipt_id": "RCP-B", "date": "2026-03-02", "vendor": "Dishoom King's Cross", "total": 82.00, "currency": "GBP", "items": "Dinner for 3, service charge added separately at the till", "source": "photo"},
+  {"receipt_id": "RCP-C", "date": "2026-03-03", "vendor": "Uber", "total": 23.10, "currency": "GBP", "items": "Trip London Bridge to Shoreditch, 18:42", "source": "email"},
+  {"receipt_id": "RCP-D", "date": "2026-03-03", "vendor": "Amazon.co.uk", "total": 142.99, "currency": "GBP", "items": "Anker USB-C dock, order 204-8817", "source": "email"},
+  {"receipt_id": "RCP-E", "date": "2026-03-05", "vendor": "Premier Inn", "total": 189.00, "currency": "GBP", "items": "1 night, London City, 04 Mar - 05 Mar", "source": "email"},
+  {"receipt_id": "RCP-F", "date": "2026-03-05", "vendor": "Pret A Manger, Old Street", "total": 12.20, "currency": "GBP", "items": "Chicken caesar baguette, flat white, crisps", "source": "photo"},
+  {"receipt_id": "RCP-G", "date": "2026-03-05", "vendor": "Pret A Manger, Farringdon", "total": 12.20, "currency": "GBP", "items": "Falafel mezze wrap, filter coffee, bar", "source": "photo"},
+  {"receipt_id": "RCP-H", "date": "2026-03-06", "vendor": "WeWork", "total": 275.00, "currency": "GBP", "items": "Hot desk day passes x5, invoice WW-33812", "source": "email"},
+  {"receipt_id": "RCP-I", "date": "2026-03-09", "vendor": "British Airways", "total": 412.60, "currency": "GBP", "items": "LHR-EDI return, booking ref QP4K7Z", "source": "email"},
+  {"receipt_id": "RCP-J", "date": "2026-03-10", "vendor": "Hertz", "total": 96.75, "currency": "GBP", "items": "Compact car, Edinburgh Airport, 2 days, fuel prepaid", "source": "photo"},
+  {"receipt_id": "RCP-K", "date": "2026-03-13", "vendor": "Le Petit Zinc", "total": 74.00, "currency": "EUR", "items": "Dejeuner, 2 couverts, carafe d'eau", "source": "photo"},
+  {"receipt_id": "RCP-L", "date": "2026-03-14", "vendor": "Waterstones Piccadilly", "total": 31.50, "currency": "GBP", "items": "Two paperbacks", "source": "photo"},
+  {"receipt_id": "RCP-M", "date": "2026-03-09", "vendor": "British Airways", "total": 412.60, "currency": "GBP", "items": "LHR-EDI return, booking ref QP4K7Z (forwarded copy)", "source": "email"},
+  {"receipt_id": "RCP-N", "date": "2026-03-16", "vendor": "Office Depot", "total": 58.00, "currency": "GBP", "items": "Whiteboard markers, flipchart pads, sticky notes", "source": "photo"}
+]

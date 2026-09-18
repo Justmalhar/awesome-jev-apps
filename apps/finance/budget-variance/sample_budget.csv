@@ -1,0 +1,19 @@
+line_id,department,line_item,period,budget,actual
+BL-01,Engineering,Salaries and employer costs,2026-Q2,1850000,1793400
+BL-02,Engineering,Contractor and agency,2026-Q2,240000,418600
+BL-03,Engineering,Cloud infrastructure,2026-Q2,610000,742800
+BL-04,Engineering,Software licences,2026-Q2,180000,181200
+BL-05,Engineering,Recruitment fees,2026-Q2,90000,31000
+BL-06,Marketing,Paid media,2026-Q2,720000,688000
+BL-07,Marketing,Events and sponsorship,2026-Q2,310000,447500
+BL-08,Marketing,Agency retainers,2026-Q2,195000,195000
+BL-09,Marketing,Content production,2026-Q2,140000,96400
+BL-10,Operations,Facilities and rent,2026-Q2,430000,441200
+BL-11,Operations,Energy and utilities,2026-Q2,86000,127900
+BL-12,Operations,Travel,2026-Q2,155000,212300
+BL-13,Operations,Insurance,2026-Q2,64000,71800
+BL-14,Customer Success,Salaries and employer costs,2026-Q2,940000,1012700
+BL-15,Customer Success,Support tooling,2026-Q2,120000,118500
+BL-16,Customer Success,Training and enablement,2026-Q2,75000,22000
+BL-17,Finance,Professional fees,2026-Q2,210000,368400
+BL-18,Finance,Audit,2026-Q2,145000,146100

@@ -1,0 +1,16 @@
+[
+  {"task": "Get a laptop, sign in with your SSO account, and enrol the device in MDM", "owner": "IT", "day": "Day 1"},
+  {"task": "Join the team Slack channels you are expected to be in and set up your profile", "owner": "Manager", "day": "Day 1"},
+  {"task": "Get read access to the production observability dashboards", "owner": "Platform", "day": "Day 2"},
+  {"task": "Clone the main service repository and get the test suite passing locally", "owner": "Team", "day": "Day 2"},
+  {"task": "Get a VPN profile issued and connect to the staging network", "owner": "IT", "day": "Day 2"},
+  {"task": "Request the database roles you need for your team's schemas", "owner": "Data", "day": "Day 3"},
+  {"task": "Deploy a trivial change to staging end to end, including the approval step", "owner": "Team", "day": "Week 1"},
+  {"task": "Be added to the on-call rotation as a shadow and install the paging app", "owner": "Platform", "day": "Week 2"},
+  {"task": "Complete the mandatory security and data-handling training", "owner": "People", "day": "Week 1"},
+  {"task": "Submit your first expense claim and understand the approval limits", "owner": "Finance", "day": "Week 2"},
+  {"task": "Book your probation check-in and understand how performance reviews work here", "owner": "Manager", "day": "Week 2"},
+  {"task": "Understand the incident severity definitions and who declares an incident", "owner": "Platform", "day": "Week 2"},
+  {"task": "Get access to the customer support tool in read-only mode for context", "owner": "Support", "day": "Week 2"},
+  {"task": "Set up your local environment to run the frontend against a staging backend", "owner": "Team", "day": "Week 1"}
+]

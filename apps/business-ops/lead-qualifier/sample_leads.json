@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Priya Raghavan",
+    "company": "Lumenpath (Series C, ~240 people)",
+    "role": "Staff SRE, platform team",
+    "message": "We run about 40 services on EKS with a 6-person on-call rotation and our Datadog bill went past $31k/month after the last usage review. Finance has told us to cut it by renewal in eight weeks. Alert noise is the bigger problem honestly - we page on things nobody acts on. I have budget sign-off up to a point but the VP Eng signs anything annual. Can you send pricing for 40 hosts and do you support OTel collectors natively?"
+  },
+  {
+    "name": "Tom Bergen",
+    "company": "Fjordline Logistics",
+    "role": "Head of Engineering",
+    "message": "Saw your post on cardinality explosions. We're a 90-person logistics company, mostly .NET on VMs, no Kubernetes yet though we keep talking about it. Not looking to change tooling this year but wanted to stay in touch."
+  },
+  {
+    "name": "Dana Whitfield",
+    "company": "Corvid Observability",
+    "role": "Product Manager",
+    "message": "Hi - I'm doing some research into how teams in our space handle trace sampling. Would you be open to a 30 minute call to compare notes on the market? For context we build a competing product in observability."
+  },
+  {
+    "name": "Marcus Oyelaran",
+    "company": "Hexwell Health (Series B, 120 employees)",
+    "role": "Director of Platform Engineering",
+    "message": "Our contract with our current vendor ends in November and we are actively evaluating three replacements. We run 60+ microservices on GKE, two on-call rotations, and last quarter we had four incidents where the dashboard was too slow to be useful during the page. I own the tooling budget. Can we get a technical deep-dive next week with your solutions engineer?"
+  },
+  {
+    "name": "Anita Kowal",
+    "company": "BrightCrest Digital",
+    "role": "Business Development Manager",
+    "message": "Hello! We're a 60-person development agency specializing in DevOps staff augmentation. We have certified Kubernetes engineers available at competitive rates and would love to discuss how we could support your delivery capacity. Happy to send our rate card."
+  },
+  {
+    "name": "Jae-won Park",
+    "company": "Syracuse University",
+    "role": "Graduate student",
+    "message": "I'm writing a term paper on distributed tracing architectures and your docs have been really useful. Do you have any published material on your storage layer I could cite? Also - do you take summer interns?"
+  },
+  {
+    "name": "Ellen Vasquez",
+    "company": "Trailhead Commerce (Series D, ~400 people)",
+    "role": "VP Infrastructure",
+    "message": "Our platform team keeps telling me our alerting is unusable - 300 pages a week, maybe 12 are real. We're on Kubernetes across three clusters, running a follow-the-sun rotation. I'd like to understand what you do differently on alert grouping before I commit engineering time to an evaluation. I control this budget."
+  },
+  {
+    "name": "Rob Delacroix",
+    "company": "Nine Elms Studio",
+    "role": "Founder",
+    "message": "Building a side project, just me right now, pre-launch. Is there a free tier? I might have a Docker container or two eventually."
+  },
+  {
+    "name": "Sofia Lindqvist",
+    "company": "Meridian Payments (Series C, 310 people)",
+    "role": "Engineering Manager, Reliability",
+    "message": "We are mid-migration from VMs to Kubernetes and the observability story is a mess - metrics in one tool, logs in another, nobody can correlate during an incident. Two rotations, 25 engineers on call. I can recommend but our CTO decides. No hard deadline, but this is on the roadmap for this half."
+  },
+  {
+    "name": "Ken Ozawa",
+    "company": "Pallas Robotics",
+    "role": "Senior Backend Engineer",
+    "message": "Quick question - does your agent support eBPF-based profiling on ARM nodes? We have a Graviton fleet. Not evaluating anything right now, just curious after reading the changelog."
+  },
+  {
+    "name": "Grace Mbeki",
+    "company": "Vantage Learning (Series B, 75 people)",
+    "role": "Head of SRE",
+    "message": "We got burned by a four-hour outage last month that nobody was paged for. Post-mortem action item is to replace our monitoring stack this quarter - hard commitment to the board. EKS, 20 services, one rotation of five people. I have the budget and I'd like to start a trial this week if possible."
+  },
+  {
+    "name": "Liam Foster",
+    "company": "Unspecified",
+    "role": "Not stated",
+    "message": "please send info"
+  }
+]

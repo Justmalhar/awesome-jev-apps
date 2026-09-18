@@ -1,0 +1,82 @@
+[
+  {
+    "po_number": "PO-7741",
+    "supplier": "Ardent Fasteners Ltd",
+    "purchase_order": {"date": "2026-01-08", "currency": "GBP", "terms": "Delivery in full by 2026-01-20. No partial shipments without written agreement.",
+      "lines": [{"sku": "AF-M8-100", "description": "M8 x 100mm hex bolts, zinc plated, box of 200", "qty": 12, "unit_price": 18.40}]},
+    "invoice": {"invoice_no": "AF-22841", "date": "2026-01-21", "currency": "GBP", "notes": "Thank you for your order.",
+      "lines": [{"sku": "AF-M8-100", "description": "M8 x 100mm hex bolts, zinc plated, box of 200", "qty": 12, "unit_price": 18.40}]},
+    "delivery_note": {"note_no": "DN-9910", "date": "2026-01-19", "received_by": "K. Oduya", "notes": "All boxes intact, signed for at goods-in.",
+      "lines": [{"sku": "AF-M8-100", "description": "M8 x 100mm hex bolts zinc, box of 200", "qty": 12}]}
+  },
+  {
+    "po_number": "PO-7748",
+    "supplier": "Halcyon Packaging",
+    "purchase_order": {"date": "2026-01-10", "currency": "GBP", "terms": "Deliver 400 units by 2026-01-24.",
+      "lines": [{"sku": "HP-CB-32", "description": "Corrugated shipping cartons 320mm, single wall", "qty": 400, "unit_price": 1.15}]},
+    "invoice": {"invoice_no": "HP-5512", "date": "2026-01-26", "currency": "GBP", "notes": "Balance of 100 cartons to follow on the next scheduled run; invoiced for delivered quantity only.",
+      "lines": [{"sku": "HP-CB-32", "description": "Corrugated shipping cartons 320mm, single wall", "qty": 300, "unit_price": 1.15}]},
+    "delivery_note": {"note_no": "DN-4421", "date": "2026-01-23", "received_by": "K. Oduya", "notes": "300 of 400 delivered. Remainder on backorder, expected week commencing 2026-02-02.",
+      "lines": [{"sku": "HP-CB-32", "description": "Corrugated shipping cartons 320mm", "qty": 300}]}
+  },
+  {
+    "po_number": "PO-7752",
+    "supplier": "Ridgeline Timber Co",
+    "purchase_order": {"date": "2026-01-12", "currency": "GBP", "terms": "Price held per the 2025 framework agreement.",
+      "lines": [{"sku": "RT-PLY-18", "description": "Birch plywood sheet 18mm 2440x1220", "qty": 40, "unit_price": 41.00}]},
+    "invoice": {"invoice_no": "RT-3390", "date": "2026-01-27", "currency": "GBP", "notes": "",
+      "lines": [{"sku": "RT-PLY-18", "description": "Birch plywood sheet 18mm 2440x1220", "qty": 40, "unit_price": 47.75}]},
+    "delivery_note": {"note_no": "DN-7781", "date": "2026-01-24", "received_by": "P. Sandhu", "notes": "Delivered on pallet, 40 sheets counted in.",
+      "lines": [{"sku": "RT-PLY-18", "description": "Birch plywood 18mm", "qty": 40}]}
+  },
+  {
+    "po_number": "PO-7760",
+    "supplier": "Northfield Electrical",
+    "purchase_order": {"date": "2026-01-15", "currency": "GBP", "terms": "Substitutions require prior approval by the buyer.",
+      "lines": [{"sku": "NE-LED-40", "description": "LED panel 600x600 40W 4000K, Osram", "qty": 25, "unit_price": 29.50}]},
+    "invoice": {"invoice_no": "NE-8822", "date": "2026-01-29", "currency": "GBP", "notes": "Osram line discontinued; Philips equivalent supplied at the agreed Osram price, approved by J. Whitaker on 2026-01-17.",
+      "lines": [{"sku": "NE-LED-40P", "description": "LED panel 600x600 40W 4000K, Philips CoreLine", "qty": 25, "unit_price": 29.50}]},
+    "delivery_note": {"note_no": "DN-1132", "date": "2026-01-28", "received_by": "P. Sandhu", "notes": "Philips panels received, buyer aware of the change.",
+      "lines": [{"sku": "NE-LED-40P", "description": "LED panel 600x600 40W Philips CoreLine", "qty": 25}]}
+  },
+  {
+    "po_number": "PO-7764",
+    "supplier": "Caldera Chemicals",
+    "purchase_order": {"date": "2026-01-16", "currency": "GBP", "terms": "Deliver 60 drums. Over-delivery will not be accepted.",
+      "lines": [{"sku": "CC-DEG-25", "description": "Industrial degreaser, 25L drum", "qty": 60, "unit_price": 62.00}]},
+    "invoice": {"invoice_no": "CC-1190", "date": "2026-01-30", "currency": "GBP", "notes": "",
+      "lines": [{"sku": "CC-DEG-25", "description": "Industrial degreaser, 25L drum", "qty": 72, "unit_price": 62.00}]},
+    "delivery_note": {"note_no": "DN-2298", "date": "2026-01-29", "received_by": "K. Oduya", "notes": "72 drums arrived on two pallets. Goods-in flagged the excess to purchasing.",
+      "lines": [{"sku": "CC-DEG-25", "description": "Degreaser 25L drum", "qty": 72}]}
+  },
+  {
+    "po_number": "PO-7771",
+    "supplier": "Ardent Fasteners Ltd",
+    "purchase_order": {"date": "2026-01-19", "currency": "GBP", "terms": "Standard 30 day terms.",
+      "lines": [{"sku": "AF-WSH-08", "description": "M8 flat washers, form A, bag of 500", "qty": 20, "unit_price": 6.80}]},
+    "invoice": {"invoice_no": "AF-22841", "date": "2026-02-02", "currency": "GBP", "notes": "Second submission - please settle.",
+      "lines": [{"sku": "AF-WSH-08", "description": "M8 flat washers, form A, bag of 500", "qty": 20, "unit_price": 6.80}]},
+    "delivery_note": {"note_no": "DN-9910", "date": "2026-01-19", "received_by": "K. Oduya", "notes": "All boxes intact, signed for at goods-in.",
+      "lines": [{"sku": "AF-M8-100", "description": "M8 x 100mm hex bolts zinc, box of 200", "qty": 12}]}
+  },
+  {
+    "po_number": "PO-7777",
+    "supplier": "Vantage Workwear",
+    "purchase_order": {"date": "2026-01-22", "currency": "GBP", "terms": "Sizes as specified in the attached schedule.",
+      "lines": [{"sku": "VW-HIV-L", "description": "Hi-vis jacket, class 3, large", "qty": 30, "unit_price": 24.00}]},
+    "invoice": {"invoice_no": "VW-6641", "date": "2026-02-04", "currency": "GBP", "notes": "Invoiced per case. Each case contains 6 jackets.",
+      "lines": [{"sku": "VW-HIV-L", "description": "Hi-vis jacket, class 3, large - case of 6", "qty": 5, "unit_price": 144.00}]},
+    "delivery_note": {"note_no": "DN-5540", "date": "2026-02-01", "received_by": "P. Sandhu", "notes": "5 cases received, 30 jackets total counted at goods-in.",
+      "lines": [{"sku": "VW-HIV-L", "description": "Hi-vis jacket class 3 large, cases", "qty": 5}]}
+  },
+  {
+    "po_number": "PO-7783",
+    "supplier": "Meridian Lab Supplies",
+    "purchase_order": {"date": "2026-01-26", "currency": "GBP", "terms": "Deliver to the Slough site only.",
+      "lines": [{"sku": "ML-PIP-10", "description": "Pipette tips 10ul, sterile, rack of 96", "qty": 80, "unit_price": 11.25}]},
+    "invoice": {"invoice_no": "ML-7712", "date": "2026-02-06", "currency": "GBP", "notes": "",
+      "lines": [{"sku": "ML-PIP-10", "description": "Pipette tips 10ul, sterile, rack of 96", "qty": 80, "unit_price": 11.25}]},
+    "delivery_note": {"note_no": "DN-8803", "date": "2026-02-03", "received_by": "unsigned", "notes": "Left at reception, Reading site. No signature obtained. 6 racks visibly crushed, driver noted damage.",
+      "lines": [{"sku": "ML-PIP-10", "description": "Pipette tips 10ul rack of 96", "qty": 74}]}
+  }
+]

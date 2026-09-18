@@ -1,0 +1,162 @@
+{
+  "company": "Aldergate Systems plc",
+  "ticker": "ALDG",
+  "period": "Q2 2026",
+  "call_date": "2026-07-23",
+  "passages": [
+    {
+      "passage_id": "P001",
+      "section": "prepared_remarks",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "Thanks everyone. Q2 was a strong quarter for Aldergate. Revenue grew 14 percent year over year to 412 million, ahead of the range we set out in April, and we added 118 net new enterprise logos."
+    },
+    {
+      "passage_id": "P002",
+      "section": "prepared_remarks",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "The platform business continues to be the engine here. Net revenue retention was 121 percent, and we saw the strongest gross adds in the company's history in the mid-market segment."
+    },
+    {
+      "passage_id": "P003",
+      "section": "prepared_remarks",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "We are raising our full year revenue outlook to a range of 1.68 to 1.70 billion, up from the 1.62 to 1.66 billion we guided in April. We are confident in that number."
+    },
+    {
+      "passage_id": "P004",
+      "section": "prepared_remarks",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "On the product side, Horizon reached general availability in May. Early adoption has been encouraging, though it is genuinely early and we are not yet modelling material contribution from it this year."
+    },
+    {
+      "passage_id": "P005",
+      "section": "prepared_remarks",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "Turning to margins. Gross margin came in at 78.4 percent, up 140 basis points sequentially, driven by the infrastructure consolidation programme we completed in March."
+    },
+    {
+      "passage_id": "P006",
+      "section": "prepared_remarks",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "Operating expenses were 244 million. We continue to expect full year operating margin in the 11 to 12 percent band we have talked about since the start of the year."
+    },
+    {
+      "passage_id": "P007",
+      "section": "prepared_remarks",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "On free cash flow, we are moving to a wider range for the full year, 190 to 230 million, versus the 210 to 225 million we previously indicated. There is more variability in collections timing than we assumed, particularly in EMEA public sector."
+    },
+    {
+      "passage_id": "P008",
+      "section": "prepared_remarks",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "We are also withdrawing the standalone Horizon bookings target we set at the analyst day. We will revisit disclosure on that line once the go to market motion has settled."
+    },
+    {
+      "passage_id": "P009",
+      "section": "prepared_remarks",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "Before we take questions, I want to reiterate our commitment to the 2027 targets we laid out. Nothing we have seen this quarter changes our view of that trajectory."
+    },
+    {
+      "passage_id": "P010",
+      "section": "qa",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "Yes, so, on the pipeline question, I would say broadly speaking we feel reasonably good about where things are. There are always going to be some deals that move around at the edges, and we have seen a bit of that, but nothing I would characterise as a trend at this stage."
+    },
+    {
+      "passage_id": "P011",
+      "section": "qa",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "The bookings figure, I think, is probably best thought of as a directional indicator rather than a precise measure this quarter, given the mix shift. We can follow up offline with more detail on the composition."
+    },
+    {
+      "passage_id": "P012",
+      "section": "qa",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "That is a fair question and I would point you to the raise. We took the full year up because the demand environment supports it. That is the clearest signal we can give you."
+    },
+    {
+      "passage_id": "P013",
+      "section": "qa",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "On EMEA public sector specifically, we have seen procurement cycles extend. Deals we expected to close in June have moved to the second half. They have not gone away, and we are not changing our revenue outlook because of it."
+    },
+    {
+      "passage_id": "P014",
+      "section": "qa",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "I do not want to get ahead of ourselves on Horizon. What I will say is that the customer conversations have been better than we expected. Where that lands in terms of revenue, we will talk about at the right time."
+    },
+    {
+      "passage_id": "P015",
+      "section": "qa",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "In terms of the margin trajectory beyond this year, I would just caution that the 11 to 12 percent band is for this year. We are not guiding beyond that today, and there are investments we may choose to make that would affect the shape of it."
+    },
+    {
+      "passage_id": "P016",
+      "section": "qa",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "Competitive pressure, yes, we see it. Pricing has been rational in our core segments. In mid-market there is more noise, and we have had to be somewhat more flexible on multi year terms than we would have been twelve months ago."
+    },
+    {
+      "passage_id": "P017",
+      "section": "qa",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "The churn number you are referring to includes a single large logo that consolidated onto a competitor platform after an acquisition. Excluding that, gross churn was in line with the prior quarter."
+    },
+    {
+      "passage_id": "P018",
+      "section": "qa",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "Look, I understand the question and I am not going to give you a number today. The team is working through the planning cycle and we will come back to you in October with a fuller picture."
+    },
+    {
+      "passage_id": "P019",
+      "section": "qa",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "Headcount will grow more slowly in the second half than it did in the first. That is a deliberate decision, it is reflected in the operating margin guidance, and it is not a reaction to anything in the demand picture."
+    },
+    {
+      "passage_id": "P020",
+      "section": "qa",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "We remain very confident in the full year. I would not read anything into the free cash flow range other than what Marcus said about collections timing."
+    },
+    {
+      "passage_id": "P021",
+      "section": "qa",
+      "speaker": "Marcus Oyelaran",
+      "role": "CFO",
+      "text": "There may be some modest impact from the currency environment in the second half, potentially in the region of a point on reported growth, but I would not want to be precise about that this far out."
+    },
+    {
+      "passage_id": "P022",
+      "section": "qa",
+      "speaker": "Dana Whitfield",
+      "role": "CEO",
+      "text": "Our 2027 targets stand. I said that in the prepared remarks and I will say it again."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "vendor": "Meridian Financials Cloud",
+    "sections": {
+      "functional_fit": "Our platform supports unlimited legal entities under a single group hierarchy. Entity-level permissions are enforced at the data layer and inherited through the hierarchy; the consolidated group view is produced from the same ledger, not a separate reporting copy. Reference architecture diagram in Appendix C. Currently deployed across a 40-entity group at a listed manufacturer.",
+      "integration": "Certified connectors for SAP S/4HANA (via SAP's own certified interface, ID 12-9911) and Workday (Workday Certified Integration Partner since 2022). Both are supported production connectors, documented in our public integration catalogue, with named support SLAs. Sample field mappings for both are provided in Appendix D.",
+      "security": "ISO 27001:2022 certified (certificate 0092-ISMS, expires March 2027) and SOC 2 Type II, report available under NDA. SAML 2.0 and OIDC SSO, SCIM 2.0 provisioning and de-provisioning. Penetration test summary from an independent firm attached.",
+      "data_residency": "All customer data is stored in our Frankfurt and Dublin regions. Backups remain within the same regions. Our support organisation operates from Dublin and Lisbon and does not access data from outside the EU; we can contractually commit to this.",
+      "implementation": "14-week implementation with a named Implementation Manager, a Solution Architect at 0.5 FTE, and two migration engineers. Five acceptance stages with written exit criteria: discovery, data migration dry run, parallel run, cutover, hypercare. Migration approach uses our staged extract-validate-load tooling with reconciliation reports at each stage.",
+      "support_model": "24x5 support with a 1-hour response commitment for P1 and 4 hours for P2, contractually backed with service credits. Named Customer Success Manager and a quarterly service review. 24x7 available as an uplift.",
+      "commercial": "Annual subscription of EUR 318,000 covering all modules listed in section 2 with no optional extras required for the scope described. Implementation fee EUR 96,000 fixed price. Annual uplift capped at CPI or 4%, whichever is lower, stated in our standard terms.",
+      "references": "Three references offered: a listed manufacturer (42 entities), a European insurance group (28 entities) and a logistics group (17 entities). Contact details on request. All are within the same size band and two are in the same sector."
+    }
+  },
+  {
+    "vendor": "Auros Enterprise Suite",
+    "sections": {
+      "functional_fit": "Auros handles multi-entity structures and provides a group consolidation view. Access control is configurable. Our solution is used by many large enterprises for exactly this purpose and is considered best in class by analysts.",
+      "integration": "We offer broad integration capabilities including a REST API and a library of pre-built connectors. SAP integration is available through our partner network. A Workday connector is on our roadmap for the second half of next year and we would be happy to prioritise it as part of this engagement.",
+      "security": "Auros takes security extremely seriously. We follow industry best practices and align with ISO 27001 principles. SSO is supported via SAML. We are currently undergoing SOC 2 Type II audit with completion expected next year.",
+      "data_residency": "Data is hosted in our European data centres. Backups are replicated for resilience. Our global support teams operate on a follow-the-sun model across three regions.",
+      "implementation": "Our experienced professional services team will work with you to deliver a successful implementation. Timelines are typically 3-6 months depending on complexity. We use a proven methodology refined over hundreds of deployments.",
+      "support_model": "Enterprise support is included. Our support team is available during business hours and we pride ourselves on responsiveness. Premium support tiers are available.",
+      "commercial": "Pricing from EUR 240,000 per annum. Implementation and data migration services quoted separately following scoping. Optional modules for advanced reporting and audit trail are priced on application.",
+      "references": "We have many satisfied customers across a range of industries and would be pleased to arrange reference calls following shortlisting."
+    }
+  },
+  {
+    "vendor": "Northgate Consolidation Platform",
+    "sections": {
+      "functional_fit": "Multi-entity consolidation is our core product. 200+ entity hierarchies supported, entity-level RBAC with delegated administration, and a real-time group view. We include the data model in Appendix A and can demonstrate on your own chart of accounts during evaluation.",
+      "integration": "Supported production connector for SAP S/4HANA, in use at eleven customers today; documentation in Appendix E. For Workday we currently integrate via flat-file and a supported generic HR adapter rather than a dedicated certified connector. A dedicated Workday connector is in development with a target of Q3.",
+      "security": "ISO 27001 certified since 2019 (certificate renewed 2025). SOC 2 Type II completed annually, latest report dated January 2026, available under NDA. SSO via SAML 2.0 and OIDC; SCIM 2.0 provisioning is supported. Annual independent penetration testing.",
+      "data_residency": "All production data, backups and disaster-recovery copies are held in Amsterdam and Frankfurt. Support is delivered exclusively from our Rotterdam and Warsaw offices. No data leaves the EU at any point, including for support access; this is written into our DPA.",
+      "implementation": "11-week plan. Named roles: Engagement Lead, Data Migration Lead, two consultants. Acceptance gates at design sign-off, migration validation, parallel close, and go-live. Migration includes two full dry runs with variance reporting against your existing consolidation.",
+      "support_model": "Support 08:00-20:00 CET with a 2-hour P1 response commitment. Named technical account manager. Out-of-hours P1 cover available as a paid option. Escalation path published.",
+      "commercial": "EUR 276,000 per annum including all modules required for this scope. Implementation EUR 88,000 on a time-and-materials basis with a not-to-exceed cap. Uplift is RPI-linked with no cap stated; we are open to negotiating one.",
+      "references": "Two directly comparable references in the same sector at 30+ entities, plus one smaller. Happy to provide a third on shortlisting."
+    }
+  },
+  {
+    "vendor": "Veridian Finance OS",
+    "sections": {
+      "functional_fit": "Our platform is designed for single-entity and small group structures. Multi-entity consolidation is supported up to 10 entities in the current release. Entity-level access control is available at the workspace level rather than the record level. A larger-scale consolidation module is planned.",
+      "integration": "Native, supported connectors for both SAP S/4HANA and Workday, both generally available and in production use. Connector documentation is public. We also provide a GraphQL API and webhooks.",
+      "security": "SOC 2 Type II held continuously since 2021, independently audited by a Big Four firm; current report dated November 2025. ISO 27001 certification achieved 2024. SSO via SAML/OIDC with SCIM provisioning and just-in-time user creation.",
+      "data_residency": "EU data residency is available on our Enterprise plan with storage in Frankfurt. Backups are currently replicated to our US region for disaster recovery; we are migrating this to an EU-only configuration during the coming year. Support is staffed from Berlin and Austin.",
+      "implementation": "Self-service onboarding with optional guided implementation. Typical go-live in 4 weeks for standard configurations. Guided implementation includes a named onboarding specialist and a migration template library; no formal acceptance stages are defined.",
+      "support_model": "Email and in-app chat support, 24x5, with a 4-hour first response target. No named contact on the standard plan; a dedicated CSM is included above EUR 150,000 ARR.",
+      "commercial": "EUR 132,000 per annum for the described user count on the Enterprise plan. EU residency add-on EUR 18,000. Implementation from EUR 24,000. Uplift terms are not stated in this response.",
+      "references": "Two references at comparable user counts but in a different sector (technology rather than manufacturing), both with fewer legal entities than your structure."
+    }
+  },
+  {
+    "vendor": "Caldera Group Reporting",
+    "sections": {
+      "functional_fit": "Unlimited entities, full hierarchy consolidation, and entity-scoped permissions with per-field masking. Group view is materialised from the transaction ledger with full drill-down to source. Architecture and permission model documented in Appendix B, with a worked example on a 60-entity structure.",
+      "integration": "SAP S/4HANA: certified connector, in production at 30+ customers. Workday: supported connector, generally available since 2023, documented and covered by our standard support. Both are live today, not roadmap items. Integration test harness provided during implementation.",
+      "security": "ISO 27001 and ISO 27017 certified; SOC 2 Type II report issued February 2026 by an independent auditor. SSO via SAML 2.0, OIDC and SCIM 2.0 provisioning including group sync. Independent penetration test executive summary attached; full report under NDA.",
+      "data_residency": "Primary and backup storage in Paris and Frankfurt. Support access is restricted to EU-resident staff by technical control, logged and auditable. Our DPA includes an EU-only processing commitment with audit rights.",
+      "implementation": "16-week programme. Named Programme Director, Solution Architect, two data engineers and a change lead. Six acceptance stages including a documented parallel close over two reporting periods. Migration approach uses reconciliation at trial-balance and transaction level with sign-off at each stage.",
+      "support_model": "24x7 support with 30-minute P1 response, contractually committed with credits. Named Service Delivery Manager, monthly operational review and quarterly business review.",
+      "commercial": "EUR 392,000 per annum. This includes all modules. Implementation quoted at EUR 210,000 fixed price. Optional advanced disclosure management module EUR 40,000 per annum, not required for the stated scope. Uplift fixed at 3% per annum for the initial five-year term.",
+      "references": "Four references in the same sector at comparable scale, including two listed groups. Site visits offered."
+    }
+  }
+]

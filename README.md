@@ -46,20 +46,20 @@ budget conversation.
 ## The catalog
 
 <!-- CATALOG:START -->
-**21 of 100 built** &nbsp; `██████░░░░░░░░░░░░░░░░░░░░░░`
+**100 of 100 built** &nbsp; `████████████████████████████`
 
 | Category | Apps | Built | What it covers |
 |---|---:|---:|---|
-| 🛠️ **[Developer Tools](apps/developer-tools)** | 11 | 4 | Semantic checks over code, CI, and repo history. Cheap enough to run on every commit. |
-| 📄 **[Documents & Contracts](apps/documents)** | 11 | 4 | Ask documents questions, diff them, and check them against requirements. Nothing is ever paraphrased. |
-| 🗄️ **[Data Engineering](apps/data)** | 12 | 1 | Judgment applied per-row, per-pair, and per-field, at a price that makes whole-dataset passes ordinary. |
-| 🧠 **[AI Infrastructure · Jev + LLM](apps/ai-infrastructure)** | 13 | 2 | Jev sitting in front of, behind, and around a generative model. Guarding every call costs a rounding error. |
-| 🏦 **[Finance](apps/finance)** | 10 | 2 | Every number computed in Python. The model only ever supplies judgment. |
-| 📊 **[Business & Operations](apps/business-ops)** | 11 | 1 | Routing, qualification, and risk detection over the text a business already generates. |
-| ⚡ **[Personal Productivity](apps/productivity)** | 10 | 2 | Your own inbox, feeds, notes, and calendar — sorted by what you actually care about. |
-| 🛡️ **[Trust & Safety](apps/trust-safety)** | 7 | 1 | Company-specific, nuanced policy — not a generic toxicity score. |
-| 🔬 **[Research & Science](apps/research)** | 8 | 2 | Screening, extraction, and verification over literature and field data. |
-| ⏱️ **[Realtime & Interactive](apps/realtime)** | 7 | 2 | ~150ms is under human perception, so judgment can sit inside a render loop or a keystroke. |
+| 🛠️ **[Developer Tools](apps/developer-tools)** | 11 | 11 | Semantic checks over code, CI, and repo history. Cheap enough to run on every commit. |
+| 📄 **[Documents & Contracts](apps/documents)** | 11 | 11 | Ask documents questions, diff them, and check them against requirements. Nothing is ever paraphrased. |
+| 🗄️ **[Data Engineering](apps/data)** | 12 | 12 | Judgment applied per-row, per-pair, and per-field, at a price that makes whole-dataset passes ordinary. |
+| 🧠 **[AI Infrastructure · Jev + LLM](apps/ai-infrastructure)** | 13 | 13 | Jev sitting in front of, behind, and around a generative model. Guarding every call costs a rounding error. |
+| 🏦 **[Finance](apps/finance)** | 10 | 10 | Every number computed in Python. The model only ever supplies judgment. |
+| 📊 **[Business & Operations](apps/business-ops)** | 11 | 11 | Routing, qualification, and risk detection over the text a business already generates. |
+| ⚡ **[Personal Productivity](apps/productivity)** | 10 | 10 | Your own inbox, feeds, notes, and calendar — sorted by what you actually care about. |
+| 🛡️ **[Trust & Safety](apps/trust-safety)** | 7 | 7 | Company-specific, nuanced policy — not a generic toxicity score. |
+| 🔬 **[Research & Science](apps/research)** | 8 | 8 | Screening, extraction, and verification over literature and field data. |
+| ⏱️ **[Realtime & Interactive](apps/realtime)** | 7 | 7 | ~150ms is under human perception, so judgment can sit inside a render loop or a keystroke. |
 
 <details>
 <summary><b>All 100, by category</b></summary>
@@ -72,13 +72,13 @@ budget conversation.
 | ✅ [CI failure triage](apps/developer-tools/ci-triage) | Real bug / flake / infra / dependency / config across CI history | newly affordable over 20k failures |
 | ✅ [PR risk scorer](apps/developer-tools/pr-risk-scorer) | Score a diff for blast radius and review depth needed | routes review effort; score once, reweight free |
 | ✅ [Flaky test finder](apps/developer-tools/flaky-test-finder) | Separate genuinely flaky tests from consistently failing ones | per-test judgment, rates computed in Python |
-| ⬜ Issue deduplicator | Find the three issues that are the same bug | pairwise Score whose levels are the actions |
-| ⬜ Breaking change detector | Flag diffs that break downstream consumers | diff in code, materiality in Jev |
-| ⬜ Changelog classifier | Sort merged PRs into user-facing / internal / breaking | selection not generation; code assembles the notes |
-| ⬜ Log pattern miner | Cluster millions of log lines into named failure modes | map-reduce at $0.042/Mtok |
-| ⬜ Dependency auditor | Judge whether a changelog entry affects your usage | avoids upgrading blind on every release |
-| ⬜ Test gap finder | Which behaviours in this module have no test | parser lists behaviours, Jev matches coverage |
-| ⬜ Incident tagger | Tag postmortems by cause class and contributing factors | independent Nouls, not one taxonomy |
+| ✅ [Issue deduplicator](apps/developer-tools/issue-deduper) | Find the three issues that are the same bug | pairwise Score whose levels are the actions |
+| ✅ [Breaking change detector](apps/developer-tools/api-breaking-change) | Flag diffs that break downstream consumers | diff in code, materiality in Jev |
+| ✅ [Changelog classifier](apps/developer-tools/changelog-classifier) | Sort merged PRs into user-facing / internal / breaking | selection not generation; code assembles the notes |
+| ✅ [Log pattern miner](apps/developer-tools/log-pattern-miner) | Cluster millions of log lines into named failure modes | map-reduce at $0.042/Mtok |
+| ✅ [Dependency auditor](apps/developer-tools/dependency-audit) | Judge whether a changelog entry affects your usage | avoids upgrading blind on every release |
+| ✅ [Test gap finder](apps/developer-tools/test-gap-finder) | Which behaviours in this module have no test | parser lists behaviours, Jev matches coverage |
+| ✅ [Incident tagger](apps/developer-tools/incident-tagger) | Tag postmortems by cause class and contributing factors | independent Nouls, not one taxonomy |
 
 #### 📄 Documents & Contracts
 
@@ -87,31 +87,31 @@ budget conversation.
 | ✅ [Semantic Ctrl-F](apps/documents/semantic-ctrl-f) | Ask a lease or ToS a plain-English question, get the exact clause | whole document scored in one request; returns verbatim text |
 | ✅ [Contract diff](apps/documents/contract-diff) | 'Our terms have changed' — what actually got worse for you | difflib computes the diff, Jev judges materiality |
 | ✅ [RFP compliance matrix](apps/documents/rfp-compliance) | Check a proposal covers all 60 requirements in a tender | one Noul per requirement, conjunctive coverage |
-| ⬜ Policy gap finder | Which controls in a standard are unaddressed by your policy | requirement-by-requirement veto rules |
-| ⬜ Invoice extractor | Pull totals, dates, and line items from messy invoices | regex finds candidates, Jev selects; verbatim guarantee |
-| ⬜ Meeting action extractor | Commitments, owners, and deadlines from a transcript | selection over generation; no invented owners |
+| ✅ [Policy gap finder](apps/documents/policy-gap-finder) | Which controls in a standard are unaddressed by your policy | requirement-by-requirement veto rules |
+| ✅ [Invoice extractor](apps/documents/invoice-extractor) | Pull totals, dates, and line items from messy invoices | regex finds candidates, Jev selects; verbatim guarantee |
+| ✅ [Meeting action extractor](apps/documents/meeting-actions) | Commitments, owners, and deadlines from a transcript | selection over generation; no invented owners |
 | ✅ [Spec ambiguity finder](apps/documents/spec-ambiguity) | Sentences in a spec that two engineers would read differently | the failure mode Jev itself has, turned into a tool |
-| ⬜ Doc freshness auditor | Which docs contradict the current codebase | cross-source consistency judgment |
-| ⬜ Clause library matcher | Match incoming contract clauses to your approved library | rerank against a known-good set |
-| ⬜ Redaction checker | Find PII and confidential detail before a document goes out | one Noul per hazard class, thresholded separately |
-| ⬜ Translation QA | Flag translations that changed meaning, not just wording | two states compared, judgment on divergence |
+| ✅ [Doc freshness auditor](apps/documents/doc-freshness) | Which docs contradict the current codebase | cross-source consistency judgment |
+| ✅ [Clause library matcher](apps/documents/clause-library) | Match incoming contract clauses to your approved library | rerank against a known-good set |
+| ✅ [Redaction checker](apps/documents/redaction-checker) | Find PII and confidential detail before a document goes out | one Noul per hazard class, thresholded separately |
+| ✅ [Translation QA](apps/documents/translation-qa) | Flag translations that changed meaning, not just wording | two states compared, judgment on divergence |
 
 #### 🗄️ Data Engineering
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Entity resolver](apps/data/entity-resolver) | Dedupe two merged CRM or product catalogs | Score levels ARE the actions; blocking in code |
-| ⬜ Semantic data linter | Find rows whose fields contradict each other | cross-field consistency, not classification |
-| ⬜ Deep taxonomy classifier | File items into a 3-level taxonomy | beam search over Choice probabilities |
-| ⬜ ML feature extractor | Turn text into features, train a model, measure the lift | judgments as features; output is a trained model |
-| ⬜ Schema mapper | Map one system's columns onto another's | pairwise field matching with a curator tier |
-| ⬜ Survey response coder | Code thousands of free-text answers against a codebook | replaces weeks of qualitative coding |
-| ⬜ Address normalizer | Reconcile inconsistent address formats to one record | selection from parsed candidates |
-| ⬜ Product catalog normalizer | Unify attributes across inconsistent supplier feeds | extraction plus taxonomy in one pass |
-| ⬜ Column type inferrer | What IS this column, semantically, given its values | code samples values, Jev names the concept |
-| ⬜ Anomaly explainer | Which detected outliers are real problems vs expected | statistics in code, plausibility in Jev |
-| ⬜ PII column scanner | Which columns in a warehouse carry personal data | whole-warehouse scan is now affordable |
-| ⬜ Training label auditor | Find mislabelled rows in an existing labelled dataset | disagreement between label and content |
+| ✅ [Semantic data linter](apps/data/data-linter) | Find rows whose fields contradict each other | cross-field consistency, not classification |
+| ✅ [Deep taxonomy classifier](apps/data/deep-classifier) | File items into a 3-level taxonomy | beam search over Choice probabilities |
+| ✅ [ML feature extractor](apps/data/ml-features) | Turn text into features, train a model, measure the lift | judgments as features; output is a trained model |
+| ✅ [Schema mapper](apps/data/schema-mapper) | Map one system's columns onto another's | pairwise field matching with a curator tier |
+| ✅ [Survey response coder](apps/data/survey-coder) | Code thousands of free-text answers against a codebook | replaces weeks of qualitative coding |
+| ✅ [Address normalizer](apps/data/address-normalizer) | Reconcile inconsistent address formats to one record | selection from parsed candidates |
+| ✅ [Product catalog normalizer](apps/data/catalog-normalizer) | Unify attributes across inconsistent supplier feeds | extraction plus taxonomy in one pass |
+| ✅ [Column type inferrer](apps/data/column-inferrer) | What IS this column, semantically, given its values | code samples values, Jev names the concept |
+| ✅ [Anomaly explainer](apps/data/anomaly-narrator) | Which detected outliers are real problems vs expected | statistics in code, plausibility in Jev |
+| ✅ [PII column scanner](apps/data/pii-scanner) | Which columns in a warehouse carry personal data | whole-warehouse scan is now affordable |
+| ✅ [Training label auditor](apps/data/label-auditor) | Find mislabelled rows in an existing labelled dataset | disagreement between label and content |
 
 #### 🧠 AI Infrastructure · Jev + LLM
 
@@ -119,17 +119,17 @@ budget conversation.
 |---|---|---|
 | ✅ [Agent tool router](apps/ai-infrastructure/agent-tool-router) | Pick from a 42-tool MCP catalog without stuffing schemas into context | two-stage cascade: summaries wide, schemas narrow |
 | ✅ [LLM guardrails](apps/ai-infrastructure/llm-guardrails) | Screen every input, output, and tool call for hazards | cheap enough to guard EVERY call, which nobody does today |
-| ⬜ Injection detector | Catch instructions hidden in retrieved or user content | runs inline at 150ms |
-| ⬜ RAG reranker | Drop-in for a cross-encoder or Cohere Rerank | cross-encoding quality at embedding-tier cost |
-| ⬜ RAG passage filter | Drop passages that contradict, mislead, or carry injections | one judgment per retrieved passage |
-| ⬜ Model router | Send easy turns to a cheap model, hard ones to a frontier one | calibrated difficulty plus an abstain path |
-| ⬜ Citation verifier | Check each claim against the source it cites | affordable per-claim verification |
-| ⬜ Grounding checker | Is this generated answer supported by the retrieved context | per-sentence grounding at scale |
-| ⬜ Agent trace classifier | Classify why agent runs failed, across thousands of traces | map-reduce over run history |
-| ⬜ Eval judge | Score model outputs against a rubric, reproducibly | calibrated and deterministic where an LLM judge drifts |
-| ⬜ Agent memory filter | Which stored memories are relevant to this turn | rank the whole memory store in one request |
-| ⬜ Context compressor | Select which context to keep when the window is tight | selection, so nothing is paraphrased away |
-| ⬜ Tool output validator | Did this tool actually return what was asked for | catches silent tool failures agents ignore |
+| ✅ [Injection detector](apps/ai-infrastructure/prompt-injection-detector) | Catch instructions hidden in retrieved or user content | runs inline at 150ms |
+| ✅ [RAG reranker](apps/ai-infrastructure/rag-reranker) | Drop-in for a cross-encoder or Cohere Rerank | cross-encoding quality at embedding-tier cost |
+| ✅ [RAG passage filter](apps/ai-infrastructure/rag-passage-filter) | Drop passages that contradict, mislead, or carry injections | one judgment per retrieved passage |
+| ✅ [Model router](apps/ai-infrastructure/model-router) | Send easy turns to a cheap model, hard ones to a frontier one | calibrated difficulty plus an abstain path |
+| ✅ [Citation verifier](apps/ai-infrastructure/citation-verifier) | Check each claim against the source it cites | affordable per-claim verification |
+| ✅ [Grounding checker](apps/ai-infrastructure/hallucination-detector) | Is this generated answer supported by the retrieved context | per-sentence grounding at scale |
+| ✅ [Agent trace classifier](apps/ai-infrastructure/agent-trace-classifier) | Classify why agent runs failed, across thousands of traces | map-reduce over run history |
+| ✅ [Eval judge](apps/ai-infrastructure/eval-judge) | Score model outputs against a rubric, reproducibly | calibrated and deterministic where an LLM judge drifts |
+| ✅ [Agent memory filter](apps/ai-infrastructure/memory-filter) | Which stored memories are relevant to this turn | rank the whole memory store in one request |
+| ✅ [Context compressor](apps/ai-infrastructure/context-compressor) | Select which context to keep when the window is tight | selection, so nothing is paraphrased away |
+| ✅ [Tool output validator](apps/ai-infrastructure/tool-output-validator) | Did this tool actually return what was asked for | catches silent tool failures agents ignore |
 
 #### 🏦 Finance
 
@@ -137,57 +137,57 @@ budget conversation.
 |---|---|---|
 | ✅ [Statement categorizer](apps/finance/statement-categorizer) | Categorize years of bank and card transactions | confidence gate: auto-file or ask me |
 | ✅ [Subscription auditor](apps/finance/subscription-auditor) | Find every recurring charge, including the forgotten ones | recurrence judged, totals computed in pandas |
-| ⬜ Expense policy checker | Which claims breach the written expense policy | one Noul per policy rule, veto semantics |
-| ⬜ Receipt triage | Match receipts to card transactions and flag the gaps | pairwise matching with a curator tier |
-| ⬜ Invoice matcher | Three-way match: PO, invoice, delivery note | pairwise agreement judgment, arithmetic in code |
-| ⬜ Vendor risk screener | Screen suppliers against risk criteria from their documents | independent risk Nouls, thresholded separately |
-| ⬜ Deduction classifier | Which expenses are plausibly deductible, with a review queue | confidence decides what a human sees |
-| ⬜ Fraud signal extractor | Turn transaction narratives into risk features | features for a downstream fraud model |
-| ⬜ Earnings call tagger | Tag guidance, hedging, and tone shifts across transcripts | whole-transcript scan per company |
-| ⬜ Variance explainer | Classify why each line missed budget, from the notes | numbers in code, causes in Jev |
+| ✅ [Expense policy checker](apps/finance/expense-policy-checker) | Which claims breach the written expense policy | one Noul per policy rule, veto semantics |
+| ✅ [Receipt triage](apps/finance/receipt-triage) | Match receipts to card transactions and flag the gaps | pairwise matching with a curator tier |
+| ✅ [Invoice matcher](apps/finance/invoice-matcher) | Three-way match: PO, invoice, delivery note | pairwise agreement judgment, arithmetic in code |
+| ✅ [Vendor risk screener](apps/finance/vendor-risk) | Screen suppliers against risk criteria from their documents | independent risk Nouls, thresholded separately |
+| ✅ [Deduction classifier](apps/finance/tax-classifier) | Which expenses are plausibly deductible, with a review queue | confidence decides what a human sees |
+| ✅ [Fraud signal extractor](apps/finance/fraud-signals) | Turn transaction narratives into risk features | features for a downstream fraud model |
+| ✅ [Earnings call tagger](apps/finance/earnings-tagger) | Tag guidance, hedging, and tone shifts across transcripts | whole-transcript scan per company |
+| ✅ [Variance explainer](apps/finance/budget-variance) | Classify why each line missed budget, from the notes | numbers in code, causes in Jev |
 
 #### 📊 Business & Operations
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Lead qualifier](apps/business-ops/lead-qualifier) | Score inbound leads against your ICP, written as a paragraph | score once, reweight as the ICP changes |
-| ⬜ Support ticket triage | Route by issue, product area, urgency, and churn risk | independent judgments, one request |
-| ⬜ Churn signal extractor | Early warning from support and sales conversations | features feeding a churn model |
-| ⬜ Escalation detector | Which threads need a manager before they blow up | calibrated urgency plus abstention |
-| ⬜ NPS comment coder | Theme thousands of open-ended survey comments | replaces manual coding |
-| ⬜ Sales call tagger | Objections, competitors, and next steps from call notes | independent Nouls per signal |
-| ⬜ Renewal risk scorer | Which accounts are quietly drifting toward non-renewal | composite scoring from raw judgments |
-| ⬜ Application screener | Screen applications against explicit, job-related criteria | criterion-by-criterion, auditable, with a human tier |
-| ⬜ RFP response scorer | Score supplier responses against weighted criteria | weights tuned without re-running inference |
-| ⬜ Onboarding gap finder | Which steps a new hire's docs never actually explain | coverage checking against a checklist |
-| ⬜ Competitor monitor | Which competitor updates actually matter to your roadmap | relevance filtering over a firehose |
+| ✅ [Support ticket triage](apps/business-ops/ticket-triage) | Route by issue, product area, urgency, and churn risk | independent judgments, one request |
+| ✅ [Churn signal extractor](apps/business-ops/churn-signals) | Early warning from support and sales conversations | features feeding a churn model |
+| ✅ [Escalation detector](apps/business-ops/escalation-detector) | Which threads need a manager before they blow up | calibrated urgency plus abstention |
+| ✅ [NPS comment coder](apps/business-ops/nps-coder) | Theme thousands of open-ended survey comments | replaces manual coding |
+| ✅ [Sales call tagger](apps/business-ops/sales-call-tagger) | Objections, competitors, and next steps from call notes | independent Nouls per signal |
+| ✅ [Renewal risk scorer](apps/business-ops/renewal-risk) | Which accounts are quietly drifting toward non-renewal | composite scoring from raw judgments |
+| ✅ [Application screener](apps/business-ops/candidate-screener) | Screen applications against explicit, job-related criteria | criterion-by-criterion, auditable, with a human tier |
+| ✅ [RFP response scorer](apps/business-ops/vendor-rfp-scorer) | Score supplier responses against weighted criteria | weights tuned without re-running inference |
+| ✅ [Onboarding gap finder](apps/business-ops/onboarding-gaps) | Which steps a new hire's docs never actually explain | coverage checking against a checklist |
+| ✅ [Competitor monitor](apps/business-ops/competitor-monitor) | Which competitor updates actually matter to your roadmap | relevance filtering over a firehose |
 
 #### ⚡ Personal Productivity
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
-| ⬜ Inbox triage | What in my mail actually needs me today | 5 independent judgments per message; sorts, never rewrites |
+| ✅ [Inbox triage](apps/productivity/inbox-triage) | What in my mail actually needs me today | 5 independent judgments per message; sorts, never rewrites |
 | ✅ [Feed ranker](apps/productivity/feed-ranker) | Rank Hacker News against your interests, in one sentence | score once, reweight for $0.00 |
 | ✅ [Calendar triage](apps/productivity/calendar-triage) | Which meetings you could skip or shorten | judged against your stated priorities |
-| ⬜ Reading queue ranker | Order a 400-item read-later pile by what you need now | whole queue ranked in one request |
-| ⬜ Note linker | Find which existing notes a new note should link to | pairwise relevance over a vault |
-| ⬜ Channel digest | What happened in 12 channels that concerns you | relevance filter, not a summary |
-| ⬜ Task prioritizer | Re-rank a task list against this week's actual goal | goal changes, judgments are reused |
-| ⬜ Newsletter filter | Keep the three items in a digest you'd have read | per-item judgment at negligible cost |
-| ⬜ Bookmark organizer | File years of bookmarks into a taxonomy you describe | hierarchical classification |
-| ⬜ Standup assembler | Pull your actual week from commits, PRs and tickets | selection; code assembles the summary |
+| ✅ [Reading queue ranker](apps/productivity/reading-queue) | Order a 400-item read-later pile by what you need now | whole queue ranked in one request |
+| ✅ [Note linker](apps/productivity/note-linker) | Find which existing notes a new note should link to | pairwise relevance over a vault |
+| ✅ [Channel digest](apps/productivity/slack-digest) | What happened in 12 channels that concerns you | relevance filter, not a summary |
+| ✅ [Task prioritizer](apps/productivity/task-prioritizer) | Re-rank a task list against this week's actual goal | goal changes, judgments are reused |
+| ✅ [Newsletter filter](apps/productivity/newsletter-filter) | Keep the three items in a digest you'd have read | per-item judgment at negligible cost |
+| ✅ [Bookmark organizer](apps/productivity/bookmark-organizer) | File years of bookmarks into a taxonomy you describe | hierarchical classification |
+| ✅ [Standup assembler](apps/productivity/standup-synth) | Pull your actual week from commits, PRs and tickets | selection; code assembles the summary |
 
 #### 🛡️ Trust & Safety
 
 | App | What it does | Why it needs Jev |
 |---|---|---|
 | ✅ [Community moderator](apps/trust-safety/community-moderator) | Apply YOUR written community rules, not a generic policy | severity and confidence combine to allow/warn/review/block |
-| ⬜ Marketplace listing checker | Prohibited items, counterfeit signals, policy breaches | one Noul per policy, thresholded separately |
-| ⬜ Review authenticity | Flag incentivised, templated, or fake-looking reviews | pattern judgment across a corpus |
-| ⬜ Brand safety checker | Is this placement context safe for this creative | two states judged for compatibility |
-| ⬜ Scam pattern detector | Advance-fee, impersonation, and phishing patterns in messages | independent hazard Nouls |
-| ⬜ Age suitability rater | Rate content against an age-band rubric you define | ordered rubric with concrete levels |
-| ⬜ Moderation appeal router | Which appeals plausibly overturn the original decision | second-opinion judgment with abstention |
+| ✅ [Marketplace listing checker](apps/trust-safety/listing-policy) | Prohibited items, counterfeit signals, policy breaches | one Noul per policy, thresholded separately |
+| ✅ [Review authenticity](apps/trust-safety/review-authenticity) | Flag incentivised, templated, or fake-looking reviews | pattern judgment across a corpus |
+| ✅ [Brand safety checker](apps/trust-safety/ad-brand-safety) | Is this placement context safe for this creative | two states judged for compatibility |
+| ✅ [Scam pattern detector](apps/trust-safety/scam-detector) | Advance-fee, impersonation, and phishing patterns in messages | independent hazard Nouls |
+| ✅ [Age suitability rater](apps/trust-safety/age-appropriateness) | Rate content against an age-band rubric you define | ordered rubric with concrete levels |
+| ✅ [Moderation appeal router](apps/trust-safety/appeal-router) | Which appeals plausibly overturn the original decision | second-opinion judgment with abstention |
 
 #### 🔬 Research & Science
 
@@ -195,12 +195,12 @@ budget conversation.
 |---|---|---|
 | ✅ [Paper screener](apps/research/paper-screener) | Screen abstracts against a systematic review protocol | conjunctive veto rules, not a weighted score |
 | ✅ [Study data extractor](apps/research/data-extractor) | Pull population, intervention, and outcomes from methods sections | selection from parsed candidates |
-| ⬜ Interview coder | Apply a thematic codebook to transcripts | one Noul per theme; several can apply |
-| ⬜ Methods gap finder | Missing controls, sample sizes, or ethics statements | checklist as independent conditions |
-| ⬜ Reproducibility auditor | Does this paper give enough detail to reproduce it | criterion-by-criterion with a human tier |
-| ⬜ Dataset license checker | Can we legally use this dataset the way we intend | intent judged against licence text |
-| ⬜ Grant fit scorer | Which calls actually fit this proposal | relevance ranking over a call catalog |
-| ⬜ Reviewer matcher | Match submissions to reviewers by expertise | pairwise relevance at conference scale |
+| ✅ [Interview coder](apps/research/interview-coder) | Apply a thematic codebook to transcripts | one Noul per theme; several can apply |
+| ✅ [Methods gap finder](apps/research/method-gap-finder) | Missing controls, sample sizes, or ethics statements | checklist as independent conditions |
+| ✅ [Reproducibility auditor](apps/research/reproducibility-auditor) | Does this paper give enough detail to reproduce it | criterion-by-criterion with a human tier |
+| ✅ [Dataset license checker](apps/research/dataset-license) | Can we legally use this dataset the way we intend | intent judged against licence text |
+| ✅ [Grant fit scorer](apps/research/grant-fit) | Which calls actually fit this proposal | relevance ranking over a call catalog |
+| ✅ [Reviewer matcher](apps/research/peer-review-router) | Match submissions to reviewers by expertise | pairwise relevance at conference scale |
 
 #### ⏱️ Realtime & Interactive
 
@@ -208,11 +208,11 @@ budget conversation.
 |---|---|---|
 | ✅ [Semantic command palette](apps/realtime/intent-palette) | Type what you want in English, get the right action | runs per keystroke at typing speed |
 | ✅ [Live chat moderation](apps/realtime/live-moderation) | Moderate a live stream chat as it arrives | inline latency, per-message cost |
-| ⬜ Semantic form validator | 'That doesn't look like a job title' — as they type | validation regex cannot express |
-| ⬜ Text adventure referee | An NPC that judges whether your improvised action works | programmable common sense in a game loop |
-| ⬜ Live meeting copilot | Flag commitments and dodged questions during the call | streaming transcript, judged per utterance |
-| ⬜ Suggestion ranker | Rank completions by what the user actually means | whole candidate set ranked in one call |
-| ⬜ Live alert router | Page, ticket, or ignore — decided at alert time | decision inside the alerting path |
+| ✅ [Semantic form validator](apps/realtime/form-validator) | 'That doesn't look like a job title' — as they type | validation regex cannot express |
+| ✅ [Text adventure referee](apps/realtime/text-adventure) | An NPC that judges whether your improvised action works | programmable common sense in a game loop |
+| ✅ [Live meeting copilot](apps/realtime/meeting-copilot) | Flag commitments and dodged questions during the call | streaming transcript, judged per utterance |
+| ✅ [Suggestion ranker](apps/realtime/autocomplete-ranker) | Rank completions by what the user actually means | whole candidate set ranked in one call |
+| ✅ [Live alert router](apps/realtime/alert-router) | Page, ticket, or ignore — decided at alert time | decision inside the alerting path |
 
 </details>
 <!-- CATALOG:END -->

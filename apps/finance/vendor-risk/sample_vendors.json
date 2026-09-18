@@ -1,0 +1,90 @@
+[
+  {
+    "vendor": "Kestrel Cloud Systems",
+    "service": "Primary payments processing platform",
+    "annual_spend": 840000,
+    "documents": {
+      "company_profile": "Founded 2014, 340 staff across London and Krakow. Series D, profitable since 2023. Audited accounts filed on time for six consecutive years.",
+      "security_questionnaire": "ISO 27001:2022 certified, SOC 2 Type II report available under NDA, annual penetration test by an external CREST-accredited firm. Data processed and stored in eu-west-2 only. Sub-processor list published and versioned; currently three sub-processors, all EU-resident.",
+      "contract_summary": "MSA includes 24-hour breach notification, annual audit rights, and a 90-day exit assistance clause. Liability capped at 12 months of fees.",
+      "public_record": "No regulatory findings. One 4-hour outage in 2025 with a published post-mortem."
+    }
+  },
+  {
+    "vendor": "Brightpath Analytics Ltd",
+    "service": "Customer segmentation and marketing analytics",
+    "annual_spend": 96000,
+    "documents": {
+      "company_profile": "Founded 2022, 11 staff. Filed abridged micro-entity accounts. Two directors resigned in the last financial year and the registered office changed twice.",
+      "security_questionnaire": "Working towards ISO 27001, expect certification next year. Security policy is in draft. Penetration testing has not yet been carried out. Development and support handled by a partner team in Bengaluru who have production access.",
+      "contract_summary": "Signed on the supplier's own standard terms. No breach notification period specified. No audit rights. No named sub-processors.",
+      "public_record": "A county court judgment for 18,400 was registered against the company in 2025 and later satisfied."
+    }
+  },
+  {
+    "vendor": "Meridian Print & Fulfilment",
+    "service": "Statement printing and postal fulfilment",
+    "annual_spend": 210000,
+    "documents": {
+      "company_profile": "Family-owned since 1988, 95 staff, one facility in Nottingham. Consistently modest margins. No parent company.",
+      "security_questionnaire": "Cyber Essentials Plus certified. No ISO 27001. Customer name and address files are received by SFTP and deleted after 30 days. All processing is on-site in the UK. No sub-contractors used for print or mail.",
+      "contract_summary": "Breach notification within 72 hours. Audit rights on 30 days notice, exercised once in 2024. No exit assistance clause and no documented alternative supplier.",
+      "public_record": "Nothing adverse found. The site is the only UK facility certified for our statement format."
+    }
+  },
+  {
+    "vendor": "Sable Ridge Capital Advisory",
+    "service": "Treasury and FX advisory",
+    "annual_spend": 145000,
+    "documents": {
+      "company_profile": "Boutique advisory, 22 staff, offices in London and Dubai. Ownership structure runs through a holding company in the British Virgin Islands; ultimate beneficial owners are not disclosed in the filings provided.",
+      "security_questionnaire": "No formal certification. Staff use personal devices with a mobile device management policy described as 'being rolled out'. Client documents are shared by consumer file-sharing links.",
+      "contract_summary": "Engagement letter only. No data protection addendum. No breach notification. No audit rights.",
+      "public_record": "The FCA issued a supervisory notice to a firm sharing two directors with this one in 2024. No action against this entity."
+    }
+  },
+  {
+    "vendor": "Orrell Facilities Group",
+    "service": "Cleaning and building maintenance",
+    "annual_spend": 58000,
+    "documents": {
+      "company_profile": "1,200 staff nationally, 30 years trading, listed on AIM. Latest interim results show a 14% revenue decline and the auditor drew attention to a material uncertainty over going concern.",
+      "security_questionnaire": "Not applicable to the service. No access to systems or customer data. Staff are DBS checked and badge access is escorted.",
+      "contract_summary": "Standard facilities framework, 3 month notice either side. No data clauses, appropriately.",
+      "public_record": "Two HSE improvement notices in 2024 relating to working at height, both closed out."
+    }
+  },
+  {
+    "vendor": "Nordwind Data GmbH",
+    "service": "Identity verification and sanctions screening",
+    "annual_spend": 305000,
+    "documents": {
+      "company_profile": "Founded 2016, Berlin, 180 staff. Majority stake acquired in 2025 by a private equity vehicle; the acquiring fund's investors are not disclosed.",
+      "security_questionnaire": "ISO 27001 certified. SOC 2 Type I only. Primary processing in eu-central-1 with a disaster recovery replica in us-east-1 that holds full customer identity records. Support is provided from Berlin and Manila. Sub-processors include two US-headquartered analytics providers.",
+      "contract_summary": "DPA with standard contractual clauses in place. 72-hour breach notification. Audit rights limited to receiving the annual certification report.",
+      "public_record": "Named in a German press report about a 2024 incident at a sister company under the same fund. No confirmed breach at this entity."
+    }
+  },
+  {
+    "vendor": "Tessellate Software Inc",
+    "service": "Core ledger software licence and support",
+    "annual_spend": 1120000,
+    "documents": {
+      "company_profile": "NASDAQ-listed, 4,000 staff. Our account represents a negligible share of their revenue. Stable for a decade.",
+      "security_questionnaire": "ISO 27001, SOC 2 Type II, FedRAMP moderate. Data residency configurable; our tenant is pinned to eu-west-1. Sub-processor changes notified 30 days in advance with a right to object.",
+      "contract_summary": "Negotiated enterprise agreement. 24-hour notification, full audit rights, source code escrow, 12-month exit assistance.",
+      "public_record": "Routine securities class action filed in 2023 and dismissed. No regulatory findings."
+    }
+  },
+  {
+    "vendor": "Larkhill Logistics",
+    "service": "Secure document collection and destruction",
+    "annual_spend": 41000,
+    "documents": {
+      "company_profile": "Founded 2019, 14 staff, single depot. Accounts show net liabilities of 220,000 and the notes disclose reliance on continued director loans.",
+      "security_questionnaire": "Vehicles are tracked and drivers vetted. Destruction is subcontracted to a third party the questionnaire does not name. Certificates of destruction are issued by that third party.",
+      "contract_summary": "One-page service schedule. Subcontracting is permitted without consent. No breach notification. No audit rights over the subcontractor.",
+      "public_record": "Nothing adverse found."
+    }
+  }
+]

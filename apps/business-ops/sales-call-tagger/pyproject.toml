@@ -1,0 +1,6 @@
+[project]
+name = "sales-call-tagger"
+version = "0.1.0"
+description = "Tag objections, competitors and agreed next steps from sales call notes."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40", "pandas>=2.0"]

@@ -1,0 +1,84 @@
+{
+  "policy_name": "Northwind Ltd Employee Expense Policy v4.2",
+  "effective": "2026-01-01",
+  "rules": [
+    {
+      "id": "ALC-01",
+      "title": "No alcohol",
+      "text": "Alcohol is not reimbursable under any circumstances, including when it appears as part of a meal bill or a client dinner.",
+      "check": "judgment",
+      "breach": "The claim covers alcoholic drinks, a bar tab, wine, beer, spirits, or a bill the description shows includes drinks.",
+      "clean": "The claim covers food, soft drinks, coffee, or anything with no alcohol in it."
+    },
+    {
+      "id": "TRV-02",
+      "title": "Economy class on short flights",
+      "text": "Flights with a scheduled duration under six hours must be booked in economy class. Premium economy, business and first class are reimbursable only on long-haul flights over six hours.",
+      "check": "judgment",
+      "breach": "A premium cabin was booked on a route that is a short-haul or domestic hop.",
+      "clean": "Economy class, or a premium cabin on a genuine long-haul intercontinental route."
+    },
+    {
+      "id": "HOT-03",
+      "title": "Hotels via the corporate portal",
+      "text": "Accommodation must be booked through the corporate travel portal. Direct bookings with hotels or consumer booking sites are not reimbursable without a written exception.",
+      "check": "judgment",
+      "breach": "Accommodation booked directly with a hotel, or through a consumer travel or short-let marketplace.",
+      "clean": "Accommodation booked through the corporate travel portal or the company travel desk, or a claim that is not accommodation at all."
+    },
+    {
+      "id": "ENT-04",
+      "title": "Client entertainment needs attribution",
+      "text": "Client entertainment is reimbursable only when the claim records which client was hosted and the business purpose of the meeting.",
+      "check": "judgment",
+      "breach": "Hospitality that hosted external guests but the description names no client and gives no business purpose.",
+      "clean": "The description names the client hosted and why, or the claim does not involve entertaining anyone external."
+    },
+    {
+      "id": "GFT-05",
+      "title": "No gifts to officials",
+      "text": "Gifts, hospitality or anything of value provided to a government official, regulator, or employee of a state-owned body is prohibited regardless of value.",
+      "check": "judgment",
+      "breach": "The recipient described is a public official, regulator, civil servant, or someone at a state-owned organisation.",
+      "clean": "No gift was given, or the recipient is a private-sector counterparty or a colleague."
+    },
+    {
+      "id": "PER-06",
+      "title": "No personal items",
+      "text": "Personal purchases are not reimbursable even when incurred during business travel.",
+      "check": "judgment",
+      "breach": "Clothing, toiletries, entertainment, family costs, or anything the employee would have bought for themselves anyway.",
+      "clean": "A cost that exists only because of the business trip or the business task."
+    },
+    {
+      "id": "FIN-07",
+      "title": "No fines or penalties",
+      "text": "Fines, penalty charges, parking tickets, congestion charge penalties and late fees are never reimbursable.",
+      "check": "judgment",
+      "breach": "The claim is a fine, penalty, ticket, or late-payment charge.",
+      "clean": "An ordinary charge for a service, including legitimate parking or congestion charges that are not penalties."
+    },
+    {
+      "id": "CAP-08",
+      "title": "Meal cap",
+      "text": "Meals are reimbursable up to 45.00 per person per day.",
+      "check": "amount_cap",
+      "category": "meals",
+      "cap": 45.0
+    },
+    {
+      "id": "CAP-09",
+      "title": "Pre-approval above 250",
+      "text": "Any single expense above 250.00 requires a documented pre-approval reference.",
+      "check": "requires_approval_above",
+      "cap": 250.0
+    },
+    {
+      "id": "RCP-10",
+      "title": "Receipts above 25",
+      "text": "Claims above 25.00 must have a receipt attached.",
+      "check": "requires_receipt_above",
+      "cap": 25.0
+    }
+  ]
+}

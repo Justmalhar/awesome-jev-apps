@@ -1,0 +1,74 @@
+[
+  {
+    "id": "SUP-4412",
+    "plan": "Enterprise",
+    "subject": "Webhook deliveries stopped at 03:10 UTC",
+    "body": "All of our order-created webhooks stopped arriving around 03:10 UTC. We have retries on, nothing is landing. Our fulfilment partner is not receiving orders, so customers are placing orders that never ship. This is costing us money every hour. Nothing changed on our side."
+  },
+  {
+    "id": "SUP-4413",
+    "plan": "Pro",
+    "subject": "How do I export a saved view to CSV?",
+    "body": "I can see the export button on the reports page but not on a saved view. Is there a way, or do I need to rebuild it as a report? Not urgent, just curious what the intended flow is."
+  },
+  {
+    "id": "SUP-4414",
+    "plan": "Enterprise",
+    "subject": "Another user's invoices visible in our billing tab",
+    "body": "This is alarming. One of our finance team opened the billing tab this morning and saw three invoices addressed to a company that is not us - different name, different VAT number. We have screenshots. Please tell me what happened and whether our data has been shown to anyone else."
+  },
+  {
+    "id": "SUP-4415",
+    "plan": "Starter",
+    "subject": "Charged twice for October",
+    "body": "My card was charged 149 twice on 3 October. I only have one subscription. Can you refund the duplicate? Invoice numbers are INV-88213 and INV-88219."
+  },
+  {
+    "id": "SUP-4416",
+    "plan": "Enterprise",
+    "subject": "This is the third time I am reporting the Salesforce sync failing",
+    "body": "I opened SUP-3980 in July and SUP-4102 in August about the same thing. The Salesforce connector silently stops syncing after about 48 hours and we have to reauthorise it manually. Every time I am told it is fixed. Our CRO asked me last week why we are still paying for this and I did not have a good answer. We are renewing in Q1 and I am now genuinely evaluating alternatives."
+  },
+  {
+    "id": "SUP-4417",
+    "plan": "Pro",
+    "subject": "SSO login loop after Okta change",
+    "body": "Our IT team rotated the Okta signing certificate and now nobody on our team can log in - we get bounced back to the login screen. 14 people are locked out and cannot do their work. I can still get in with my legacy password so I am raising this."
+  },
+  {
+    "id": "SUP-4418",
+    "plan": "Pro",
+    "subject": "Please add dark mode to the mobile app",
+    "body": "The iOS app is blinding at night. Would love a dark theme or at least respecting the system setting. Not blocking anything, just a wish."
+  },
+  {
+    "id": "SUP-4419",
+    "plan": "Enterprise",
+    "subject": "Historical records missing from dashboard after migration",
+    "body": "Since the workspace migration on Tuesday, everything before 2024 is gone from our dashboard. Roughly 18 months of history. Our board deck is due Friday and those trend charts are the whole deck. Is the data still there and just not showing, or is it deleted?"
+  },
+  {
+    "id": "SUP-4420",
+    "plan": "Starter",
+    "subject": "API returns 429 more than I expect",
+    "body": "I am on the documented 100 req/min limit but I am getting 429s at what feels like a much lower rate. I have backoff in place so nothing is broken, but I would like to understand the actual bucketing before I scale up my job."
+  },
+  {
+    "id": "SUP-4421",
+    "plan": "Pro",
+    "subject": "Question about upgrading mid-cycle",
+    "body": "If I move from Pro to Business on the 15th, do I get charged the full month or a prorated amount? And does the seat count reset? Just planning ahead for next quarter."
+  },
+  {
+    "id": "SUP-4422",
+    "plan": "Enterprise",
+    "subject": "Dashboards extremely slow during incident",
+    "body": "During our incident last night the dashboard took 40+ seconds to load each panel, which made it useless exactly when we needed it. We fell back to reading raw logs. This is the second incident where that happened. Everything works fine under normal load."
+  },
+  {
+    "id": "SUP-4423",
+    "plan": "Starter",
+    "subject": "hi",
+    "body": "it doesnt work"
+  }
+]

@@ -8,7 +8,7 @@ rows the model was genuinely unsure about.
 than a coffee, which is the only reason anyone would run this over a whole
 account history.
 
-## The rule this app exists to demonstrate
+## Why this needs Jev
 
 **Jev does the judgment. Python does every single number.**
 
@@ -87,3 +87,13 @@ selects. Read that provider's data policy before pointing this at a real
 account. TypeSafe states it does not train on customer requests and offers zero
 data retention for enterprise; verify for yourself rather than taking this
 README's word for it.
+
+## Limits
+
+`jev-1.13` cannot count, do arithmetic, or compare dates — every figure shown by
+this app is computed in Python from the model's judgments. It also reads
+literally: if an answer surprises you, the missing half of the instruction is
+usually the thing you would have said out loud to explain what you meant. See
+the [jaggedness notes](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
+
+Nothing here has been verified against a live API response yet.
