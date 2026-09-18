@@ -1,0 +1,6 @@
+[project]
+name = "api-breaking-change"
+version = "0.1.0"
+description = "Flag API changes that break downstream consumers. ast diffs, Jev judges materiality."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]

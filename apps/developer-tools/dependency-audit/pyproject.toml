@@ -1,0 +1,6 @@
+[project]
+name = "dependency-audit"
+version = "0.1.0"
+description = "Judge a dependency's changelog against your own call sites, not against the world."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

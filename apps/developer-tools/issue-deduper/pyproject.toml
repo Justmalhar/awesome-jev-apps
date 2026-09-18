@@ -1,0 +1,6 @@
+[project]
+name = "issue-deduper"
+version = "0.1.0"
+description = "Find which GitHub issues are the same underlying bug. difflib blocks, Jev judges."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

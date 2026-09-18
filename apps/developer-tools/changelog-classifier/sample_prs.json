@@ -1,0 +1,123 @@
+[
+ {
+  "number": 2211,
+  "title": "Add scheduled exports to the reports page",
+  "body": "Users can now set a daily or weekly schedule on any saved report and have the CSV emailed. Closes #1902.\n\nThe scheduler reuses the existing job queue.",
+  "labels": [
+   "feature"
+  ]
+ },
+ {
+  "number": 2214,
+  "title": "Fix discount code not applied before tax",
+  "body": "The order total applied the discount after tax instead of before, overcharging every order with a percentage code. Adds a regression test.",
+  "labels": [
+   "bug"
+  ]
+ },
+ {
+  "number": 2218,
+  "title": "Drop support for Python 3.9",
+  "body": "Breaking: the minimum supported version is now 3.10. Update your runtime before upgrading.\n\n3.9 went end of life last month and we want match statements.",
+  "labels": [
+   "breaking",
+   "chore"
+  ]
+ },
+ {
+  "number": 2221,
+  "title": "Bump urllib3 from 2.0.7 to 2.2.1",
+  "body": "Automated dependency update. Includes the fix for CVE-2024-37891 (proxy auth header leak on cross-origin redirect).",
+  "labels": [
+   "dependencies"
+  ]
+ },
+ {
+  "number": 2223,
+  "title": "Refactor JobRegistry into two classes",
+  "body": "Splits scheduling from bookkeeping. No behaviour change; all existing tests pass unmodified.",
+  "labels": [
+   "refactor"
+  ]
+ },
+ {
+  "number": 2227,
+  "title": "Cache the permission tree per request",
+  "body": "The permission tree was rebuilt on every authorisation check, which on the dashboard meant 340 rebuilds per page load. Caching it for the life of the request takes the p95 from 1.9s to 240ms.",
+  "labels": [
+   "performance"
+  ]
+ },
+ {
+  "number": 2230,
+  "title": "Rename the --quiet flag to --silent",
+  "body": "Migration: scripts passing --quiet must be updated to --silent. The old flag now errors rather than being silently ignored.\n\nConsistency with the rest of the CLI.",
+  "labels": [
+   "cli",
+   "breaking"
+  ]
+ },
+ {
+  "number": 2233,
+  "title": "Correct the retry documentation example",
+  "body": "The example in docs/retries.md passed max_attempts, which has never been a parameter. No code change.",
+  "labels": [
+   "docs"
+  ]
+ },
+ {
+  "number": 2236,
+  "title": "Redact authorization headers from request logs",
+  "body": "Bearer tokens were being written to the application log in full whenever a request failed. They are now replaced with the token's last four characters. Rotate any token that appeared in your logs.",
+  "labels": [
+   "security"
+  ]
+ },
+ {
+  "number": 2239,
+  "title": "Speed up CI by caching the uv environment",
+  "body": "Cuts the average pipeline from 11 minutes to 4. Touches .github/workflows only.",
+  "labels": [
+   "ci"
+  ]
+ },
+ {
+  "number": 2242,
+  "title": "Handle 413 from the upload proxy",
+  "body": "Uploads larger than the proxy limit appeared to hang at 100% with no error. The XHR handler now surfaces the failure in the UI with the size limit.",
+  "labels": [
+   "bug"
+  ]
+ },
+ {
+  "number": 2245,
+  "title": "wip",
+  "body": "",
+  "labels": []
+ },
+ {
+  "number": 2248,
+  "title": "Change the default for fetch(retries=) from 3 to 0",
+  "body": "Callers should own their own retry policy. Existing calls keep working but stop retrying, so set retries explicitly if you were relying on the default.",
+  "labels": [
+   "api"
+  ]
+ },
+ {
+  "number": 2251,
+  "title": "Add OpenTelemetry spans around the job handler",
+  "body": "Emits spans for queue wait and handler execution when OTEL_EXPORTER_OTLP_ENDPOINT is set. Off by default.",
+  "labels": [
+   "observability",
+   "feature"
+  ]
+ },
+ {
+  "number": 2254,
+  "title": "Fix flaky test_chart_renders",
+  "body": "Replaces the fixed 5s selector timeout with an explicit wait on the render event. Test-only change.",
+  "labels": [
+   "tests"
+  ]
+ }
+]

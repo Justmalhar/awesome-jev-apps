@@ -1,0 +1,3146 @@
+[
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "fail",
+  "message": "botocore.exceptions.EndpointConnectionError: Could not connect to https://s3.eu-west-1.amazonaws.com/",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "fail",
+  "message": "TimeoutError: page.goto: net::ERR_ABORTED, retry 2 of 3 succeeded",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "fail",
+  "message": "sqlalchemy.exc.IntegrityError: UNIQUE constraint failed: schema_version.id -- passes with -p no:randomly",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "fail",
+  "message": "TimeoutError: waiting for selector '.legend' failed: timeout 5000ms exceeded",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "fail",
+  "message": "Falsifying example: amount=Decimal('2.675') -- round-half-even mismatch against the ledger",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "fail",
+  "message": "BlockingIOError: [Errno 35] Resource temporarily unavailable during fork",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "fail",
+  "message": "AssertionError: expected empty table, found 3 rows left by another test's fixture",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "fail",
+  "message": "exit code 1",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "fail",
+  "message": "OSError: [Errno 24] Too many open files -- only under -n 8",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "fail",
+  "message": "Falsifying example: amount=Decimal('0.005') -- banker's rounding produced 0.00, expected 0.01",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "fail",
+  "message": "botocore.exceptions.EndpointConnectionError: Could not connect to https://s3.eu-west-1.amazonaws.com/",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "fail",
+  "message": "sqlalchemy.exc.IntegrityError: UNIQUE constraint failed: schema_version.id -- passes with -p no:randomly",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "fail",
+  "message": "AssertionError: trailing newline missing",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "fail",
+  "message": "AssertionError: expected 1 message in outbox, found 0 after time.sleep(1)",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "fail",
+  "message": "botocore.exceptions.EndpointConnectionError: Could not connect to https://s3.eu-west-1.amazonaws.com/",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "fail",
+  "message": "AssertionError: expected empty table, found 3 rows left by another test's fixture",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "fail",
+  "message": "sqlalchemy.exc.IntegrityError: UNIQUE constraint failed: schema_version.id -- passes with -p no:randomly",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "fail",
+  "message": "TimeoutError: waiting for selector '.chart-canvas' failed: timeout 5000ms exceeded",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "fail",
+  "message": "AssertionError: expected 1 message in outbox, found 0 after time.sleep(1)",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "fail",
+  "message": "urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='s3.eu-west-1.amazonaws.com'): Read timed out",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "fail",
+  "message": "Falsifying example: amount=Decimal('0.005') -- banker's rounding produced 0.00, expected 0.01",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "fail",
+  "message": "AssertionError: expected 1 message in outbox, found 0 after time.sleep(1)",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "fail",
+  "message": "OSError: [Errno 24] Too many open files -- only under -n 8",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "fail",
+  "message": "AssertionError: expected 1 message in outbox, found 0 after time.sleep(1)",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "fail",
+  "message": "exit code 1",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "fail",
+  "message": "OSError: [Errno 24] Too many open files -- only under -n 8",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/auth/test_session.py::test_expires_after_ttl",
+  "status": "fail",
+  "message": "InvalidToken: signature mismatch -- expiry check removed in 7f3a19c",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/legacy/test_report.py::test_generates_pdf",
+  "status": "fail",
+  "message": "exit code 1",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "fail",
+  "message": "AssertionError: expected 1 message in outbox, found 0 after time.sleep(1)",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "fail",
+  "message": "AssertionError: expected 1 message in outbox, found 0 after time.sleep(1)",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "fail",
+  "message": "sqlalchemy.exc.IntegrityError: UNIQUE constraint failed: schema_version.id -- passes with -p no:randomly",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/ui/test_dashboard.py::test_chart_renders",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/notify/test_email.py::test_sends_within_a_second",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/workers/test_pool.py::test_spawns_workers",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/integration/test_s3_upload.py::test_puts_object",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/api/test_checkout.py::test_applies_discount_code",
+  "status": "fail",
+  "message": "AssertionError: assert 4200 == 3780 -- discount not applied before tax",
+  "branch": "feat/tax-rewrite"
+ },
+ {
+  "test": "tests/db/test_migrations.py::test_applies_in_order",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/core/test_money.py::test_rounding_property",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ },
+ {
+  "test": "tests/cli/test_help.py::test_prints_usage",
+  "status": "pass",
+  "message": "",
+  "branch": "main"
+ }
+]

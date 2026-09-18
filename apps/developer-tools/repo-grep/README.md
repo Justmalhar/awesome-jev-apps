@@ -14,7 +14,9 @@ tools/upload.py:31: _post()             P=0.71
 3 hit(s) of 412 functions · 2 request(s) · 118,402 tokens · $0.004973
 ```
 
-## Why this is possible now and wasn't before
+## The problem
+
+### Why this is possible now and wasn't before
 
 The rule *"makes a network call with no timeout"* has no regex. `requests.get(`
 misses `httpx`, `urllib`, a wrapped session, and the helper three layers down;
@@ -25,7 +27,7 @@ nobody does it, so the lint never gets written. At **$0.042 per million input
 tokens** the whole repo is half a cent, which moves this from "interesting demo"
 to "run it in CI on every PR".
 
-## Code finds the candidates; Jev judges them
+## Why this needs Jev
 
 Chunking is done by Python's `ast` module, not by the model:
 
@@ -50,7 +52,9 @@ read from `providers.toml` rather than hardcoded — which matters, because
 OpenRouter serves 32k against TypeSafe's 64k, so the same scan takes twice as
 many requests there.
 
-## Use it as a CI gate
+## Run it
+
+### As a CI gate
 
 Exits `1` when there are hits, so it drops straight into a workflow:
 

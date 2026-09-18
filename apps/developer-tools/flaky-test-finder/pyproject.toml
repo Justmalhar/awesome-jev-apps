@@ -1,0 +1,6 @@
+[project]
+name = "flaky-test-finder"
+version = "0.1.0"
+description = "Separate flaky tests from consistently failing ones. Rates in Python, causes in Jev."
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27", "streamlit>=1.40"]

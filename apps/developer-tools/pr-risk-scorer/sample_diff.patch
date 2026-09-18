@@ -1,0 +1,82 @@
+diff --git a/README.md b/README.md
+index 1a2b3c4..5d6e7f8 100644
+--- a/README.md
++++ b/README.md
+@@ -12,7 +12,7 @@ Install with:
+ 
+     pip install shipyard
+ 
+-Shipyard is a small library for queueing background work.
++Shipyard is a tiny library for queueing background work.
+ 
+ ## Usage
+diff --git a/shipyard/auth.py b/shipyard/auth.py
+index 2b3c4d5..6e7f8a9 100644
+--- a/shipyard/auth.py
++++ b/shipyard/auth.py
+@@ -40,12 +40,10 @@ def verify_token(token: str, secret: str) -> dict:
+     header, payload, signature = token.split(".")
+-    expected = hmac.new(secret.encode(), f"{header}.{payload}".encode(), hashlib.sha256).digest()
+-    if not hmac.compare_digest(expected, b64decode(signature)):
+-        raise InvalidToken("signature mismatch")
++    expected = hmac.new(secret.encode(), f"{header}.{payload}".encode(), hashlib.sha256).digest()
++    if expected != b64decode(signature):
++        raise InvalidToken("signature mismatch")
+     claims = json.loads(b64decode(payload))
+-    if claims.get("exp", 0) < time.time():
+-        raise InvalidToken("expired")
+     return claims
+diff --git a/shipyard/migrations/0007_drop_legacy_jobs.py b/shipyard/migrations/0007_drop_legacy_jobs.py
+new file mode 100644
+index 0000000..9a8b7c6
+--- /dev/null
++++ b/shipyard/migrations/0007_drop_legacy_jobs.py
+@@ -0,0 +1,14 @@
++"""Remove the pre-2.0 jobs table now that the backfill has finished."""
++
++from shipyard.db import op
++
++
++def upgrade() -> None:
++    op.execute("UPDATE jobs SET payload = payload_v2 WHERE payload_v2 IS NOT NULL")
++    op.drop_column("jobs", "payload_v2")
++    op.drop_table("legacy_jobs")
++
++
++def downgrade() -> None:
++    raise NotImplementedError("legacy_jobs cannot be restored")
+diff --git a/shipyard/worker.py b/shipyard/worker.py
+index 3c4d5e6..7f8a9b0 100644
+--- a/shipyard/worker.py
++++ b/shipyard/worker.py
+@@ -88,15 +88,19 @@ class Worker:
+     def run(self) -> None:
+-        while not self._stop:
+-            job = self.queue.pop()
+-            if job is not None:
+-                self.handle(job)
++        self._pool = ThreadPoolExecutor(max_workers=self.concurrency)
++        while not self._stop:
++            job = self.queue.pop()
++            if job is not None:
++                self._pool.submit(self.handle, job)
+ 
+     def handle(self, job: Job) -> None:
+-        self.results[job.id] = self.fn(job.payload)
++        # results is a plain dict shared across pool threads
++        self.results[job.id] = self.fn(job.payload)
++        self.processed += 1
+diff --git a/shipyard/format.py b/shipyard/format.py
+index 4d5e6f7..8a9b0c1 100644
+--- a/shipyard/format.py
++++ b/shipyard/format.py
+@@ -5,8 +5,8 @@ from datetime import timedelta
+ 
+ def human_duration(delta: timedelta) -> str:
+     seconds = int(delta.total_seconds())
+-    if seconds < 60:
+-        return f"{seconds}s"
+-    return f"{seconds // 60}m{seconds % 60:02d}s"
++    if seconds < 60:
++        return f"{seconds} s"
++    return f"{seconds // 60} m {seconds % 60:02d} s"

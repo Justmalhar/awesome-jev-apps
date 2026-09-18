@@ -37,4 +37,4 @@ jobs:
       - name: offline app checks
         run: >
           uv run --no-project --with httpx --with streamlit --with pandas
-          python scripts/test_apps.py
+          --with scikit-learn python scripts/test_apps.py

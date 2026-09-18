@@ -1,0 +1,42 @@
+[
+ {
+  "id": "INC-2041",
+  "title": "Checkout unavailable for 47 minutes after a routine deploy",
+  "text": "Summary: A deploy of the orders service at 14:02 introduced a query that was fine against the staging dataset (12k orders) and took 40 seconds against production (60M orders). Connection pool exhausted within four minutes; checkout returned 500s.\n\nDetection: A customer posted in the community forum at 14:19. Our own latency alert has a 15-minute window and a threshold set in 2023; it fired at 14:31, after support had already escalated.\n\nResponse: The on-call engineer was paged at 14:24 but did not have permission to roll back the orders service; the deploy pipeline requires a second approver for that environment. The approver was located at 14:38. Rollback completed at 14:49.\n\nContributing: staging is seeded with a fixture dataset, not a production snapshot. This was raised in the review of INC-1877 last quarter and the ticket to fix it is still in the backlog."
+ },
+ {
+  "id": "INC-2046",
+  "title": "Payment webhooks silently dropped for six hours",
+  "text": "Summary: Our payment provider rotated their signing certificate. Our verification library pinned the old certificate, so every incoming webhook failed signature verification and was rejected with a 401. The provider retried for an hour and then stopped.\n\nDetection: Nobody noticed for six hours. The 401s were logged at WARN and our dashboards only chart 5xx. A finance analyst reconciling the day's ledger found 1,400 orders marked paid by the provider and unpaid by us.\n\nResponse: We replayed the webhooks from the provider's dashboard by hand, one page at a time, because we have no replay endpoint. That took two engineers three hours.\n\nContributing: the pinned certificate was a deliberate decision made in 2024 with no expiry reminder attached."
+ },
+ {
+  "id": "INC-2052",
+  "title": "Region-wide outage following an upstream DNS failure",
+  "text": "Summary: Our cloud provider's DNS resolvers in eu-west-1 failed for 22 minutes. Every service in that region lost the ability to resolve internal hostnames, including the database endpoint.\n\nDetection: Immediate. Alerting fired within 40 seconds across every service and paged the correct on-call.\n\nResponse: There was nothing to do but wait; we are single-region. Traffic could not be shifted because the failover region exists only as a Terraform plan that has never been applied.\n\nContributing: the decision to run single-region was documented and accepted when the service launched, with the risk explicitly noted."
+ },
+ {
+  "id": "INC-2055",
+  "title": "Cache stampede during the Black Friday hour",
+  "text": "Summary: Traffic reached 8x the previous peak. The product cache TTL expired for the top 200 SKUs within the same second, and every request went to the database simultaneously. p99 went from 90ms to 14 seconds for eleven minutes.\n\nDetection: Automatic; the latency alert fired at 30 seconds and paged correctly.\n\nResponse: The on-call raised the cache TTL and enabled the request coalescer, both of which are runtime flags. Recovery was immediate once the flag flipped.\n\nContributing: the coalescer has existed and been disabled by default since it was added. Nobody knew it was there; it is not in the runbook."
+ },
+ {
+  "id": "INC-2060",
+  "title": "Customer data exposed to the wrong tenant in search results",
+  "text": "Summary: A refactor of the search indexer moved the tenant filter from the query builder into a decorator. One code path -- the saved-search scheduler -- calls the builder directly and did not get the decorator. For nine days, scheduled search digests for 12 enterprise customers included results from other tenants.\n\nDetection: A customer reported seeing an unfamiliar company name in their weekly digest.\n\nResponse: Index rebuilt and digests disabled within two hours of the report. Legal notified. Determining which records had been exposed required reconstructing nine days of digest sends from mail logs by hand.\n\nContributing: there is no test that asserts tenant isolation for the scheduler path; the isolation tests all go through the query builder's public entry point."
+ },
+ {
+  "id": "INC-2064",
+  "title": "Bulk import corrupted 3,000 customer records",
+  "text": "Summary: An operator ran the bulk import tool against production while intending to target the sandbox. The tool takes the environment from an environment variable which defaults to production when unset. The import contained test data with malformed postcodes, which the importer accepted because validation runs at the API layer, not in the importer.\n\nDetection: The operator realised immediately and stopped the job.\n\nResponse: There is no undo for the importer. Restoring required a point-in-time database restore to a parallel instance and a hand-written reconciliation script, approximately six hours.\n\nContributing: an identical near-miss happened in March and the action item to make the environment flag mandatory was closed as 'wontfix'."
+ },
+ {
+  "id": "INC-2068",
+  "title": "Elevated error rate, cause not determined",
+  "text": "Summary: Between 02:10 and 02:40 the API returned 500s on approximately 4% of requests. The errors stopped on their own. We have not been able to reproduce it or identify what changed.\n\nDetection: Alerting fired correctly and paged on-call at 02:12.\n\nResponse: On-call investigated for 25 minutes; the rate returned to normal before any action was taken. No deploy, config change, or infrastructure event correlates with the window.\n\nContributing: our request logs are sampled at 1% and the traces for that window have already aged out of retention."
+ },
+ {
+  "id": "INC-2071",
+  "title": "Feature flag rollout took the mobile app down for Android users",
+  "text": "Summary: A flag intended for a 1% canary was set to 100% because the percentage field in the admin UI is a free-text box and the operator typed 100 meaning 1.00. The new code path calls an endpoint that does not exist on the Android client's API version, producing a hard crash on launch.\n\nDetection: Crash reporting spiked within 90 seconds, but the alert routes to the mobile team's channel, which is not staffed overnight. The backend on-call, who owned the flag, was not notified.\n\nResponse: Flag reverted 50 minutes later once someone in a different timezone saw the channel. The crash resolved on next launch; no client release was needed.\n\nContributing: the same free-text percentage field caused a smaller incident in January."
+ }
+]

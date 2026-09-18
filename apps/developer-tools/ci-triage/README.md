@@ -3,7 +3,7 @@
 Real bug, flake, infra, dependency, or config — across your whole failure
 history, not just today's run.
 
-## Why nobody does this already
+## The problem
 
 Every team with a flaky suite develops the same reflex: **re-run it and see.**
 That reflex is expensive, and it hides genuine regressions inside noise nobody
@@ -14,7 +14,7 @@ and the reason it doesn't exist is arithmetic: running a frontier model over
 At **$0.042 per million input tokens** it is a rounding error. That is the whole
 unlock. This app is not clever — it is just newly affordable.
 
-## Three judgments per failure
+## Why this needs Jev
 
 ```python
 class      = choice("What caused this failure?", {real_bug, flaky_test,
@@ -78,3 +78,13 @@ The confidence gate defaults to 0.55 and demotes anything below it to a human
 pile. Run the tool over a few hundred failures you have already triaged by hand,
 compare, and move the gate. Treat the defaults here as a starting point to
 measure against — not as validated thresholds for your codebase.
+
+## Limits
+
+`jev-1.13` cannot count, do arithmetic, or compare dates — every figure shown by
+this app is computed in Python from the model's judgments. It also reads
+literally: if an answer surprises you, the missing half of the instruction is
+usually the thing you would have said out loud to explain what you meant. See
+the [jaggedness notes](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
+
+Nothing here has been verified against a live API response yet.

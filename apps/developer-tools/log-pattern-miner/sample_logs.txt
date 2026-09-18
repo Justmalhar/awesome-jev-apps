@@ -1,0 +1,1057 @@
+2026-09-18T03:01:55.810Z INFO  [api] request completed method=GET path=/v1/jobs/dd1a1082-0329-402f-71ff-e40ea768614d status=200 duration=51ms
+2026-09-18T03:04:26.400Z ERROR [auth] token signature verification failed sub=c5535a74-0e52-4c50-dae4-74d57f249ad5 kid=8c9ddeb45605
+2026-09-18T03:05:35.960Z ERROR [db] connection pool exhausted size=40 waiting=31 timeout=30s
+2026-09-18T03:05:52.980Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:06:24.060Z ERROR [scheduler] job cb4e878a-f54b-63c9-1162-73835f08eab9 lost: worker 10.4.3.103 disappeared mid-execution, payload not requeued
+2026-09-18T03:02:12.090Z INFO  [api] request completed method=GET path=/v1/jobs/abd60783-c190-1f2c-4ec2-205b23646ddf status=200 duration=51ms
+2026-09-18T03:01:53.220Z INFO  [api] request completed method=GET path=/v1/jobs/355a3f30-70b0-561d-d38a-1c17c80afdf0 status=200 duration=7ms
+2026-09-18T03:05:31.890Z ERROR [db] connection pool exhausted size=20 waiting=54 timeout=30s
+2026-09-18T03:05:30.410Z ERROR [db] connection pool exhausted size=40 waiting=44 timeout=30s
+2026-09-18T03:05:51.870Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:04:24.180Z ERROR [auth] token signature verification failed sub=10984529-42f0-cc98-fe62-1d37407461f3 kid=debe2f564894
+2026-09-18T03:06:00.380Z ERROR [ledger] write half-applied for order 737758: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:04:00.500Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:02:16.530Z INFO  [api] request completed method=GET path=/v1/jobs/90e33137-1e0b-e665-6f17-c688d33ac1ad status=200 duration=17ms
+2026-09-18T03:05:50.020Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/5e62f3b2-ec87-0d8f-fefd-0d19e63df8b3.job'
+2026-09-18T03:03:56.800Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:01:59.140Z INFO  [api] request completed method=GET path=/v1/jobs/78460e4c-9014-34a5-4618-3915f1edfa6b status=200 duration=84ms
+2026-09-18T03:03:57.910Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:06:17.770Z INFO  [migrate] applied migration 0012_add_index in 98ms
+2026-09-18T03:06:19.250Z INFO  [migrate] applied migration 0007_add_index in 437ms
+2026-09-18T03:05:39.290Z ERROR [db] connection pool exhausted size=40 waiting=13 timeout=30s
+2026-09-18T03:00:11.470Z INFO  [api] request completed method=GET path=/v1/jobs/dab871d5-feef-16e9-64ef-2ebe2ff36007 status=200 duration=80ms
+2026-09-18T03:03:47.180Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:00:24.050Z INFO  [api] request completed method=GET path=/v1/jobs/f1b9ab7c-6aca-8c4a-db77-b923df007dfa status=200 duration=6ms
+2026-09-18T03:03:15.730Z WARN  [queue] redis connection reset by peer host=10.4.1.72:6379 attempt=1
+2026-09-18T03:02:00.250Z INFO  [api] request completed method=GET path=/v1/jobs/2de2f7fb-b552-6b53-a161-660aad7d71ae status=200 duration=26ms
+2026-09-18T03:02:26.150Z INFO  [api] request completed method=GET path=/v1/jobs/3106aabf-3c78-b95a-a1e4-960c8879093f status=200 duration=9ms
+2026-09-18T03:01:05.120Z INFO  [api] request completed method=GET path=/v1/jobs/be934924-1dc4-2276-e94a-e4a7478e5850 status=200 duration=23ms
+2026-09-18T03:02:25.780Z INFO  [api] request completed method=GET path=/v1/jobs/8f510107-fed2-cd2e-b2aa-eebee1352b64 status=200 duration=28ms
+2026-09-18T03:03:23.130Z WARN  [queue] redis connection reset by peer host=10.4.4.96:6379 attempt=2
+2026-09-18T03:04:38.610Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 250, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:33.860Z WARN  [queue] redis connection reset by peer host=10.4.0.215:6379 attempt=3
+2026-09-18T03:03:54.950Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:04:42.680Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 272, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:37.560Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:03:50.510Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:06:22.580Z ERROR [scheduler] job 84ed5217-c4ec-df62-161e-4bcf2b65c7c9 lost: worker 10.4.2.247 disappeared mid-execution, payload not requeued
+2026-09-18T03:00:00.000Z INFO  [api] request completed method=GET path=/v1/jobs/db5b5fab-8f4d-3e27-dda1-494c73cf256d status=200 duration=62ms
+2026-09-18T03:05:14.500Z INFO  [deploy] rolling out revision 73685578694f replicas=3
+2026-09-18T03:02:28.740Z INFO  [api] request completed method=GET path=/v1/jobs/5f5d32ea-45f6-e60f-ca5d-8da04ba368d9 status=200 duration=87ms
+2026-09-18T03:06:25.910Z ERROR [core] unexpected state
+2026-09-18T03:04:01.240Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:01:06.230Z INFO  [api] request completed method=GET path=/v1/jobs/34f2bae5-67de-f005-2e7a-07f2c3e60e90 status=200 duration=26ms
+2026-09-18T03:05:40.400Z ERROR [db] connection pool exhausted size=40 waiting=25 timeout=30s
+2026-09-18T03:03:45.700Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:04:10.490Z ERROR [auth] token signature verification failed sub=cad37952-3ebb-c989-cf63-9b4b43d2c57a kid=bc43ecadaa04
+2026-09-18T03:06:17.030Z INFO  [migrate] applied migration 0005_add_index in 457ms
+2026-09-18T03:05:54.090Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:02:29.850Z INFO  [api] request completed method=GET path=/v1/jobs/21ee6845-46de-a5b3-39d7-f891aac2b4d4 status=200 duration=84ms
+2026-09-18T03:03:25.350Z WARN  [queue] redis connection reset by peer host=10.4.1.211:6379 attempt=1
+2026-09-18T03:06:07.040Z WARN  [gc] pause 229ms heap=5GB
+2026-09-18T03:04:15.300Z ERROR [auth] token signature verification failed sub=80a888ee-6654-7263-026a-bf7205a144d7 kid=67420d5dc385
+2026-09-18T03:00:38.110Z INFO  [api] request completed method=GET path=/v1/jobs/c196c5c2-ff2e-dc17-9d4c-712e801b43bf status=200 duration=23ms
+2026-09-18T03:00:35.520Z INFO  [api] request completed method=GET path=/v1/jobs/a111f5fb-fbe8-4036-0c04-6d96cbfe2f8d status=200 duration=17ms
+2026-09-18T03:03:50.140Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:02:02.840Z INFO  [api] request completed method=GET path=/v1/jobs/69820a38-ebdb-ee4e-54d7-51b97b951ffb status=200 duration=82ms
+2026-09-18T03:00:37.740Z INFO  [api] request completed method=GET path=/v1/jobs/8a29110d-5882-62d5-c751-459f45b90d8c status=200 duration=69ms
+2026-09-18T03:02:50.570Z WARN  [queue] redis connection reset by peer host=10.4.3.99:6379 attempt=2
+2026-09-18T03:03:27.200Z WARN  [queue] redis connection reset by peer host=10.4.6.131:6379 attempt=3
+2026-09-18T03:00:25.160Z INFO  [api] request completed method=GET path=/v1/jobs/1734bc44-1488-1edc-127e-eabe9bdeb398 status=200 duration=84ms
+2026-09-18T03:00:44.030Z INFO  [api] request completed method=GET path=/v1/jobs/ea7f7301-c9b4-33b5-afc3-eec055c2d7f4 status=200 duration=20ms
+2026-09-18T03:03:22.390Z WARN  [queue] redis connection reset by peer host=10.4.2.42:6379 attempt=2
+2026-09-18T03:06:02.970Z ERROR [ledger] write half-applied for order 475405: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:05:15.240Z INFO  [deploy] rolling out revision 29cb0fcdf40e replicas=10
+2026-09-18T03:06:16.290Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/f9670c3f-af65-07a8-e6e9-df89fb998562
+2026-09-18T03:02:22.080Z INFO  [api] request completed method=GET path=/v1/jobs/0025c96c-7403-fe03-f373-1780936d575f status=200 duration=40ms
+2026-09-18T03:04:28.620Z ERROR [auth] token signature verification failed sub=fce490ed-169a-2e60-1267-08007d3a1071 kid=34eca6230bb2
+2026-09-18T03:05:46.690Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/5a18fe0a-b2cf-2480-fe50-9cf708fa73da.job'
+2026-09-18T03:03:26.830Z WARN  [queue] redis connection reset by peer host=10.4.0.90:6379 attempt=2
+2026-09-18T03:04:11.230Z ERROR [auth] token signature verification failed sub=fc66a62e-cd75-2aac-c488-70fdaa794020 kid=19d0c499c5df
+2026-09-18T03:06:20.730Z INFO  [migrate] applied migration 0036_add_index in 584ms
+2026-09-18T03:04:26.770Z ERROR [auth] token signature verification failed sub=cbf8850f-10d3-34b7-e7db-455cf90393f8 kid=26daf1108a7c
+2026-09-18T03:03:10.180Z WARN  [queue] redis connection reset by peer host=10.4.6.32:6379 attempt=2
+2026-09-18T03:06:27.760Z WARN  [rate] client 10.4.3.90 exceeded quota bucket=api-write remaining=0
+2026-09-18T03:03:24.240Z WARN  [queue] redis connection reset by peer host=10.4.3.94:6379 attempt=2
+2026-09-18T03:02:57.970Z WARN  [queue] redis connection reset by peer host=10.4.3.127:6379 attempt=1
+2026-09-18T03:03:57.170Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:01:15.850Z INFO  [api] request completed method=GET path=/v1/jobs/50ad479e-e5c5-51f8-0d83-bd8563d420ba status=200 duration=53ms
+2026-09-18T03:04:12.340Z ERROR [auth] token signature verification failed sub=3a2bcad7-240a-46ea-93a9-e951026db2ed kid=636e52d8c025
+2026-09-18T03:02:04.690Z INFO  [api] request completed method=GET path=/v1/jobs/60ab34bc-8ea4-dd51-1b35-069c70f4abbf status=200 duration=29ms
+2026-09-18T03:01:45.080Z INFO  [api] request completed method=GET path=/v1/jobs/2c29d5e5-6709-5dce-47f3-ac9ae4ff53ee status=200 duration=42ms
+2026-09-18T03:01:37.680Z INFO  [api] request completed method=GET path=/v1/jobs/56923185-8584-9351-e861-75dfc3ee2d02 status=200 duration=61ms
+2026-09-18T03:01:16.220Z INFO  [api] request completed method=GET path=/v1/jobs/b91adc4d-fd1f-fe87-94ed-581c0cd72b2b status=200 duration=43ms
+2026-09-18T03:05:13.020Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 29 source=webhook-6
+2026-09-18T03:03:53.840Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:03:41.630Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:04:24.920Z ERROR [auth] token signature verification failed sub=894c3fba-3519-ee4d-743d-a5dc5949289c kid=dd9403aceed9
+2026-09-18T03:00:35.150Z INFO  [api] request completed method=GET path=/v1/jobs/3cc6d62d-4433-9c10-d465-2689c4eb26e0 status=200 duration=21ms
+2026-09-18T03:01:42.490Z INFO  [api] request completed method=GET path=/v1/jobs/1d645dad-bb13-c04c-4ef6-39bc78b09bd1 status=200 duration=41ms
+2026-09-18T03:01:14.740Z INFO  [api] request completed method=GET path=/v1/jobs/b77336df-a9e1-374e-4895-526bedf218f0 status=200 duration=40ms
+2026-09-18T03:01:31.020Z INFO  [api] request completed method=GET path=/v1/jobs/91bbfa2b-70e4-1c13-b593-09c7528bc4f9 status=200 duration=79ms
+2026-09-18T03:06:28.500Z WARN  [rate] client 10.4.3.69 exceeded quota bucket=api-write remaining=0
+2026-09-18T03:00:01.850Z INFO  [api] request completed method=GET path=/v1/jobs/656abd72-fb71-0734-986e-86cb0ab8ab67 status=200 duration=60ms
+2026-09-18T03:04:14.190Z ERROR [auth] token signature verification failed sub=be422bec-0c02-6a5c-361a-4e502e19f8fb kid=8bd62179e590
+2026-09-18T03:03:36.080Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:03:56.430Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:01:03.270Z INFO  [api] request completed method=GET path=/v1/jobs/9ad8e8b1-31f3-c57c-ebff-2ec167c1e0bc status=200 duration=24ms
+2026-09-18T03:05:26.340Z INFO  [deploy] rolling out revision 652c0c467c01 replicas=11
+2026-09-18T03:04:52.300Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 74, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:37.930Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:05:33.370Z ERROR [db] connection pool exhausted size=20 waiting=26 timeout=30s
+2026-09-18T03:01:24.730Z INFO  [api] request completed method=GET path=/v1/jobs/7be80c9d-5f88-f5d0-fb42-efaca1901fe2 status=200 duration=64ms
+2026-09-18T03:00:31.080Z INFO  [api] request completed method=GET path=/v1/jobs/e5498256-d64b-e5f0-59ca-6ef07f1876d3 status=200 duration=8ms
+2026-09-18T03:02:42.060Z WARN  [queue] redis connection reset by peer host=10.4.7.24:6379 attempt=3
+2026-09-18T03:00:47.730Z INFO  [api] request completed method=GET path=/v1/jobs/89cf6d5a-071a-fc55-6085-0d669af034b9 status=200 duration=8ms
+2026-09-18T03:05:56.680Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:02:39.100Z WARN  [queue] redis connection reset by peer host=10.4.0.157:6379 attempt=2
+2026-09-18T03:01:33.980Z INFO  [api] request completed method=GET path=/v1/jobs/2d62c4b0-9012-4c47-9755-08c4d61cc2ca status=200 duration=25ms
+2026-09-18T03:00:42.920Z INFO  [api] request completed method=GET path=/v1/jobs/c4aaf35a-6be1-fcde-8ce0-96585790db4f status=200 duration=38ms
+2026-09-18T03:02:17.270Z INFO  [api] request completed method=GET path=/v1/jobs/e77f2770-6b9c-12ee-6ea6-45f0854b10e9 status=200 duration=6ms
+2026-09-18T03:03:02.040Z WARN  [queue] redis connection reset by peer host=10.4.6.134:6379 attempt=2
+2026-09-18T03:01:21.030Z INFO  [api] request completed method=GET path=/v1/jobs/c8c87666-4f00-8cc7-e487-f65580c13adc status=200 duration=67ms
+2026-09-18T03:03:50.880Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:05:14.130Z INFO  [deploy] rolling out revision a6125bc54ae3 replicas=8
+2026-09-18T03:05:18.200Z INFO  [deploy] rolling out revision 68175f98c850 replicas=11
+2026-09-18T03:02:50.200Z WARN  [queue] redis connection reset by peer host=10.4.2.120:6379 attempt=2
+2026-09-18T03:00:56.240Z INFO  [api] request completed method=GET path=/v1/jobs/426e6ddf-1690-a1f7-ba00-eb1b21ee3e33 status=200 duration=52ms
+2026-09-18T03:05:26.710Z INFO  [deploy] rolling out revision 8d5515738b5f replicas=4
+2026-09-18T03:05:51.500Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:03:17.210Z WARN  [queue] redis connection reset by peer host=10.4.4.81:6379 attempt=2
+2026-09-18T03:00:02.220Z INFO  [api] request completed method=GET path=/v1/jobs/a66b0d38-9d95-847e-bd29-9753a7677796 status=200 duration=23ms
+2026-09-18T03:05:04.510Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 65 source=webhook-3
+2026-09-18T03:04:58.590Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 45 source=webhook-7
+2026-09-18T03:05:11.170Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 72 source=webhook-3
+2026-09-18T03:01:29.910Z INFO  [api] request completed method=GET path=/v1/jobs/53f47cf1-b1a8-ba71-c39f-4143b99969f8 status=200 duration=39ms
+2026-09-18T03:00:27.750Z INFO  [api] request completed method=GET path=/v1/jobs/eba38bf6-a8fe-622a-9d50-15e5c7aa8cf3 status=200 duration=65ms
+2026-09-18T03:04:32.690Z ERROR [auth] token signature verification failed sub=6cba8f47-440d-9119-a198-2f92124aa428 kid=d1f55fe6c3e5
+2026-09-18T03:03:11.290Z WARN  [queue] redis connection reset by peer host=10.4.7.218:6379 attempt=3
+2026-09-18T03:05:19.680Z INFO  [deploy] rolling out revision 991af69d0c7b replicas=7
+2026-09-18T03:04:39.720Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 168, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:05:53.350Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:04:54.520Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 229, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:20.910Z WARN  [queue] redis connection reset by peer host=10.4.1.228:6379 attempt=1
+2026-09-18T03:04:07.900Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:05:08.580Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 70 source=webhook-1
+2026-09-18T03:01:35.830Z INFO  [api] request completed method=GET path=/v1/jobs/c9be7d01-4e33-9674-8bfc-23a794fb5751 status=200 duration=72ms
+2026-09-18T03:02:26.890Z INFO  [api] request completed method=GET path=/v1/jobs/de9d3709-461d-cb21-e67a-796af61b8542 status=200 duration=56ms
+2026-09-18T03:01:31.760Z INFO  [api] request completed method=GET path=/v1/jobs/fe0babf5-cd94-a5b1-87bb-ec7070204a29 status=200 duration=42ms
+2026-09-18T03:05:31.150Z ERROR [db] connection pool exhausted size=20 waiting=29 timeout=30s
+2026-09-18T03:05:38.920Z ERROR [db] connection pool exhausted size=20 waiting=50 timeout=30s
+2026-09-18T03:00:07.770Z INFO  [api] request completed method=GET path=/v1/jobs/563e9bed-4510-0358-acc6-d8f2c74c7ccf status=200 duration=14ms
+2026-09-18T03:02:15.420Z INFO  [api] request completed method=GET path=/v1/jobs/b076894a-e9be-076d-9fb1-88bbe58dfb76 status=200 duration=75ms
+2026-09-18T03:05:10.430Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 54 source=webhook-6
+2026-09-18T03:04:21.590Z ERROR [auth] token signature verification failed sub=ee7dfbc6-0dfa-57ca-9835-d8fa0bd1236e kid=26e45321e13f
+2026-09-18T03:00:22.570Z INFO  [api] request completed method=GET path=/v1/jobs/bcac6462-5e26-8fa0-8bcc-e7cd73fdc194 status=200 duration=8ms
+2026-09-18T03:03:27.940Z WARN  [queue] redis connection reset by peer host=10.4.4.96:6379 attempt=3
+2026-09-18T03:05:47.800Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/5b56d8a3-c3c5-4edf-f888-41f0f3695b3f.job'
+2026-09-18T03:00:39.220Z INFO  [api] request completed method=GET path=/v1/jobs/32668377-741a-f215-7354-293c2141c6d1 status=200 duration=83ms
+2026-09-18T03:06:11.850Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/375693d0-baae-fc67-587b-e29f5ed797df
+2026-09-18T03:03:12.400Z WARN  [queue] redis connection reset by peer host=10.4.1.8:6379 attempt=1
+2026-09-18T03:05:54.830Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:04:00.870Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:00:28.490Z INFO  [api] request completed method=GET path=/v1/jobs/33dbeaab-9c9c-2d91-ad9a-629624aa1734 status=200 duration=69ms
+2026-09-18T03:02:15.790Z INFO  [api] request completed method=GET path=/v1/jobs/4814c6e8-c070-7264-682e-86f8c20e8d98 status=200 duration=65ms
+2026-09-18T03:04:21.960Z ERROR [auth] token signature verification failed sub=fe2cd7cf-5400-e35c-77fb-a7fe8976f6d3 kid=bced41880407
+2026-09-18T03:05:35.590Z ERROR [db] connection pool exhausted size=20 waiting=10 timeout=30s
+2026-09-18T03:02:39.470Z WARN  [queue] redis connection reset by peer host=10.4.6.130:6379 attempt=2
+2026-09-18T03:00:29.970Z INFO  [api] request completed method=GET path=/v1/jobs/ce554174-cdc0-2ecd-6e4f-2724a2592b9d status=200 duration=28ms
+2026-09-18T03:06:13.330Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/ed36d999-f0c4-102d-9329-164f1c39dd0f
+2026-09-18T03:04:26.030Z ERROR [auth] token signature verification failed sub=3de6f0e0-e075-781b-7da1-fb92c1cec6f8 kid=ccca127913f8
+2026-09-18T03:00:30.340Z INFO  [api] request completed method=GET path=/v1/jobs/38363a3c-6269-4354-36d5-1bffe1594dc4 status=200 duration=77ms
+2026-09-18T03:00:44.770Z INFO  [api] request completed method=GET path=/v1/jobs/70ae8985-b07a-a746-ad89-f4a1d708b232 status=200 duration=66ms
+2026-09-18T03:00:15.170Z INFO  [api] request completed method=GET path=/v1/jobs/f0be600d-a104-a795-bd4a-eab02891dd3c status=200 duration=73ms
+2026-09-18T03:02:33.550Z INFO  [api] request completed method=GET path=/v1/jobs/0f6a6991-7ff9-77fd-e43d-2bc2ede43a56 status=200 duration=26ms
+2026-09-18T03:06:04.820Z ERROR [ledger] write half-applied for order 800207: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:05:00.440Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 9 source=webhook-4
+2026-09-18T03:00:12.950Z INFO  [api] request completed method=GET path=/v1/jobs/952e1b8b-356f-8bd1-1711-eb5713041452 status=200 duration=84ms
+2026-09-18T03:03:58.650Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:01:46.930Z INFO  [api] request completed method=GET path=/v1/jobs/f290ae96-37a8-d7e7-0cb9-96d26640bffb status=200 duration=20ms
+2026-09-18T03:03:36.820Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:03:47.920Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:05:27.450Z INFO  [deploy] rolling out revision 05b8b7ba6f5a replicas=11
+2026-09-18T03:02:02.100Z INFO  [api] request completed method=GET path=/v1/jobs/a5b203de-2399-08e9-82f5-f362ed491ba5 status=200 duration=29ms
+2026-09-18T03:05:36.700Z ERROR [db] connection pool exhausted size=40 waiting=60 timeout=30s
+2026-09-18T03:03:33.490Z WARN  [queue] redis connection reset by peer host=10.4.1.105:6379 attempt=2
+2026-09-18T03:01:20.660Z INFO  [api] request completed method=GET path=/v1/jobs/7b299f4a-3d08-814d-20fd-baeebbfa1535 status=200 duration=17ms
+2026-09-18T03:05:20.790Z INFO  [deploy] rolling out revision 50ac0e592dbe replicas=4
+2026-09-18T03:04:56.740Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 61 source=webhook-2
+2026-09-18T03:01:19.180Z INFO  [api] request completed method=GET path=/v1/jobs/6abec276-aafa-ebfe-23c8-81e9715f8ae1 status=200 duration=61ms
+2026-09-18T03:06:18.510Z INFO  [migrate] applied migration 0023_add_index in 637ms
+2026-09-18T03:05:44.100Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/369e0124-b76b-14cb-3e44-4b8860a889b4.job'
+2026-09-18T03:01:36.570Z INFO  [api] request completed method=GET path=/v1/jobs/06a54dcb-15ae-e4ad-5055-aaeae62992ca status=200 duration=84ms
+2026-09-18T03:04:37.130Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 189, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:00:06.660Z INFO  [api] request completed method=GET path=/v1/jobs/ed52a241-35b0-0a54-36a8-0bdf0023b682 status=200 duration=9ms
+2026-09-18T03:03:48.660Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:00:19.980Z INFO  [api] request completed method=GET path=/v1/jobs/7349dbc4-e414-a8aa-236e-ba1f5cb58b8e status=200 duration=45ms
+2026-09-18T03:01:02.160Z INFO  [api] request completed method=GET path=/v1/jobs/5f870446-99d6-8911-35c8-23a26e19ce13 status=200 duration=4ms
+2026-09-18T03:06:28.130Z WARN  [rate] client 10.4.6.5 exceeded quota bucket=api-write remaining=0
+2026-09-18T03:03:32.010Z WARN  [queue] redis connection reset by peer host=10.4.6.100:6379 attempt=3
+2026-09-18T03:01:22.880Z INFO  [api] request completed method=GET path=/v1/jobs/aee4438e-e0f7-7d81-322b-9969ea6cc216 status=200 duration=8ms
+2026-09-18T03:04:40.090Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 238, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:00:58.090Z INFO  [api] request completed method=GET path=/v1/jobs/5c7fb02d-f7e7-a342-d22b-5aa4e94fbd20 status=200 duration=17ms
+2026-09-18T03:05:23.010Z INFO  [deploy] rolling out revision dc2ca5af93c8 replicas=7
+2026-09-18T03:02:20.230Z INFO  [api] request completed method=GET path=/v1/jobs/e94a98cd-ffd0-9a34-1185-42fbe1377747 status=200 duration=88ms
+2026-09-18T03:03:53.100Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:06:03.710Z ERROR [ledger] write half-applied for order 280872: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:04:40.460Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 255, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:53.470Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:05:21.900Z INFO  [deploy] rolling out revision db140d94528f replicas=3
+2026-09-18T03:01:51.000Z INFO  [api] request completed method=GET path=/v1/jobs/26268350-d89f-702b-ea8d-dc09d248745a status=200 duration=19ms
+2026-09-18T03:02:18.750Z INFO  [api] request completed method=GET path=/v1/jobs/1fdb9a59-3e8d-3a59-11de-664ee086bb74 status=200 duration=60ms
+2026-09-18T03:04:45.270Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 216, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:43.970Z INFO  [api] request completed method=GET path=/v1/jobs/2f3e04e2-3297-81d8-1bd2-2f3450035016 status=200 duration=48ms
+2026-09-18T03:00:43.660Z INFO  [api] request completed method=GET path=/v1/jobs/2c42eeac-08fc-9878-ccc3-9dd26dcea371 status=200 duration=71ms
+2026-09-18T03:03:16.100Z WARN  [queue] redis connection reset by peer host=10.4.7.227:6379 attempt=2
+2026-09-18T03:00:16.280Z INFO  [api] request completed method=GET path=/v1/jobs/f6724ba0-8329-c05b-09e8-03191bea8593 status=200 duration=35ms
+2026-09-18T03:03:11.660Z WARN  [queue] redis connection reset by peer host=10.4.4.122:6379 attempt=3
+2026-09-18T03:02:53.160Z WARN  [queue] redis connection reset by peer host=10.4.2.222:6379 attempt=2
+2026-09-18T03:02:16.900Z INFO  [api] request completed method=GET path=/v1/jobs/5492c299-86a5-f395-f05e-25dee7be5487 status=200 duration=70ms
+2026-09-18T03:03:22.020Z WARN  [queue] redis connection reset by peer host=10.4.2.248:6379 attempt=1
+2026-09-18T03:01:27.690Z INFO  [api] request completed method=GET path=/v1/jobs/94a1851e-5e87-db5a-a75f-db6e6d7aa345 status=200 duration=15ms
+2026-09-18T03:05:31.520Z ERROR [db] connection pool exhausted size=40 waiting=58 timeout=30s
+2026-09-18T03:05:17.830Z INFO  [deploy] rolling out revision bbae7cc68b06 replicas=2
+2026-09-18T03:04:06.050Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:00:52.910Z INFO  [api] request completed method=GET path=/v1/jobs/87c52404-b38c-d305-329e-5b83b7baf0a6 status=200 duration=58ms
+2026-09-18T03:01:39.530Z INFO  [api] request completed method=GET path=/v1/jobs/ce4ff021-00fd-823f-da7f-3dac5962e66a status=200 duration=51ms
+2026-09-18T03:02:46.500Z WARN  [queue] redis connection reset by peer host=10.4.4.122:6379 attempt=2
+2026-09-18T03:01:11.040Z INFO  [api] request completed method=GET path=/v1/jobs/f7963e48-6a6a-7ad6-8200-74248a5d63c3 status=200 duration=69ms
+2026-09-18T03:02:06.540Z INFO  [api] request completed method=GET path=/v1/jobs/eefa5d5d-fc9d-803b-32bb-39c6b6a2c54e status=200 duration=69ms
+2026-09-18T03:03:49.770Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:05:00.810Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 17 source=webhook-2
+2026-09-18T03:03:58.280Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:00:13.690Z INFO  [api] request completed method=GET path=/v1/jobs/f589d99a-2091-8fa7-7405-72419f452c07 status=200 duration=78ms
+2026-09-18T03:02:39.840Z WARN  [queue] redis connection reset by peer host=10.4.4.221:6379 attempt=1
+2026-09-18T03:04:59.700Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 13 source=webhook-5
+2026-09-18T03:05:12.280Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 39 source=webhook-5
+2026-09-18T03:01:40.640Z INFO  [api] request completed method=GET path=/v1/jobs/ec6e8dac-6bee-b176-1c24-2d37cd607afd status=200 duration=56ms
+2026-09-18T03:05:08.210Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 64 source=webhook-5
+2026-09-18T03:02:53.530Z WARN  [queue] redis connection reset by peer host=10.4.3.140:6379 attempt=2
+2026-09-18T03:00:48.840Z INFO  [api] request completed method=GET path=/v1/jobs/757cc12a-89e9-414e-ee4a-9a3b10ded65a status=200 duration=55ms
+2026-09-18T03:04:34.170Z ERROR [auth] token signature verification failed sub=4957625f-e075-1bb6-df65-70691f88cfac kid=dabef3b72cb2
+2026-09-18T03:02:36.510Z WARN  [queue] redis connection reset by peer host=10.4.4.203:6379 attempt=3
+2026-09-18T03:00:03.330Z INFO  [api] request completed method=GET path=/v1/jobs/76c468ae-c732-1cc0-07b3-7e1499809225 status=200 duration=44ms
+2026-09-18T03:00:29.230Z INFO  [api] request completed method=GET path=/v1/jobs/e448373c-7f91-4fe8-7122-7cb2ee283c1e status=200 duration=33ms
+2026-09-18T03:00:52.540Z INFO  [api] request completed method=GET path=/v1/jobs/9f9f6563-82ae-1988-da17-57a51f6ebaa5 status=200 duration=35ms
+2026-09-18T03:03:29.420Z WARN  [queue] redis connection reset by peer host=10.4.2.161:6379 attempt=3
+2026-09-18T03:03:40.150Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:04:33.430Z ERROR [auth] token signature verification failed sub=58aa99d5-1855-b106-f110-48481fa2e406 kid=b420838aa639
+2026-09-18T03:02:48.350Z WARN  [queue] redis connection reset by peer host=10.4.3.95:6379 attempt=2
+2026-09-18T03:00:50.320Z INFO  [api] request completed method=GET path=/v1/jobs/3102fad3-1bce-1a9b-5134-fab7866534cd status=200 duration=56ms
+2026-09-18T03:05:05.620Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 80 source=webhook-2
+2026-09-18T03:00:10.360Z INFO  [api] request completed method=GET path=/v1/jobs/001edc8e-367e-5d6d-fd74-10696bb6a3de status=200 duration=37ms
+2026-09-18T03:00:07.030Z INFO  [api] request completed method=GET path=/v1/jobs/b57a6a1d-faf8-cda9-601e-5b4578511608 status=200 duration=53ms
+2026-09-18T03:04:03.090Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:01:48.040Z INFO  [api] request completed method=GET path=/v1/jobs/e466e9d8-3cd4-452a-ec9c-1b02a85568f0 status=200 duration=4ms
+2026-09-18T03:01:22.510Z INFO  [api] request completed method=GET path=/v1/jobs/808cd779-3fbb-e91b-f3af-6fdb3097bea7 status=200 duration=86ms
+2026-09-18T03:03:14.250Z WARN  [queue] redis connection reset by peer host=10.4.5.9:6379 attempt=3
+2026-09-18T03:04:35.650Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 210, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:05:23.380Z INFO  [deploy] rolling out revision 16fc66fc8f71 replicas=6
+2026-09-18T03:03:49.400Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:03:44.960Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:06:00.750Z ERROR [ledger] write half-applied for order 999272: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:05:30.780Z ERROR [db] connection pool exhausted size=40 waiting=52 timeout=30s
+2026-09-18T03:00:37.370Z INFO  [api] request completed method=GET path=/v1/jobs/2dd96b62-0942-c3fb-b6d3-e87988ebd524 status=200 duration=31ms
+2026-09-18T03:04:53.040Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 245, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:14.990Z WARN  [queue] redis connection reset by peer host=10.4.0.160:6379 attempt=3
+2026-09-18T03:04:22.700Z ERROR [auth] token signature verification failed sub=de12c5db-0d6e-60f2-66ef-cf8e8d3bd1a2 kid=206ef7d7dc55
+2026-09-18T03:02:42.800Z WARN  [queue] redis connection reset by peer host=10.4.3.42:6379 attempt=2
+2026-09-18T03:03:44.220Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:01:56.550Z INFO  [api] request completed method=GET path=/v1/jobs/c5960b2e-7545-3e66-1d02-d9419069e679 status=200 duration=4ms
+2026-09-18T03:05:29.300Z ERROR [db] connection pool exhausted size=20 waiting=12 timeout=30s
+2026-09-18T03:01:26.210Z INFO  [api] request completed method=GET path=/v1/jobs/3691f577-c4d9-1f76-c4cc-ddd1d6867855 status=200 duration=59ms
+2026-09-18T03:05:24.490Z INFO  [deploy] rolling out revision 4014d4df9d54 replicas=7
+2026-09-18T03:05:40.030Z ERROR [db] connection pool exhausted size=20 waiting=42 timeout=30s
+2026-09-18T03:03:01.670Z WARN  [queue] redis connection reset by peer host=10.4.7.105:6379 attempt=1
+2026-09-18T03:00:56.980Z INFO  [api] request completed method=GET path=/v1/jobs/2041c033-b470-53de-ca39-3bf18b142f96 status=200 duration=28ms
+2026-09-18T03:00:55.870Z INFO  [api] request completed method=GET path=/v1/jobs/e3939895-2249-61dc-18cb-eef9e335eeaf status=200 duration=33ms
+2026-09-18T03:03:35.710Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:05:59.640Z ERROR [ledger] write half-applied for order 946099: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:02:35.030Z INFO  [api] request completed method=GET path=/v1/jobs/be8ea956-8540-e607-fbc0-8221af2bb03e status=200 duration=71ms
+2026-09-18T03:02:49.460Z WARN  [queue] redis connection reset by peer host=10.4.6.151:6379 attempt=3
+2026-09-18T03:02:13.940Z INFO  [api] request completed method=GET path=/v1/jobs/ee845931-916a-b11a-3e7f-6eab437f1a93 status=200 duration=45ms
+2026-09-18T03:02:07.650Z INFO  [api] request completed method=GET path=/v1/jobs/22e2f303-154f-1b79-c6d0-326432a98520 status=200 duration=34ms
+2026-09-18T03:02:24.670Z INFO  [api] request completed method=GET path=/v1/jobs/4b9bf30a-33e3-b65a-34dd-b7e0e0f471c5 status=200 duration=10ms
+2026-09-18T03:06:19.620Z INFO  [migrate] applied migration 0009_add_index in 507ms
+2026-09-18T03:05:48.540Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/fc6e204b-37ee-e159-27fb-fb30c8b973d4.job'
+2026-09-18T03:04:43.790Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 226, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:06:12.960Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/8cc6d2ed-f32a-c924-134a-be223b709c1a
+2026-09-18T03:05:45.950Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/adef787e-1a30-9071-9eb4-83c7c0ccd618.job'
+2026-09-18T03:05:15.610Z INFO  [deploy] rolling out revision 8c2b61d5edfa replicas=7
+2026-09-18T03:01:23.990Z INFO  [api] request completed method=GET path=/v1/jobs/128ee3f5-473d-e855-8aa9-746638f9c638 status=200 duration=14ms
+2026-09-18T03:04:37.870Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 165, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:29.480Z INFO  [api] request completed method=GET path=/v1/jobs/e53e5520-4d0a-03a5-fa25-7a763a9f6b2c status=200 duration=26ms
+2026-09-18T03:03:30.530Z WARN  [queue] redis connection reset by peer host=10.4.4.61:6379 attempt=3
+2026-09-18T03:05:03.030Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 28 source=webhook-8
+2026-09-18T03:04:45.640Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 51, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:00:18.130Z INFO  [api] request completed method=GET path=/v1/jobs/12fad802-9d42-f670-9da9-b14dda36e0d6 status=200 duration=38ms
+2026-09-18T03:05:41.140Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/96bc0c8f-9303-7161-73ea-281963786675.job'
+2026-09-18T03:03:38.670Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:02:16.160Z INFO  [api] request completed method=GET path=/v1/jobs/d696ffad-76a8-1643-fe9f-144fe3a13044 status=200 duration=55ms
+2026-09-18T03:00:50.690Z INFO  [api] request completed method=GET path=/v1/jobs/429df542-ecde-8a07-0787-b26d9e2e5be5 status=200 duration=19ms
+2026-09-18T03:00:32.560Z INFO  [api] request completed method=GET path=/v1/jobs/7e6e9dbe-851d-1a33-a030-130961eeac37 status=200 duration=89ms
+2026-09-18T03:02:20.600Z INFO  [api] request completed method=GET path=/v1/jobs/6be10afa-8bd0-ea9d-ddd2-63665e67cb49 status=200 duration=75ms
+2026-09-18T03:00:58.460Z INFO  [api] request completed method=GET path=/v1/jobs/c21668aa-a279-2e75-8174-4e12b467fb8a status=200 duration=46ms
+2026-09-18T03:02:46.870Z WARN  [queue] redis connection reset by peer host=10.4.1.250:6379 attempt=1
+2026-09-18T03:00:02.960Z INFO  [api] request completed method=GET path=/v1/jobs/e12b2b8f-30b1-7d0b-0920-8a650f3ebdd3 status=200 duration=33ms
+2026-09-18T03:00:02.590Z INFO  [api] request completed method=GET path=/v1/jobs/8743feb6-d4ea-65d0-03d7-16849f8558a6 status=200 duration=11ms
+2026-09-18T03:00:49.210Z INFO  [api] request completed method=GET path=/v1/jobs/ec652b9e-cce6-a106-f4f5-1c13ebb86ee2 status=200 duration=54ms
+2026-09-18T03:02:37.990Z WARN  [queue] redis connection reset by peer host=10.4.3.154:6379 attempt=3
+2026-09-18T03:02:21.710Z INFO  [api] request completed method=GET path=/v1/jobs/1fb11789-2144-d96f-cad7-efd085074b55 status=200 duration=71ms
+2026-09-18T03:04:51.190Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 157, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:04:55.630Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 89, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:08.080Z INFO  [api] request completed method=GET path=/v1/jobs/91cfb3fa-67f8-388b-a8e6-1cb5374ee8d7 status=200 duration=26ms
+2026-09-18T03:02:28.370Z INFO  [api] request completed method=GET path=/v1/jobs/805d9772-3c46-2643-b85b-61c32e570fec status=200 duration=88ms
+2026-09-18T03:01:07.340Z INFO  [api] request completed method=GET path=/v1/jobs/3b6b6092-0cb0-9b78-9fbf-cb0ae717a666 status=200 duration=37ms
+2026-09-18T03:04:23.440Z ERROR [auth] token signature verification failed sub=a633c3af-ec85-f464-d718-75fa2fda7e36 kid=f00cca38b5d6
+2026-09-18T03:05:21.160Z INFO  [deploy] rolling out revision 1e2f7f64d30d replicas=10
+2026-09-18T03:04:54.890Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 113, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:05:13.390Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 11 source=webhook-7
+2026-09-18T03:01:28.430Z INFO  [api] request completed method=GET path=/v1/jobs/916658f5-9070-7ac6-6e96-cb4c1540e467 status=200 duration=65ms
+2026-09-18T03:04:06.790Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:02:01.730Z INFO  [api] request completed method=GET path=/v1/jobs/5776b591-129b-5236-c56d-7e236826bd57 status=200 duration=57ms
+2026-09-18T03:05:39.660Z ERROR [db] connection pool exhausted size=20 waiting=23 timeout=30s
+2026-09-18T03:05:47.060Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/7d7f2275-8d2f-706b-28da-7f1f916d7ff8.job'
+2026-09-18T03:06:00.010Z ERROR [ledger] write half-applied for order 405013: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:01:44.710Z INFO  [api] request completed method=GET path=/v1/jobs/7123d64d-3955-65fd-8234-44ef9843e602 status=200 duration=26ms
+2026-09-18T03:00:33.300Z INFO  [api] request completed method=GET path=/v1/jobs/d42779f5-131e-2d48-5202-35bc73d58e1c status=200 duration=7ms
+2026-09-18T03:04:18.260Z ERROR [auth] token signature verification failed sub=25ebb04c-0294-870d-fd4d-edf5866c23c5 kid=a27dbaee91a3
+2026-09-18T03:02:24.300Z INFO  [api] request completed method=GET path=/v1/jobs/ef167214-24aa-823e-7f98-51af5308acc4 status=200 duration=63ms
+2026-09-18T03:01:18.810Z INFO  [api] request completed method=GET path=/v1/jobs/1fd3d299-279c-003c-8731-8ae15b507fdc status=200 duration=49ms
+2026-09-18T03:00:19.240Z INFO  [api] request completed method=GET path=/v1/jobs/482ea760-2d1e-f7bf-0bed-db070f7a0443 status=200 duration=50ms
+2026-09-18T03:02:03.580Z INFO  [api] request completed method=GET path=/v1/jobs/3ebbaf28-ca27-e135-c9eb-df9bfb61256f status=200 duration=87ms
+2026-09-18T03:06:10.740Z WARN  [gc] pause 637ms heap=5GB
+2026-09-18T03:04:08.640Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:06:29.610Z ERROR [tls] certificate for payments.internal expired at 0x0 depth=2
+2026-09-18T03:03:38.300Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:06:29.240Z ERROR [tls] certificate for payments.internal expired at 0x0 depth=2
+2026-09-18T03:04:37.500Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 46, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:26.090Z WARN  [queue] redis connection reset by peer host=10.4.7.12:6379 attempt=1
+2026-09-18T03:01:01.050Z INFO  [api] request completed method=GET path=/v1/jobs/f3952c0b-226b-5501-0fdb-a219946c61bc status=200 duration=90ms
+2026-09-18T03:00:17.760Z INFO  [api] request completed method=GET path=/v1/jobs/8f32a1f2-7ab3-6602-3a78-2ebb205bc308 status=200 duration=86ms
+2026-09-18T03:03:36.450Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:02:22.820Z INFO  [api] request completed method=GET path=/v1/jobs/e526f05b-70d6-586a-1008-cc562c0908b2 status=200 duration=60ms
+2026-09-18T03:02:55.380Z WARN  [queue] redis connection reset by peer host=10.4.3.70:6379 attempt=1
+2026-09-18T03:00:11.840Z INFO  [api] request completed method=GET path=/v1/jobs/0ac793f5-19af-685d-93b3-a3d9a44f576a status=200 duration=21ms
+2026-09-18T03:06:22.210Z ERROR [scheduler] job 7d5c57bd-9be3-421b-052a-c592cb47cb07 lost: worker 10.4.5.240 disappeared mid-execution, payload not requeued
+2026-09-18T03:05:04.880Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 19 source=webhook-9
+2026-09-18T03:00:43.290Z INFO  [api] request completed method=GET path=/v1/jobs/37e2265e-0745-e6cf-eb75-44127cc95bc2 status=200 duration=11ms
+2026-09-18T03:04:17.150Z ERROR [auth] token signature verification failed sub=b4bf6e85-c7c9-547c-6880-e41d7fd19848 kid=2d85e345068d
+2026-09-18T03:02:36.140Z WARN  [queue] redis connection reset by peer host=10.4.3.173:6379 attempt=2
+2026-09-18T03:03:34.230Z WARN  [queue] redis connection reset by peer host=10.4.7.45:6379 attempt=2
+2026-09-18T03:00:42.550Z INFO  [api] request completed method=GET path=/v1/jobs/0981abb6-1530-959b-8135-47e25937c1f0 status=200 duration=59ms
+2026-09-18T03:06:25.170Z ERROR [core] unexpected state
+2026-09-18T03:03:18.690Z WARN  [queue] redis connection reset by peer host=10.4.3.62:6379 attempt=3
+2026-09-18T03:01:05.860Z INFO  [api] request completed method=GET path=/v1/jobs/5eafacd4-b1de-5532-89f3-a393e13d4b11 status=200 duration=58ms
+2026-09-18T03:01:54.330Z INFO  [api] request completed method=GET path=/v1/jobs/8e6f9f1c-1376-6173-67cc-51404f8d182d status=200 duration=42ms
+2026-09-18T03:01:06.970Z INFO  [api] request completed method=GET path=/v1/jobs/5b0b09cf-e357-1fe6-02b6-53e419d22b97 status=200 duration=84ms
+2026-09-18T03:02:18.010Z INFO  [api] request completed method=GET path=/v1/jobs/60615f10-bb64-cccd-6ee7-8a04e66f6dd4 status=200 duration=79ms
+2026-09-18T03:06:28.870Z WARN  [rate] client 10.4.0.151 exceeded quota bucket=api-write remaining=0
+2026-09-18T03:04:56.000Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 11 source=webhook-1
+2026-09-18T03:04:57.110Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 56 source=webhook-8
+2026-09-18T03:00:34.410Z INFO  [api] request completed method=GET path=/v1/jobs/04e4a7fa-9064-dbd9-caa0-a141a637a18a status=200 duration=85ms
+2026-09-18T03:03:33.120Z WARN  [queue] redis connection reset by peer host=10.4.3.75:6379 attempt=2
+2026-09-18T03:03:52.730Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:02:41.690Z WARN  [queue] redis connection reset by peer host=10.4.4.197:6379 attempt=3
+2026-09-18T03:01:04.380Z INFO  [api] request completed method=GET path=/v1/jobs/997fb916-91d6-cedc-678d-f63ef088bed0 status=200 duration=27ms
+2026-09-18T03:02:02.470Z INFO  [api] request completed method=GET path=/v1/jobs/b0fa66fe-d234-2198-25e1-98acc451077c status=200 duration=52ms
+2026-09-18T03:04:47.490Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 127, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:04:25.290Z ERROR [auth] token signature verification failed sub=4795369c-7d33-2c7a-322c-64956d455772 kid=a4c9f6342d8b
+2026-09-18T03:01:57.290Z INFO  [api] request completed method=GET path=/v1/jobs/4a573d47-26f2-1fce-9db6-8d49e6cae02e status=200 duration=83ms
+2026-09-18T03:01:53.960Z INFO  [api] request completed method=GET path=/v1/jobs/4fb87266-f6c4-6637-d4fe-8ca7f2540029 status=200 duration=43ms
+2026-09-18T03:04:28.990Z ERROR [auth] token signature verification failed sub=e0668ff4-50ff-eaff-a113-e465884148f0 kid=ba47f4ffbb43
+2026-09-18T03:04:33.060Z ERROR [auth] token signature verification failed sub=74f05b70-477c-6a50-68b3-af8a9cdc2247 kid=81a9223f128b
+2026-09-18T03:04:58.220Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 4 source=webhook-2
+2026-09-18T03:03:52.360Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:03:39.040Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:03:18.320Z WARN  [queue] redis connection reset by peer host=10.4.4.60:6379 attempt=2
+2026-09-18T03:00:53.280Z INFO  [api] request completed method=GET path=/v1/jobs/69d4b6cc-a20c-b894-6030-3f4505f3b66c status=200 duration=70ms
+2026-09-18T03:03:09.810Z WARN  [queue] redis connection reset by peer host=10.4.4.181:6379 attempt=1
+2026-09-18T03:05:28.190Z INFO  [deploy] rolling out revision 8bfe946fbf5f replicas=2
+2026-09-18T03:05:55.200Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:06:21.470Z ERROR [scheduler] job f05afc53-45c2-d579-b3bb-df48382b6dce lost: worker 10.4.2.140 disappeared mid-execution, payload not requeued
+2026-09-18T03:06:30.350Z ERROR [tls] certificate for payments.internal expired at 0x0 depth=3
+2026-09-18T03:05:55.570Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:04:03.460Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:01:03.640Z INFO  [api] request completed method=GET path=/v1/jobs/03f26964-cad7-64c4-8337-2f2a1844ebd1 status=200 duration=44ms
+2026-09-18T03:04:14.560Z ERROR [auth] token signature verification failed sub=2d6328b7-34bb-6c2e-ae22-fe444df2b2f8 kid=1b1758f43958
+2026-09-18T03:05:33.740Z ERROR [db] connection pool exhausted size=40 waiting=45 timeout=30s
+2026-09-18T03:01:08.450Z INFO  [api] request completed method=GET path=/v1/jobs/83c3417f-63bc-6fea-13ab-64108877e8e7 status=200 duration=66ms
+2026-09-18T03:02:13.200Z INFO  [api] request completed method=GET path=/v1/jobs/1e475ace-62e9-a740-8721-c0fc249ac658 status=200 duration=75ms
+2026-09-18T03:01:58.030Z INFO  [api] request completed method=GET path=/v1/jobs/64673b00-c142-920a-565f-2ac1f43f2fad status=200 duration=74ms
+2026-09-18T03:03:29.050Z WARN  [queue] redis connection reset by peer host=10.4.2.147:6379 attempt=2
+2026-09-18T03:01:02.530Z INFO  [api] request completed method=GET path=/v1/jobs/d8219c9d-0a76-f50a-b376-b549a24e3cd3 status=200 duration=28ms
+2026-09-18T03:05:50.760Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:06:09.260Z WARN  [gc] pause 366ms heap=7GB
+2026-09-18T03:06:08.150Z WARN  [gc] pause 363ms heap=7GB
+2026-09-18T03:03:03.890Z WARN  [queue] redis connection reset by peer host=10.4.7.146:6379 attempt=1
+2026-09-18T03:02:11.720Z INFO  [api] request completed method=GET path=/v1/jobs/2e18ecb8-6744-959e-0832-858874505d46 status=200 duration=87ms
+2026-09-18T03:00:10.730Z INFO  [api] request completed method=GET path=/v1/jobs/cdac6046-f990-3b72-f88e-ce64dd44fd36 status=200 duration=78ms
+2026-09-18T03:05:43.730Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/413addfe-d328-752d-cd7c-d176106dd913.job'
+2026-09-18T03:00:03.700Z INFO  [api] request completed method=GET path=/v1/jobs/320094ea-d7a9-4ded-9749-1e2370c6a5b8 status=200 duration=69ms
+2026-09-18T03:00:49.950Z INFO  [api] request completed method=GET path=/v1/jobs/d0d2d52e-e6a1-096b-6f05-7e9556f55245 status=200 duration=63ms
+2026-09-18T03:00:35.890Z INFO  [api] request completed method=GET path=/v1/jobs/890f6c23-a145-5615-1be8-bf7c724c9052 status=200 duration=86ms
+2026-09-18T03:05:16.720Z INFO  [deploy] rolling out revision 507d084b88c7 replicas=7
+2026-09-18T03:02:27.260Z INFO  [api] request completed method=GET path=/v1/jobs/55be41e8-2287-7bb8-e105-4049b690a4d4 status=200 duration=59ms
+2026-09-18T03:03:42.740Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:05:57.790Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:00:22.200Z INFO  [api] request completed method=GET path=/v1/jobs/128ae84a-ffd5-e6d8-22f8-990951a3b990 status=200 duration=12ms
+2026-09-18T03:00:04.810Z INFO  [api] request completed method=GET path=/v1/jobs/fee5a5b2-8d1f-e1da-ff66-65896822a6b2 status=200 duration=13ms
+2026-09-18T03:04:02.350Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:04:08.270Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:00:46.990Z INFO  [api] request completed method=GET path=/v1/jobs/7f65d54d-92af-698d-45e0-dd428633abf8 status=200 duration=28ms
+2026-09-18T03:01:55.440Z INFO  [api] request completed method=GET path=/v1/jobs/7635d387-ad05-1296-64ec-abc0aaebd456 status=200 duration=18ms
+2026-09-18T03:02:47.980Z WARN  [queue] redis connection reset by peer host=10.4.6.120:6379 attempt=1
+2026-09-18T03:00:58.830Z INFO  [api] request completed method=GET path=/v1/jobs/d53c269b-af88-e590-ffa3-601380b68be5 status=200 duration=27ms
+2026-09-18T03:04:19.000Z ERROR [auth] token signature verification failed sub=e33bcb5e-5836-f4aa-9dc3-eb689dcfd8b1 kid=db3a7080be09
+2026-09-18T03:04:11.600Z ERROR [auth] token signature verification failed sub=66fadbcc-7b69-d714-f34c-0c20efa6b517 kid=b48cd705424a
+2026-09-18T03:01:16.590Z INFO  [api] request completed method=GET path=/v1/jobs/3944babf-e7d2-2e79-cc2e-f6d412d12d30 status=200 duration=57ms
+2026-09-18T03:05:53.720Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:03:07.220Z WARN  [queue] redis connection reset by peer host=10.4.4.58:6379 attempt=1
+2026-09-18T03:04:09.750Z ERROR [auth] token signature verification failed sub=02ae5383-7741-4f3a-83a5-98fc101d7319 kid=35cbe2ef51d7
+2026-09-18T03:01:42.120Z INFO  [api] request completed method=GET path=/v1/jobs/e2d698ac-f842-3599-4627-7d8d4ac21c0c status=200 duration=10ms
+2026-09-18T03:02:54.640Z WARN  [queue] redis connection reset by peer host=10.4.0.134:6379 attempt=1
+2026-09-18T03:05:10.060Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 69 source=webhook-2
+2026-09-18T03:04:53.410Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 151, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:04:28.250Z ERROR [auth] token signature verification failed sub=9df759aa-ae8f-f7ea-d965-27b107f9dd99 kid=e6db7736ca7c
+2026-09-18T03:01:07.710Z INFO  [api] request completed method=GET path=/v1/jobs/4c8281a2-aa85-1bb4-f61f-e913f1d643e6 status=200 duration=46ms
+2026-09-18T03:03:13.510Z WARN  [queue] redis connection reset by peer host=10.4.2.166:6379 attempt=2
+2026-09-18T03:02:50.940Z WARN  [queue] redis connection reset by peer host=10.4.0.57:6379 attempt=2
+2026-09-18T03:02:56.860Z WARN  [queue] redis connection reset by peer host=10.4.6.117:6379 attempt=1
+2026-09-18T03:04:50.820Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 261, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:02.780Z WARN  [queue] redis connection reset by peer host=10.4.5.90:6379 attempt=3
+2026-09-18T03:02:58.710Z WARN  [queue] redis connection reset by peer host=10.4.2.10:6379 attempt=1
+2026-09-18T03:02:10.610Z INFO  [api] request completed method=GET path=/v1/jobs/5d171bd3-e5a2-53fa-af60-e09b49e051f7 status=200 duration=33ms
+2026-09-18T03:04:46.750Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 77, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:10.980Z INFO  [api] request completed method=GET path=/v1/jobs/d4ac5762-5cf4-1793-92d6-6d56c2219f28 status=200 duration=24ms
+2026-09-18T03:03:43.480Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:04:17.520Z ERROR [auth] token signature verification failed sub=ad5dfa7b-11e8-3bbe-45fb-6a96d00573de kid=f29b63ddee2f
+2026-09-18T03:00:01.480Z INFO  [api] request completed method=GET path=/v1/jobs/89e7d15f-1736-2f25-244c-af9c4dabb481 status=200 duration=84ms
+2026-09-18T03:00:14.060Z INFO  [api] request completed method=GET path=/v1/jobs/22bfb8e0-9317-19fd-d515-7e9d7bd55ee6 status=200 duration=52ms
+2026-09-18T03:03:03.520Z WARN  [queue] redis connection reset by peer host=10.4.0.193:6379 attempt=3
+2026-09-18T03:06:14.440Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/31ff2a7a-1ea6-146e-f60b-8e7c90c0216f
+2026-09-18T03:01:21.770Z INFO  [api] request completed method=GET path=/v1/jobs/909ca87e-b99e-8c2c-af5e-b4919c1c6a5e status=200 duration=78ms
+2026-09-18T03:04:32.320Z ERROR [auth] token signature verification failed sub=6883db31-c511-4e94-4f6d-c135ded5b65a kid=2572333fb733
+2026-09-18T03:05:50.390Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/1be3763b-5d30-73b1-530f-8f4bb074888b.job'
+2026-09-18T03:03:20.540Z WARN  [queue] redis connection reset by peer host=10.4.5.69:6379 attempt=2
+2026-09-18T03:01:47.670Z INFO  [api] request completed method=GET path=/v1/jobs/4648ea58-c630-09a6-840c-ab34cb71fd43 status=200 duration=10ms
+2026-09-18T03:05:23.750Z INFO  [deploy] rolling out revision ae0d927c1962 replicas=3
+2026-09-18T03:01:45.450Z INFO  [api] request completed method=GET path=/v1/jobs/d12f5382-f126-abd5-8c59-19cca07313a1 status=200 duration=73ms
+2026-09-18T03:01:40.270Z INFO  [api] request completed method=GET path=/v1/jobs/5caf7c5c-861b-6fd3-063b-a5e4a3e8f469 status=200 duration=4ms
+2026-09-18T03:06:16.660Z INFO  [migrate] applied migration 0034_add_index in 565ms
+2026-09-18T03:01:26.950Z INFO  [api] request completed method=GET path=/v1/jobs/d61aa2f7-a756-1c51-2749-959b5e7381ce status=200 duration=79ms
+2026-09-18T03:05:24.120Z INFO  [deploy] rolling out revision 658d15e0e569 replicas=5
+2026-09-18T03:04:36.760Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 177, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:05:48.170Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/3f3f3555-1901-880c-4d60-051bce45b6a9.job'
+2026-09-18T03:03:49.030Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:06:13.700Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/4d656ced-1260-d980-be26-aff7a83ab922
+2026-09-18T03:01:19.550Z INFO  [api] request completed method=GET path=/v1/jobs/950d7616-a3bc-6081-431a-e9a999de7a2f status=200 duration=90ms
+2026-09-18T03:03:31.270Z WARN  [queue] redis connection reset by peer host=10.4.2.70:6379 attempt=3
+2026-09-18T03:00:54.760Z INFO  [api] request completed method=GET path=/v1/jobs/a0bd016b-bda3-34ae-ea31-df803b8f801c status=200 duration=47ms
+2026-09-18T03:04:30.840Z ERROR [auth] token signature verification failed sub=776a09b0-949e-062e-b199-ee532be8761f kid=210c0a960b76
+2026-09-18T03:02:05.430Z INFO  [api] request completed method=GET path=/v1/jobs/40fe34f4-2889-19f7-b6a3-87c79c872651 status=200 duration=71ms
+2026-09-18T03:02:49.090Z WARN  [queue] redis connection reset by peer host=10.4.3.12:6379 attempt=1
+2026-09-18T03:02:30.220Z INFO  [api] request completed method=GET path=/v1/jobs/fba7b8d3-7674-ef3b-1709-29acaaf4fd5c status=200 duration=12ms
+2026-09-18T03:01:58.400Z INFO  [api] request completed method=GET path=/v1/jobs/304bd907-41a6-7f2e-1640-c391aaac1e2c status=200 duration=28ms
+2026-09-18T03:00:31.450Z INFO  [api] request completed method=GET path=/v1/jobs/faf8dfcd-f333-35b6-106b-6a04b6125e0c status=200 duration=38ms
+2026-09-18T03:01:01.790Z INFO  [api] request completed method=GET path=/v1/jobs/83e9db77-6d2b-653f-778a-ae876410ff87 status=200 duration=48ms
+2026-09-18T03:01:33.610Z INFO  [api] request completed method=GET path=/v1/jobs/8a623c58-63e7-281c-cc0d-9ea15e4576c8 status=200 duration=22ms
+2026-09-18T03:04:17.890Z ERROR [auth] token signature verification failed sub=2ef62e7b-e1a7-abc2-527d-5f6cebbfa33f kid=5b70c71614b2
+2026-09-18T03:05:05.250Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 23 source=webhook-7
+2026-09-18T03:05:01.550Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 40 source=webhook-5
+2026-09-18T03:02:23.190Z INFO  [api] request completed method=GET path=/v1/jobs/242adc55-65b2-7c94-87cc-15bfd0c116ae status=200 duration=48ms
+2026-09-18T03:00:51.800Z INFO  [api] request completed method=GET path=/v1/jobs/5af806ef-b93e-081b-5273-fb7148b988aa status=200 duration=34ms
+2026-09-18T03:00:04.070Z INFO  [api] request completed method=GET path=/v1/jobs/7ff12229-4b4d-8474-a3ea-284d3bd03346 status=200 duration=3ms
+2026-09-18T03:04:23.070Z ERROR [auth] token signature verification failed sub=7db77776-e5b8-ca24-fd75-4c69c0bab817 kid=3bef1c6def1f
+2026-09-18T03:03:57.540Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:02:33.180Z INFO  [api] request completed method=GET path=/v1/jobs/627c60de-95bb-b9d6-c026-c36bea99d74a status=200 duration=3ms
+2026-09-18T03:05:07.470Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 68 source=webhook-1
+2026-09-18T03:01:50.630Z INFO  [api] request completed method=GET path=/v1/jobs/00597a51-2da5-060c-c537-799292666db7 status=200 duration=29ms
+2026-09-18T03:04:23.810Z ERROR [auth] token signature verification failed sub=cc346177-1d51-9328-d44b-c84924712b11 kid=82f81aac7ed1
+2026-09-18T03:03:16.470Z WARN  [queue] redis connection reset by peer host=10.4.6.249:6379 attempt=2
+2026-09-18T03:06:04.080Z ERROR [ledger] write half-applied for order 663304: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:03:46.810Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:04:22.330Z ERROR [auth] token signature verification failed sub=bc9bac6e-3034-1358-501e-6eaf9f73c472 kid=fd4a780c8caa
+2026-09-18T03:01:42.860Z INFO  [api] request completed method=GET path=/v1/jobs/eb736da1-c6a3-ad8b-27cf-d9eea5e209d6 status=200 duration=25ms
+2026-09-18T03:01:16.960Z INFO  [api] request completed method=GET path=/v1/jobs/f9218af2-403c-7afd-7a44-8c01b8188fd9 status=200 duration=34ms
+2026-09-18T03:01:46.190Z INFO  [api] request completed method=GET path=/v1/jobs/a906283f-5792-39de-f4a8-8795ea0c7c14 status=200 duration=73ms
+2026-09-18T03:02:08.760Z INFO  [api] request completed method=GET path=/v1/jobs/1fc03d1e-e20b-315a-7689-5a5f442392df status=200 duration=60ms
+2026-09-18T03:04:27.140Z ERROR [auth] token signature verification failed sub=19afd0de-2db4-6963-5da8-62fccfc9257e kid=096b55709601
+2026-09-18T03:05:17.090Z INFO  [deploy] rolling out revision f3737be86f3e replicas=5
+2026-09-18T03:04:20.850Z ERROR [auth] token signature verification failed sub=83e63df7-0ae5-0166-92a0-93178a8a03e9 kid=083eeb818a8b
+2026-09-18T03:01:30.280Z INFO  [api] request completed method=GET path=/v1/jobs/5b98e36a-3800-2d3a-2496-4847e1b7cc2e status=200 duration=87ms
+2026-09-18T03:01:49.520Z INFO  [api] request completed method=GET path=/v1/jobs/de86e0c8-e879-9892-4269-9143250d9d0a status=200 duration=69ms
+2026-09-18T03:03:45.330Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:03:05.740Z WARN  [queue] redis connection reset by peer host=10.4.4.25:6379 attempt=2
+2026-09-18T03:01:04.010Z INFO  [api] request completed method=GET path=/v1/jobs/d7872ca2-cd3c-9d6e-15b7-193ee4a7c5b9 status=200 duration=83ms
+2026-09-18T03:06:06.670Z WARN  [gc] pause 277ms heap=5GB
+2026-09-18T03:03:00.560Z WARN  [queue] redis connection reset by peer host=10.4.7.172:6379 attempt=2
+2026-09-18T03:02:14.680Z INFO  [api] request completed method=GET path=/v1/jobs/f596aab2-6736-a982-250e-27ccc99a2642 status=200 duration=66ms
+2026-09-18T03:05:02.290Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 32 source=webhook-7
+2026-09-18T03:03:23.500Z WARN  [queue] redis connection reset by peer host=10.4.4.95:6379 attempt=3
+2026-09-18T03:01:14.000Z INFO  [api] request completed method=GET path=/v1/jobs/5d965853-4ff9-16f1-990b-84c5660888b5 status=200 duration=70ms
+2026-09-18T03:02:03.210Z INFO  [api] request completed method=GET path=/v1/jobs/9cf3cbcc-6694-ce5b-ba18-a1ca03f2ec8a status=200 duration=43ms
+2026-09-18T03:02:38.360Z WARN  [queue] redis connection reset by peer host=10.4.0.148:6379 attempt=2
+2026-09-18T03:00:40.700Z INFO  [api] request completed method=GET path=/v1/jobs/d17f17d2-ddbc-8ddd-b8d0-c65d1955bf31 status=200 duration=85ms
+2026-09-18T03:03:47.550Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:00:09.620Z INFO  [api] request completed method=GET path=/v1/jobs/30d0b194-8245-0164-728a-6fcf303a07b2 status=200 duration=19ms
+2026-09-18T03:01:50.260Z INFO  [api] request completed method=GET path=/v1/jobs/0d8d8f28-88da-0072-8414-6a534439f256 status=200 duration=22ms
+2026-09-18T03:03:59.020Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:00:11.100Z INFO  [api] request completed method=GET path=/v1/jobs/050684bf-e286-852c-ff76-9e374ddc74c8 status=200 duration=29ms
+2026-09-18T03:04:49.340Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 71, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:43.110Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:02:21.340Z INFO  [api] request completed method=GET path=/v1/jobs/125d9e53-e746-2beb-1f67-e007911a0632 status=200 duration=15ms
+2026-09-18T03:00:37.000Z INFO  [api] request completed method=GET path=/v1/jobs/02c19aa9-b6d7-5031-2dbe-5f3d418bfbb0 status=200 duration=63ms
+2026-09-18T03:03:00.930Z WARN  [queue] redis connection reset by peer host=10.4.2.227:6379 attempt=1
+2026-09-18T03:06:11.110Z WARN  [gc] pause 867ms heap=7GB
+2026-09-18T03:01:15.110Z INFO  [api] request completed method=GET path=/v1/jobs/3eb9d0ab-c5c1-c59f-0396-522606e06202 status=200 duration=77ms
+2026-09-18T03:06:05.190Z ERROR [ledger] write half-applied for order 407271: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:00:41.810Z INFO  [api] request completed method=GET path=/v1/jobs/eea93b6f-ca71-067b-fa0c-31f68975fcdb status=200 duration=44ms
+2026-09-18T03:01:11.780Z INFO  [api] request completed method=GET path=/v1/jobs/13819483-a508-1794-cf3d-3dcd71c08716 status=200 duration=73ms
+2026-09-18T03:05:47.430Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/725b7a87-26cc-6590-7d54-c4845541d342.job'
+2026-09-18T03:04:51.560Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 96, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:04:24.550Z ERROR [auth] token signature verification failed sub=402e93f5-57a9-3e5b-b62d-e46f09cc5f91 kid=cea284856d15
+2026-09-18T03:04:57.480Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 20 source=webhook-1
+2026-09-18T03:02:10.240Z INFO  [api] request completed method=GET path=/v1/jobs/ef19f387-1f66-2f0b-2548-9de799fc4c53 status=200 duration=3ms
+2026-09-18T03:05:11.910Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 13 source=webhook-7
+2026-09-18T03:03:30.900Z WARN  [queue] redis connection reset by peer host=10.4.2.5:6379 attempt=2
+2026-09-18T03:03:29.790Z WARN  [queue] redis connection reset by peer host=10.4.4.207:6379 attempt=1
+2026-09-18T03:02:09.130Z INFO  [api] request completed method=GET path=/v1/jobs/3d16e30e-22b6-fc43-bad2-faa0f93c6dd3 status=200 duration=75ms
+2026-09-18T03:00:32.190Z INFO  [api] request completed method=GET path=/v1/jobs/d4b59c05-36cd-f8a1-ecfc-c3964671120d status=200 duration=55ms
+2026-09-18T03:06:02.230Z ERROR [ledger] write half-applied for order 215791: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:05:52.240Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:01:20.290Z INFO  [api] request completed method=GET path=/v1/jobs/f3dfe313-2310-b11e-ff64-fb1bd0ac7bb8 status=200 duration=40ms
+2026-09-18T03:03:20.170Z WARN  [queue] redis connection reset by peer host=10.4.1.161:6379 attempt=3
+2026-09-18T03:06:26.280Z ERROR [core] unexpected state
+2026-09-18T03:06:14.810Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/5a868ee3-4f2f-92da-5e0f-4fdbfd238077
+2026-09-18T03:01:52.110Z INFO  [api] request completed method=GET path=/v1/jobs/962d9c5f-bfa3-f751-f49b-41e215363de7 status=200 duration=72ms
+2026-09-18T03:01:25.840Z INFO  [api] request completed method=GET path=/v1/jobs/cf269e1f-7282-e11f-1eaa-75e2cd606cdb status=200 duration=82ms
+2026-09-18T03:00:28.120Z INFO  [api] request completed method=GET path=/v1/jobs/5e320f4a-02e5-0777-e57b-ae11417e16c9 status=200 duration=41ms
+2026-09-18T03:06:29.980Z ERROR [tls] certificate for payments.internal expired at 0x0 depth=2
+2026-09-18T03:04:43.050Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 147, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:22.450Z INFO  [api] request completed method=GET path=/v1/jobs/061fe816-4c9c-cb6d-ba6a-03163e723c5c status=200 duration=44ms
+2026-09-18T03:02:52.050Z WARN  [queue] redis connection reset by peer host=10.4.6.56:6379 attempt=3
+2026-09-18T03:04:43.420Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 85, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:52.420Z WARN  [queue] redis connection reset by peer host=10.4.7.196:6379 attempt=2
+2026-09-18T03:06:19.990Z INFO  [migrate] applied migration 0013_add_index in 90ms
+2026-09-18T03:03:26.460Z WARN  [queue] redis connection reset by peer host=10.4.6.224:6379 attempt=2
+2026-09-18T03:02:35.770Z WARN  [queue] redis connection reset by peer host=10.4.1.157:6379 attempt=2
+2026-09-18T03:04:14.930Z ERROR [auth] token signature verification failed sub=59afb866-5f6f-c524-2497-c48227d63e83 kid=6e452eae0f0f
+2026-09-18T03:05:24.860Z INFO  [deploy] rolling out revision 513e08545246 replicas=4
+2026-09-18T03:03:27.570Z WARN  [queue] redis connection reset by peer host=10.4.6.66:6379 attempt=3
+2026-09-18T03:02:44.650Z WARN  [queue] redis connection reset by peer host=10.4.2.39:6379 attempt=3
+2026-09-18T03:02:51.310Z WARN  [queue] redis connection reset by peer host=10.4.5.65:6379 attempt=1
+2026-09-18T03:01:17.330Z INFO  [api] request completed method=GET path=/v1/jobs/eff0fd26-1935-85f8-85fa-e26b0ba18f33 status=200 duration=62ms
+2026-09-18T03:02:45.390Z WARN  [queue] redis connection reset by peer host=10.4.0.2:6379 attempt=1
+2026-09-18T03:02:18.380Z INFO  [api] request completed method=GET path=/v1/jobs/4e04427c-ca21-1602-c07b-912a5268b38c status=200 duration=78ms
+2026-09-18T03:03:43.850Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:02:49.830Z WARN  [queue] redis connection reset by peer host=10.4.0.190:6379 attempt=2
+2026-09-18T03:03:42.370Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:05:41.510Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/c55844a7-5bb7-3796-7657-e28dd7a0ec31.job'
+2026-09-18T03:00:12.580Z INFO  [api] request completed method=GET path=/v1/jobs/62dc08d6-4bdb-f090-d48d-d9f354366c21 status=200 duration=12ms
+2026-09-18T03:01:37.310Z INFO  [api] request completed method=GET path=/v1/jobs/386f66b4-b652-f089-3ed5-d3a16c0b98ad status=200 duration=65ms
+2026-09-18T03:01:12.520Z INFO  [api] request completed method=GET path=/v1/jobs/28f1469a-f048-4de3-ee1e-8faf62ec9eae status=200 duration=52ms
+2026-09-18T03:04:44.900Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 55, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:35.400Z WARN  [queue] redis connection reset by peer host=10.4.2.154:6379 attempt=1
+2026-09-18T03:05:06.730Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 15 source=webhook-7
+2026-09-18T03:01:23.620Z INFO  [api] request completed method=GET path=/v1/jobs/09bd5491-9f93-cf9c-06e3-2b276cd9727e status=200 duration=16ms
+2026-09-18T03:00:08.140Z INFO  [api] request completed method=GET path=/v1/jobs/f6cdb2f8-03e0-d681-5524-54f14fab6f3e status=200 duration=55ms
+2026-09-18T03:05:18.940Z INFO  [deploy] rolling out revision 97e6b004f06d replicas=7
+2026-09-18T03:02:06.910Z INFO  [api] request completed method=GET path=/v1/jobs/d5e4d234-b4f2-52d1-b723-8b1cff948c0f status=200 duration=28ms
+2026-09-18T03:00:45.140Z INFO  [api] request completed method=GET path=/v1/jobs/1605a2ed-b066-70aa-f2fb-c7f994362459 status=200 duration=31ms
+2026-09-18T03:04:55.260Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 242, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:04.260Z WARN  [queue] redis connection reset by peer host=10.4.4.171:6379 attempt=3
+2026-09-18T03:05:06.360Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 30 source=webhook-3
+2026-09-18T03:01:18.440Z INFO  [api] request completed method=GET path=/v1/jobs/3422dc67-1e32-f289-74a8-039f6acadd57 status=200 duration=9ms
+2026-09-18T03:00:39.960Z INFO  [api] request completed method=GET path=/v1/jobs/80adb24a-e11b-2b6d-a715-a0fb919dcc0f status=200 duration=46ms
+2026-09-18T03:05:07.100Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 21 source=webhook-5
+2026-09-18T03:02:28.000Z INFO  [api] request completed method=GET path=/v1/jobs/324b8a8a-b0ef-11b0-b5e5-ae841ee36b4a status=200 duration=37ms
+2026-09-18T03:06:10.370Z WARN  [gc] pause 513ms heap=3GB
+2026-09-18T03:02:25.040Z INFO  [api] request completed method=GET path=/v1/jobs/dbf30789-d681-bef5-50dd-5090320c9690 status=200 duration=48ms
+2026-09-18T03:00:06.290Z INFO  [api] request completed method=GET path=/v1/jobs/0452ef05-f542-441d-111b-8aaa62f28d1a status=200 duration=90ms
+2026-09-18T03:03:34.600Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:05:22.270Z INFO  [deploy] rolling out revision 4080369b12f8 replicas=11
+2026-09-18T03:00:20.720Z INFO  [api] request completed method=GET path=/v1/jobs/08fb09a0-9702-16fc-23ed-cb04f2650b71 status=200 duration=5ms
+2026-09-18T03:01:32.870Z INFO  [api] request completed method=GET path=/v1/jobs/6546ab8a-ad50-2d03-5d02-0032062c8cac status=200 duration=77ms
+2026-09-18T03:05:49.280Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/29c12202-1eed-3f50-581b-b6319c1ddafd.job'
+2026-09-18T03:03:46.070Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:00:17.390Z INFO  [api] request completed method=GET path=/v1/jobs/ede26c2e-2ce9-33e1-8523-95744b1e943e status=200 duration=11ms
+2026-09-18T03:06:22.950Z ERROR [scheduler] job 1c9ad163-1bf1-96d6-0827-3490e9bf22aa lost: worker 10.4.4.224 disappeared mid-execution, payload not requeued
+2026-09-18T03:01:30.650Z INFO  [api] request completed method=GET path=/v1/jobs/e801c67e-5dcc-06db-53ba-9764b9d989c9 status=200 duration=18ms
+2026-09-18T03:02:32.440Z INFO  [api] request completed method=GET path=/v1/jobs/e5a3da14-ca55-658a-2fb5-48640761411c status=200 duration=22ms
+2026-09-18T03:01:32.500Z INFO  [api] request completed method=GET path=/v1/jobs/d41a224a-5c97-fdc1-1593-d7243f90ee4f status=200 duration=49ms
+2026-09-18T03:06:07.410Z WARN  [gc] pause 484ms heap=7GB
+2026-09-18T03:06:05.560Z WARN  [gc] pause 493ms heap=5GB
+2026-09-18T03:00:48.100Z INFO  [api] request completed method=GET path=/v1/jobs/8b435ef0-668c-ab3c-ead7-af878419bd91 status=200 duration=75ms
+2026-09-18T03:02:45.760Z WARN  [queue] redis connection reset by peer host=10.4.6.229:6379 attempt=3
+2026-09-18T03:04:04.570Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:04:54.150Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 294, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:04:18.630Z ERROR [auth] token signature verification failed sub=a4d51c7f-e93b-16f7-60cc-4655a9995ad2 kid=36580e284209
+2026-09-18T03:00:26.640Z INFO  [api] request completed method=GET path=/v1/jobs/83b852d7-c00d-c63d-84c9-55f11572c073 status=200 duration=6ms
+2026-09-18T03:03:28.310Z WARN  [queue] redis connection reset by peer host=10.4.5.48:6379 attempt=2
+2026-09-18T03:04:51.930Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 69, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:35.460Z INFO  [api] request completed method=GET path=/v1/jobs/6c3904b6-cde7-d967-d778-dac7a6b55031 status=200 duration=11ms
+2026-09-18T03:01:13.260Z INFO  [api] request completed method=GET path=/v1/jobs/0efcd38b-98b8-4db3-9c75-bdf38abd7a2f status=200 duration=57ms
+2026-09-18T03:02:59.820Z WARN  [queue] redis connection reset by peer host=10.4.2.134:6379 attempt=3
+2026-09-18T03:00:40.330Z INFO  [api] request completed method=GET path=/v1/jobs/fb7a3b3b-a6bd-1348-5393-5c5576b58cc1 status=200 duration=29ms
+2026-09-18T03:02:43.540Z WARN  [queue] redis connection reset by peer host=10.4.6.121:6379 attempt=2
+2026-09-18T03:00:22.940Z INFO  [api] request completed method=GET path=/v1/jobs/bcb5d0e3-bcb1-cec4-efae-0b46e6733cb8 status=200 duration=19ms
+2026-09-18T03:02:52.790Z WARN  [queue] redis connection reset by peer host=10.4.7.116:6379 attempt=2
+2026-09-18T03:05:34.850Z ERROR [db] connection pool exhausted size=40 waiting=21 timeout=30s
+2026-09-18T03:04:44.530Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 231, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:41.380Z INFO  [api] request completed method=GET path=/v1/jobs/af1f1a32-6022-3aab-a29b-728efdb2db3b status=200 duration=24ms
+2026-09-18T03:06:06.300Z WARN  [gc] pause 468ms heap=6GB
+2026-09-18T03:05:28.930Z ERROR [db] connection pool exhausted size=40 waiting=44 timeout=30s
+2026-09-18T03:04:10.120Z ERROR [auth] token signature verification failed sub=02d2c2f9-5d50-fe87-f592-4fef104ef016 kid=86fac450e799
+2026-09-18T03:03:28.680Z WARN  [queue] redis connection reset by peer host=10.4.3.217:6379 attempt=3
+2026-09-18T03:01:09.560Z INFO  [api] request completed method=GET path=/v1/jobs/41b2bb99-3cae-11a6-bd21-a9561ba9a6b5 status=200 duration=59ms
+2026-09-18T03:00:56.610Z INFO  [api] request completed method=GET path=/v1/jobs/f0f1d8db-d508-ff34-6f4e-df0818d6084d status=200 duration=56ms
+2026-09-18T03:04:04.200Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:05:33.000Z ERROR [db] connection pool exhausted size=20 waiting=45 timeout=30s
+2026-09-18T03:01:11.410Z INFO  [api] request completed method=GET path=/v1/jobs/1981fcb5-febf-3621-d8ac-acfd91670a0b status=200 duration=84ms
+2026-09-18T03:00:32.930Z INFO  [api] request completed method=GET path=/v1/jobs/d786e466-d6d0-76d0-b75d-e6f250bc3228 status=200 duration=82ms
+2026-09-18T03:03:19.800Z WARN  [queue] redis connection reset by peer host=10.4.7.219:6379 attempt=3
+2026-09-18T03:00:04.440Z INFO  [api] request completed method=GET path=/v1/jobs/a7a11490-7513-9237-15c1-d2dfa9964aef status=200 duration=38ms
+2026-09-18T03:06:15.550Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/2406ca39-1160-7da8-aa2e-b649aa964863
+2026-09-18T03:03:24.980Z WARN  [queue] redis connection reset by peer host=10.4.2.226:6379 attempt=1
+2026-09-18T03:05:10.800Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 63 source=webhook-4
+2026-09-18T03:01:35.090Z INFO  [api] request completed method=GET path=/v1/jobs/4bbebcfb-9145-3934-289f-87198b4d861b status=200 duration=5ms
+2026-09-18T03:03:09.440Z WARN  [queue] redis connection reset by peer host=10.4.4.181:6379 attempt=3
+2026-09-18T03:04:41.570Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 92, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:37.250Z WARN  [queue] redis connection reset by peer host=10.4.3.220:6379 attempt=3
+2026-09-18T03:04:31.580Z ERROR [auth] token signature verification failed sub=32374ec6-4ea7-3225-5b87-a2089f7307f7 kid=fead020ef264
+2026-09-18T03:02:43.910Z WARN  [queue] redis connection reset by peer host=10.4.3.182:6379 attempt=1
+2026-09-18T03:05:25.230Z INFO  [deploy] rolling out revision 27e8d1c19ccb replicas=6
+2026-09-18T03:00:45.880Z INFO  [api] request completed method=GET path=/v1/jobs/83a39808-85d5-16a8-2a12-dc9da38d0f39 status=200 duration=74ms
+2026-09-18T03:00:29.600Z INFO  [api] request completed method=GET path=/v1/jobs/402746a4-aa78-5c61-679e-2a6153b3b0ff status=200 duration=28ms
+2026-09-18T03:02:59.450Z WARN  [queue] redis connection reset by peer host=10.4.7.141:6379 attempt=3
+2026-09-18T03:01:29.170Z INFO  [api] request completed method=GET path=/v1/jobs/e92295bc-3698-3b20-4f65-b7181379eed0 status=200 duration=87ms
+2026-09-18T03:02:33.920Z INFO  [api] request completed method=GET path=/v1/jobs/a51c822a-c6da-3d4b-8e56-5d771064120d status=200 duration=49ms
+2026-09-18T03:04:36.390Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 265, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:36.880Z WARN  [queue] redis connection reset by peer host=10.4.3.68:6379 attempt=2
+2026-09-18T03:03:21.280Z WARN  [queue] redis connection reset by peer host=10.4.5.208:6379 attempt=3
+2026-09-18T03:05:42.250Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/172500bb-53f9-3f84-6576-af77fb093fca.job'
+2026-09-18T03:01:51.740Z INFO  [api] request completed method=GET path=/v1/jobs/b195ca4d-7ae7-f8c9-e3c0-626d18dfef15 status=200 duration=62ms
+2026-09-18T03:02:14.310Z INFO  [api] request completed method=GET path=/v1/jobs/09b166c2-c8b2-b51e-a446-d25e0db068cd status=200 duration=88ms
+2026-09-18T03:05:27.820Z INFO  [deploy] rolling out revision aecfef301b40 replicas=5
+2026-09-18T03:05:01.920Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 46 source=webhook-4
+2026-09-18T03:06:18.140Z INFO  [migrate] applied migration 0034_add_index in 721ms
+2026-09-18T03:02:30.590Z INFO  [api] request completed method=GET path=/v1/jobs/12e558b2-873e-8987-eacb-3c2e70ba5a14 status=200 duration=70ms
+2026-09-18T03:02:03.950Z INFO  [api] request completed method=GET path=/v1/jobs/04bf22ea-87a7-028c-9bcd-793efc4cc944 status=200 duration=36ms
+2026-09-18T03:02:44.280Z WARN  [queue] redis connection reset by peer host=10.4.2.127:6379 attempt=3
+2026-09-18T03:01:31.390Z INFO  [api] request completed method=GET path=/v1/jobs/afe2946f-f09f-a24f-e703-013feb2686c4 status=200 duration=38ms
+2026-09-18T03:02:17.640Z INFO  [api] request completed method=GET path=/v1/jobs/4bc9a816-0dff-8f3a-e841-f6cb5218c3cc status=200 duration=81ms
+2026-09-18T03:04:36.020Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 184, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:15.480Z INFO  [api] request completed method=GET path=/v1/jobs/68a77ed0-2816-1d1b-a20b-cd9c0af33cc2 status=200 duration=90ms
+2026-09-18T03:05:05.990Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 53 source=webhook-1
+2026-09-18T03:01:34.350Z INFO  [api] request completed method=GET path=/v1/jobs/e1828c12-7451-8a51-c24a-5fb016f92d8e status=200 duration=39ms
+2026-09-18T03:03:19.060Z WARN  [queue] redis connection reset by peer host=10.4.0.239:6379 attempt=3
+2026-09-18T03:05:15.980Z INFO  [deploy] rolling out revision d193665561ef replicas=5
+2026-09-18T03:04:46.010Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 119, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:22.760Z WARN  [queue] redis connection reset by peer host=10.4.7.208:6379 attempt=3
+2026-09-18T03:00:36.260Z INFO  [api] request completed method=GET path=/v1/jobs/f55dad76-5e62-03e3-ceb0-c71ea3d1863b status=200 duration=12ms
+2026-09-18T03:00:13.320Z INFO  [api] request completed method=GET path=/v1/jobs/5e617f8e-99ed-bce7-03f8-670d3e361858 status=200 duration=50ms
+2026-09-18T03:00:24.790Z INFO  [api] request completed method=GET path=/v1/jobs/952a71b2-6111-b4b5-61e0-9c2fa98a372e status=200 duration=4ms
+2026-09-18T03:03:04.630Z WARN  [queue] redis connection reset by peer host=10.4.1.237:6379 attempt=1
+2026-09-18T03:03:17.950Z WARN  [queue] redis connection reset by peer host=10.4.2.156:6379 attempt=1
+2026-09-18T03:01:22.140Z INFO  [api] request completed method=GET path=/v1/jobs/c0db84e1-4754-feb6-a212-e20c30a5746d status=200 duration=33ms
+2026-09-18T03:04:46.380Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 280, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:00:41.070Z INFO  [api] request completed method=GET path=/v1/jobs/369a9ad7-1f9c-a6ce-b7b8-b1a0ec9a5dc8 status=200 duration=34ms
+2026-09-18T03:02:06.170Z INFO  [api] request completed method=GET path=/v1/jobs/244a038a-8371-2c1f-801b-3cc29cace1cb status=200 duration=76ms
+2026-09-18T03:00:21.460Z INFO  [api] request completed method=GET path=/v1/jobs/992ef438-0571-3dc6-0896-32e3f6782941 status=200 duration=84ms
+2026-09-18T03:06:24.430Z ERROR [core] unexpected state
+2026-09-18T03:04:31.210Z ERROR [auth] token signature verification failed sub=f0e75be0-4233-0fc9-1db3-bdfa473a58c6 kid=9c2a58111ab7
+2026-09-18T03:03:54.580Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:05:12.650Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 77 source=webhook-5
+2026-09-18T03:03:21.650Z WARN  [queue] redis connection reset by peer host=10.4.3.180:6379 attempt=2
+2026-09-18T03:04:39.350Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 107, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:06:23.320Z ERROR [scheduler] job 0628fd83-fcc0-f204-f508-93e74d00e0df lost: worker 10.4.6.10 disappeared mid-execution, payload not requeued
+2026-09-18T03:00:20.350Z INFO  [api] request completed method=GET path=/v1/jobs/859dcac8-b0f3-e5fd-bb9f-ab2ba82cb2cd status=200 duration=77ms
+2026-09-18T03:02:04.320Z INFO  [api] request completed method=GET path=/v1/jobs/4e89021c-579c-d2d5-3052-925154bd6db3 status=200 duration=86ms
+2026-09-18T03:05:37.070Z ERROR [db] connection pool exhausted size=40 waiting=13 timeout=30s
+2026-09-18T03:00:38.850Z INFO  [api] request completed method=GET path=/v1/jobs/e484a550-eebf-1fce-6915-5cca16535f4c status=200 duration=52ms
+2026-09-18T03:01:41.010Z INFO  [api] request completed method=GET path=/v1/jobs/bdc16576-3ee7-878b-256c-abc5ea624d07 status=200 duration=23ms
+2026-09-18T03:04:05.310Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:05:42.990Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/692b6adf-bafc-1bad-59d3-6bae42e22ae6.job'
+2026-09-18T03:01:10.670Z INFO  [api] request completed method=GET path=/v1/jobs/5741cca6-e7d8-3cb6-4693-bb1f403a290b status=200 duration=73ms
+2026-09-18T03:05:51.130Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:02:56.490Z WARN  [queue] redis connection reset by peer host=10.4.1.7:6379 attempt=2
+2026-09-18T03:05:25.600Z INFO  [deploy] rolling out revision 484aa46bd464 replicas=2
+2026-09-18T03:02:43.170Z WARN  [queue] redis connection reset by peer host=10.4.7.17:6379 attempt=2
+2026-09-18T03:03:15.360Z WARN  [queue] redis connection reset by peer host=10.4.6.158:6379 attempt=2
+2026-09-18T03:00:57.720Z INFO  [api] request completed method=GET path=/v1/jobs/aeb0a94c-91e4-f834-3370-6a3518972e44 status=200 duration=48ms
+2026-09-18T03:04:31.950Z ERROR [auth] token signature verification failed sub=bc7b3fd2-349f-ec7f-b110-53b811ab7b62 kid=5c3eb7bc8eee
+2026-09-18T03:05:17.460Z INFO  [deploy] rolling out revision bfdc851660bd replicas=10
+2026-09-18T03:05:40.770Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/af09bf26-851c-c84e-cd8e-6c6397664eaa.job'
+2026-09-18T03:01:27.320Z INFO  [api] request completed method=GET path=/v1/jobs/c24cd92a-8c71-eebf-4a77-7bc4534ccc9f status=200 duration=26ms
+2026-09-18T03:01:26.580Z INFO  [api] request completed method=GET path=/v1/jobs/63df45ca-4211-05de-bf50-6a796ca2e0f9 status=200 duration=22ms
+2026-09-18T03:05:22.640Z INFO  [deploy] rolling out revision cec445269b19 replicas=8
+2026-09-18T03:05:37.440Z ERROR [db] connection pool exhausted size=40 waiting=32 timeout=30s
+2026-09-18T03:04:29.730Z ERROR [auth] token signature verification failed sub=56ee9118-d108-f191-03ef-2faf60d2d964 kid=50b9b329e807
+2026-09-18T03:00:14.800Z INFO  [api] request completed method=GET path=/v1/jobs/b9b338eb-3fdf-2348-9c46-1cb5d15b77f2 status=200 duration=27ms
+2026-09-18T03:04:41.940Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 93, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:25.410Z INFO  [api] request completed method=GET path=/v1/jobs/2c00b050-041a-f94c-78f5-1616e63a7612 status=200 duration=84ms
+2026-09-18T03:01:25.100Z INFO  [api] request completed method=GET path=/v1/jobs/57fcc1f1-5697-e720-35ec-05285aa64015 status=200 duration=66ms
+2026-09-18T03:05:09.320Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 39 source=webhook-2
+2026-09-18T03:04:50.450Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 242, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:06.850Z WARN  [queue] redis connection reset by peer host=10.4.5.74:6379 attempt=2
+2026-09-18T03:01:39.900Z INFO  [api] request completed method=GET path=/v1/jobs/76f3e181-e37e-5d8a-16d9-5469d575bbf5 status=200 duration=72ms
+2026-09-18T03:04:52.670Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 276, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:00:00.740Z INFO  [api] request completed method=GET path=/v1/jobs/79cb9e86-830c-71c2-cdcc-69292f45e678 status=200 duration=83ms
+2026-09-18T03:02:29.110Z INFO  [api] request completed method=GET path=/v1/jobs/9703b6b0-1da2-6c6e-e26a-b1fa863f9e7f status=200 duration=69ms
+2026-09-18T03:02:34.290Z INFO  [api] request completed method=GET path=/v1/jobs/c8726351-7bc6-3c97-a883-ed6c52201acd status=200 duration=7ms
+2026-09-18T03:06:20.360Z INFO  [migrate] applied migration 0032_add_index in 40ms
+2026-09-18T03:05:14.870Z INFO  [deploy] rolling out revision 4fa70cb080a7 replicas=10
+2026-09-18T03:04:13.450Z ERROR [auth] token signature verification failed sub=e7b7b8c8-1111-5d35-477a-a7c34fe95b66 kid=5256a74010c7
+2026-09-18T03:00:47.360Z INFO  [api] request completed method=GET path=/v1/jobs/80d004b2-1d41-7ead-8930-fbcd693cc50d status=200 duration=3ms
+2026-09-18T03:04:05.680Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:03:55.690Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:01:38.790Z INFO  [api] request completed method=GET path=/v1/jobs/b548b46d-128d-4be6-b88f-3458ce062c7c status=200 duration=82ms
+2026-09-18T03:04:27.510Z ERROR [auth] token signature verification failed sub=dd66ddef-f48b-d912-5885-8898edc9540d kid=d5793836ce66
+2026-09-18T03:05:37.810Z ERROR [db] connection pool exhausted size=40 waiting=45 timeout=30s
+2026-09-18T03:04:44.160Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 48, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:57.660Z INFO  [api] request completed method=GET path=/v1/jobs/bfee52c6-8a2e-359d-effc-b2c96040cbc8 status=200 duration=41ms
+2026-09-18T03:02:27.630Z INFO  [api] request completed method=GET path=/v1/jobs/3926120d-2b5d-5f28-1438-a8e16a48a1df status=200 duration=42ms
+2026-09-18T03:01:48.780Z INFO  [api] request completed method=GET path=/v1/jobs/6be362c2-b69a-0252-3f1e-1c8dcbf9512c status=200 duration=80ms
+2026-09-18T03:01:38.050Z INFO  [api] request completed method=GET path=/v1/jobs/cea99bc1-567a-f36a-59b6-76c264f641a2 status=200 duration=45ms
+2026-09-18T03:00:41.440Z INFO  [api] request completed method=GET path=/v1/jobs/167cd62e-fb01-9964-63e5-a05be665559b status=200 duration=42ms
+2026-09-18T03:06:03.340Z ERROR [ledger] write half-applied for order 121318: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:05:54.460Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:06:05.930Z WARN  [gc] pause 774ms heap=4GB
+2026-09-18T03:04:27.880Z ERROR [auth] token signature verification failed sub=2e841f85-6a81-20fb-1e0e-45a349dbd1fc kid=637d9d47c664
+2026-09-18T03:02:31.330Z INFO  [api] request completed method=GET path=/v1/jobs/6c6710ed-403b-322a-8989-857f48d797ca status=200 duration=75ms
+2026-09-18T03:04:15.670Z ERROR [auth] token signature verification failed sub=8981fcc3-f35b-db77-524d-b8be1840c04d kid=f3c9d7012537
+2026-09-18T03:03:51.250Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:04:03.830Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:02:58.340Z WARN  [queue] redis connection reset by peer host=10.4.3.40:6379 attempt=3
+2026-09-18T03:02:09.870Z INFO  [api] request completed method=GET path=/v1/jobs/e8c9ea0b-2b25-1667-43ad-9f76ea436cff status=200 duration=45ms
+2026-09-18T03:05:07.840Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 52 source=webhook-2
+2026-09-18T03:03:13.880Z WARN  [queue] redis connection reset by peer host=10.4.6.159:6379 attempt=2
+2026-09-18T03:00:08.510Z INFO  [api] request completed method=GET path=/v1/jobs/2274ea18-1e34-b3f1-ec3f-bf4dc20ef164 status=200 duration=34ms
+2026-09-18T03:06:25.540Z ERROR [core] unexpected state
+2026-09-18T03:01:32.130Z INFO  [api] request completed method=GET path=/v1/jobs/664ba437-38a1-7111-514f-7eb07551913f status=200 duration=69ms
+2026-09-18T03:05:58.900Z ERROR [ledger] write half-applied for order 925833: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:01:54.700Z INFO  [api] request completed method=GET path=/v1/jobs/b713ca71-aaca-2235-779c-24d6ff4cf75b status=200 duration=11ms
+2026-09-18T03:06:09.630Z WARN  [gc] pause 875ms heap=7GB
+2026-09-18T03:00:44.400Z INFO  [api] request completed method=GET path=/v1/jobs/843afa19-fff4-7593-260f-99dd7876c03c status=200 duration=69ms
+2026-09-18T03:01:06.600Z INFO  [api] request completed method=GET path=/v1/jobs/4d3b8462-577a-dfd3-cc1e-0437120fac4a status=200 duration=63ms
+2026-09-18T03:01:52.480Z INFO  [api] request completed method=GET path=/v1/jobs/04df3d1f-4db8-581e-8187-2b09db7afedd status=200 duration=27ms
+2026-09-18T03:05:45.580Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/2fac5c5b-3b37-e4bb-1e17-42837c9f029c.job'
+2026-09-18T03:04:29.360Z ERROR [auth] token signature verification failed sub=ab1c2e2e-8f5a-2ad3-3272-cb87f85d59c5 kid=6e46fe904e58
+2026-09-18T03:01:33.240Z INFO  [api] request completed method=GET path=/v1/jobs/bd241f8b-31e8-ed0d-cbcf-324863386f45 status=200 duration=75ms
+2026-09-18T03:04:19.370Z ERROR [auth] token signature verification failed sub=813dd720-6c8a-c8c6-a0ed-6ab8b6ea2040 kid=9157f8275b3b
+2026-09-18T03:00:48.470Z INFO  [api] request completed method=GET path=/v1/jobs/b0e48236-17dd-6621-7db4-d3b51f36ddf8 status=200 duration=24ms
+2026-09-18T03:04:12.710Z ERROR [auth] token signature verification failed sub=a82f0041-8194-797d-5e8b-aed4b96d60d7 kid=cf8d46de04ff
+2026-09-18T03:01:52.850Z INFO  [api] request completed method=GET path=/v1/jobs/aea69667-eab0-a8cc-316d-105c6abe942f status=200 duration=14ms
+2026-09-18T03:02:48.720Z WARN  [queue] redis connection reset by peer host=10.4.5.244:6379 attempt=3
+2026-09-18T03:04:21.220Z ERROR [auth] token signature verification failed sub=72627625-73a0-b254-a098-d15a8738f34d kid=97e648bfc94e
+2026-09-18T03:01:21.400Z INFO  [api] request completed method=GET path=/v1/jobs/46565bb6-5bf3-79c4-d8b8-43a49ffe747c status=200 duration=37ms
+2026-09-18T03:04:04.940Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:01:14.370Z INFO  [api] request completed method=GET path=/v1/jobs/450eb763-a7b5-63e5-7bb5-c9e74926f077 status=200 duration=74ms
+2026-09-18T03:05:20.050Z INFO  [deploy] rolling out revision 4d19d70f99b5 replicas=5
+2026-09-18T03:04:38.240Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 47, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:05:38.180Z ERROR [db] connection pool exhausted size=40 waiting=33 timeout=30s
+2026-09-18T03:06:27.390Z WARN  [rate] client 10.4.5.87 exceeded quota bucket=api-write remaining=0
+2026-09-18T03:01:59.510Z INFO  [api] request completed method=GET path=/v1/jobs/61e7768e-d3ae-bcb1-7265-302054e791bd status=200 duration=14ms
+2026-09-18T03:01:49.890Z INFO  [api] request completed method=GET path=/v1/jobs/fe3d09a4-bdde-6946-a310-3d722190d8d5 status=200 duration=82ms
+2026-09-18T03:00:57.350Z INFO  [api] request completed method=GET path=/v1/jobs/cc81f272-af6a-3e68-a0c4-214d671c82fb status=200 duration=5ms
+2026-09-18T03:04:50.080Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 50, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:05.370Z WARN  [queue] redis connection reset by peer host=10.4.5.62:6379 attempt=3
+2026-09-18T03:06:17.400Z INFO  [migrate] applied migration 0034_add_index in 705ms
+2026-09-18T03:00:21.830Z INFO  [api] request completed method=GET path=/v1/jobs/bb01ea75-1138-a4e4-7b73-ccf813284c79 status=200 duration=42ms
+2026-09-18T03:05:03.770Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 14 source=webhook-8
+2026-09-18T03:02:13.570Z INFO  [api] request completed method=GET path=/v1/jobs/850fb060-5613-f869-2c76-d71767de2f0d status=200 duration=19ms
+2026-09-18T03:02:41.320Z WARN  [queue] redis connection reset by peer host=10.4.0.180:6379 attempt=2
+2026-09-18T03:00:38.480Z INFO  [api] request completed method=GET path=/v1/jobs/b3257dda-cabc-1222-d948-74ac64bd7a63 status=200 duration=31ms
+2026-09-18T03:03:10.920Z WARN  [queue] redis connection reset by peer host=10.4.4.15:6379 attempt=2
+2026-09-18T03:03:59.760Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:01:13.630Z INFO  [api] request completed method=GET path=/v1/jobs/48d0ca3e-6bb3-3fb5-7e99-b910f1fd7037 status=200 duration=70ms
+2026-09-18T03:01:36.200Z INFO  [api] request completed method=GET path=/v1/jobs/460d8c71-14e8-7ee9-55a3-2d7215840cb1 status=200 duration=16ms
+2026-09-18T03:05:18.570Z INFO  [deploy] rolling out revision 1adcf75f8395 replicas=2
+2026-09-18T03:02:30.960Z INFO  [api] request completed method=GET path=/v1/jobs/9985eaf0-01c9-4c87-0b9b-83d1e84b12bd status=200 duration=78ms
+2026-09-18T03:05:03.400Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 22 source=webhook-9
+2026-09-18T03:05:42.620Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/a1e3de45-3bcc-1f27-7d50-70bbb28a6c03.job'
+2026-09-18T03:04:47.120Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 225, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:04:48.230Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 298, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:00:31.820Z INFO  [api] request completed method=GET path=/v1/jobs/735dc327-1ce2-62d6-2b4c-0859d26542ee status=200 duration=63ms
+2026-09-18T03:00:18.870Z INFO  [api] request completed method=GET path=/v1/jobs/7219c1da-6953-4048-44e9-e4a511b41900 status=200 duration=34ms
+2026-09-18T03:06:12.220Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/454e1aa7-8171-faa5-a3db-949bf191bcbe
+2026-09-18T03:03:23.870Z WARN  [queue] redis connection reset by peer host=10.4.7.62:6379 attempt=3
+2026-09-18T03:01:45.820Z INFO  [api] request completed method=GET path=/v1/jobs/7c193d3c-42ad-cbd2-da77-c86b7abfee3c status=200 duration=54ms
+2026-09-18T03:00:09.990Z INFO  [api] request completed method=GET path=/v1/jobs/1dd377bf-623d-8eb7-a4ca-83b26b52b08d status=200 duration=53ms
+2026-09-18T03:06:04.450Z ERROR [ledger] write half-applied for order 365883: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:04:02.720Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:00:23.310Z INFO  [api] request completed method=GET path=/v1/jobs/57740511-ea3d-9be7-f6a0-0758cb138653 status=200 duration=48ms
+2026-09-18T03:03:02.410Z WARN  [queue] redis connection reset by peer host=10.4.3.28:6379 attempt=2
+2026-09-18T03:05:01.180Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 66 source=webhook-9
+2026-09-18T03:04:53.780Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 147, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:05:58.530Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:00:34.040Z INFO  [api] request completed method=GET path=/v1/jobs/5aadd0d2-9211-a8d8-47f4-39f3b568d623 status=200 duration=42ms
+2026-09-18T03:00:21.090Z INFO  [api] request completed method=GET path=/v1/jobs/b372c56b-5b83-49ce-e903-aefa798c06fe status=200 duration=42ms
+2026-09-18T03:02:55.010Z WARN  [queue] redis connection reset by peer host=10.4.4.133:6379 attempt=2
+2026-09-18T03:05:36.330Z ERROR [db] connection pool exhausted size=40 waiting=3 timeout=30s
+2026-09-18T03:03:59.390Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:03:37.190Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:04:57.850Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 48 source=webhook-6
+2026-09-18T03:01:41.750Z INFO  [api] request completed method=GET path=/v1/jobs/6cc934e1-63aa-ef93-3451-3f8352252a1f status=200 duration=70ms
+2026-09-18T03:05:25.970Z INFO  [deploy] rolling out revision c37affedf3cb replicas=9
+2026-09-18T03:03:07.960Z WARN  [queue] redis connection reset by peer host=10.4.2.91:6379 attempt=3
+2026-09-18T03:04:10.860Z ERROR [auth] token signature verification failed sub=cd969dcb-4ed5-b30f-6636-9a6c7eb7f450 kid=d3e1880804d6
+2026-09-18T03:00:00.370Z INFO  [api] request completed method=GET path=/v1/jobs/965eda32-dae4-4550-8201-e2bd73ab4876 status=200 duration=27ms
+2026-09-18T03:04:19.740Z ERROR [auth] token signature verification failed sub=d6653c7b-1f15-f116-1d38-1e91ecc08211 kid=b099bd19cd55
+2026-09-18T03:06:12.590Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/e2b1da74-5948-5385-ba04-844d90e6a689
+2026-09-18T03:04:06.420Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:03:14.620Z WARN  [queue] redis connection reset by peer host=10.4.3.199:6379 attempt=1
+2026-09-18T03:04:42.310Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 90, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:08.330Z WARN  [queue] redis connection reset by peer host=10.4.3.135:6379 attempt=1
+2026-09-18T03:00:42.180Z INFO  [api] request completed method=GET path=/v1/jobs/db14a009-b7e0-6d03-e8f5-1608430ac631 status=200 duration=5ms
+2026-09-18T03:03:31.640Z WARN  [queue] redis connection reset by peer host=10.4.4.109:6379 attempt=2
+2026-09-18T03:03:01.300Z WARN  [queue] redis connection reset by peer host=10.4.4.138:6379 attempt=3
+2026-09-18T03:05:48.910Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/bcd24821-88f3-e267-dc74-c8e53302eab7.job'
+2026-09-18T03:00:01.110Z INFO  [api] request completed method=GET path=/v1/jobs/18187993-2fa9-1425-cb00-88539d2c67ed status=200 duration=60ms
+2026-09-18T03:04:20.110Z ERROR [auth] token signature verification failed sub=aa5b19ba-6fa9-7180-7405-f5f8be801d3d kid=6b5b779d4f21
+2026-09-18T03:04:00.130Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:00:36.630Z INFO  [api] request completed method=GET path=/v1/jobs/d2e708c8-3308-0a1d-32b3-6d01af3aeaa3 status=200 duration=63ms
+2026-09-18T03:04:01.980Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:01:47.300Z INFO  [api] request completed method=GET path=/v1/jobs/f9dd055b-628d-d2b9-cc5c-0b22cd29b513 status=200 duration=70ms
+2026-09-18T03:02:08.390Z INFO  [api] request completed method=GET path=/v1/jobs/df5cddd0-edd6-e10b-177d-678b54457178 status=200 duration=49ms
+2026-09-18T03:05:56.310Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:00:59.570Z INFO  [api] request completed method=GET path=/v1/jobs/9d05633a-8d3a-57ef-c312-3f99099565a2 status=200 duration=68ms
+2026-09-18T03:02:32.810Z INFO  [api] request completed method=GET path=/v1/jobs/9f35ac0e-089a-c110-e5dc-4c89fcdc52ab status=200 duration=62ms
+2026-09-18T03:03:40.890Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:03:30.160Z WARN  [queue] redis connection reset by peer host=10.4.2.53:6379 attempt=2
+2026-09-18T03:01:28.800Z INFO  [api] request completed method=GET path=/v1/jobs/4c82c9dc-76a8-be8a-af71-95dcd0b78bc4 status=200 duration=4ms
+2026-09-18T03:01:58.770Z INFO  [api] request completed method=GET path=/v1/jobs/54536dc8-1c0d-b0f1-bb3f-e4d86065911a status=200 duration=42ms
+2026-09-18T03:04:33.800Z ERROR [auth] token signature verification failed sub=944af399-7e18-7c60-3c2c-e3196af910dd kid=48ed1e18614c
+2026-09-18T03:01:04.750Z INFO  [api] request completed method=GET path=/v1/jobs/574a1b8e-fb90-eed4-95a9-51a08119101e status=200 duration=36ms
+2026-09-18T03:04:49.710Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 153, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:49.150Z INFO  [api] request completed method=GET path=/v1/jobs/282b4370-6a70-1531-2844-2ee2dff4c153 status=200 duration=44ms
+2026-09-18T03:03:32.380Z WARN  [queue] redis connection reset by peer host=10.4.2.14:6379 attempt=1
+2026-09-18T03:03:12.770Z WARN  [queue] redis connection reset by peer host=10.4.5.84:6379 attempt=2
+2026-09-18T03:02:57.230Z WARN  [queue] redis connection reset by peer host=10.4.6.85:6379 attempt=2
+2026-09-18T03:05:27.080Z INFO  [deploy] rolling out revision 570ded649a0a replicas=12
+2026-09-18T03:04:09.010Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:06:24.800Z ERROR [core] unexpected state
+2026-09-18T03:05:38.550Z ERROR [db] connection pool exhausted size=40 waiting=7 timeout=30s
+2026-09-18T03:06:14.070Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/eef79906-1a1d-05dd-00af-412ce6d7cd8a
+2026-09-18T03:03:06.110Z WARN  [queue] redis connection reset by peer host=10.4.1.102:6379 attempt=2
+2026-09-18T03:02:05.800Z INFO  [api] request completed method=GET path=/v1/jobs/3be1dd1d-8c5a-5b37-4c69-88d7e72acbc9 status=200 duration=48ms
+2026-09-18T03:01:36.940Z INFO  [api] request completed method=GET path=/v1/jobs/beec31bd-18f2-71ef-24d5-2f5fa74e4b48 status=200 duration=86ms
+2026-09-18T03:02:54.270Z WARN  [queue] redis connection reset by peer host=10.4.4.94:6379 attempt=2
+2026-09-18T03:03:42.000Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:05:44.470Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/10b3c1d6-9e1d-3caa-e877-609e6ec76c2e.job'
+2026-09-18T03:02:42.430Z WARN  [queue] redis connection reset by peer host=10.4.2.98:6379 attempt=2
+2026-09-18T03:02:37.620Z WARN  [queue] redis connection reset by peer host=10.4.7.68:6379 attempt=1
+2026-09-18T03:03:51.990Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:03:39.780Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:03:39.410Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:00:54.390Z INFO  [api] request completed method=GET path=/v1/jobs/962e5835-9c99-19f2-8afe-332dd9ec0e3d status=200 duration=20ms
+2026-09-18T03:02:15.050Z INFO  [api] request completed method=GET path=/v1/jobs/586f1a06-784c-0240-1a3e-bb01999fb71e status=200 duration=55ms
+2026-09-18T03:05:19.310Z INFO  [deploy] rolling out revision 3f0df5f6fbbb replicas=7
+2026-09-18T03:01:59.880Z INFO  [api] request completed method=GET path=/v1/jobs/182a5d2e-9f29-14ca-240c-f0ef1a13cd5b status=200 duration=19ms
+2026-09-18T03:04:41.200Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 214, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:03:56.060Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:01:34.720Z INFO  [api] request completed method=GET path=/v1/jobs/8401115f-38a3-31e5-05b0-df09cfd589bd status=200 duration=10ms
+2026-09-18T03:02:59.080Z WARN  [queue] redis connection reset by peer host=10.4.4.107:6379 attempt=2
+2026-09-18T03:04:20.480Z ERROR [auth] token signature verification failed sub=3ae303f8-8063-0d4e-6278-07cbd62bcd21 kid=99c5601de4fe
+2026-09-18T03:06:27.020Z WARN  [rate] client 10.4.3.106 exceeded quota bucket=api-write remaining=0
+2026-09-18T03:06:11.480Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/afab1509-73ec-d6c3-7b23-cc753bc1f191
+2026-09-18T03:03:54.210Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:01:38.420Z INFO  [api] request completed method=GET path=/v1/jobs/7cf043d7-7e60-a159-22ff-c9ccac21941d status=200 duration=71ms
+2026-09-18T03:02:07.280Z INFO  [api] request completed method=GET path=/v1/jobs/a08aa16d-06d6-5ac2-f1e4-575c913f1c4c status=200 duration=87ms
+2026-09-18T03:00:15.540Z INFO  [api] request completed method=GET path=/v1/jobs/6361b9f8-f33c-1a7f-afdd-87333253b562 status=200 duration=64ms
+2026-09-18T03:01:55.070Z INFO  [api] request completed method=GET path=/v1/jobs/23fb5957-afe5-6a3a-1308-416a5c15ebe0 status=200 duration=16ms
+2026-09-18T03:01:02.900Z INFO  [api] request completed method=GET path=/v1/jobs/5c0ca7f4-7436-21bb-686f-cb682e67a853 status=200 duration=50ms
+2026-09-18T03:00:05.550Z INFO  [api] request completed method=GET path=/v1/jobs/11fa2ac0-079d-d25a-49fe-85b0834c687a status=200 duration=75ms
+2026-09-18T03:06:01.120Z ERROR [ledger] write half-applied for order 971044: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:01:08.820Z INFO  [api] request completed method=GET path=/v1/jobs/1e9eca4f-b385-2a64-3695-80ffa46b7f17 status=200 duration=53ms
+2026-09-18T03:05:30.040Z ERROR [db] connection pool exhausted size=20 waiting=25 timeout=30s
+2026-09-18T03:05:32.260Z ERROR [db] connection pool exhausted size=20 waiting=54 timeout=30s
+2026-09-18T03:00:23.680Z INFO  [api] request completed method=GET path=/v1/jobs/e69d2f3b-7928-c6a1-af65-b9a415bdc39d status=200 duration=12ms
+2026-09-18T03:04:07.160Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:03:51.620Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:03:09.070Z WARN  [queue] redis connection reset by peer host=10.4.2.124:6379 attempt=3
+2026-09-18T03:05:02.660Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 60 source=webhook-1
+2026-09-18T03:02:40.580Z WARN  [queue] redis connection reset by peer host=10.4.3.161:6379 attempt=1
+2026-09-18T03:01:23.250Z INFO  [api] request completed method=GET path=/v1/jobs/455c49ac-026d-0148-0f8f-ba2fa0df7253 status=200 duration=36ms
+2026-09-18T03:00:08.880Z INFO  [api] request completed method=GET path=/v1/jobs/0f552c94-02cd-f2af-19de-2bc1b4ff00ae status=200 duration=62ms
+2026-09-18T03:00:07.400Z INFO  [api] request completed method=GET path=/v1/jobs/a123f501-90f5-380e-12b2-a4146b77730f status=200 duration=28ms
+2026-09-18T03:01:19.920Z INFO  [api] request completed method=GET path=/v1/jobs/be6e0ec5-c728-d420-5d30-68a36b666ff6 status=200 duration=70ms
+2026-09-18T03:05:11.540Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 73 source=webhook-9
+2026-09-18T03:04:38.980Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 231, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:05:28.560Z ERROR [db] connection pool exhausted size=40 waiting=27 timeout=30s
+2026-09-18T03:01:05.490Z INFO  [api] request completed method=GET path=/v1/jobs/221a61a1-67d7-cdf6-ef0d-3b89d08c5c0a status=200 duration=45ms
+2026-09-18T03:00:17.020Z INFO  [api] request completed method=GET path=/v1/jobs/98b20411-e7a2-8cbd-d2df-2c206bba8d21 status=200 duration=65ms
+2026-09-18T03:01:01.420Z INFO  [api] request completed method=GET path=/v1/jobs/18c23ef0-c3c4-b8a0-13dd-f702764a44b4 status=200 duration=44ms
+2026-09-18T03:01:46.560Z INFO  [api] request completed method=GET path=/v1/jobs/7b8c8eac-17a8-c7a6-f4ff-3847c58cd890 status=200 duration=31ms
+2026-09-18T03:06:07.780Z WARN  [gc] pause 355ms heap=6GB
+2026-09-18T03:03:25.720Z WARN  [queue] redis connection reset by peer host=10.4.4.30:6379 attempt=2
+2026-09-18T03:02:31.700Z INFO  [api] request completed method=GET path=/v1/jobs/fd04410a-48ff-d561-2a1d-87b11650774b status=200 duration=27ms
+2026-09-18T03:03:41.260Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:04:48.970Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 285, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:46.130Z WARN  [queue] redis connection reset by peer host=10.4.2.25:6379 attempt=2
+2026-09-18T03:00:09.250Z INFO  [api] request completed method=GET path=/v1/jobs/ae9ca08b-2d7c-5048-7ca0-7386cc099a1e status=200 duration=74ms
+2026-09-18T03:05:55.940Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:02:57.600Z WARN  [queue] redis connection reset by peer host=10.4.0.79:6379 attempt=2
+2026-09-18T03:00:55.500Z INFO  [api] request completed method=GET path=/v1/jobs/37d84e3a-31d6-e349-ec3a-74cde401278a status=200 duration=27ms
+2026-09-18T03:01:12.150Z INFO  [api] request completed method=GET path=/v1/jobs/f4916c21-c25e-175d-ab1e-2d9198f8285a status=200 duration=8ms
+2026-09-18T03:00:14.430Z INFO  [api] request completed method=GET path=/v1/jobs/4f91540c-2775-6991-a093-1ed42ecdcc0a status=200 duration=32ms
+2026-09-18T03:02:56.120Z WARN  [queue] redis connection reset by peer host=10.4.5.37:6379 attempt=1
+2026-09-18T03:06:21.100Z ERROR [scheduler] job 4cdaf48d-e63e-d078-2288-6dbe16cbcfcf lost: worker 10.4.4.87 disappeared mid-execution, payload not requeued
+2026-09-18T03:05:20.420Z INFO  [deploy] rolling out revision c33d9bf443a8 replicas=11
+2026-09-18T03:06:23.690Z ERROR [scheduler] job b03fc493-2fb6-e8fc-d46a-3f3f262c8d3b lost: worker 10.4.1.2 disappeared mid-execution, payload not requeued
+2026-09-18T03:02:12.460Z INFO  [api] request completed method=GET path=/v1/jobs/cdc6f60a-a3ec-4c50-9786-a1609d7f11c7 status=200 duration=5ms
+2026-09-18T03:02:53.900Z WARN  [queue] redis connection reset by peer host=10.4.6.20:6379 attempt=1
+2026-09-18T03:03:46.440Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:05:00.070Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 65 source=webhook-2
+2026-09-18T03:03:03.150Z WARN  [queue] redis connection reset by peer host=10.4.3.37:6379 attempt=1
+2026-09-18T03:01:51.370Z INFO  [api] request completed method=GET path=/v1/jobs/9d67ac8b-4519-864f-5a0a-d3aa1519e708 status=200 duration=70ms
+2026-09-18T03:00:39.590Z INFO  [api] request completed method=GET path=/v1/jobs/60762560-01b8-d526-e8f3-7d7ee327c967 status=200 duration=73ms
+2026-09-18T03:03:35.340Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:04:01.610Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:02:05.060Z INFO  [api] request completed method=GET path=/v1/jobs/4b215375-c9de-b1ad-552f-70b982658fd4 status=200 duration=16ms
+2026-09-18T03:01:00.680Z INFO  [api] request completed method=GET path=/v1/jobs/ac45a7a5-ed48-d09d-4878-e0a9fd846420 status=200 duration=15ms
+2026-09-18T03:01:10.300Z INFO  [api] request completed method=GET path=/v1/jobs/1933f5a3-02c2-7e4b-602c-595ba5e3f4d0 status=200 duration=36ms
+2026-09-18T03:03:10.550Z WARN  [queue] redis connection reset by peer host=10.4.1.235:6379 attempt=2
+2026-09-18T03:04:16.410Z ERROR [auth] token signature verification failed sub=1bbd6094-96cd-977f-c10e-e522110673b6 kid=fccc942bb9c7
+2026-09-18T03:04:47.860Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 277, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:56.920Z INFO  [api] request completed method=GET path=/v1/jobs/cca8c1c4-d831-a508-fddb-1598db271f24 status=200 duration=29ms
+2026-09-18T03:00:28.860Z INFO  [api] request completed method=GET path=/v1/jobs/57afaba6-e7dd-5eed-c0f7-27ad2b6b5fce status=200 duration=87ms
+2026-09-18T03:00:05.920Z INFO  [api] request completed method=GET path=/v1/jobs/1b98fbe4-6680-9a11-1ba1-192ec42b7170 status=200 duration=40ms
+2026-09-18T03:01:24.360Z INFO  [api] request completed method=GET path=/v1/jobs/8cf5ff3a-292d-f063-ad20-b0d0e9b2ebf7 status=200 duration=33ms
+2026-09-18T03:04:07.530Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:00:30.710Z INFO  [api] request completed method=GET path=/v1/jobs/22dc73ab-35bb-8498-5105-4839ebb9c596 status=200 duration=20ms
+2026-09-18T03:00:34.780Z INFO  [api] request completed method=GET path=/v1/jobs/309e7f98-746f-e5b9-67ba-784822c91b83 status=200 duration=6ms
+2026-09-18T03:01:39.160Z INFO  [api] request completed method=GET path=/v1/jobs/c1cdcb4d-691d-71a5-0bd6-6defea3bec34 status=200 duration=88ms
+2026-09-18T03:06:08.520Z WARN  [gc] pause 334ms heap=7GB
+2026-09-18T03:05:59.270Z ERROR [ledger] write half-applied for order 853469: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:04:48.600Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 201, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:02:47.610Z WARN  [queue] redis connection reset by peer host=10.4.1.143:6379 attempt=1
+2026-09-18T03:03:34.970Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:05:08.950Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 50 source=webhook-7
+2026-09-18T03:03:24.610Z WARN  [queue] redis connection reset by peer host=10.4.2.236:6379 attempt=3
+2026-09-18T03:03:17.580Z WARN  [queue] redis connection reset by peer host=10.4.5.123:6379 attempt=1
+2026-09-18T03:03:19.430Z WARN  [queue] redis connection reset by peer host=10.4.6.2:6379 attempt=1
+2026-09-18T03:01:43.600Z INFO  [api] request completed method=GET path=/v1/jobs/cce7406e-e8c7-8d6d-7b27-eff6958560a3 status=200 duration=7ms
+2026-09-18T03:00:46.250Z INFO  [api] request completed method=GET path=/v1/jobs/61976f87-abda-3a97-4fcb-694e41aadc8c status=200 duration=81ms
+2026-09-18T03:03:40.520Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 10000ms
+2026-09-18T03:01:09.190Z INFO  [api] request completed method=GET path=/v1/jobs/1d617a4c-05d7-90b6-932d-823ffae6f67d status=200 duration=81ms
+2026-09-18T03:02:01.360Z INFO  [api] request completed method=GET path=/v1/jobs/1fc58d83-fcc7-2d61-2836-c42c0848a1e5 status=200 duration=58ms
+2026-09-18T03:01:56.180Z INFO  [api] request completed method=GET path=/v1/jobs/3ccb5ac2-79aa-6564-b5c2-f75cb635ddda status=200 duration=40ms
+2026-09-18T03:00:46.620Z INFO  [api] request completed method=GET path=/v1/jobs/24226d81-d9cc-24c3-4df0-d47a354f305b status=200 duration=72ms
+2026-09-18T03:00:18.500Z INFO  [api] request completed method=GET path=/v1/jobs/3437f5ab-ea3a-0683-ead8-1dcd365fdcd6 status=200 duration=5ms
+2026-09-18T03:04:16.040Z ERROR [auth] token signature verification failed sub=e1673346-0553-cf59-3466-5280c2f119ea kid=52262cb02336
+2026-09-18T03:02:11.350Z INFO  [api] request completed method=GET path=/v1/jobs/cfae2b02-8c40-5640-98fb-212e2f81c6b4 status=200 duration=12ms
+2026-09-18T03:04:34.540Z ERROR [auth] token signature verification failed sub=7476374e-a5fa-35c3-ad3b-04fb14028c5d kid=ef0639c310ea
+2026-09-18T03:06:21.840Z ERROR [scheduler] job 279c854e-ece3-11d2-df5c-0d71f32f9e5b lost: worker 10.4.6.241 disappeared mid-execution, payload not requeued
+2026-09-18T03:00:27.010Z INFO  [api] request completed method=GET path=/v1/jobs/7b1ffc6a-1675-9ecb-99ed-d4d14f6b8f60 status=200 duration=5ms
+2026-09-18T03:05:29.670Z ERROR [db] connection pool exhausted size=20 waiting=29 timeout=30s
+2026-09-18T03:00:55.130Z INFO  [api] request completed method=GET path=/v1/jobs/9a66905a-50dd-1af0-2e5e-dcf4e715dfe5 status=200 duration=43ms
+2026-09-18T03:01:43.230Z INFO  [api] request completed method=GET path=/v1/jobs/757143b0-c0cd-76a8-0ff5-cf57e985a65d status=200 duration=5ms
+2026-09-18T03:05:49.650Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/2b1c7ace-951b-0a1f-30ab-1a5dc3cf97ac.job'
+2026-09-18T03:00:45.510Z INFO  [api] request completed method=GET path=/v1/jobs/4a488f58-8f0b-e063-86d3-69a0707df76f status=200 duration=74ms
+2026-09-18T03:04:35.280Z ERROR [auth] token signature verification failed sub=106ed76f-a3c0-a19f-72ca-f56a386adfef kid=6b4a5df79937
+2026-09-18T03:02:20.970Z INFO  [api] request completed method=GET path=/v1/jobs/a6460c06-38c6-8670-2a04-128dce255d6e status=200 duration=56ms
+2026-09-18T03:02:19.120Z INFO  [api] request completed method=GET path=/v1/jobs/658fb96f-df80-41ff-80ac-a7b73e0a72bb status=200 duration=9ms
+2026-09-18T03:02:51.680Z WARN  [queue] redis connection reset by peer host=10.4.2.124:6379 attempt=1
+2026-09-18T03:04:13.080Z ERROR [auth] token signature verification failed sub=a355cf7f-a07c-f779-5d5b-c589fe072355 kid=5aa37325c89f
+2026-09-18T03:05:35.220Z ERROR [db] connection pool exhausted size=20 waiting=54 timeout=30s
+2026-09-18T03:04:34.910Z ERROR [auth] token signature verification failed sub=be484c87-32df-b2cd-633b-bb507a3bf90e kid=99ec69fe5044
+2026-09-18T03:05:21.530Z INFO  [deploy] rolling out revision c0f7c22a6ba3 replicas=7
+2026-09-18T03:05:34.110Z ERROR [db] connection pool exhausted size=20 waiting=60 timeout=30s
+2026-09-18T03:05:57.050Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:04:16.780Z ERROR [auth] token signature verification failed sub=f67142a6-792d-2d6d-6e1b-90cf524fd687 kid=3839f04e32ea
+2026-09-18T03:04:25.660Z ERROR [auth] token signature verification failed sub=8e1441e4-1b76-0c44-12d4-1aff3d106614 kid=c98170c34c3c
+2026-09-18T03:06:15.920Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/249a2d16-9228-0cd6-69cd-b62d079893db
+2026-09-18T03:01:29.540Z INFO  [api] request completed method=GET path=/v1/jobs/4dc62e13-b1f2-66ea-14ea-e0539a8d53cf status=200 duration=66ms
+2026-09-18T03:01:12.890Z INFO  [api] request completed method=GET path=/v1/jobs/db0d5869-2b4b-9f2c-f856-80d178c55d1f status=200 duration=66ms
+2026-09-18T03:00:15.910Z INFO  [api] request completed method=GET path=/v1/jobs/0c228266-6be4-9ee7-1418-6ebf9a8137e9 status=200 duration=16ms
+2026-09-18T03:05:58.160Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:02:00.990Z INFO  [api] request completed method=GET path=/v1/jobs/19b5ebe4-1710-d182-b435-311497bdc76a status=200 duration=32ms
+2026-09-18T03:04:30.470Z ERROR [auth] token signature verification failed sub=2e409d87-35a7-426a-b1e1-f9d235658168 kid=20c6c43198d2
+2026-09-18T03:05:04.140Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 18 source=webhook-2
+2026-09-18T03:00:53.650Z INFO  [api] request completed method=GET path=/v1/jobs/344acadf-89c6-66c4-28e3-f7939da4b378 status=200 duration=83ms
+2026-09-18T03:00:51.430Z INFO  [api] request completed method=GET path=/v1/jobs/0307784d-3a2d-aad0-27d0-c0a431b0f869 status=200 duration=90ms
+2026-09-18T03:06:01.860Z ERROR [ledger] write half-applied for order 377579: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:00:52.170Z INFO  [api] request completed method=GET path=/v1/jobs/7feacb06-1ad9-c6d8-7fb2-d83b9ea901ac status=200 duration=77ms
+2026-09-18T03:02:09.500Z INFO  [api] request completed method=GET path=/v1/jobs/10473e14-8f8b-de60-8bd0-74108b1df0ac status=200 duration=74ms
+2026-09-18T03:02:00.620Z INFO  [api] request completed method=GET path=/v1/jobs/d6405f2c-0956-84c1-66fb-c20131734cef status=200 duration=62ms
+2026-09-18T03:05:52.610Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:01:25.470Z INFO  [api] request completed method=GET path=/v1/jobs/de9ea6ea-d6ab-77a6-2224-0b7cbeacf87b status=200 duration=12ms
+2026-09-18T03:03:06.480Z WARN  [queue] redis connection reset by peer host=10.4.0.127:6379 attempt=2
+2026-09-18T03:05:32.630Z ERROR [db] connection pool exhausted size=40 waiting=43 timeout=30s
+2026-09-18T03:01:00.310Z INFO  [api] request completed method=GET path=/v1/jobs/2c2869b6-3433-b58e-1d6d-2a932f3dc554 status=200 duration=23ms
+2026-09-18T03:01:17.700Z INFO  [api] request completed method=GET path=/v1/jobs/d112fdfd-f5bf-77aa-fa93-ffce24f51339 status=200 duration=34ms
+2026-09-18T03:06:10.000Z WARN  [gc] pause 853ms heap=5GB
+2026-09-18T03:00:54.020Z INFO  [api] request completed method=GET path=/v1/jobs/87951cb5-37e5-6031-a372-959988b48922 status=200 duration=30ms
+2026-09-18T03:00:59.940Z INFO  [api] request completed method=GET path=/v1/jobs/25849de2-7b34-f6d9-9199-165ce7b4b57e status=200 duration=27ms
+2026-09-18T03:05:46.320Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/2677e97c-d8f1-598c-8028-a8724e7a0428.job'
+2026-09-18T03:02:40.950Z WARN  [queue] redis connection reset by peer host=10.4.0.81:6379 attempt=2
+2026-09-18T03:00:24.420Z INFO  [api] request completed method=GET path=/v1/jobs/03b86766-92a3-8328-7ffb-20e6dd0c8b94 status=200 duration=82ms
+2026-09-18T03:06:01.490Z ERROR [ledger] write half-applied for order 862187: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:02:23.930Z INFO  [api] request completed method=GET path=/v1/jobs/50543969-e604-e4c5-7472-aafb07f83f00 status=200 duration=42ms
+2026-09-18T03:00:12.210Z INFO  [api] request completed method=GET path=/v1/jobs/027385c9-421e-7a60-7108-e02236971e1b status=200 duration=81ms
+2026-09-18T03:03:08.700Z WARN  [queue] redis connection reset by peer host=10.4.5.234:6379 attempt=2
+2026-09-18T03:00:19.610Z INFO  [api] request completed method=GET path=/v1/jobs/21af214a-f91a-cb8d-9279-b1e987efda6b status=200 duration=14ms
+2026-09-18T03:00:05.180Z INFO  [api] request completed method=GET path=/v1/jobs/c20ba2c2-50b6-01fc-4105-cca7b53302fc status=200 duration=32ms
+2026-09-18T03:05:45.210Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/63006987-74ae-2f78-87f0-9364e8ddaf66.job'
+2026-09-18T03:05:09.690Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 28 source=webhook-5
+2026-09-18T03:06:08.890Z WARN  [gc] pause 291ms heap=7GB
+2026-09-18T03:06:26.650Z ERROR [core] unexpected state
+2026-09-18T03:00:25.530Z INFO  [api] request completed method=GET path=/v1/jobs/e13a0996-41d8-12cd-fe4a-5ce01d96ac56 status=200 duration=56ms
+2026-09-18T03:06:18.880Z INFO  [migrate] applied migration 0032_add_index in 212ms
+2026-09-18T03:05:57.420Z ERROR [config] environment variable SHIPYARD_SIGNING_KEY is not set; falling back to an empty secret
+2026-09-18T03:03:44.590Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 5000ms
+2026-09-18T03:03:32.750Z WARN  [queue] redis connection reset by peer host=10.4.1.224:6379 attempt=1
+2026-09-18T03:01:48.410Z INFO  [api] request completed method=GET path=/v1/jobs/5f1e97a1-e7bd-139f-78ff-5416dfc1ccad status=200 duration=60ms
+2026-09-18T03:05:43.360Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/ebf4d27c-41ce-67a2-0b8d-21d99331cbb8.job'
+2026-09-18T03:02:23.560Z INFO  [api] request completed method=GET path=/v1/jobs/0bbf6c30-3b15-5753-95e3-e9d7b1390f31 status=200 duration=42ms
+2026-09-18T03:01:18.070Z INFO  [api] request completed method=GET path=/v1/jobs/0ce6ff6c-1d76-c09b-b4d7-072c9a870e44 status=200 duration=82ms
+2026-09-18T03:04:59.330Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 69 source=webhook-2
+2026-09-18T03:02:08.020Z INFO  [api] request completed method=GET path=/v1/jobs/b2753bab-6ae1-036a-9394-a0e67a56a8f0 status=200 duration=45ms
+2026-09-18T03:01:28.060Z INFO  [api] request completed method=GET path=/v1/jobs/14191342-52fb-badb-e00b-ad837646b25e status=200 duration=72ms
+2026-09-18T03:04:56.370Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 22 source=webhook-5
+2026-09-18T03:04:13.820Z ERROR [auth] token signature verification failed sub=55b59b31-43be-a989-181a-418c981d8085 kid=bddb36af43a2
+2026-09-18T03:04:58.960Z ERROR [ingest] failed to parse event body: expecting value at line 1 column 69 source=webhook-9
+2026-09-18T03:02:38.730Z WARN  [queue] redis connection reset by peer host=10.4.2.85:6379 attempt=1
+2026-09-18T03:00:51.060Z INFO  [api] request completed method=GET path=/v1/jobs/05d54cb2-fa2f-0afd-c77f-7935b3bd4390 status=200 duration=7ms
+2026-09-18T03:02:26.520Z INFO  [api] request completed method=GET path=/v1/jobs/b9cc9520-4e5b-3beb-1b29-6d5ba66de333 status=200 duration=43ms
+2026-09-18T03:05:16.350Z INFO  [deploy] rolling out revision 1964accf60e5 replicas=7
+2026-09-18T03:06:15.180Z ERROR [s3] Could not connect to the endpoint URL: https://s3.eu-west-1.amazonaws.com/f2fec700-0fba-12cc-240e-713adf42f74f
+2026-09-18T03:00:27.380Z INFO  [api] request completed method=GET path=/v1/jobs/1ce606fd-b2c6-0fdd-f517-e3823aefce2e status=200 duration=66ms
+2026-09-18T03:05:44.840Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/69ec4df7-f9ca-5b9f-2e01-b92e8f3d5c2d.job'
+2026-09-18T03:00:26.270Z INFO  [api] request completed method=GET path=/v1/jobs/d69f6b16-766e-6900-70c6-1508752f7bd9 status=200 duration=72ms
+2026-09-18T03:04:30.100Z ERROR [auth] token signature verification failed sub=474ddb98-f228-88da-a134-8d7ed83b1e63 kid=9a63a884f2d6
+2026-09-18T03:04:40.830Z ERROR [worker] Traceback (most recent call last): File "/srv/app/worker/handler.py", line 182, in handle AttributeError: 'NoneType' object has no attribute 'payload'
+2026-09-18T03:01:44.340Z INFO  [api] request completed method=GET path=/v1/jobs/999b5310-3c43-c005-969e-272137a5307a status=200 duration=63ms
+2026-09-18T03:06:30.720Z ERROR [tls] certificate for payments.internal expired at 0x0 depth=1
+2026-09-18T03:00:33.670Z INFO  [api] request completed method=GET path=/v1/jobs/0a9efbc1-9b88-b1e5-df71-b99447331d97 status=200 duration=89ms
+2026-09-18T03:02:45.020Z WARN  [queue] redis connection reset by peer host=10.4.7.135:6379 attempt=3
+2026-09-18T03:05:34.480Z ERROR [db] connection pool exhausted size=20 waiting=7 timeout=30s
+2026-09-18T03:03:05.000Z WARN  [queue] redis connection reset by peer host=10.4.5.172:6379 attempt=1
+2026-09-18T03:00:59.200Z INFO  [api] request completed method=GET path=/v1/jobs/1b2e2cd7-7b69-2cda-120f-b44ecd872ab4 status=200 duration=6ms
+2026-09-18T03:01:09.930Z INFO  [api] request completed method=GET path=/v1/jobs/c2e4e6be-0cea-bec7-8138-093c66cc59ee status=200 duration=28ms
+2026-09-18T03:03:07.590Z WARN  [queue] redis connection reset by peer host=10.4.6.53:6379 attempt=2
+2026-09-18T03:00:25.900Z INFO  [api] request completed method=GET path=/v1/jobs/ef2b1ae5-6370-903f-5484-b3dbba6bc77c status=200 duration=77ms
+2026-09-18T03:02:34.660Z INFO  [api] request completed method=GET path=/v1/jobs/d3bac10e-8170-ed7b-4a9c-443f8448c03e status=200 duration=84ms
+2026-09-18T03:04:09.380Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:03:48.290Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:00:49.580Z INFO  [api] request completed method=GET path=/v1/jobs/7e37a508-7921-1cb2-3f0c-0a2944eb31e4 status=200 duration=19ms
+2026-09-18T03:02:55.750Z WARN  [queue] redis connection reset by peer host=10.4.5.16:6379 attempt=1
+2026-09-18T03:03:55.320Z ERROR [billing] upstream timeout calling https://payments.internal/v2/charge after 8000ms
+2026-09-18T03:02:19.490Z INFO  [api] request completed method=GET path=/v1/jobs/86b652fb-1af9-bb78-b1e5-457c79c86032 status=200 duration=33ms
+2026-09-18T03:00:16.650Z INFO  [api] request completed method=GET path=/v1/jobs/64409ddb-b45f-51c3-bd65-693b3d0840fb status=200 duration=35ms
+2026-09-18T03:03:13.140Z WARN  [queue] redis connection reset by peer host=10.4.4.69:6379 attempt=3
+2026-09-18T03:03:16.840Z WARN  [queue] redis connection reset by peer host=10.4.0.207:6379 attempt=1
+2026-09-18T03:03:00.190Z WARN  [queue] redis connection reset by peer host=10.4.4.82:6379 attempt=3
+2026-09-18T03:02:19.860Z INFO  [api] request completed method=GET path=/v1/jobs/6541394a-a826-ee76-4e69-99718b83d8b5 status=200 duration=33ms
+2026-09-18T03:04:11.970Z ERROR [auth] token signature verification failed sub=e8de1491-e625-a6a3-4020-340d6895e294 kid=06039fab927a
+2026-09-18T03:02:47.240Z WARN  [queue] redis connection reset by peer host=10.4.3.77:6379 attempt=2
+2026-09-18T03:06:02.600Z ERROR [ledger] write half-applied for order 361303: debit committed, credit rolled back, reconciliation required
+2026-09-18T03:05:41.880Z FATAL [worker] OSError: [Errno 24] Too many open files: '/srv/app/var/spool/b42e9f77-7b00-76d2-25d8-739f95756b12.job'
+2026-09-18T03:03:12.030Z WARN  [queue] redis connection reset by peer host=10.4.5.228:6379 attempt=2
+2026-09-18T03:02:40.210Z WARN  [queue] redis connection reset by peer host=10.4.1.31:6379 attempt=1
+2026-09-18T03:01:53.590Z INFO  [api] request completed method=GET path=/v1/jobs/7e82c90f-8692-7da0-69c4-2a9e8b1a628a status=200 duration=23ms
+2026-09-18T03:02:32.070Z INFO  [api] request completed method=GET path=/v1/jobs/bbf3b2dd-4773-3aef-2de8-859a3ef33577 status=200 duration=73ms
+2026-09-18T03:02:12.830Z INFO  [api] request completed method=GET path=/v1/jobs/77d0696d-6979-367f-3314-b3052896b929 status=200 duration=7ms
+2026-09-18T03:05:13.760Z INFO  [deploy] rolling out revision 7a14caac8c59 replicas=8
