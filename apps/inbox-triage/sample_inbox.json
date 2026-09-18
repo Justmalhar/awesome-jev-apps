@@ -1,0 +1,74 @@
+[
+  {
+    "from": "Priya Raman <priya@northwind.io>",
+    "subject": "Re: Contract redlines — need your sign-off",
+    "date": "Mon, 15 Sep 2026 09:12:00 +0100",
+    "body": "Hi — following up on my note from Thursday. Legal has cleared everything except clause 7. We need your sign-off before Friday or the start date slips to the next quarter. Can you confirm today or tomorrow? Happy to jump on a call if easier."
+  },
+  {
+    "from": "GitHub <notifications@github.com>",
+    "subject": "[justmalhar/awesome-jev-apps] Run failed: ci (main)",
+    "date": "Mon, 15 Sep 2026 08:44:00 +0100",
+    "body": "The workflow run 'ci' failed on branch main. Job 'check' failed at step 'provider copies are in sync'. View the run at https://github.com/justmalhar/awesome-jev-apps/actions/runs/1182"
+  },
+  {
+    "from": "Dev Patel <dev@acme.com>",
+    "subject": "Quick question about the API rate limits",
+    "date": "Mon, 15 Sep 2026 08:02:00 +0100",
+    "body": "Hey, no rush at all — was just wondering whether the 1200 rpm limit is per-key or per-org? Trying to size our batch job. Whenever you get a chance."
+  },
+  {
+    "from": "Stripe <receipts@stripe.com>",
+    "subject": "Your receipt from Vercel Inc. — $20.00",
+    "date": "Mon, 15 Sep 2026 06:30:00 +0100",
+    "body": "Thanks for your payment. Amount: $20.00. Card: Visa ending 4471. This is an automatically generated receipt; no action is required."
+  },
+  {
+    "from": "Sofia Lindqvist <sofia@tallgrass.vc>",
+    "subject": "Intro call this week?",
+    "date": "Sun, 14 Sep 2026 17:20:00 +0100",
+    "body": "Really enjoyed your write-up on System One models. We're actively looking at infra-layer AI companies and I'd love 30 minutes to hear what you're building. Are you around Thursday or Friday? Happy to work around your timezone."
+  },
+  {
+    "from": "AWS Billing <no-reply@amazon.com>",
+    "subject": "Your AWS bill is now available",
+    "date": "Sun, 14 Sep 2026 03:00:00 +0100",
+    "body": "Your AWS invoice for August 2026 is available. Total: $118.62. You can view the detailed breakdown in the Billing console. No action needed if you have autopay enabled."
+  },
+  {
+    "from": "Tom Okafor <t.okafor@harrisandco.co.uk>",
+    "subject": "URGENT: Self-assessment documents",
+    "date": "Sat, 13 Sep 2026 11:05:00 +0100",
+    "body": "Third time asking — I still don't have the 2025/26 expense summary from you. The filing deadline is 30 September and I cannot submit without it. Please send by Wednesday at the latest or we risk a late penalty."
+  },
+  {
+    "from": "TechCrunch <newsletter@techcrunch.com>",
+    "subject": "The Daily Crunch: what happened in AI this week",
+    "date": "Sat, 13 Sep 2026 07:00:00 +0100",
+    "body": "Top stories today: a new funding round, three acquisitions, and why everyone is suddenly talking about decision models. Read more on the site. Unsubscribe at any time."
+  },
+  {
+    "from": "Maya Chen <maya@mobiiworld.com>",
+    "subject": "Sprint notes + who's covering the demo",
+    "date": "Fri, 12 Sep 2026 16:40:00 +0100",
+    "body": "Notes from today's planning are in Notion. Nothing needed from you — just flagging that Arun will run the client demo on the 22nd since you're travelling. Shout if that doesn't work."
+  },
+  {
+    "from": "Recruiter — Hyperscale Talent <jobs@hyperscaletalent.com>",
+    "subject": "Staff Engineer role — 40% above market",
+    "date": "Fri, 12 Sep 2026 14:15:00 +0100",
+    "body": "Hi Malhar, I came across your profile and think you'd be a phenomenal fit for a Staff Engineer opening with a well-funded Series C. Are you open to a confidential chat this week? I can share the comp band upfront."
+  },
+  {
+    "from": "Calendar <calendar-notification@google.com>",
+    "subject": "Invitation: Design review @ Wed 17 Sep 14:00 – 15:00",
+    "date": "Fri, 12 Sep 2026 10:00:00 +0100",
+    "body": "You have been invited to Design review. Organiser: arun@mobiiworld.com. Please RSVP. Location: Meet link in the invite."
+  },
+  {
+    "from": "Hannah Weiss <hannah@ledgerline.com>",
+    "subject": "Invoice #2291 is 14 days overdue",
+    "date": "Thu, 11 Sep 2026 09:30:00 +0100",
+    "body": "Our records show invoice #2291 for £2,400 remains unpaid, now 14 days past terms. If payment has been sent, please ignore this. Otherwise we'd appreciate settlement this week before it goes to our collections process."
+  }
+]

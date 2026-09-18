@@ -48,15 +48,17 @@ imports, no framework to learn.
 |---|---|---|
 | [🔎 semantic-ctrl-f](apps/semantic-ctrl-f) | Ask a lease or contract a plain-English question, get the exact clause | 300 clauses scored in **one** request; cannot paraphrase what it returns |
 | [📰 feed-ranker](apps/feed-ranker) | Rank today's Hacker News against your interests, in one sentence | 120 judgments in one call; sliders re-rank for **$0.00** |
-| 📥 inbox-triage | What in my mail actually needs me today | calibrated urgency → auto-file vs. surface |
-| 📄 paper-screener | Screen 10k abstracts against inclusion/exclusion criteria | replaces weeks of manual systematic-review screening |
-| 🔬 repo-grep | "Find every network call with no timeout" across a whole codebase | cost makes whole-repo semantic scanning viable |
-| 🏦 statement-categorizer | Categorize years of bank/card transactions | confidence gate: auto-file or ask me |
-| 🧪 ci-triage | Real bug / flake / infra, across your CI history | map-reduce over thousands of failures |
-| 🧰 agent-tool-router | Pick from 300+ MCP tools without stuffing defs into context | N questions, one shared state |
+| [📥 inbox-triage](apps/inbox-triage) | What in my mail actually needs me today | 5 independent judgments per message; sorts, never rewrites |
+| [📄 paper-screener](apps/paper-screener) | Screen abstracts against a systematic review protocol | conjunctive veto rules, not a weighted score |
+| [🔬 repo-grep](apps/repo-grep) | "Find every network call with no timeout" across a whole codebase | `ast` finds candidates, Jev judges; cheap enough for CI |
+| [🏦 statement-categorizer](apps/statement-categorizer) | Categorize years of bank/card transactions | confidence gate: auto-file or ask me |
+| [🧪 ci-triage](apps/ci-triage) | Real bug / flake / infra / dependency / config, across CI history | newly affordable at 20k failures |
+| [🧰 agent-tool-router](apps/agent-tool-router) | Pick from a 42-tool MCP catalog without stuffing schemas into context | two-stage cascade: summaries wide, schemas narrow |
 
-> **Status:** `semantic-ctrl-f` and `feed-ranker` are built. The rest are in
-> flight — see [CONTRIBUTING.md](CONTRIBUTING.md) if you want to take one.
+> **Status:** all eight are built. Logic is covered by offline checks in CI
+> (`scripts/test_apps.py`) — question construction, decision rules, chunking,
+> batching. **Live responses are not yet verified against a real API key**; run
+> `scripts/smoke_test.py` first and open an issue if reality disagrees.
 
 ---
 

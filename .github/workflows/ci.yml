@@ -26,3 +26,10 @@ jobs:
 
       - name: everything compiles
         run: uv run --no-project python -m compileall -q 00-primitives apps scripts _shared
+
+      # Question construction, decision rules, chunking, batching, and the
+      # guard against asking the model to do arithmetic. Still no key needed.
+      - name: offline app checks
+        run: >
+          uv run --no-project --with httpx --with streamlit --with pandas
+          python scripts/test_apps.py
