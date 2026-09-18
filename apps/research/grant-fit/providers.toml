@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Which Jev provider every app in this repo talks to.
+#
+# Change `provider` below, or override per-shell with:  export JEV_PROVIDER=openrouter
+# Resolution order:  JEV_PROVIDER env var  >  this file  >  "typesafe"
+#
+# Both providers speak the IDENTICAL request/response schema (state + questions
+# -> answers). Switching costs you nothing but the key you put in .env.
+# ─────────────────────────────────────────────────────────────────────────────
+
+provider = "typesafe"
+
+[typesafe]
+base_url    = "https://api.typesafe.ai/v1/systemone"
+model       = "jev-latest"
+api_key_env = "TYPESAFE_API_KEY"
+signup      = "https://typesafe.ai"
+# 64k context: 32k for state + the single longest question.
+context_tokens = 64000
+
+[openrouter]
+# Undocumented as of 2026-09: Jev is NOT in OpenRouter's public /api/v1/models
+# catalog and is rejected by /chat/completions. It is served from a separate
+# decisions endpoint that proxies TypeSafe's native schema verbatim.
+base_url    = "https://openrouter.ai/api/alpha/decisions"
+model       = "typesafe/jev-1.13"
+api_key_env = "OPENROUTER_API_KEY"
+signup      = "https://openrouter.ai/settings/credits"
+# OpenRouter advertises 32k rather than TypeSafe's 64k. Apps that pack large
+# state should read this value instead of assuming.
+context_tokens = 32000
+
+[pricing]
+# USD per million input tokens. Output tokens are free on Jev.
+input_per_mtok  = 0.042
+output_per_mtok = 0.0

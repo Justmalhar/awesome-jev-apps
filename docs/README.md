@@ -64,3 +64,12 @@ is labelled:
 
 Do not treat illustrative figures as benchmarks. Run the thing and read the
 footer.
+
+## Set up your coding agent
+
+[`AGENT_SETUP.md`](AGENT_SETUP.md) wires Jev into Claude Code, Codex, Cursor, or
+any other agent, so it stops guessing at the API and inventing a chat call.
+
+It covers the TypeSafe skill install for each agent, all three provider routes
+and their trade-offs — including what is and isn't confirmed about the Vercel AI
+Gateway path — and the question-design mistakes the skill prevents.

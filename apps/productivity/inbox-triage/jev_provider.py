@@ -6,16 +6,22 @@ folder by `scripts/sync_provider.py` so every app stays standalone-forkable --
 clone one folder, `uv run app.py`, no repo-root imports. CI checks the copies
 match. Do not edit the copies; edit this file and re-sync.
 
-Both supported providers speak the same wire format:
+Three providers, two wire formats -- all hidden behind one API.
+
+TypeSafe direct and OpenRouter speak the native format:
 
     POST <base_url>   {"model":..., "state":..., "questions": {...}}
     ->                {"model":..., "answers": {...}, "usage": {...}}
 
-so switching providers is a config change, never a code change.
+The Vercel AI Gateway speaks its own v4 evaluation protocol: the model id moves
+into a header, a noul is called a "boolean" and answers with `probability`, and
+confidence and legend are not returned. _questions_to_vercel() and _to_native()
+translate it, so switching providers stays a config change, never a code change.
 """
 
 from __future__ import annotations
 
+import math
 import os
 import time
 import tomllib
@@ -26,6 +32,9 @@ from typing import Any
 import httpx
 
 DEFAULT_PROVIDER = "typesafe"
+# Vercel AI Gateway v4 evaluation protocol, read from @ai-sdk/gateway.
+GATEWAY_PROTOCOL_VERSION = "0.0.1"
+GATEWAY_EVAL_SPEC_VERSION = "4"
 RETRY_STATUS = {429, 529, 500, 502, 503}
 MAX_ATTEMPTS = 5
 
@@ -89,6 +98,12 @@ class ProviderConfig:
     context_tokens: int
     input_per_mtok: float
     output_per_mtok: float
+    # "typesafe" = the native wire format, used by TypeSafe direct and by
+    # OpenRouter's decisions endpoint, which proxies it verbatim.
+    # "vercel"   = the AI Gateway's v4 evaluation-model protocol, which renames
+    #              noul->boolean, moves the model id into a header, and drops
+    #              confidence and legend. See _to_native().
+    wire: str = "typesafe"
 
     @property
     def api_key(self) -> str:
@@ -131,7 +146,74 @@ def load_provider(name: str | None = None, start: Path | None = None) -> Provide
         context_tokens=int(section.get("context_tokens", 32000)),
         input_per_mtok=float(pricing.get("input_per_mtok", 0.042)),
         output_per_mtok=float(pricing.get("output_per_mtok", 0.0)),
+        wire=str(section.get("wire", "typesafe")),
     )
+
+
+# ---------------------------------------------------------------------------
+# Wire translation for the Vercel AI Gateway
+# ---------------------------------------------------------------------------
+
+
+def _derive_confidence(probabilities: dict[str, float]) -> float:
+    """Approximate confidence from a distribution's concentration.
+
+    The gateway does NOT return confidence, but apps here use it to decide when
+    to abstain, so we derive it rather than leave a hole. Normalised entropy:
+    all probability on one option -> 1.0, a flat distribution -> 0.0.
+
+    This is OUR approximation, not TypeSafe's formula. Thresholds tuned on the
+    native API will not transfer exactly. Answers.confidence_is_derived tells
+    you when you are looking at one of these.
+    """
+    values = [p for p in probabilities.values() if p > 0]
+    if len(values) < 2:
+        return 1.0
+    entropy = -sum(p * math.log(p) for p in values)
+    return max(0.0, min(1.0, 1.0 - entropy / math.log(len(probabilities))))
+
+
+def _questions_to_vercel(questions: dict[str, Any]) -> dict[str, Any]:
+    """The gateway calls a noul a 'boolean'. Only the type name changes."""
+    translated = {}
+    for qid, question in questions.items():
+        if question.get("type") == "noul":
+            question = {**question, "type": "boolean"}
+        translated[qid] = question
+    return translated
+
+
+def _to_native(raw: dict[str, Any]) -> dict[str, Any]:
+    """Normalise a gateway response into TypeSafe's native shape.
+
+    Doing this here means every app in this repo is provider-agnostic: no app
+    ever sees a 'boolean' answer or a camelCase usage key.
+    """
+    answers: dict[str, Any] = {}
+    derived: set[str] = set()
+
+    for qid, answer in raw.get("answers", {}).items():
+        kind = answer.get("type")
+        if kind == "boolean":
+            answers[qid] = {"type": "noul", "noul": float(answer.get("probability", 0.0))}
+            continue
+        answer = dict(answer)
+        if kind in {"choice", "score"} and "confidence" not in answer:
+            answer["confidence"] = _derive_confidence(answer.get("probabilities", {}) or {})
+            derived.add(qid)
+        answers[qid] = answer
+
+    usage = raw.get("usage", {}) or {}
+    return {
+        "model": raw.get("model", "typesafe-ai/jev"),
+        "answers": answers,
+        "usage": {
+            "input_tokens": int(usage.get("inputTokens") or usage.get("input_tokens") or 0),
+            "output_tokens": int(usage.get("outputTokens") or usage.get("output_tokens") or 0),
+        },
+        "warnings": raw.get("warnings", []),
+        "_derived_confidence": sorted(derived),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -182,6 +264,12 @@ class Answers:
         return float(answer["confidence"])
 
     @property
+    def confidence_is_derived(self) -> set[str]:
+        """Question ids whose confidence we computed locally because the
+        provider did not return one (Vercel gateway). Empty elsewhere."""
+        return set(self.raw.get("_derived_confidence", []))
+
+    @property
     def input_tokens(self) -> int:
         return int(self.raw.get("usage", {}).get("input_tokens", 0))
 
@@ -221,14 +309,27 @@ class JevClient:
         if not questions:
             raise ValueError("ask() needs at least one question")
 
-        payload = {"model": self.provider.model, "state": state, "questions": questions}
         headers = {
             "Authorization": f"Bearer {self.provider.api_key}",
             "Content-Type": "application/json",
         }
 
+        if self.provider.wire == "vercel":
+            # The gateway takes the model id in a header, not the body, and
+            # speaks its own protocol version.
+            payload = {"state": state, "questions": _questions_to_vercel(questions)}
+            headers |= {
+                "ai-gateway-protocol-version": GATEWAY_PROTOCOL_VERSION,
+                "ai-evaluation-model-specification-version": GATEWAY_EVAL_SPEC_VERSION,
+                "ai-model-id": self.provider.model,
+            }
+        else:
+            payload = {"model": self.provider.model, "state": state, "questions": questions}
+
         started = time.perf_counter()
         response = self._request(payload, headers)
+        if self.provider.wire == "vercel":
+            response = _to_native(response)
         elapsed = time.perf_counter() - started
 
         answers = Answers(raw=response, provider=self.provider, elapsed_s=elapsed)
@@ -384,5 +485,32 @@ if __name__ == "__main__":
             pass
         else:
             raise AssertionError(f"expected {exc.__name__}")
+
+    # --- Vercel AI Gateway wire translation -------------------------------
+    gateway = load_provider("vercel", start=repo_root)
+    assert gateway.wire == "vercel", gateway
+    assert gateway.base_url.endswith("/v4/ai/evaluation-model"), gateway
+    assert gateway.model == "typesafe-ai/jev" and gateway.api_key_env == "AI_GATEWAY_API_KEY"
+
+    outgoing = _questions_to_vercel({"a": noul("x?"), "b": choice("y", {"p": None, "q": None})})
+    assert outgoing["a"]["type"] == "boolean", "a noul is a 'boolean' on the gateway"
+    assert outgoing["b"]["type"] == "choice", "choice/score keep their names"
+
+    normalised = _to_native(
+        {
+            "answers": {
+                "a": {"type": "boolean", "probability": 0.9},
+                "b": {"type": "choice", "choice": "p", "probabilities": {"p": 0.97, "q": 0.03}},
+            },
+            "usage": {"inputTokens": 1_000_000, "outputTokens": 0},
+        }
+    )
+    assert normalised["answers"]["a"] == {"type": "noul", "noul": 0.9}, normalised
+    assert normalised["usage"]["input_tokens"] == 1_000_000, "camelCase usage must be mapped"
+    # The gateway omits confidence, so we derive it and say which ones.
+    assert normalised["answers"]["b"]["confidence"] > 0.7, normalised
+    assert normalised["_derived_confidence"] == ["b"]
+    assert _derive_confidence({"x": 0.5, "y": 0.5}) < 0.01, "a flat distribution is ~0"
+    assert _derive_confidence({"x": 1.0}) == 1.0, "a certain answer is 1.0"
 
     print("jev_provider self-check passed")
