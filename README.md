@@ -43,10 +43,7 @@ budget conversation.
 
 ---
 
-## The catalog
-
-<!-- CATALOG:START -->
-**100 of 100 built** &nbsp; `████████████████████████████`
+## Catalog
 
 | Category | Apps | Built | What it covers |
 |---|---:|---:|---|
@@ -61,8 +58,6 @@ budget conversation.
 | 🔬 **[Research & Science](apps/research)** | 8 | 8 | Screening, extraction, and verification over literature and field data. |
 | ⏱️ **[Realtime & Interactive](apps/realtime)** | 7 | 7 | ~150ms is under human perception, so judgment can sit inside a render loop or a keystroke. |
 
-<details>
-<summary><b>All 100, by category</b></summary>
 
 #### 🛠️ Developer Tools
 
@@ -214,8 +209,6 @@ budget conversation.
 | ✅ [Suggestion ranker](apps/realtime/autocomplete-ranker) | Rank completions by what the user actually means | whole candidate set ranked in one call |
 | ✅ [Live alert router](apps/realtime/alert-router) | Page, ticket, or ignore — decided at alert time | decision inside the alerting path |
 
-</details>
-<!-- CATALOG:END -->
 
 ---
 
