@@ -143,8 +143,9 @@ def load_provider(name: str | None = None, start: Path | None = None) -> Provide
         api_key_env=section["api_key_env"],
         signup=section.get("signup", ""),
         context_tokens=int(section.get("context_tokens", 32000)),
-        input_per_mtok=float(pricing.get("input_per_mtok", 0.042)),
-        output_per_mtok=float(pricing.get("output_per_mtok", 0.0)),
+        # A provider section can set its own price; a local server costs nothing.
+        input_per_mtok=float(section.get("input_per_mtok", pricing.get("input_per_mtok", 0.042))),
+        output_per_mtok=float(section.get("output_per_mtok", pricing.get("output_per_mtok", 0.0))),
         wire=str(section.get("wire", "typesafe")),
     )
 
