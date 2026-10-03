@@ -312,6 +312,19 @@ from a separate decisions endpoint. We wrote down how it works:
 ⚠️ OpenRouter advertises **32k** context against TypeSafe's **64k**. Apps read
 `context_tokens` from config rather than assuming.
 
+To try things with no key at all, the `[watersheep]` section points at
+[WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) running on your
+own machine, an open-weight Jev alternative that takes the same requests. Its
+answers are not Jev's, so use it as a stand-in while you build, and its calls
+are priced at $0:
+
+```bash
+watersheep --model samratduttaofficial/WaterSheep --serve
+JEV_PROVIDER=watersheep WATERSHEEP_API_KEY=local uv run --with httpx python scripts/smoke_test.py
+```
+
+An app folder that carries its own `providers.toml` needs the section copied in.
+
 ---
 
 ## The pattern

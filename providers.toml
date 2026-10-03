@@ -75,3 +75,17 @@ signup      = "https://vercel.com/docs/ai-gateway/sdks-and-apis/ai-sdk"
 wire        = "vercel"
 # Not published in the gateway catalog (reports 0); assume TypeSafe's 64k.
 context_tokens = 64000
+
+[watersheep]
+# WaterSheep: an open-weight Jev alternative (Apache-2.0) that you run yourself.
+# It answers the same request shape on your own machine, with no TypeSafe key:
+#     pip install git+https://github.com/SamratDuttaOfficial/WaterSheep
+#     watersheep --model samratduttaofficial/WaterSheep --serve
+# The server ignores the key, but the client wants one set; any value works.
+# Long states are truncated, so it suits short inputs. Accuracy is not Jev's:
+# check an app's answers before trusting them.
+base_url    = "http://127.0.0.1:8766/v1/systemone"
+model       = "samratduttaofficial/WaterSheep"
+api_key_env = "WATERSHEEP_API_KEY"
+signup      = "https://github.com/SamratDuttaOfficial/WaterSheep"
+input_per_mtok = 0.0
